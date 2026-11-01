@@ -1,0 +1,5 @@
+# Runtime dependencies for camera capture and data collection.
+mediapipe==0.10.32
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+PyYAML==6.0.2

@@ -1,0 +1,16 @@
+camera:
+  index: 0
+  mirror_preview: true  # Only the display is mirrored.
+tracker:
+  model_path: models/hand_landmarker.task
+  detection_confidence: 0.5
+  presence_confidence: 0.5
+  tracking_confidence: 0.5
+data:
+  directory: data
+# Starting values for the week 1 classifier. Tune on validation recordings.
+static:
+  pilot_letters: [A, E, H, L, M, N, O, T]
+  hold_ms: 700
+  release_ms: 300
+  min_letter_confidence: 0.80

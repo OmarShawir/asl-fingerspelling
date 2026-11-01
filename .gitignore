@@ -1,0 +1,23 @@
+# Local environments and tooling
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local recordings, participant metadata, and generated split lists
+data/clips/
+data/metadata.csv
+data/.metadata-*.tmp
+data/splits/*.txt
+
+# Downloaded landmark tracker and locally trained weights
+models/*.task
+models/*.pt
+models/*.pth
