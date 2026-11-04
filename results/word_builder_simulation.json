@@ -1,0 +1,132 @@
+{
+  "source": "synthetic_timestamps_not_camera",
+  "settings": {
+    "pilot_letters": [
+      "A",
+      "E",
+      "H",
+      "L",
+      "M",
+      "N",
+      "O",
+      "T"
+    ],
+    "hold_ms": 700,
+    "grace_ms": 100,
+    "release_ms": 300,
+    "min_letter_confidence": 0.8
+  },
+  "scenarios": {
+    "long_L_once": {
+      "text": "L",
+      "expected": "L",
+      "accepted_letters": 1,
+      "mean_acceptance_ms": 700,
+      "median_acceptance_ms": 700,
+      "events": [
+        {
+          "letter": "L",
+          "first_qualified_ms": 0,
+          "accepted_ms": 700,
+          "acceptance_ms": 700,
+          "qualified_evidence_ms": 700
+        }
+      ]
+    },
+    "switching_and_low_confidence": {
+      "text": "",
+      "expected": "",
+      "accepted_letters": 0,
+      "mean_acceptance_ms": null,
+      "median_acceptance_ms": null,
+      "events": []
+    },
+    "two_missing_frames_no_repeat": {
+      "text": "L",
+      "expected": "L",
+      "accepted_letters": 1,
+      "mean_acceptance_ms": 850,
+      "median_acceptance_ms": 850,
+      "events": [
+        {
+          "letter": "L",
+          "first_qualified_ms": 0,
+          "accepted_ms": 850,
+          "acceptance_ms": 850,
+          "qualified_evidence_ms": 700
+        }
+      ]
+    },
+    "long_release_allows_LL": {
+      "text": "LL",
+      "expected": "LL",
+      "accepted_letters": 2,
+      "mean_acceptance_ms": 700,
+      "median_acceptance_ms": 700.0,
+      "events": [
+        {
+          "letter": "L",
+          "first_qualified_ms": 0,
+          "accepted_ms": 700,
+          "acceptance_ms": 700,
+          "qualified_evidence_ms": 700
+        },
+        {
+          "letter": "L",
+          "first_qualified_ms": 1300,
+          "accepted_ms": 2000,
+          "acceptance_ms": 700,
+          "qualified_evidence_ms": 700
+        }
+      ]
+    },
+    "HELLO": {
+      "text": "HELLO",
+      "expected": "HELLO",
+      "accepted_letters": 5,
+      "mean_acceptance_ms": 700,
+      "median_acceptance_ms": 700,
+      "events": [
+        {
+          "letter": "H",
+          "first_qualified_ms": 0,
+          "accepted_ms": 700,
+          "acceptance_ms": 700,
+          "qualified_evidence_ms": 700
+        },
+        {
+          "letter": "E",
+          "first_qualified_ms": 750,
+          "accepted_ms": 1450,
+          "acceptance_ms": 700,
+          "qualified_evidence_ms": 700
+        },
+        {
+          "letter": "L",
+          "first_qualified_ms": 1500,
+          "accepted_ms": 2200,
+          "acceptance_ms": 700,
+          "qualified_evidence_ms": 700
+        },
+        {
+          "letter": "L",
+          "first_qualified_ms": 2600,
+          "accepted_ms": 3300,
+          "acceptance_ms": 700,
+          "qualified_evidence_ms": 700
+        },
+        {
+          "letter": "O",
+          "first_qualified_ms": 3350,
+          "accepted_ms": 4050,
+          "acceptance_ms": 700,
+          "qualified_evidence_ms": 700
+        }
+      ]
+    }
+  },
+  "accepted_letters": 9,
+  "mean_acceptance_ms": 716.6666666666666,
+  "median_acceptance_ms": 700,
+  "metric": "Letter acceptance time: first qualifying prediction to accepted letter; not user-motion onset latency."
+}

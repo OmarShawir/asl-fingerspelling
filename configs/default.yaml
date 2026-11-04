@@ -12,5 +12,6 @@ data:
 static:
   pilot_letters: [A, E, H, L, M, N, O, T]
   hold_ms: 700
+  grace_ms: 100  # Preserve a candidate across brief detection gaps; no gap-time credit.
   release_ms: 300
   min_letter_confidence: 0.80
