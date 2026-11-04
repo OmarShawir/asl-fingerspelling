@@ -1,6 +1,6 @@
 # ASL fingerspelling
 
-A two-week project to turn live ASL fingerspelling into text. This starter implements webcam hand tracking and labeled landmark collection. The static letter classifier, word builder and sequence model are the next milestones. Their planned source files are included in the scaffold.
+A two-week project to turn live ASL fingerspelling into text. This project implements webcam hand tracking, labeled landmark collection and a static-letter MLP baseline trained from Kaggle ASL Alphabet landmarks. A timestamp-based word builder turns stable letter predictions into editable text; the sequence model remains planned.
 
 ## Run the webcam on Ubuntu
 
@@ -57,7 +57,7 @@ Inspect `data/metadata.csv` after your first save. Each take has one row and one
 | Evaluation | scikit-learn for group-aware splits and confusion matrices, jiwer for character error rate, Matplotlib for plots |
 | Local checks | pytest and Ruff in the optional dev group |
 
-The current runtime dependencies are pinned in requirements.txt. The build reads them directly from that file. uv.lock also locks transitive dependencies. Add PyTorch and the evaluation libraries when their scripts are implemented and the CPU or GPU build is chosen. The tracker returns coordinates; your trained models will make the ASL predictions.
+The current runtime dependencies are pinned in requirements.txt. The build reads them directly from that file. uv.lock also locks transitive dependencies. The optional train group installs the CPU build of PyTorch for the static baseline. Add the sequence evaluation libraries when needed. The tracker returns coordinates; your trained models will make the ASL predictions.
 
 ## Layout
 
@@ -72,20 +72,20 @@ asl-fingerspelling/
     hand_tracker.py      landmark extraction on original camera frames
     app.py               live preview and capture loop
     dataset.py           NPZ writes, timestamps, visibility and CSV index
-    features.py          planned shared feature preparation
+    features.py          shared static landmark preprocessing
     augment.py, synth.py planned training-data transformations
-    models/              planned MLP and GRU definitions
-    word_builder.py      planned static-model text output
+    models/              static MLP and planned GRU definition
+    word_builder.py      timestamp-based stable-letter text output
     ctc_decode.py        planned sequence-model text output
     metrics.py           planned recognition evaluation
-  scripts/               collect.py and planned training/evaluation entry points
+  scripts/               collection, extraction, static training and evaluation
   tests/                 clip format and index recovery checks
   notebooks/             inspect the public example or your local recordings
   results/               evaluation tables and plots
   docs/                  roadmap and experiment log
 ```
 
-The public sample is a synthetic format fixture. Actual camera takes and metadata stay local by default. The week 1 target is a live word from your own trained model. See [the two-week plan](docs/roadmap.md) and [the experiment log](docs/experiments.md).
+The public sample is a synthetic format fixture. Actual camera takes and metadata stay local by default. The next week 1 target is stable word output from the trained static model. See [the two-week plan](docs/roadmap.md) and [the experiment log](docs/experiments.md).
 
 ## Development checks
 
@@ -119,3 +119,22 @@ If you cloned an existing repository, copy the starter files into that clone and
 - [ASL University fingerspelling reference](https://www.lifeprint.com/asl101/pages-layout/fingerspelling.htm)
 - [PyTorch CTC loss](https://docs.pytorch.org/docs/stable/generated/torch.nn.CTCLoss.html)
 - [scikit-learn grouped splits](https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-iterators-for-grouped-data)
+
+## Static-letter baseline
+
+The first baseline targets 24 static letters (excluding J and Z). Training uses
+Kaggle images only; local webcam clips are held out for evaluation.
+See [dataset and reproduction protocol](data/KAGGLE_ASL_ALPHABET.md) and
+[actual experiment results](docs/experiments.md).
+
+Install the CPU training dependencies and run the locally trained checkpoint:
+
+```bash
+pipx run uv sync --locked --group train --group dev
+pipx run uv run --locked --group train python -m fingerspelling.app \
+  --model models/mlp_static.pt --hand left
+```
+
+Use your physical signing hand for `--hand`; preview mirroring is display-only.
+Weights and images stay local. To reproduce training, follow the dataset guide.
+Live output shows the current letter and text accepted after a stable hold. Use Space for a space, Backspace to delete, C to clear, and Q to quit. Recording mode retains Space start/save. Settings in configs/default.yaml control hold (700ms), brief-gap grace (100ms), release (300ms) and confidence (0.80). On exit, a unique results/live_sessions/*.json records accepted letters and mean/median letter acceptance time. These metrics start at the first qualifying prediction, not physical motion onset. See docs/experiments.md for software tests and the distinction from a real camera trial.
