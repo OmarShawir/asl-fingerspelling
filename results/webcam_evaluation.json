@@ -1,0 +1,312 @@
+{
+  "person": "p01",
+  "session": "s01",
+  "correct": 20,
+  "total": 30,
+  "frames": 1445,
+  "valid_frames": 1445,
+  "clips": [
+    {
+      "clip_id": "00639e81797441d69064e897335b91f2",
+      "target": "H",
+      "hand": "left",
+      "prediction": "H",
+      "confidence": 0.9727278351783752,
+      "frames": 46,
+      "valid_frames": 46,
+      "correct": true
+    },
+    {
+      "clip_id": "2b5bdfa60a704421af1a31d6a7f37d6d",
+      "target": "L",
+      "hand": "left",
+      "prediction": "L",
+      "confidence": 0.9999977350234985,
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "3d31ecfed68e48d695b915f0b1e10891",
+      "target": "E",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9971816539764404,
+      "frames": 41,
+      "valid_frames": 41,
+      "correct": true
+    },
+    {
+      "clip_id": "62015dd6405f40ae8c6a61f58983566d",
+      "target": "H",
+      "hand": "left",
+      "prediction": "H",
+      "confidence": 0.9669588208198547,
+      "frames": 42,
+      "valid_frames": 42,
+      "correct": true
+    },
+    {
+      "clip_id": "67f8949c33d94785aca173294a36f41a",
+      "target": "T",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9700831174850464,
+      "frames": 53,
+      "valid_frames": 53,
+      "correct": false
+    },
+    {
+      "clip_id": "6f71b731adc14c288aa4bcbeb47a05f0",
+      "target": "N",
+      "hand": "left",
+      "prediction": "S",
+      "confidence": 0.9055474400520325,
+      "frames": 67,
+      "valid_frames": 67,
+      "correct": false
+    },
+    {
+      "clip_id": "705cd93e35bb4f979501049724687c13",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9999017715454102,
+      "frames": 40,
+      "valid_frames": 40,
+      "correct": true
+    },
+    {
+      "clip_id": "72b14bad9dfc4a118f3962e2aef1332e",
+      "target": "T",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9904798865318298,
+      "frames": 50,
+      "valid_frames": 50,
+      "correct": false
+    },
+    {
+      "clip_id": "759a2a7a82fe452badbdb34a332e0ed0",
+      "target": "O",
+      "hand": "left",
+      "prediction": "Y",
+      "confidence": 0.7466616630554199,
+      "frames": 67,
+      "valid_frames": 67,
+      "correct": false
+    },
+    {
+      "clip_id": "79115425f9ec4d7fa9fb4996c41a2000",
+      "target": "H",
+      "hand": "left",
+      "prediction": "H",
+      "confidence": 0.9931967258453369,
+      "frames": 41,
+      "valid_frames": 41,
+      "correct": true
+    },
+    {
+      "clip_id": "9381ec234a4c45fc98de18172453fd24",
+      "target": "E",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9968622922897339,
+      "frames": 40,
+      "valid_frames": 40,
+      "correct": true
+    },
+    {
+      "clip_id": "9a54359c00524bd39638ecd76a344e14",
+      "target": "M",
+      "hand": "left",
+      "prediction": "S",
+      "confidence": 0.9879684448242188,
+      "frames": 38,
+      "valid_frames": 38,
+      "correct": false
+    },
+    {
+      "clip_id": "a3cbb264bcc544fba2c7c99788462dbe",
+      "target": "M",
+      "hand": "left",
+      "prediction": "S",
+      "confidence": 0.8814237117767334,
+      "frames": 50,
+      "valid_frames": 50,
+      "correct": false
+    },
+    {
+      "clip_id": "a9afd7bf39b448b590f1596c44a6d644",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.997150719165802,
+      "frames": 55,
+      "valid_frames": 55,
+      "correct": true
+    },
+    {
+      "clip_id": "aaa0e87962554b50b38d07c44025a41f",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9899381399154663,
+      "frames": 83,
+      "valid_frames": 83,
+      "correct": true
+    },
+    {
+      "clip_id": "afa2c1d3f4a14113a3584297e0b6584d",
+      "target": "N",
+      "hand": "left",
+      "prediction": "S",
+      "confidence": 0.9233927130699158,
+      "frames": 41,
+      "valid_frames": 41,
+      "correct": false
+    },
+    {
+      "clip_id": "b4b32d8f5e24494da54d4bb2b23e555d",
+      "target": "H",
+      "hand": "left",
+      "prediction": "H",
+      "confidence": 0.9971023201942444,
+      "frames": 39,
+      "valid_frames": 39,
+      "correct": true
+    },
+    {
+      "clip_id": "b75034d7d05a4ea3aa3bedaacf271328",
+      "target": "O",
+      "hand": "left",
+      "prediction": "O",
+      "confidence": 0.9999625086784363,
+      "frames": 56,
+      "valid_frames": 56,
+      "correct": true
+    },
+    {
+      "clip_id": "b9b250ab56584f09b54d67e0404fa5b8",
+      "target": "M",
+      "hand": "left",
+      "prediction": "S",
+      "confidence": 0.7266921401023865,
+      "frames": 34,
+      "valid_frames": 34,
+      "correct": false
+    },
+    {
+      "clip_id": "bb268d8f61294458baabb3134193c01b",
+      "target": "N",
+      "hand": "left",
+      "prediction": "S",
+      "confidence": 0.9146068692207336,
+      "frames": 41,
+      "valid_frames": 41,
+      "correct": false
+    },
+    {
+      "clip_id": "ca41dbf8ffca462ba79a348c065cfb54",
+      "target": "O",
+      "hand": "left",
+      "prediction": "O",
+      "confidence": 0.9999584555625916,
+      "frames": 59,
+      "valid_frames": 59,
+      "correct": true
+    },
+    {
+      "clip_id": "d5fce98279604db9b11c0cdc62793166",
+      "target": "E",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9980636239051819,
+      "frames": 43,
+      "valid_frames": 43,
+      "correct": true
+    },
+    {
+      "clip_id": "d6d5c8ade80a4bfeb995f43f335e2e5d",
+      "target": "H",
+      "hand": "left",
+      "prediction": "H",
+      "confidence": 0.991461992263794,
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "d79b303e4a9b4b8499ea69be9b961ca9",
+      "target": "H",
+      "hand": "left",
+      "prediction": "H",
+      "confidence": 0.9251542091369629,
+      "frames": 35,
+      "valid_frames": 35,
+      "correct": true
+    },
+    {
+      "clip_id": "e2fb45d69b4d4ad99cefb3719f7f3f44",
+      "target": "T",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.8248443603515625,
+      "frames": 40,
+      "valid_frames": 40,
+      "correct": false
+    },
+    {
+      "clip_id": "e37b35db8764461083befffc9247a158",
+      "target": "E",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9994581937789917,
+      "frames": 57,
+      "valid_frames": 57,
+      "correct": true
+    },
+    {
+      "clip_id": "e55319d6b9764eec8e5847f7f9ca9077",
+      "target": "L",
+      "hand": "left",
+      "prediction": "L",
+      "confidence": 1.0,
+      "frames": 86,
+      "valid_frames": 86,
+      "correct": true
+    },
+    {
+      "clip_id": "e673a83eee8f4955906446c229851fa2",
+      "target": "E",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9988288283348083,
+      "frames": 51,
+      "valid_frames": 51,
+      "correct": true
+    },
+    {
+      "clip_id": "f3553bf4c18240d2aa1da175da617b2b",
+      "target": "E",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9979140162467957,
+      "frames": 40,
+      "valid_frames": 40,
+      "correct": true
+    },
+    {
+      "clip_id": "f7deee79eb274524b83d9b300806f0a3",
+      "target": "L",
+      "hand": "left",
+      "prediction": "L",
+      "confidence": 1.0,
+      "frames": 36,
+      "valid_frames": 36,
+      "correct": true
+    }
+  ],
+  "aggregation": "mean softmax probabilities over valid frames; one argmax per clip",
+  "training_use": "none; no model or hyperparameter selection on these clips"
+}
