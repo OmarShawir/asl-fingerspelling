@@ -16,8 +16,13 @@ data/clips/
 data/metadata.csv
 data/.metadata-*.tmp
 data/splits/*.txt
+data/external/
+data/cache/
 
 # Downloaded landmark tracker and locally trained weights
 models/*.task
 models/*.pt
 models/*.pth
+
+# Local recognition session text and event logs
+results/live_sessions/
