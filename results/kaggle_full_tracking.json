@@ -1,0 +1,229 @@
+{
+  "seed": 42,
+  "settings": {
+    "detection": 0.5,
+    "mediapipe": "0.10.32",
+    "mode": "IMAGE",
+    "model_sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+    "presence": 0.5,
+    "root": "/home/omer-shawir/Downloads/asl-fingerspelling-starter/asl-fingerspelling/data/external/asl-alphabet/asl_alphabet_train/asl_alphabet_train"
+  },
+  "letters": {
+    "A": {
+      "attempted": 3000,
+      "detected": 2182,
+      "rate": 0.7273333333333334,
+      "hands": {
+        "right": 2076,
+        "left": 106
+      }
+    },
+    "B": {
+      "attempted": 3000,
+      "detected": 2202,
+      "rate": 0.734,
+      "hands": {
+        "right": 2184,
+        "left": 18
+      }
+    },
+    "C": {
+      "attempted": 3000,
+      "detected": 1962,
+      "rate": 0.654,
+      "hands": {
+        "right": 1570,
+        "left": 392
+      }
+    },
+    "D": {
+      "attempted": 3000,
+      "detected": 2457,
+      "rate": 0.819,
+      "hands": {
+        "right": 2254,
+        "left": 203
+      }
+    },
+    "E": {
+      "attempted": 3000,
+      "detected": 2307,
+      "rate": 0.769,
+      "hands": {
+        "right": 2276,
+        "left": 31
+      }
+    },
+    "F": {
+      "attempted": 3000,
+      "detected": 2864,
+      "rate": 0.9546666666666667,
+      "hands": {
+        "right": 2752,
+        "left": 112
+      }
+    },
+    "G": {
+      "attempted": 3000,
+      "detected": 2428,
+      "rate": 0.8093333333333333,
+      "hands": {
+        "right": 2357,
+        "left": 71
+      }
+    },
+    "H": {
+      "attempted": 3000,
+      "detected": 2373,
+      "rate": 0.791,
+      "hands": {
+        "right": 2271,
+        "left": 102
+      }
+    },
+    "I": {
+      "attempted": 3000,
+      "detected": 2379,
+      "rate": 0.793,
+      "hands": {
+        "right": 2327,
+        "left": 52
+      }
+    },
+    "K": {
+      "attempted": 3000,
+      "detected": 2699,
+      "rate": 0.8996666666666666,
+      "hands": {
+        "right": 2659,
+        "left": 40
+      }
+    },
+    "L": {
+      "attempted": 3000,
+      "detected": 2521,
+      "rate": 0.8403333333333334,
+      "hands": {
+        "right": 2504,
+        "left": 17
+      }
+    },
+    "M": {
+      "attempted": 3000,
+      "detected": 1603,
+      "rate": 0.5343333333333333,
+      "hands": {
+        "right": 1197,
+        "left": 406
+      }
+    },
+    "N": {
+      "attempted": 3000,
+      "detected": 1275,
+      "rate": 0.425,
+      "hands": {
+        "right": 1192,
+        "left": 83
+      }
+    },
+    "O": {
+      "attempted": 3000,
+      "detected": 2258,
+      "rate": 0.7526666666666667,
+      "hands": {
+        "right": 1941,
+        "left": 317
+      }
+    },
+    "P": {
+      "attempted": 3000,
+      "detected": 2040,
+      "rate": 0.68,
+      "hands": {
+        "right": 2013,
+        "left": 27
+      }
+    },
+    "Q": {
+      "attempted": 3000,
+      "detected": 2118,
+      "rate": 0.706,
+      "hands": {
+        "right": 1965,
+        "left": 153
+      }
+    },
+    "R": {
+      "attempted": 3000,
+      "detected": 2545,
+      "rate": 0.8483333333333334,
+      "hands": {
+        "right": 2426,
+        "left": 119
+      }
+    },
+    "S": {
+      "attempted": 3000,
+      "detected": 2555,
+      "rate": 0.8516666666666667,
+      "hands": {
+        "right": 2477,
+        "left": 78
+      }
+    },
+    "T": {
+      "attempted": 3000,
+      "detected": 2354,
+      "rate": 0.7846666666666666,
+      "hands": {
+        "right": 2313,
+        "left": 41
+      }
+    },
+    "U": {
+      "attempted": 3000,
+      "detected": 2509,
+      "rate": 0.8363333333333334,
+      "hands": {
+        "right": 2434,
+        "left": 75
+      }
+    },
+    "V": {
+      "attempted": 3000,
+      "detected": 2548,
+      "rate": 0.8493333333333334,
+      "hands": {
+        "right": 2355,
+        "left": 193
+      }
+    },
+    "W": {
+      "attempted": 3000,
+      "detected": 2453,
+      "rate": 0.8176666666666667,
+      "hands": {
+        "right": 2428,
+        "left": 25
+      }
+    },
+    "X": {
+      "attempted": 3000,
+      "detected": 2156,
+      "rate": 0.7186666666666667,
+      "hands": {
+        "right": 2117,
+        "left": 39
+      }
+    },
+    "Y": {
+      "attempted": 3000,
+      "detected": 2580,
+      "rate": 0.86,
+      "hands": {
+        "right": 2560,
+        "left": 20
+      }
+    }
+  }
+}

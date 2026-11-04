@@ -1,0 +1,220 @@
+{
+  "seed": 42,
+  "settings": {
+    "detection": 0.5,
+    "mediapipe": "0.10.32",
+    "mode": "IMAGE",
+    "model_sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+    "presence": 0.5,
+    "root": "/home/omer-shawir/Downloads/asl-fingerspelling-starter/asl-fingerspelling/data/external/asl-alphabet/asl_alphabet_train/asl_alphabet_train"
+  },
+  "letters": {
+    "A": {
+      "attempted": 50,
+      "detected": 37,
+      "rate": 0.74,
+      "hands": {
+        "right": 35,
+        "left": 2
+      }
+    },
+    "B": {
+      "attempted": 50,
+      "detected": 35,
+      "rate": 0.7,
+      "hands": {
+        "right": 35
+      }
+    },
+    "C": {
+      "attempted": 50,
+      "detected": 26,
+      "rate": 0.52,
+      "hands": {
+        "right": 20,
+        "left": 6
+      }
+    },
+    "D": {
+      "attempted": 50,
+      "detected": 38,
+      "rate": 0.76,
+      "hands": {
+        "right": 36,
+        "left": 2
+      }
+    },
+    "E": {
+      "attempted": 50,
+      "detected": 40,
+      "rate": 0.8,
+      "hands": {
+        "right": 38,
+        "left": 2
+      }
+    },
+    "F": {
+      "attempted": 50,
+      "detected": 49,
+      "rate": 0.98,
+      "hands": {
+        "right": 49
+      }
+    },
+    "G": {
+      "attempted": 50,
+      "detected": 43,
+      "rate": 0.86,
+      "hands": {
+        "right": 41,
+        "left": 2
+      }
+    },
+    "H": {
+      "attempted": 50,
+      "detected": 38,
+      "rate": 0.76,
+      "hands": {
+        "right": 36,
+        "left": 2
+      }
+    },
+    "I": {
+      "attempted": 50,
+      "detected": 38,
+      "rate": 0.76,
+      "hands": {
+        "right": 37,
+        "left": 1
+      }
+    },
+    "K": {
+      "attempted": 50,
+      "detected": 45,
+      "rate": 0.9,
+      "hands": {
+        "left": 3,
+        "right": 42
+      }
+    },
+    "L": {
+      "attempted": 50,
+      "detected": 47,
+      "rate": 0.94,
+      "hands": {
+        "right": 47
+      }
+    },
+    "M": {
+      "attempted": 50,
+      "detected": 31,
+      "rate": 0.62,
+      "hands": {
+        "right": 21,
+        "left": 10
+      }
+    },
+    "N": {
+      "attempted": 50,
+      "detected": 20,
+      "rate": 0.4,
+      "hands": {
+        "right": 19,
+        "left": 1
+      }
+    },
+    "O": {
+      "attempted": 50,
+      "detected": 39,
+      "rate": 0.78,
+      "hands": {
+        "left": 9,
+        "right": 30
+      }
+    },
+    "P": {
+      "attempted": 50,
+      "detected": 29,
+      "rate": 0.58,
+      "hands": {
+        "right": 29
+      }
+    },
+    "Q": {
+      "attempted": 50,
+      "detected": 35,
+      "rate": 0.7,
+      "hands": {
+        "right": 31,
+        "left": 4
+      }
+    },
+    "R": {
+      "attempted": 50,
+      "detected": 42,
+      "rate": 0.84,
+      "hands": {
+        "right": 42
+      }
+    },
+    "S": {
+      "attempted": 50,
+      "detected": 41,
+      "rate": 0.82,
+      "hands": {
+        "right": 39,
+        "left": 2
+      }
+    },
+    "T": {
+      "attempted": 50,
+      "detected": 41,
+      "rate": 0.82,
+      "hands": {
+        "right": 40,
+        "left": 1
+      }
+    },
+    "U": {
+      "attempted": 50,
+      "detected": 46,
+      "rate": 0.92,
+      "hands": {
+        "right": 46
+      }
+    },
+    "V": {
+      "attempted": 50,
+      "detected": 35,
+      "rate": 0.7,
+      "hands": {
+        "right": 33,
+        "left": 2
+      }
+    },
+    "W": {
+      "attempted": 50,
+      "detected": 41,
+      "rate": 0.82,
+      "hands": {
+        "right": 41
+      }
+    },
+    "X": {
+      "attempted": 50,
+      "detected": 35,
+      "rate": 0.7,
+      "hands": {
+        "right": 35
+      }
+    },
+    "Y": {
+      "attempted": 50,
+      "detected": 44,
+      "rate": 0.88,
+      "hands": {
+        "right": 44
+      }
+    }
+  }
+}

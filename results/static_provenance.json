@@ -1,0 +1,14 @@
+{
+  "base_git_revision": "647f2ba",
+  "working_tree": "uncommitted implementation",
+  "sha256": {
+    "scripts/extract_kaggle.py": "3465aa9cfadb352cb3436ab51b20f1cbf4149dcf339666a02994d7aa7b0e8290",
+    "scripts/train_static.py": "184fd9cf698f442678a1528031984ec67e784c7b7cb16ec65d263cebe689f87c",
+    "scripts/evaluate.py": "4d71b69f59e0fb83c9954ab516b145de310914b5840aa8108531185b74ab2fe2",
+    "src/fingerspelling/features.py": "885c6dbe69e7efe4105a571a21dd6c1613f4e71ccf486583da42453d5c63397f",
+    "src/fingerspelling/models/mlp.py": "79341cd1116502d4d9551fd127cfc88d7ef6e1ab53149aa7e8b79314dcd88bbb",
+    "src/fingerspelling/app.py": "40d15b33f0f8fda23b45c70935eb184776ed704b87d9b527c87e6633907f4a8e",
+    "uv.lock": "0f39820cfc64d5354c705049868cb1d699f738f4a44ec25bfdbc016c39fe85bc"
+  },
+  "checkpoint_sha256": "f26200e9da636868ed8ae31ab958fcbe76f3edfe64b288b59c2792084efd06d6"
+}
