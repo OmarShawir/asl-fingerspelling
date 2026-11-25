@@ -19,6 +19,7 @@ where = ["src"]
 [dependency-groups]
 dev = ["pytest==8.3.5", "ruff==0.11.13"]
 train = ["torch==2.6.0"]
+sequence = ["pyarrow==23.0.1"]
 
 [[tool.uv.index]]
 name = "pytorch-cpu"
@@ -32,6 +33,8 @@ torch = { index = "pytorch-cpu" }
 default-groups = []
 
 [tool.ruff]
+# Preserve the supplied, hash-pinned audit package as an external snapshot.
+extend-exclude = ["asl_sequence_audit"]
 line-length = 100
 target-version = "py312"
 
