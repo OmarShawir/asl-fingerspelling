@@ -10,7 +10,7 @@ import numpy as np
 
 from fingerspelling.models.mlp import StaticPredictor
 from fingerspelling.evaluation import rank_clip
-from fingerspelling.features import LABELS
+from fingerspelling.features import LABELS, FEATURE_V2, validate_dimensions
 
 
 def main():
@@ -19,12 +19,13 @@ def main():
     parser.add_argument("--person", default="p01")
     parser.add_argument("--session", default="s01")
     parser.add_argument("--output-prefix", type=Path, default=Path("results/webcam_evaluation"))
+    parser.add_argument("--data-dir", type=Path, default=Path("data"))
     args = parser.parse_args()
     predictor = StaticPredictor(args.checkpoint)
     if set(predictor.labels) != set(LABELS) or len(predictor.labels) != 24:
         raise ValueError("Evaluation requires all 24 static labels")
     results = []
-    for path in sorted(Path("data/clips").glob("*.npz")):
+    for path in sorted((args.data_dir / "clips").glob("*.npz")):
         with np.load(path, allow_pickle=False) as c:
             meta = json.loads(c["meta_json"].item())
             if (meta["person"], meta["session"], meta["kind"], meta["source"]) != (
@@ -36,11 +37,23 @@ def main():
                 continue
             valid = c["valid"].astype(bool) & np.isfinite(c["xyz"]).all(axis=(1, 2))
             xyz = c["xyz"][valid]
+        dimensions = dict(
+            frame_width=meta.get("frame_width"), frame_height=meta.get("frame_height")
+        )
+        if predictor.feature_version == FEATURE_V2:
+            try:
+                validate_dimensions(**dimensions)
+            except ValueError as error:
+                raise SystemExit(
+                    f"Clip {meta['clip_id']}: {error}. No evaluation report written."
+                ) from error
         prediction = None
         confidence = 0.0
         top3 = []
         if len(xyz):
-            top3 = rank_clip(predictor.probabilities(xyz, meta["hand"]), predictor.labels)
+            top3 = rank_clip(
+                predictor.probabilities(xyz, meta["hand"], **dimensions), predictor.labels
+            )
             prediction = top3[0]["letter"]
             confidence = top3[0]["score"]
         results.append(
@@ -48,6 +61,7 @@ def main():
                 "clip_id": meta["clip_id"],
                 "target": meta["text"],
                 "hand": meta["hand"],
+                **dimensions,
                 "prediction": prediction,
                 "confidence": confidence,
                 "top3": top3,
@@ -61,6 +75,7 @@ def main():
     report = {
         "checkpoint_sha256": hashlib.sha256(Path(args.checkpoint).read_bytes()).hexdigest(),
         "labels": predictor.labels,
+        "feature_version": predictor.feature_version,
         "person": args.person,
         "session": args.session,
         "correct": sum(r["correct"] for r in results),

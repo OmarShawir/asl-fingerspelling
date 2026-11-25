@@ -4,6 +4,7 @@ import argparse
 import csv
 import json
 import re
+import shutil
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -13,6 +14,7 @@ from uuid import uuid4
 import numpy as np
 
 from .config import DEFAULT_CONFIG, read_config
+from .features import validate_dimensions
 
 
 FIELDS = [
@@ -26,6 +28,10 @@ FIELDS = [
     "frames",
     "created_at",
     "source",
+    "frame_width",
+    "frame_height",
+    "dimensions_source",
+    "diagnostic_manifest",
 ]
 
 
@@ -84,7 +90,16 @@ def rebuild_index(data_dir):
             return len(paths)
 
 
-def save_clip(data_dir, label, point_frames, timestamps):
+def save_clip(
+    data_dir,
+    label,
+    point_frames,
+    timestamps,
+    *,
+    frame_width=None,
+    frame_height=None,
+    diagnostic_frames=None,
+):
     """Save observed frames, including gaps, with elapsed capture times."""
     xyz = np.array(point_frames, dtype=np.float32, copy=True)
     t_ms = np.asarray(timestamps, dtype=np.int64)
@@ -98,6 +113,16 @@ def save_clip(data_dir, label, point_frames, timestamps):
     xyz[~valid] = np.nan
     t_ms = t_ms - t_ms[0]
 
+    if frame_width is not None or frame_height is not None:
+        validate_dimensions(frame_width, frame_height)
+    diagnostic_frames = diagnostic_frames or {}
+    if diagnostic_frames:
+        validate_dimensions(frame_width, frame_height)
+        for index, image in diagnostic_frames.items():
+            if not isinstance(index, int) or not 0 <= index < len(t_ms):
+                raise ValueError("Diagnostic frame index outside clip")
+            if image.shape != (frame_height, frame_width, 3) or image.dtype != np.uint8:
+                raise ValueError("Diagnostic image must match documented BGR frame dimensions")
     meta = asdict(label)
     meta.update(
         clip_id=uuid4().hex,
@@ -106,6 +131,48 @@ def save_clip(data_dir, label, point_frames, timestamps):
         created_at=datetime.now(timezone.utc).isoformat(timespec="seconds"),
         source="webcam",
     )
+    if frame_width is not None:
+        meta.update(
+            frame_width=int(frame_width),
+            frame_height=int(frame_height),
+            dimensions_source="mediapipe_input_frame.shape",
+        )
+    diagnostic_dir = None
+    if diagnostic_frames:
+        import cv2
+
+        diagnostic_dir = Path(data_dir) / "diagnostic_frames" / meta["clip_id"]
+        diagnostic_dir.mkdir(parents=True, exist_ok=False)
+        try:
+            images = []
+            for index, image in sorted(diagnostic_frames.items()):
+                filename = f"frame_{index:06d}_t_{int(t_ms[index]):010d}ms.png"
+                if not cv2.imwrite(str(diagnostic_dir / filename), image):
+                    raise OSError("Failed to write diagnostic PNG")
+                images.append(
+                    dict(
+                        file=filename,
+                        frame_index=index,
+                        t_ms=int(t_ms[index]),
+                        capture_timestamp_ms=int(timestamps[index]),
+                    )
+                )
+            manifest = dict(
+                clip_id=meta["clip_id"],
+                frame_width=frame_width,
+                frame_height=frame_height,
+                images=images,
+                source="Original BGR camera frame before drawing or preview mirroring",
+                frame_index_base=0,
+                time_origin="first recorded frame",
+            )
+            (diagnostic_dir / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+            meta["diagnostic_manifest"] = str(
+                (diagnostic_dir / "manifest.json").relative_to(data_dir)
+            )
+        except BaseException:
+            shutil.rmtree(diagnostic_dir)
+            raise
     clips = Path(data_dir) / "clips"
     clips.mkdir(parents=True, exist_ok=True)
     output = clips / (meta["clip_id"] + ".npz")
@@ -115,6 +182,10 @@ def save_clip(data_dir, label, point_frames, timestamps):
         with temp:
             np.savez_compressed(temp, xyz=xyz, t_ms=t_ms, valid=valid, meta_json=json.dumps(meta))
         temp_path.replace(output)
+    except BaseException:
+        if diagnostic_dir is not None:
+            shutil.rmtree(diagnostic_dir)
+        raise
     finally:
         temp_path.unlink(missing_ok=True)
     try:

@@ -13,7 +13,8 @@ import numpy as np
 import torch
 from torch import nn
 
-from fingerspelling.features import FEATURE_VERSION, LABELS, prepare_features
+from fingerspelling.features import FEATURE_V1, FEATURE_V2, LABELS, prepare_features
+from fingerspelling.training_data import load_dimensions, dimensions_for_row
 from fingerspelling.models.mlp import StaticMLP
 
 
@@ -53,12 +54,24 @@ def build_split(rows, seed=42):
     )
 
 
-def tensors(rows):
-    x = np.stack(
-        [prepare_features(np.frombuffer(r[3], dtype=np.float32).reshape(21, 3), r[4]) for r in rows]
+def tensors(rows, feature_version=FEATURE_V1, dimensions=None):
+    features = []
+    for row in rows:
+        kwargs = {}
+        if feature_version == FEATURE_V2:
+            width, height = dimensions_for_row(row, dimensions or {})
+            kwargs = dict(frame_width=width, frame_height=height)
+        features.append(
+            prepare_features(
+                np.frombuffer(row[3], dtype=np.float32).reshape(21, 3),
+                row[4],
+                feature_version=feature_version,
+                **kwargs,
+            )
+        )
+    return torch.from_numpy(np.stack(features)), torch.from_numpy(
+        np.array([LABELS.index(r[1]) for r in rows])
     )
-    y = np.array([LABELS.index(r[1]) for r in rows])
-    return torch.from_numpy(x), torch.from_numpy(y)
 
 
 def augment(x):
@@ -92,7 +105,21 @@ def main():
     parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--patience", type=int, default=15)
+    parser.add_argument("--feature-version", choices=["v1", "v2"], default="v1")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        required=True,
+        help="New checkpoint path; existing files are never overwritten",
+    )
+    parser.add_argument("--result-prefix", type=Path, default=Path("results/static_training_new"))
     args = parser.parse_args()
+    if args.output.exists():
+        parser.error("--output already exists; choose a new checkpoint path")
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.result_prefix.parent.mkdir(parents=True, exist_ok=True)
+    feature_version = FEATURE_V1 if args.feature_version == "v1" else FEATURE_V2
+    dimensions = load_dimensions() if feature_version == FEATURE_V2 else None
     started = time.monotonic()
     torch.set_num_threads(4)
     torch.manual_seed(args.seed)
@@ -115,11 +142,11 @@ def main():
         "train": [{"path": r[0], "sha256_pixels": r[2], "label": r[1]} for r in train],
         "validation": [{"path": r[0], "sha256_pixels": r[2], "label": r[1]} for r in val],
     }
-    manifest_path = Path("data/cache/static_split.json")
+    manifest_path = Path("data/cache") / (args.output.stem + "_split.json")
     manifest_path.write_text(json.dumps(manifest, indent=2) + "\n")
     print(f"Training on {len(train)} unique images; validation {len(val)}", flush=True)
-    train_x, train_y = tensors(train)
-    val_x, val_y = tensors(val)
+    train_x, train_y = tensors(train, feature_version, dimensions)
+    val_x, val_y = tensors(val, feature_version, dimensions)
     model = StaticMLP(len(LABELS))
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, weight_decay=0.0001)
     best = float("inf")
@@ -154,16 +181,16 @@ def main():
                 {
                     "state_dict": model.state_dict(),
                     "labels": LABELS,
-                    "feature_version": FEATURE_VERSION,
+                    "feature_version": feature_version,
                     "seed": args.seed,
                     "epoch": epoch,
                     "split_sha256": hashlib.sha256(manifest_path.read_bytes()).hexdigest(),
                 },
-                "models/mlp_static.pt",
+                args.output,
             )
         if epoch - best_epoch >= args.patience:
             break
-    bundle = torch.load("models/mlp_static.pt", weights_only=True)
+    bundle = torch.load(args.output, weights_only=True)
     model.load_state_dict(bundle["state_dict"])
     result = {
         "seed": args.seed,
@@ -175,7 +202,7 @@ def main():
         "labels": LABELS,
         "best_epoch": best_epoch,
         "epochs_run": len(history),
-        "features": FEATURE_VERSION,
+        "features": feature_version,
         "deduplication": stats,
         "train": measure(model, train_x, train_y),
         "validation": measure(model, val_x, val_y),
@@ -186,8 +213,8 @@ def main():
         "limitation": "Random image split; near duplicates and signer overlap may remain. "
         "Not a signer-independent evaluation. Metrics condition on detected hands.",
     }
-    Path("results/static_training.json").write_text(json.dumps(result, indent=2) + "\n")
-    Path("models/mlp_static.labels.json").write_text(json.dumps(LABELS) + "\n")
+    args.result_prefix.with_suffix(".json").write_text(json.dumps(result, indent=2) + "\n")
+    args.output.with_suffix(".labels.json").write_text(json.dumps(LABELS) + "\n")
     print(json.dumps({k: result[k] for k in ("best_epoch", "deduplication")}), flush=True)
     print(
         "Train:",

@@ -18,12 +18,31 @@ def main():
     )
     parser.add_argument("--camera", type=int)
     parser.add_argument("--config", default=DEFAULT_CONFIG)
+    parser.add_argument(
+        "--save-diagnostic-frames",
+        action="store_true",
+        help="Save original PNG frames linked to the saved clip",
+    )
+    parser.add_argument(
+        "--diagnostic-every",
+        type=int,
+        default=10,
+        help="Save every Nth recorded frame (default 10; 1 saves every frame)",
+    )
     args = parser.parse_args()
+    if args.diagnostic_every < 1:
+        parser.error("--diagnostic-every must be positive")
     try:
         label = ClipLabel(args.text, args.kind, args.person, args.session, args.hand)
     except ValueError as error:
         parser.error(str(error))
-    capture(read_config(args.config), args.camera, label)
+    capture(
+        read_config(args.config),
+        args.camera,
+        label,
+        save_diagnostic_frames=args.save_diagnostic_frames,
+        diagnostic_every=args.diagnostic_every,
+    )
 
 
 if __name__ == "__main__":
