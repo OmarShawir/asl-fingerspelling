@@ -1,0 +1,13 @@
+{
+  "python": "3.12",
+  "numpy": "2.3.5",
+  "pyarrow": "23.0.1",
+  "tests": 11,
+  "tests_passed": 11,
+  "compileall_passed": true,
+  "raw_audit_rerun_equal": true,
+  "static_repository_modified": false,
+  "sequence_model_trained": false,
+  "test_model_predictions_generated": false,
+  "audit_only": true
+}

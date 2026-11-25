@@ -1,0 +1,117 @@
+{
+  "_id": "69647ca500600e42ae6342f6",
+  "id": "Kibalama/ChicagoFSWild-Landmarks",
+  "author": "Kibalama",
+  "sha": "c738cce88fcae8bcdb0811738c44a0b41701ad4d",
+  "lastModified": "2026-01-12T04:47:04.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "size_categories:1K<n<10K",
+    "format:parquet",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:polars",
+    "library:mlcroissant",
+    "region:us"
+  ],
+  "downloads": 42,
+  "likes": 0,
+  "cardData": {
+    "dataset_info": {
+      "features": [
+        {
+          "name": "id",
+          "dtype": "string"
+        },
+        {
+          "name": "label",
+          "dtype": "string"
+        },
+        {
+          "name": "hands",
+          "list": {
+            "list": {
+              "list": "float64"
+            }
+          }
+        },
+        {
+          "name": "pose",
+          "list": {
+            "list": {
+              "list": "float64"
+            }
+          }
+        },
+        {
+          "name": "face",
+          "list": {
+            "list": {
+              "list": "float64"
+            }
+          }
+        }
+      ],
+      "splits": [
+        {
+          "name": "train",
+          "num_bytes": 474903875,
+          "num_examples": 5455
+        },
+        {
+          "name": "validation",
+          "num_bytes": 92497678,
+          "num_examples": 981
+        },
+        {
+          "name": "test",
+          "num_bytes": 82492339,
+          "num_examples": 868
+        }
+      ],
+      "download_size": 414214372,
+      "dataset_size": 649893892
+    },
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/train-*"
+          },
+          {
+            "split": "validation",
+            "path": "data/validation-*"
+          },
+          {
+            "split": "test",
+            "path": "data/test-*"
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "data/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "data/train-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "data/validation-00000-of-00001.parquet"
+    }
+  ],
+  "createdAt": "2026-01-12T04:46:29.000Z",
+  "usedStorage": 414214372
+}

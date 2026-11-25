@@ -1,0 +1,17 @@
+[
+  {
+    "file": "files.json",
+    "status": "downloaded",
+    "count": 124
+  },
+  {
+    "file": "train.csv",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "character_to_prediction_index.json",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

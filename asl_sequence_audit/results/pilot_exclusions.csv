@@ -1,0 +1,27 @@
+split,id,label,reason
+train,aslthat/joseph_wheeler_0472,asl &,whole_sequence_outside_alphabet_space_scope
+train,awti/austin_andrews_0695,the sorcerer's apprentice,whole_sequence_outside_alphabet_space_scope
+train,deafvideo_2/frekky_1425,michelle's id,whole_sequence_outside_alphabet_space_scope
+train,misc_2/aidan_mack_3186,co,no_hand_input
+train,youtube_2/wesley_arey_3530,poly,no_hand_input
+train,youtube_2/wesley_arey_3548,dust,no_hand_input
+train,youtube_2/wesley_arey_3549,coat,no_hand_input
+train,youtube_4/alex_abenchuchan_5449,m...e,whole_sequence_outside_alphabet_space_scope
+train,youtube_5/christine_sun_kim_5900,chip,no_hand_input
+train,youtube_5/christine_sun_kim_5910,rate,no_hand_input
+train,youtube_5/christine_sun_kim_5915,asl,no_hand_input
+train,youtube_5/christine_sun_kim_5922,asl,no_hand_input
+train,youtube_5/christine_sun_kim_5925,dmtic,no_hand_input
+train,youtube_6/marlee_matlin_6755,will,no_hand_input
+train,youtube_6/marlee_matlin_6862,font,no_hand_input
+train,youtube_6/marlee_matlin_6866,cc,no_hand_input
+train,youtube_6/marlee_matlin_6872,hr,no_hand_input
+train,youtube_6/marlee_matlin_6873,hr,no_hand_input
+train,youtube_6/marlee_matlin_6876,nad,no_hand_input
+train,youtube_6/marlee_matlin_6877,cc,no_hand_input
+train,youtube_6/marlee_matlin_6881,it,no_hand_input
+train,youtube_6/marlee_matlin_6894,google,no_hand_input
+validation,aslized/suzanne_stecker_0249,website www.aslized.org,whole_sequence_outside_alphabet_space_scope
+validation,aslized/suzanne_stecker_0278,email cards@aslized.org or,whole_sequence_outside_alphabet_space_scope
+validation,deafvideo_2/confederateboy_1664,hardee's,whole_sequence_outside_alphabet_space_scope
+test,youtube_4/amy_cohen_elfron_5770,dr. elisabeth zinser,whole_sequence_outside_alphabet_space_scope

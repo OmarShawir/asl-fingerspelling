@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://www.kaggle.com/api/v1/competitions/data/list/asl-fingerspelling",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "url": "https://www.kaggle.com/api/v1/competitions/data/download/asl-fingerspelling/train.csv",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "url": "https://www.kaggle.com/api/v1/competitions/data/download/asl-fingerspelling/character_to_prediction_index.json",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  }
+]

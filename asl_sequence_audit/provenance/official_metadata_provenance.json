@@ -1,0 +1,10 @@
+{
+  "original_page": "https://home.ttic.edu/~klivescu/ChicagoFSWild.htm",
+  "original_archive": "https://dl.ttic.edu/ChicagoFSWild.tgz",
+  "archive_total_bytes_from_content_range": 14270632063,
+  "prefix_bytes_downloaded": 1048576,
+  "prefix_sha256": "7c5f533098bb12eb4b3fb1e1eea384ce4a8ce752a56e33d281df567b808f4525",
+  "csv_bytes": 904482,
+  "csv_sha256": "ed0698ae6a606742030bb6130daddef115a2032414efc34a92000029ddd17e61",
+  "extraction": "Read only ChicagoFSWild/README and ChicagoFSWild/ChicagoFSWild.csv from the first 1 MiB gzip/tar stream. No full video archive downloaded."
+}

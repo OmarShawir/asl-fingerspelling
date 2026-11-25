@@ -1,0 +1,21 @@
+{
+  "disk_free_bytes": 15394975744,
+  "memory": {
+    "MemTotal_bytes": 15853846528,
+    "MemAvailable_bytes": 7614947328,
+    "SwapTotal_bytes": 4294963200
+  },
+  "gpu": {
+    "cuda_available": false,
+    "devices": 0,
+    "torch_version": "2.6.0+cpu"
+  },
+  "kaggle_cli": null,
+  "packages": {
+    "kaggle": false,
+    "kagglehub": false,
+    "pandas": false,
+    "pyarrow": false
+  },
+  "credentials_available": true
+}

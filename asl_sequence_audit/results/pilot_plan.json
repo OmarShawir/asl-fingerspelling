@@ -1,0 +1,77 @@
+{
+  "status": "eligible_for_offline_pilot_with_documented_unknowns",
+  "scope": "lowercase ASCII a-z plus literal space",
+  "vocabulary": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    " "
+  ],
+  "ctc_blank_index": 0,
+  "vocabulary_index_offset": 1,
+  "not_supported_by_this_dataset": "digits; no digit target occurs",
+  "no_time_downsampling": true,
+  "hand_channel_identity": "unknown; never assume first block is anatomical left",
+  "frame_order": "stored order retained; count matches official metadata, chronology not independently verified",
+  "splits": {
+    "train": {
+      "original_sequences": 5455,
+      "pilot_sequences": 5433,
+      "ctc_loss_eligible": 5433,
+      "metric_denominator": 5433,
+      "excluded_whole_sequences": 22,
+      "signers": 87,
+      "j_sequences": 133,
+      "z_sequences": 72,
+      "ctc_infeasible_ids_retained_in_metrics": []
+    },
+    "validation": {
+      "original_sequences": 981,
+      "pilot_sequences": 978,
+      "ctc_loss_eligible": 976,
+      "metric_denominator": 978,
+      "excluded_whole_sequences": 3,
+      "signers": 37,
+      "j_sequences": 15,
+      "z_sequences": 18,
+      "ctc_infeasible_ids_retained_in_metrics": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ]
+    },
+    "test": {
+      "original_sequences": 868,
+      "pilot_sequences": 867,
+      "ctc_loss_eligible": 867,
+      "metric_denominator": 867,
+      "excluded_whole_sequences": 1,
+      "signers": 36,
+      "j_sequences": 30,
+      "z_sequences": 8,
+      "ctc_infeasible_ids_retained_in_metrics": []
+    }
+  }
+}

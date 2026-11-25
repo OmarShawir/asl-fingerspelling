@@ -1,0 +1,23 @@
+[
+  {
+    "name": "train-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/Kibalama/ChicagoFSWild-Landmarks/resolve/c738cce88fcae8bcdb0811738c44a0b41701ad4d/data/train-00000-of-00001.parquet?download=true",
+    "bytes": 302818625,
+    "sha256": "4cb8e73f9a4a3889f001c55a5afc2b1948d0184bce5a607f62b8e42831730edc",
+    "revision": "c738cce88fcae8bcdb0811738c44a0b41701ad4d"
+  },
+  {
+    "name": "validation-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/Kibalama/ChicagoFSWild-Landmarks/resolve/c738cce88fcae8bcdb0811738c44a0b41701ad4d/data/validation-00000-of-00001.parquet?download=true",
+    "bytes": 58906243,
+    "sha256": "396c849dd03d644924c8e696bf35e241d09b283ecb523131ee0d684137942533",
+    "revision": "c738cce88fcae8bcdb0811738c44a0b41701ad4d"
+  },
+  {
+    "name": "test-00000-of-00001.parquet",
+    "url": "https://huggingface.co/datasets/Kibalama/ChicagoFSWild-Landmarks/resolve/c738cce88fcae8bcdb0811738c44a0b41701ad4d/data/test-00000-of-00001.parquet?download=true",
+    "bytes": 52489504,
+    "sha256": "848a12d531a91a62f84615545204d31105897edaebfcfdc3542272b987bdddef",
+    "revision": "c738cce88fcae8bcdb0811738c44a0b41701ad4d"
+  }
+]

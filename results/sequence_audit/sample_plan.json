@@ -1,0 +1,8 @@
+{
+  "status": "blocked_missing_indexes",
+  "files": null,
+  "download_bytes": null,
+  "participants": null,
+  "budget_bytes": 2147483648,
+  "proposed_policy": "up to 3 smallest shards / 10 participants / 200 sequences per person; split by person; cannot instantiate without indexes"
+}

@@ -1,0 +1,16 @@
+id: string
+label: string
+hands: list<element: list<element: list<element: double>>>
+  child 0, element: list<element: list<element: double>>
+      child 0, element: list<element: double>
+          child 0, element: double
+pose: list<element: list<element: list<element: double>>>
+  child 0, element: list<element: list<element: double>>
+      child 0, element: list<element: double>
+          child 0, element: double
+face: list<element: list<element: list<element: double>>>
+  child 0, element: list<element: list<element: double>>
+      child 0, element: list<element: double>
+          child 0, element: double
+-- schema metadata --
+huggingface: '{"info": {"features": {"id": {"dtype": "string", "_type": "' + 473

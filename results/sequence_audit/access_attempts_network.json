@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.kaggle.com/api/v1/competitions/data/list/asl-fingerspelling",
+    "status": 401,
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "url": "https://www.kaggle.com/api/v1/competitions/data/download/asl-fingerspelling/train.csv",
+    "status": 401,
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  {
+    "url": "https://www.kaggle.com/api/v1/competitions/data/download/asl-fingerspelling/character_to_prediction_index.json",
+    "status": 401,
+    "error": "HTTP Error 401: Unauthorized"
+  }
+]
