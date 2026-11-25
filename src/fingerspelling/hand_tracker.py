@@ -49,12 +49,12 @@ def ensure_tracker(path: Path) -> Path:
     return path
 
 
-def open_tracker(settings):
+def open_tracker(settings, num_hands=1):
     model_path = ensure_tracker(settings["model_path"])
     options = vision.HandLandmarkerOptions(
         base_options=python.BaseOptions(model_asset_path=str(model_path)),
         running_mode=vision.RunningMode.VIDEO,
-        num_hands=1,
+        num_hands=num_hands,
         min_hand_detection_confidence=settings["detection_confidence"],
         min_hand_presence_confidence=settings["presence_confidence"],
         min_tracking_confidence=settings["tracking_confidence"],
@@ -88,3 +88,14 @@ def draw_hand(frame, points):
         cv2.line(frame, pixels[edge.start], pixels[edge.end], (60, 210, 90), 2, cv2.LINE_AA)
     for point in pixels:
         cv2.circle(frame, point, 4, (30, 185, 255), -1, cv2.LINE_AA)
+
+
+def extract_hands(tracker, frame, timestamp_ms):
+    """Unmirrored 21-point blocks; no anatomical handedness normalization."""
+    rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    image = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb)
+    result = tracker.detect_for_video(image, timestamp_ms)
+    return [
+        np.array([(p.x, p.y, p.z) for p in hand], dtype=np.float32)
+        for hand in result.hand_landmarks
+    ]

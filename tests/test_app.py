@@ -53,7 +53,8 @@ def test_recognition_keys_preview_and_physical_hand(monkeypatch, tmp_path):
     class Predictor:
         labels = LABELS
 
-        def probabilities(self, xyz, hand):
+        def probabilities(self, xyz, hand, *, frame_width=None, frame_height=None):
+            assert (frame_width, frame_height) == (30, 20)
             inputs.append((xyz.copy(), hand))
             p = np.zeros((1, 24))
             p[0, LABELS.index("L")] = 1
@@ -73,7 +74,8 @@ def test_recording_space_still_starts_and_saves(monkeypatch, tmp_path):
     _, calls = fake_camera(monkeypatch, [ord(" "), ord("C"), -1, ord(" "), ord("q")])
     saved = []
 
-    def save_clip(directory, label, frames, times):
+    def save_clip(directory, label, frames, times, **kwargs):
+        assert (kwargs["frame_width"], kwargs["frame_height"]) == (30, 20)
         saved.append((label, list(frames), list(times)))
         return tmp_path / "clip.npz"
 
@@ -84,3 +86,67 @@ def test_recording_space_still_starts_and_saves(monkeypatch, tmp_path):
     assert saved[0][2] == [100, 200, 300]
     assert calls["closed"]
     assert not list(tmp_path.glob("*.json"))
+
+
+def test_diagnostic_png_is_unmirrored_and_before_drawing(monkeypatch, tmp_path):
+    import cv2
+
+    points, calls = fake_camera(monkeypatch, [ord(" "), -1, -1, ord(" "), ord("q")])
+    original = np.arange(20 * 30 * 3, dtype=np.uint8).reshape(20, 30, 3)
+
+    class Camera:
+        def isOpened(self):
+            return True
+
+        def read(self):
+            return True, original.copy()
+
+        def release(self):
+            pass
+
+    monkeypatch.setattr(app.cv2, "VideoCapture", lambda _: Camera())
+    monkeypatch.setattr(app, "draw_hand", lambda frame, points: frame.fill(255))
+    config = read_config()
+    config["data"]["directory"] = tmp_path
+    app.capture(
+        config,
+        label=ClipLabel("M", "letter", "p01", "s03", "left"),
+        save_diagnostic_frames=True,
+        diagnostic_every=2,
+    )
+    (path,) = list((tmp_path / "clips").glob("*.npz"))
+    with np.load(path, allow_pickle=False) as c:
+        meta = json.loads(c["meta_json"].item())
+        assert (meta["frame_width"], meta["frame_height"]) == (30, 20)
+        np.testing.assert_array_equal(c["xyz"][0], points)
+    manifest_path = tmp_path / meta["diagnostic_manifest"]
+    manifest = json.loads(manifest_path.read_text())
+    assert [r["frame_index"] for r in manifest["images"]] == [0, 2]
+    for r in manifest["images"]:
+        np.testing.assert_array_equal(cv2.imread(str(manifest_path.parent / r["file"])), original)
+    assert calls["flips"] == 5
+
+
+def test_resolution_change_discards_mixed_size_take(monkeypatch, tmp_path):
+    fake_camera(monkeypatch, [ord(" "), -1, -1, ord("q")])
+    shapes = iter([(20, 30), (20, 30), (30, 40), (30, 40)])
+
+    class Camera:
+        def isOpened(self):
+            return True
+
+        def read(self):
+            h, w = next(shapes)
+            return True, np.zeros((h, w, 3), dtype=np.uint8)
+
+        def release(self):
+            pass
+
+    monkeypatch.setattr(app.cv2, "VideoCapture", lambda _: Camera())
+    config = read_config()
+    config["data"]["directory"] = tmp_path
+    app.capture(
+        config, label=ClipLabel("M", "letter", "p01", "s03", "left"), save_diagnostic_frames=True
+    )
+    assert not list(tmp_path.rglob("*.npz"))
+    assert not list(tmp_path.rglob("*.png"))

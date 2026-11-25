@@ -1,7 +1,18 @@
-# Model files
+# Runtime checkpoints
 
-The camera downloads Google's hand_landmarker.task into this directory on its first run. It supplies hand coordinates. If you ran the standalone camera script earlier, you can copy its hand_landmarker.task here and run offline after installing the dependencies.
+These two small final checkpoints are included in Git. Intermediate checkpoints
+and the automatically downloaded MediaPipe tracker stay local. Load only trusted
+PyTorch files; the runtime uses `weights_only=True`.
 
-Our planned mlp_static.pt and gru_ctc.pt checkpoints will come from our training scripts. When publishing a trained release, include the supported labels and ordering, feature settings, checkpoint, validation settings, evaluation results, and a reproducible download path. Weights, raw recordings and the virtual environment are excluded from the starter ZIP.
+| File | Bytes | SHA-256 |
+| --- | ---: | --- |
+| `mlp_static_final.pt` | 214882 | `7821db6c17a04ba0be940fbca10a85fcb40db41b3aaa1dff1b33fdbaec08ce0a` |
+| `sequence/gru_ctc_long_v1.pt` | 867068 | `762d11636d38f35ae8590fbef6bfb9edd2687b5f0acdd5c027dba063146973fc` |
 
-[Official hand tracker and model card](https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker)
+Static: 24 letters, features v2, Kaggle training plus private s04/s06;
+s03/s05 development selection. See [final static provenance](../results/final_static/manifest.json).
+Sequence: lowercase a–z and space, CTC blank 0, space 27; ChicagoFSWild
+signer-disjoint training/validation. See [run report](../results/sequence/gru_ctc_long_v1/report.json)
+and [hash-bound decoder](../configs/sequence_decoder.json). Test was not inferred.
+
+The root README contains installation/run commands and reproduction limitations.

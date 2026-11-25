@@ -1,0 +1,10 @@
+{
+  "name": "prefix_beam",
+  "beam_width": 10,
+  "blank_index": 0,
+  "vocabulary": "abcdefghijklmnopqrstuvwxyz ",
+  "checkpoint_sha256": "762d11636d38f35ae8590fbef6bfb9edd2687b5f0acdd5c027dba063146973fc",
+  "feature_version": "sequence-unordered-hand-shape-wrist-scale-v1",
+  "language_model": null,
+  "token_pruning": false
+}

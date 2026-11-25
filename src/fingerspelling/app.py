@@ -17,8 +17,17 @@ WINDOW = "ASL fingerspelling"
 
 
 def capture(
-    config, camera_id=None, label=None, predictor=None, physical_hand=None, session_log=None
+    config,
+    camera_id=None,
+    label=None,
+    predictor=None,
+    physical_hand=None,
+    session_log=None,
+    save_diagnostic_frames=False,
+    diagnostic_every=10,
 ):
+    if diagnostic_every < 1:
+        raise ValueError("diagnostic_every must be positive")
     if label is not None and predictor is not None:
         raise ValueError("Recording and recognition must run separately")
     builder = WordBuilder.from_config(config["static"]) if predictor is not None else None
@@ -26,6 +35,7 @@ def capture(
     camera = cv2.VideoCapture(camera_id)
     recording = False
     frames, times = [], []
+    diagnostic_frames, take_size = {}, None
     notice = "Space: start a take" if label else "Show one hand"
     previous_ms = -1
     try:
@@ -39,11 +49,22 @@ def capture(
                 ok, frame = camera.read()
                 if not ok or frame is None:
                     raise SystemExit("The webcam stopped sending frames. Reconnect it and retry.")
+                frame_height, frame_width = frame.shape[:2]
                 previous_ms = next_timestamp_ms(previous_ms)
                 points = extract_points(tracker, frame, previous_ms)
                 if recording:
-                    frames.append(points)
-                    times.append(previous_ms)
+                    size = (frame_width, frame_height)
+                    if take_size is not None and size != take_size:
+                        recording = False
+                        frames, times, diagnostic_frames = [], [], {}
+                        notice = "Resolution changed: take discarded | Space: retry"
+                        print(notice, flush=True)
+                    else:
+                        take_size = size
+                        if save_diagnostic_frames and len(frames) % diagnostic_every == 0:
+                            diagnostic_frames[len(frames)] = frame.copy()
+                        frames.append(points)
+                        times.append(previous_ms)
 
                 draw_hand(frame, points)
                 preview = cv2.flip(frame, 1) if config["camera"]["mirror_preview"] else frame
@@ -53,7 +74,12 @@ def capture(
                     visible = bool(np.isfinite(points).all())
                     letter, confidence = None, 0.0
                     if visible:
-                        probabilities = predictor.probabilities(points, physical_hand)[0]
+                        probabilities = predictor.probabilities(
+                            points,
+                            physical_hand,
+                            frame_width=frame_width,
+                            frame_height=frame_height,
+                        )[0]
                         best = int(probabilities.argmax())
                         letter, confidence = predictor.labels[best], float(probabilities[best])
                     event = builder.update(previous_ms, letter, confidence, visible)
@@ -97,11 +123,20 @@ def capture(
                 if label and key == ord(" "):
                     if not recording:
                         frames, times = [], []
+                        diagnostic_frames, take_size = {}, None
                         recording = True
                     else:
                         recording = False
                         try:
-                            dest = save_clip(config["data"]["directory"], label, frames, times)
+                            dest = save_clip(
+                                config["data"]["directory"],
+                                label,
+                                frames,
+                                times,
+                                frame_width=take_size[0],
+                                frame_height=take_size[1],
+                                diagnostic_frames=diagnostic_frames,
+                            )
                             print(f"Saved {label.text}: {dest}", flush=True)
                             notice = "Saved | Space: new take"
                         except ValueError as error:
@@ -122,6 +157,14 @@ def capture(
 
 def main():
     parser = argparse.ArgumentParser(description="Show a live hand skeleton from the webcam.")
+    parser.add_argument("--mode", choices=["static", "sequence"], default="static")
+    parser.add_argument("--sequence-model", default="models/sequence/gru_ctc_long_v1.pt")
+    parser.add_argument(
+        "--decoder-config", default="configs/sequence_decoder.json"
+    )
+    parser.add_argument(
+        "--sequence-log-dir", type=Path, default=Path("results/sequence_live_sessions")
+    )
     parser.add_argument("--camera", type=int, help="Override the camera index")
     parser.add_argument("--config", default=DEFAULT_CONFIG)
     parser.add_argument("--model", help="Static MLP checkpoint for live letter predictions")
@@ -132,6 +175,21 @@ def main():
         help="Recognition event log (default: unique file in results/live_sessions/)",
     )
     args = parser.parse_args()
+    if args.mode == "sequence":
+        if args.model or args.hand or args.session_log:
+            parser.error(
+                "Sequence mode uses --sequence-model and --sequence-log-dir; no physical-hand flip"
+            )
+        from .sequence_live import capture_sequence
+
+        capture_sequence(
+            read_config(args.config),
+            args.sequence_model,
+            args.decoder_config,
+            args.camera,
+            args.sequence_log_dir,
+        )
+        return
     predictor = None
     if args.model:
         if not args.hand:
