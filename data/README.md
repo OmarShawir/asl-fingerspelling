@@ -11,7 +11,7 @@ Each completed take adds a compressed file to clips/ and updates metadata.csv. C
 | valid | (T,), bool | False when the hand is missing. All 63 coordinates are NaN on that frame. |
 | meta_json | scalar Unicode string | A copy of the index row. Read using json.loads and allow_pickle=False. |
 
-The CSV fields are clip_id, text, kind, person, session, hand, fps, frames, created_at and source. The filename is clips/<clip_id>.npz. FPS is measured from the capture times. created_at is UTC at save. The source field distinguishes a webcam recording from the artificial format example. Video images stay in memory.
+The CSV fields are clip_id, text, kind, person, session, hand, fps, frames, created_at, source, frame_width, frame_height, dimensions_source and diagnostic_manifest. New camera clips record actual MediaPipe input dimensions. Legacy clips may omit the added fields; reindexing leaves their CSV cells blank. The filename is clips/<clip_id>.npz. FPS is measured from the capture times. created_at is UTC at save. The source field distinguishes a webcam recording from the artificial format example. Video images stay in memory unless diagnostic PNG saving is enabled.
 
 Kinds used by the collector:
 
@@ -36,3 +36,18 @@ uv run --locked python -m fingerspelling.dataset
 ```
 
 For a public release, select recordings whose participants agreed to share the landmarks, publish anonymous IDs, and distribute a matching split manifest. Keep your local metadata private.
+
+## Aspect-aware recordings and diagnostic PNGs
+
+Use `scripts/collect.py --save-diagnostic-frames --diagnostic-every 1` alongside
+the required signer/session/hand/label arguments to save every original recorded
+frame. The default sampling interval is 10. Snapshots are copied before drawing
+or preview mirroring. `diagnostic_frames/<clip_id>/manifest.json` associates
+filenames with zero-based recorded-frame indices, clip-relative `t_ms`, original
+monotonic capture timestamps and frame dimensions. This directory is git-ignored.
+Changing resolution during a take discards it; incomplete takes write no PNGs.
+
+Feature v2 requires documented width/height. Historical clips and the public
+format fixture remain valid for v1 but cannot be evaluated with v2 without original
+capture evidence. Never infer old dimensions from today's camera settings.
+See [the aspect experiment](../docs/experiments.md) for paired evaluation commands.

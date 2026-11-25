@@ -9,7 +9,8 @@ The small supplied test folder is not used for model selection or reported valid
 
 Local archive: `data/external/asl-alphabet.zip`.
 Extracted dataset: `data/external/asl-alphabet/`.
-These paths, landmark caches, local webcam recordings and model weights are git-ignored.
+These paths, landmark caches, local webcam recordings and intermediate model weights are git-ignored.
+The two final runtime checkpoints are included; see the root README.
 Retain the original source terms when redistributing images; this repository does not include them.
 The download endpoint did not pin a Kaggle version number; the archive SHA-256 in the
 experiment log identifies the downloaded bytes.
@@ -66,11 +67,22 @@ uv run --locked --group train python scripts/extract_kaggle.py \
   --root data/external/asl-alphabet/asl_alphabet_train/asl_alphabet_train --pilot
 uv run --locked --group train python scripts/extract_kaggle.py \
   --root data/external/asl-alphabet/asl_alphabet_train/asl_alphabet_train
-uv run --locked --group train python scripts/train_static.py
-uv run --locked --group train python scripts/evaluate.py --person p01 --session s01
+uv run --locked --group train python scripts/train_static.py --output models/mlp_reproduced.pt --result-prefix results/static_reproduced
+uv run --locked --group train python scripts/evaluate.py --checkpoint models/mlp_reproduced.pt --person p01 --session s01
 uv run --locked --group train python -m fingerspelling.app \
-  --model models/mlp_static.pt --hand left
+  --model models/mlp_reproduced.pt --hand left
 ```
 
 Live mode shows current letter predictions and uses the timestamp-based word builder to assemble editable text. See docs/experiments.md for the frozen-baseline audit and temporal tests. Only the
 24 included letters are recognized; there is no trained unknown/background class.
+
+## Aspect-aware v2 follow-up
+
+The 2026-11-07 audit decoded all 72,000 source images: all are 200x200.
+All 55,368 detected landmark sets give bit-identical v1/v2 features, so
+`models/mlp_static_aspect_v2.pt` reuses the frozen baseline's weights. It changes
+only the versioned preprocessing and records derivation provenance. See
+`results/aspect_v2_derivation.json` and `docs/experiments.md`.
+Future training supports `--feature-version v2` with the verified dimensions in
+`data/cache/kaggle_dimensions.json`; `--output` is required and cannot overwrite
+an existing checkpoint. No v2 retraining was used in the controlled comparison.
