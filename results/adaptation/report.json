@@ -1,0 +1,4923 @@
+{
+  "configuration": {
+    "seed": 42,
+    "feature_version": "width-units-wrist-maxradius-canonical-right-v2",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y"
+    ],
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "batch_size": 256,
+    "source_fraction_camera": 0.5,
+    "max_epochs": 40,
+    "steps_per_epoch": 100,
+    "patience": 8,
+    "augmentation": "none; train-time dropout 0.2 retained",
+    "selection": "s03 macro clip accuracy over observed classes, tie-break minimum macro clip NLL; baseline epoch 0 eligible",
+    "sampling": "128 Kaggle + 128 camera each batch, with replacement; Kaggle class uniform then image uniform; camera class uniform then clip uniform then valid frame uniform",
+    "source_checkpoint": "models/mlp_static_aspect_v2.pt",
+    "source_checkpoint_sha256": "8f514f6180a1c5ac65c29483201f91365d76fab67d410263a1efc2c9f35423e9",
+    "kaggle_split_sha256": "6980a06a014fa221b20ed1aaceb9eee0abd9af42efa9f53429815647a79c95cd"
+  },
+  "best_epoch": 19,
+  "epochs_run": 27,
+  "elapsed_seconds": 6.071412921002775,
+  "torch_version": "2.6.0+cpu",
+  "baseline_s03": {
+    "correct": 35,
+    "total": 40,
+    "macro_accuracy": 0.875,
+    "macro_nll": 0.24986268430341796,
+    "per_letter": {
+      "A": {
+        "correct": 6,
+        "total": 6,
+        "accuracy": 1.0
+      },
+      "B": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "C": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "D": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "E": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "F": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "G": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "H": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "I": {
+        "correct": 4,
+        "total": 4,
+        "accuracy": 1.0
+      },
+      "K": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "L": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "M": {
+        "correct": 0,
+        "total": 5,
+        "accuracy": 0.0
+      },
+      "N": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "O": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "P": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "Q": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "R": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "S": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "T": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "U": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "V": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "W": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "X": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "Y": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      }
+    },
+    "clips": [
+      {
+        "clip_id": "06f795bfc3c04f50a4166ccd7d9e44ec",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 47,
+        "nll": 7.790630533883554e-05,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9999220967292786
+          },
+          {
+            "letter": "M",
+            "score": 6.008090713294223e-05
+          },
+          {
+            "letter": "A",
+            "score": 6.3817360569373704e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "0cac750da67949a3984f2bb0e47551ad",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 39,
+        "nll": 0.001037062335943417,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.998963475227356
+          },
+          {
+            "letter": "E",
+            "score": 0.0010290321661159396
+          },
+          {
+            "letter": "I",
+            "score": 7.476074642909225e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "0cebcc54656a48269b331d1d46271c47",
+        "target": "M",
+        "prediction": "N",
+        "correct": false,
+        "valid_frames": 38,
+        "nll": 2.4405103184815853,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.8547700643539429
+          },
+          {
+            "letter": "M",
+            "score": 0.08711638301610947
+          },
+          {
+            "letter": "I",
+            "score": 0.03324831649661064
+          }
+        ]
+      },
+      {
+        "clip_id": "0d7dfffb01fc4c66bde61cf26725323b",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 63,
+        "nll": 0.0004155903244262334,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9995844960212708
+          },
+          {
+            "letter": "Q",
+            "score": 0.0002405459526926279
+          },
+          {
+            "letter": "P",
+            "score": 6.528442463604733e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "10c6c2b1ff3b4ede94f9842c87e2b3f0",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 38,
+        "nll": 0.001146556340390861,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.9988541007041931
+          },
+          {
+            "letter": "T",
+            "score": 0.0006367237656377256
+          },
+          {
+            "letter": "Y",
+            "score": 0.0005060466937720776
+          }
+        ]
+      },
+      {
+        "clip_id": "127def6c23174b718a9c842a256be7a2",
+        "target": "M",
+        "prediction": "N",
+        "correct": false,
+        "valid_frames": 43,
+        "nll": 2.1879117862009836,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.856774091720581
+          },
+          {
+            "letter": "M",
+            "score": 0.11215069890022278
+          },
+          {
+            "letter": "I",
+            "score": 0.019868506118655205
+          }
+        ]
+      },
+      {
+        "clip_id": "1969aece390445aba538ff06f93ba020",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 31,
+        "nll": 0.0005079605636118638,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9994921684265137
+          },
+          {
+            "letter": "I",
+            "score": 0.0005034273490309715
+          },
+          {
+            "letter": "X",
+            "score": 1.7184088392241392e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "219b2afb1d0147fb9d081fa5dab8d72d",
+        "target": "L",
+        "prediction": "L",
+        "correct": true,
+        "valid_frames": 34,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "L",
+            "score": 1.0
+          },
+          {
+            "letter": "P",
+            "score": 1.9676764662079904e-09
+          },
+          {
+            "letter": "T",
+            "score": 1.5269628894643006e-09
+          }
+        ]
+      },
+      {
+        "clip_id": "310c8f2ab126441391b325f95483956e",
+        "target": "L",
+        "prediction": "L",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "L",
+            "score": 1.0
+          },
+          {
+            "letter": "P",
+            "score": 1.1649576858729915e-09
+          },
+          {
+            "letter": "T",
+            "score": 4.747288673279115e-10
+          }
+        ]
+      },
+      {
+        "clip_id": "37b412417ac24b1eaee52557b07766bf",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 44,
+        "nll": 5.960464655174753e-08,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.9999999403953552
+          },
+          {
+            "letter": "E",
+            "score": 1.5865633429257286e-07
+          },
+          {
+            "letter": "A",
+            "score": 4.950903242928462e-09
+          }
+        ]
+      },
+      {
+        "clip_id": "3b3e730dd2b94decaa41d06799f57586",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 28,
+        "nll": 0.00015355335365420896,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.9998464584350586
+          },
+          {
+            "letter": "Y",
+            "score": 9.852638322627172e-05
+          },
+          {
+            "letter": "T",
+            "score": 4.856414670939557e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "3f361b11d19d4651b156707930fade93",
+        "target": "T",
+        "prediction": "T",
+        "correct": true,
+        "valid_frames": 27,
+        "nll": 0.00014240563556963036,
+        "top3": [
+          {
+            "letter": "T",
+            "score": 0.9998576045036316
+          },
+          {
+            "letter": "Y",
+            "score": 0.00012938742293044925
+          },
+          {
+            "letter": "L",
+            "score": 9.552719347993843e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "3faea694875448bdb009efe017f248c8",
+        "target": "M",
+        "prediction": "N",
+        "correct": false,
+        "valid_frames": 54,
+        "nll": 1.175928458916137,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.6895059943199158
+          },
+          {
+            "letter": "M",
+            "score": 0.30853238701820374
+          },
+          {
+            "letter": "I",
+            "score": 0.0012172497808933258
+          }
+        ]
+      },
+      {
+        "clip_id": "3fe9307fff2f462d97959cdedca4d335",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 28,
+        "nll": 0.00014657856361548045,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.9998534321784973
+          },
+          {
+            "letter": "Y",
+            "score": 7.302116136997938e-05
+          },
+          {
+            "letter": "T",
+            "score": 6.472464156104252e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "425b0e45034845d298f7fbfdcf2a3188",
+        "target": "I",
+        "prediction": "I",
+        "correct": true,
+        "valid_frames": 63,
+        "nll": 1.9669552120430256e-06,
+        "top3": [
+          {
+            "letter": "I",
+            "score": 0.9999980330467224
+          },
+          {
+            "letter": "Y",
+            "score": 1.015724592434708e-06
+          },
+          {
+            "letter": "N",
+            "score": 5.986188966744521e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "43d85b22e20c49eca7b6d1aa6ce64ef9",
+        "target": "I",
+        "prediction": "I",
+        "correct": true,
+        "valid_frames": 44,
+        "nll": 2.9206318590352163e-06,
+        "top3": [
+          {
+            "letter": "I",
+            "score": 0.999997079372406
+          },
+          {
+            "letter": "Y",
+            "score": 2.352632691327017e-06
+          },
+          {
+            "letter": "N",
+            "score": 3.8292247950266756e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "6bc2c2dfdd654a1aa45d073513624cc0",
+        "target": "M",
+        "prediction": "N",
+        "correct": false,
+        "valid_frames": 47,
+        "nll": 2.303824281076208,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.815772533416748
+          },
+          {
+            "letter": "M",
+            "score": 0.09987615793943405
+          },
+          {
+            "letter": "I",
+            "score": 0.05487010255455971
+          }
+        ]
+      },
+      {
+        "clip_id": "74fd8c02d37e48ffb288187e3764ee6e",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 43,
+        "nll": 0.0001973108387098723,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9998027086257935
+          },
+          {
+            "letter": "I",
+            "score": 0.00019067240646108985
+          },
+          {
+            "letter": "X",
+            "score": 4.332948719820706e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "76f420e096f645f6925e650ff36fc57e",
+        "target": "T",
+        "prediction": "T",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": 0.00019784738651301757,
+        "top3": [
+          {
+            "letter": "T",
+            "score": 0.9998021721839905
+          },
+          {
+            "letter": "Y",
+            "score": 0.00017429397848900408
+          },
+          {
+            "letter": "M",
+            "score": 1.7321000996162184e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "7782c009a7f948a783cc28e2f81d23dc",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 26,
+        "nll": 0.001476542929958695,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.99852454662323
+          },
+          {
+            "letter": "M",
+            "score": 0.0005765021196566522
+          },
+          {
+            "letter": "Q",
+            "score": 0.0003988725657109171
+          }
+        ]
+      },
+      {
+        "clip_id": "7bc8a5ba3393468abe68713dc4e06499",
+        "target": "I",
+        "prediction": "I",
+        "correct": true,
+        "valid_frames": 56,
+        "nll": 1.013279474549114e-06,
+        "top3": [
+          {
+            "letter": "I",
+            "score": 0.9999989867210388
+          },
+          {
+            "letter": "N",
+            "score": 8.27238636702532e-07
+          },
+          {
+            "letter": "Y",
+            "score": 1.1084212303558161e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "93577b88571848499dcce542035ba0c8",
+        "target": "L",
+        "prediction": "L",
+        "correct": true,
+        "valid_frames": 36,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "L",
+            "score": 1.0
+          },
+          {
+            "letter": "P",
+            "score": 1.0275952311289416e-09
+          },
+          {
+            "letter": "T",
+            "score": 9.222373975603659e-10
+          }
+        ]
+      },
+      {
+        "clip_id": "9568007ecd1943edbd18a513258145f1",
+        "target": "I",
+        "prediction": "I",
+        "correct": true,
+        "valid_frames": 28,
+        "nll": 1.6093267039010721e-06,
+        "top3": [
+          {
+            "letter": "I",
+            "score": 0.9999983906745911
+          },
+          {
+            "letter": "Y",
+            "score": 1.3318323226485518e-06
+          },
+          {
+            "letter": "N",
+            "score": 2.851882072718581e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "981673c9d04347e6a12e5d77d39c3e97",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 31,
+        "nll": 0.0002650373699724168,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.9997349977493286
+          },
+          {
+            "letter": "Y",
+            "score": 0.0001581736287334934
+          },
+          {
+            "letter": "T",
+            "score": 0.00010474990995135158
+          }
+        ]
+      },
+      {
+        "clip_id": "a2961067daf546b6841e2cdd2a271929",
+        "target": "M",
+        "prediction": "N",
+        "correct": false,
+        "valid_frames": 39,
+        "nll": 1.6042803686110512,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.7984163761138916
+          },
+          {
+            "letter": "M",
+            "score": 0.20103417336940765
+          },
+          {
+            "letter": "I",
+            "score": 0.00033724159584380686
+          }
+        ]
+      },
+      {
+        "clip_id": "a2cc322f30774beb90c3354548e45021",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 47,
+        "nll": 0.00022515208814586585,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9997748732566833
+          },
+          {
+            "letter": "I",
+            "score": 0.00022050640836823732
+          },
+          {
+            "letter": "X",
+            "score": 3.047847258130787e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "b0a3152d52ca41f0acb48d6e2bf21619",
+        "target": "T",
+        "prediction": "T",
+        "correct": true,
+        "valid_frames": 40,
+        "nll": 0.00026706446713410583,
+        "top3": [
+          {
+            "letter": "T",
+            "score": 0.9997329711914062
+          },
+          {
+            "letter": "L",
+            "score": 0.00026573328068479896
+          },
+          {
+            "letter": "M",
+            "score": 1.233317561855074e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "b78ac98827914a37b71f5922dc114d77",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 50,
+        "nll": 0.00038297356305129476,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.9996170997619629
+          },
+          {
+            "letter": "E",
+            "score": 0.0003645654651336372
+          },
+          {
+            "letter": "I",
+            "score": 1.8347809600527398e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "b83e9dfae3a74ce59c483e800bfea233",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 30,
+        "nll": 0.0010631369322622603,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9989374279975891
+          },
+          {
+            "letter": "I",
+            "score": 0.000986087485216558
+          },
+          {
+            "letter": "O",
+            "score": 5.4805113904876634e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "bab11357a91949799d6b007d2655c810",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 35,
+        "nll": 0.000784824228515704,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9992154836654663
+          },
+          {
+            "letter": "I",
+            "score": 0.0007648571045137942
+          },
+          {
+            "letter": "O",
+            "score": 9.639116797188763e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "d19036b771fb47a3a01fc819f73e1817",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 38,
+        "nll": 2.932591522994083e-05,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.9999706745147705
+          },
+          {
+            "letter": "E",
+            "score": 2.840479282895103e-05
+          },
+          {
+            "letter": "I",
+            "score": 9.282969131163554e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "d2a620a59a1042f6bd01e39de19b2210",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 35,
+        "nll": 0.00016404543713885968,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.9998359680175781
+          },
+          {
+            "letter": "T",
+            "score": 9.11298266146332e-05
+          },
+          {
+            "letter": "Y",
+            "score": 6.110667163738981e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "d7aef6a1edc84e58a807d29de2682917",
+        "target": "T",
+        "prediction": "T",
+        "correct": true,
+        "valid_frames": 29,
+        "nll": 0.00012344883882419504,
+        "top3": [
+          {
+            "letter": "T",
+            "score": 0.9998765587806702
+          },
+          {
+            "letter": "Y",
+            "score": 0.00011730720871128142
+          },
+          {
+            "letter": "L",
+            "score": 3.1669299005443463e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "e0ff5b8d9d6346e383f5d1d5426957dc",
+        "target": "L",
+        "prediction": "L",
+        "correct": true,
+        "valid_frames": 34,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "L",
+            "score": 1.0
+          },
+          {
+            "letter": "T",
+            "score": 4.573152967424221e-09
+          },
+          {
+            "letter": "P",
+            "score": 8.694336917081102e-10
+          }
+        ]
+      },
+      {
+        "clip_id": "e181a4c50dd34369a034c7d5adcb1173",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 60,
+        "nll": 0.27152713428412967,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.7622146010398865
+          },
+          {
+            "letter": "E",
+            "score": 0.23711325228214264
+          },
+          {
+            "letter": "I",
+            "score": 0.0006706929416395724
+          }
+        ]
+      },
+      {
+        "clip_id": "eabb7a47033f49a4b33d4ee934e39b88",
+        "target": "T",
+        "prediction": "T",
+        "correct": true,
+        "valid_frames": 32,
+        "nll": 9.543158973471125e-05,
+        "top3": [
+          {
+            "letter": "T",
+            "score": 0.9999045729637146
+          },
+          {
+            "letter": "L",
+            "score": 9.114963904721662e-05
+          },
+          {
+            "letter": "Y",
+            "score": 4.057953447045293e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "ed1315bcbba44122b87ec6b8d804513a",
+        "target": "L",
+        "prediction": "L",
+        "correct": true,
+        "valid_frames": 29,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "L",
+            "score": 1.0
+          },
+          {
+            "letter": "P",
+            "score": 8.553613373152302e-10
+          },
+          {
+            "letter": "T",
+            "score": 1.800703613996646e-10
+          }
+        ]
+      },
+      {
+        "clip_id": "ef33a8b7a72d4a4998a9a7dc7975b0e1",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": 0.00018824918596688973,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9998117685317993
+          },
+          {
+            "letter": "Q",
+            "score": 0.00012933867401443422
+          },
+          {
+            "letter": "M",
+            "score": 3.753090277314186e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "f2ad64f0c182454b80ea981279e11d3e",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 30,
+        "nll": 0.0014099877635654619,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.9985910058021545
+          },
+          {
+            "letter": "T",
+            "score": 0.0009379297262057662
+          },
+          {
+            "letter": "Y",
+            "score": 0.0004660472914110869
+          }
+        ]
+      },
+      {
+        "clip_id": "fa17ee3be7874d04aa90a22007a4e8da",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 76,
+        "nll": 0.0005652117345332198,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9994349479675293
+          },
+          {
+            "letter": "Q",
+            "score": 0.00029472532332874835
+          },
+          {
+            "letter": "C",
+            "score": 0.0001653362123761326
+          }
+        ]
+      }
+    ]
+  },
+  "adapted_s03": {
+    "correct": 40,
+    "total": 40,
+    "macro_accuracy": 1.0,
+    "macro_nll": 0.0013441263410322204,
+    "per_letter": {
+      "A": {
+        "correct": 6,
+        "total": 6,
+        "accuracy": 1.0
+      },
+      "B": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "C": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "D": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "E": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "F": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "G": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "H": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "I": {
+        "correct": 4,
+        "total": 4,
+        "accuracy": 1.0
+      },
+      "K": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "L": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "M": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "N": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "O": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "P": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "Q": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "R": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "S": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "T": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "U": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "V": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "W": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "X": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "Y": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      }
+    },
+    "clips": [
+      {
+        "clip_id": "06f795bfc3c04f50a4166ccd7d9e44ec",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 47,
+        "nll": 5.60285230483438e-06,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9999943971633911
+          },
+          {
+            "letter": "M",
+            "score": 5.611121196125168e-06
+          },
+          {
+            "letter": "A",
+            "score": 1.3766631168365961e-09
+          }
+        ]
+      },
+      {
+        "clip_id": "0cac750da67949a3984f2bb0e47551ad",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 39,
+        "nll": 1.7881395031338534e-07,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.9999998211860657
+          },
+          {
+            "letter": "E",
+            "score": 2.60879147617743e-07
+          },
+          {
+            "letter": "I",
+            "score": 2.460985726315812e-08
+          }
+        ]
+      },
+      {
+        "clip_id": "0cebcc54656a48269b331d1d46271c47",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 38,
+        "nll": 0.00234437397308541,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.997658371925354
+          },
+          {
+            "letter": "N",
+            "score": 0.0023366722743958235
+          },
+          {
+            "letter": "I",
+            "score": 4.323300345276948e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "0d7dfffb01fc4c66bde61cf26725323b",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 63,
+        "nll": 9.71560429471923e-06,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9999902844429016
+          },
+          {
+            "letter": "M",
+            "score": 9.511163625575136e-06
+          },
+          {
+            "letter": "Q",
+            "score": 9.336520179203944e-08
+          }
+        ]
+      },
+      {
+        "clip_id": "10c6c2b1ff3b4ede94f9842c87e2b3f0",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 38,
+        "nll": 0.0005663448637025202,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.9994338154792786
+          },
+          {
+            "letter": "Y",
+            "score": 0.0002876791113521904
+          },
+          {
+            "letter": "T",
+            "score": 0.0002755537279881537
+          }
+        ]
+      },
+      {
+        "clip_id": "127def6c23174b718a9c842a256be7a2",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 43,
+        "nll": 0.0021726828925887616,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9978296756744385
+          },
+          {
+            "letter": "N",
+            "score": 0.0021681934595108032
+          },
+          {
+            "letter": "I",
+            "score": 1.9688011434482178e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "1969aece390445aba538ff06f93ba020",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 31,
+        "nll": 8.607281121380266e-05,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9999139308929443
+          },
+          {
+            "letter": "I",
+            "score": 8.187117782654241e-05
+          },
+          {
+            "letter": "O",
+            "score": 2.0219185898895375e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "219b2afb1d0147fb9d081fa5dab8d72d",
+        "target": "L",
+        "prediction": "L",
+        "correct": true,
+        "valid_frames": 34,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "L",
+            "score": 1.0
+          },
+          {
+            "letter": "T",
+            "score": 1.2443801544748112e-09
+          },
+          {
+            "letter": "I",
+            "score": 6.824335541111282e-10
+          }
+        ]
+      },
+      {
+        "clip_id": "310c8f2ab126441391b325f95483956e",
+        "target": "L",
+        "prediction": "L",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "L",
+            "score": 1.0
+          },
+          {
+            "letter": "T",
+            "score": 2.8836100174345347e-10
+          },
+          {
+            "letter": "I",
+            "score": 1.8424087255830557e-10
+          }
+        ]
+      },
+      {
+        "clip_id": "37b412417ac24b1eaee52557b07766bf",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 44,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 1.0
+          },
+          {
+            "letter": "A",
+            "score": 1.9478735069355935e-08
+          },
+          {
+            "letter": "E",
+            "score": 1.2980660990535853e-09
+          }
+        ]
+      },
+      {
+        "clip_id": "3b3e730dd2b94decaa41d06799f57586",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 28,
+        "nll": 0.00010163108360566706,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.999898374080658
+          },
+          {
+            "letter": "Y",
+            "score": 5.5293865443672985e-05
+          },
+          {
+            "letter": "T",
+            "score": 3.177794860675931e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "3f361b11d19d4651b156707930fade93",
+        "target": "T",
+        "prediction": "T",
+        "correct": true,
+        "valid_frames": 27,
+        "nll": 0.00027302654142562335,
+        "top3": [
+          {
+            "letter": "T",
+            "score": 0.9997270107269287
+          },
+          {
+            "letter": "Y",
+            "score": 0.0002311464777449146
+          },
+          {
+            "letter": "A",
+            "score": 3.5239823773736134e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "3faea694875448bdb009efe017f248c8",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 54,
+        "nll": 0.013541237023006879,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9865500330924988
+          },
+          {
+            "letter": "N",
+            "score": 0.013449355028569698
+          },
+          {
+            "letter": "I",
+            "score": 3.7094073945809214e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "3fe9307fff2f462d97959cdedca4d335",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 28,
+        "nll": 0.00011283795852281325,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.9998871684074402
+          },
+          {
+            "letter": "Y",
+            "score": 5.9713285736506805e-05
+          },
+          {
+            "letter": "T",
+            "score": 4.266966789145954e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "425b0e45034845d298f7fbfdcf2a3188",
+        "target": "I",
+        "prediction": "I",
+        "correct": true,
+        "valid_frames": 63,
+        "nll": 1.9669552120430256e-06,
+        "top3": [
+          {
+            "letter": "I",
+            "score": 0.9999980330467224
+          },
+          {
+            "letter": "N",
+            "score": 1.1713843832694693e-06
+          },
+          {
+            "letter": "Y",
+            "score": 5.668480298481882e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "43d85b22e20c49eca7b6d1aa6ce64ef9",
+        "target": "I",
+        "prediction": "I",
+        "correct": true,
+        "valid_frames": 44,
+        "nll": 1.8477456951181348e-06,
+        "top3": [
+          {
+            "letter": "I",
+            "score": 0.999998152256012
+          },
+          {
+            "letter": "N",
+            "score": 9.520139769847447e-07
+          },
+          {
+            "letter": "Y",
+            "score": 6.838561716904223e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "6bc2c2dfdd654a1aa45d073513624cc0",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 47,
+        "nll": 0.0023756208579214042,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9976271986961365
+          },
+          {
+            "letter": "N",
+            "score": 0.0023694538976997137
+          },
+          {
+            "letter": "I",
+            "score": 2.8459396617108723e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "74fd8c02d37e48ffb288187e3764ee6e",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 43,
+        "nll": 2.3067263575354933e-05,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9999769330024719
+          },
+          {
+            "letter": "I",
+            "score": 1.9065064407186583e-05
+          },
+          {
+            "letter": "X",
+            "score": 2.9165071282477584e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "76f420e096f645f6925e650ff36fc57e",
+        "target": "T",
+        "prediction": "T",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": 0.00029902160069641856,
+        "top3": [
+          {
+            "letter": "T",
+            "score": 0.9997010231018066
+          },
+          {
+            "letter": "Y",
+            "score": 0.00013358487922232598
+          },
+          {
+            "letter": "M",
+            "score": 7.295906107174233e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "7782c009a7f948a783cc28e2f81d23dc",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 26,
+        "nll": 0.0004089714805957126,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9995911121368408
+          },
+          {
+            "letter": "M",
+            "score": 0.0004086000262759626
+          },
+          {
+            "letter": "Q",
+            "score": 1.0748273382432671e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "7bc8a5ba3393468abe68713dc4e06499",
+        "target": "I",
+        "prediction": "I",
+        "correct": true,
+        "valid_frames": 56,
+        "nll": 1.4305124977918903e-06,
+        "top3": [
+          {
+            "letter": "I",
+            "score": 0.9999985694885254
+          },
+          {
+            "letter": "N",
+            "score": 1.2595545513249817e-06
+          },
+          {
+            "letter": "Y",
+            "score": 7.795083689643434e-08
+          }
+        ]
+      },
+      {
+        "clip_id": "93577b88571848499dcce542035ba0c8",
+        "target": "L",
+        "prediction": "L",
+        "correct": true,
+        "valid_frames": 36,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "L",
+            "score": 1.0
+          },
+          {
+            "letter": "T",
+            "score": 9.141717383087666e-10
+          },
+          {
+            "letter": "I",
+            "score": 5.734160923864806e-10
+          }
+        ]
+      },
+      {
+        "clip_id": "9568007ecd1943edbd18a513258145f1",
+        "target": "I",
+        "prediction": "I",
+        "correct": true,
+        "valid_frames": 28,
+        "nll": 1.0728841814970589e-06,
+        "top3": [
+          {
+            "letter": "I",
+            "score": 0.999998927116394
+          },
+          {
+            "letter": "N",
+            "score": 6.333406759040372e-07
+          },
+          {
+            "letter": "Y",
+            "score": 4.564928701711324e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "981673c9d04347e6a12e5d77d39c3e97",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 31,
+        "nll": 0.000182764541302696,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.9998172521591187
+          },
+          {
+            "letter": "Y",
+            "score": 0.00010869282414205372
+          },
+          {
+            "letter": "T",
+            "score": 7.136845670174807e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "a2961067daf546b6841e2cdd2a271929",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 39,
+        "nll": 0.02977733674621651,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9706616401672363
+          },
+          {
+            "letter": "N",
+            "score": 0.02933783456683159
+          },
+          {
+            "letter": "I",
+            "score": 3.1920620813252754e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "a2cc322f30774beb90c3354548e45021",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 47,
+        "nll": 2.825300073580173e-05,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9999717473983765
+          },
+          {
+            "letter": "I",
+            "score": 2.4758071958785877e-05
+          },
+          {
+            "letter": "X",
+            "score": 2.538241915317485e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "b0a3152d52ca41f0acb48d6e2bf21619",
+        "target": "T",
+        "prediction": "T",
+        "correct": true,
+        "valid_frames": 40,
+        "nll": 1.4126400588894546e-05,
+        "top3": [
+          {
+            "letter": "T",
+            "score": 0.9999858736991882
+          },
+          {
+            "letter": "L",
+            "score": 7.789562914695125e-06
+          },
+          {
+            "letter": "M",
+            "score": 6.2522840380552225e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "b78ac98827914a37b71f5922dc114d77",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 50,
+        "nll": 2.9802326828588295e-07,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.9999997019767761
+          },
+          {
+            "letter": "I",
+            "score": 2.5784100898817996e-07
+          },
+          {
+            "letter": "E",
+            "score": 1.2564073870180437e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "b83e9dfae3a74ce59c483e800bfea233",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 30,
+        "nll": 0.00016482042494397948,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.999835193157196
+          },
+          {
+            "letter": "I",
+            "score": 0.00013784700422547758
+          },
+          {
+            "letter": "O",
+            "score": 1.3211611076258123e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "bab11357a91949799d6b007d2655c810",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 35,
+        "nll": 0.00013340409293765264,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9998666048049927
+          },
+          {
+            "letter": "I",
+            "score": 0.00012088687799405307
+          },
+          {
+            "letter": "O",
+            "score": 9.75034163275268e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "d19036b771fb47a3a01fc819f73e1817",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 38,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 1.0
+          },
+          {
+            "letter": "E",
+            "score": 2.0291398783456316e-08
+          },
+          {
+            "letter": "I",
+            "score": 1.3744002380633447e-08
+          }
+        ]
+      },
+      {
+        "clip_id": "d2a620a59a1042f6bd01e39de19b2210",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 35,
+        "nll": 0.00011093039647592944,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.999889075756073
+          },
+          {
+            "letter": "T",
+            "score": 5.685368523700163e-05
+          },
+          {
+            "letter": "Y",
+            "score": 4.272867226973176e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "d7aef6a1edc84e58a807d29de2682917",
+        "target": "T",
+        "prediction": "T",
+        "correct": true,
+        "valid_frames": 29,
+        "nll": 0.00016833768483875803,
+        "top3": [
+          {
+            "letter": "T",
+            "score": 0.9998316764831543
+          },
+          {
+            "letter": "Y",
+            "score": 0.00014191963418852538
+          },
+          {
+            "letter": "M",
+            "score": 1.1896188880200498e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "e0ff5b8d9d6346e383f5d1d5426957dc",
+        "target": "L",
+        "prediction": "L",
+        "correct": true,
+        "valid_frames": 34,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "L",
+            "score": 1.0
+          },
+          {
+            "letter": "T",
+            "score": 6.240020500314358e-09
+          },
+          {
+            "letter": "I",
+            "score": 3.211914623157952e-10
+          }
+        ]
+      },
+      {
+        "clip_id": "e181a4c50dd34369a034c7d5adcb1173",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 60,
+        "nll": 0.000352206258676154,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.999647855758667
+          },
+          {
+            "letter": "E",
+            "score": 0.00034779327688738704
+          },
+          {
+            "letter": "I",
+            "score": 4.301486114854924e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "eabb7a47033f49a4b33d4ee934e39b88",
+        "target": "T",
+        "prediction": "T",
+        "correct": true,
+        "valid_frames": 32,
+        "nll": 1.549732772456454e-05,
+        "top3": [
+          {
+            "letter": "T",
+            "score": 0.9999845027923584
+          },
+          {
+            "letter": "Y",
+            "score": 9.878062883217353e-06
+          },
+          {
+            "letter": "L",
+            "score": 4.390758476802148e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "ed1315bcbba44122b87ec6b8d804513a",
+        "target": "L",
+        "prediction": "L",
+        "correct": true,
+        "valid_frames": 29,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "L",
+            "score": 1.0
+          },
+          {
+            "letter": "P",
+            "score": 1.4695379635387695e-10
+          },
+          {
+            "letter": "T",
+            "score": 1.35463390504853e-10
+          }
+        ]
+      },
+      {
+        "clip_id": "ef33a8b7a72d4a4998a9a7dc7975b0e1",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": 9.298367814648957e-06,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.999990701675415
+          },
+          {
+            "letter": "M",
+            "score": 9.28853842196986e-06
+          },
+          {
+            "letter": "Q",
+            "score": 2.6035969824533822e-08
+          }
+        ]
+      },
+      {
+        "clip_id": "f2ad64f0c182454b80ea981279e11d3e",
+        "target": "A",
+        "prediction": "A",
+        "correct": true,
+        "valid_frames": 30,
+        "nll": 0.0007878664567008947,
+        "top3": [
+          {
+            "letter": "A",
+            "score": 0.9992124438285828
+          },
+          {
+            "letter": "T",
+            "score": 0.0005521103157661855
+          },
+          {
+            "letter": "Y",
+            "score": 0.00022900222393218428
+          }
+        ]
+      },
+      {
+        "clip_id": "fa17ee3be7874d04aa90a22007a4e8da",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 76,
+        "nll": 2.026559975834562e-06,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9999979734420776
+          },
+          {
+            "letter": "M",
+            "score": 1.918465613925946e-06
+          },
+          {
+            "letter": "T",
+            "score": 3.4202045640086e-08
+          }
+        ]
+      }
+    ]
+  },
+  "adapted_s04_training": {
+    "correct": 29,
+    "total": 29,
+    "macro_accuracy": 1.0,
+    "macro_nll": 0.00030256392356543767,
+    "per_letter": {
+      "A": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "B": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "C": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "D": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "E": {
+        "correct": 6,
+        "total": 6,
+        "accuracy": 1.0
+      },
+      "F": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "G": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "H": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "I": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "K": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "L": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "M": {
+        "correct": 11,
+        "total": 11,
+        "accuracy": 1.0
+      },
+      "N": {
+        "correct": 7,
+        "total": 7,
+        "accuracy": 1.0
+      },
+      "O": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "P": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "Q": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "R": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "S": {
+        "correct": 5,
+        "total": 5,
+        "accuracy": 1.0
+      },
+      "T": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "U": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "V": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "W": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "X": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      },
+      "Y": {
+        "correct": 0,
+        "total": 0,
+        "accuracy": null
+      }
+    },
+    "clips": [
+      {
+        "clip_id": "01e672ed7d7d4683af41d01510bd76fb",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 31,
+        "nll": 0.0005742171649569226,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9994259476661682
+          },
+          {
+            "letter": "N",
+            "score": 0.0005518389516510069
+          },
+          {
+            "letter": "I",
+            "score": 1.394860191794578e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "085e350372114b4b963fe65e667086ef",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 77,
+        "nll": 0.0010086018249452523,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9989919066429138
+          },
+          {
+            "letter": "B",
+            "score": 0.0005991169018670917
+          },
+          {
+            "letter": "F",
+            "score": 0.00027842228882946074
+          }
+        ]
+      },
+      {
+        "clip_id": "0f6fde9e5a03435ea8e1ecf49aa71517",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": 0.002757413552236005,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9972463846206665
+          },
+          {
+            "letter": "N",
+            "score": 0.002753328764811158
+          },
+          {
+            "letter": "I",
+            "score": 1.7456278555982863e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "12b5ee4467d041dfa7f61f4061ea5034",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 46,
+        "nll": 0.0008781830935282224,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9991222023963928
+          },
+          {
+            "letter": "N",
+            "score": 0.0008718431927263737
+          },
+          {
+            "letter": "I",
+            "score": 3.3279395665886113e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "1f1aa8a488bd46cfb4e5d581a1c42c59",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": 5.483642354475191e-06,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9999945163726807
+          },
+          {
+            "letter": "M",
+            "score": 4.836778316530399e-06
+          },
+          {
+            "letter": "A",
+            "score": 3.4942928550663055e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "22ecb1f2af7545668fc0339d0427fe41",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 39,
+        "nll": 0.00020887648846790654,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.999791145324707
+          },
+          {
+            "letter": "S",
+            "score": 0.00014346894749905914
+          },
+          {
+            "letter": "X",
+            "score": 4.118586002732627e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "35f0c05b4ad94baf9891ce1bb08cc0a9",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 36,
+        "nll": 0.00018747418000456017,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9998125433921814
+          },
+          {
+            "letter": "N",
+            "score": 0.0001717776758596301
+          },
+          {
+            "letter": "I",
+            "score": 1.1487537449283991e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "4b852176c00d47a898255ff2b51bbe17",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 22,
+        "nll": 4.458526820029115e-05,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.999955415725708
+          },
+          {
+            "letter": "S",
+            "score": 2.3778398826834746e-05
+          },
+          {
+            "letter": "I",
+            "score": 1.5974683265085332e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "57232fe3693943288b9d968d12dc2c19",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 48,
+        "nll": 2.509387029896915e-05,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9999749064445496
+          },
+          {
+            "letter": "M",
+            "score": 2.3651911760680377e-05
+          },
+          {
+            "letter": "I",
+            "score": 8.332453944603913e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "60ef97b4bbdf4ebea1e3efe3af284def",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 29,
+        "nll": 0.0005806581848065578,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9994195103645325
+          },
+          {
+            "letter": "N",
+            "score": 0.00057781464420259
+          },
+          {
+            "letter": "I",
+            "score": 2.0323307126091095e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "63b440d8539e4822846dcdd8a330467e",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 51,
+        "nll": 1.7881395031338534e-07,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.9999998211860657
+          },
+          {
+            "letter": "E",
+            "score": 1.7380691019752703e-07
+          },
+          {
+            "letter": "I",
+            "score": 2.6776913131243418e-08
+          }
+        ]
+      },
+      {
+        "clip_id": "68558c8478c94ba9b9093d30a870173c",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 49,
+        "nll": 0.00026849536172224807,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9997315406799316
+          },
+          {
+            "letter": "N",
+            "score": 0.0002589708601590246
+          },
+          {
+            "letter": "I",
+            "score": 7.66351331549231e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "793d15331bbe45d3b7bc4684a331b427",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 1.0
+          },
+          {
+            "letter": "E",
+            "score": 3.779269519554873e-08
+          },
+          {
+            "letter": "I",
+            "score": 4.903169870118518e-09
+          }
+        ]
+      },
+      {
+        "clip_id": "7a3556270daa4d4b9bc7d4b8efc03320",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 61,
+        "nll": 3.4570753726508363e-06,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.999996542930603
+          },
+          {
+            "letter": "M",
+            "score": 1.9674087070598034e-06
+          },
+          {
+            "letter": "P",
+            "score": 4.3929111370744067e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "7b20b6d3c7d046a6a4cbddaad13e97ae",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 51,
+        "nll": 0.0013655206365681672,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9986354112625122
+          },
+          {
+            "letter": "N",
+            "score": 0.0013551787706092
+          },
+          {
+            "letter": "I",
+            "score": 2.666443833732046e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "80a23b32cb3c4ccc8a15bfa8d41a4d95",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 43,
+        "nll": 3.2544665619248486e-05,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9999674558639526
+          },
+          {
+            "letter": "X",
+            "score": 2.222082366643008e-05
+          },
+          {
+            "letter": "I",
+            "score": 8.930797775974497e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "90dc53bfc1654153a3dcb724ece628ab",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 44,
+        "nll": 5.006802695148508e-06,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9999949932098389
+          },
+          {
+            "letter": "M",
+            "score": 3.6078702123631956e-06
+          },
+          {
+            "letter": "A",
+            "score": 6.415509119506169e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "91ad3f2f38e64bbea557e770b400352f",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 39,
+        "nll": 0.0025696960326649287,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.997433602809906
+          },
+          {
+            "letter": "N",
+            "score": 0.0025563479866832495
+          },
+          {
+            "letter": "I",
+            "score": 9.539829989080317e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "93f407688dd748cfa83a64a415f54729",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 34,
+        "nll": 7.391003265545782e-06,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9999926090240479
+          },
+          {
+            "letter": "X",
+            "score": 3.736953203770099e-06
+          },
+          {
+            "letter": "I",
+            "score": 2.7051660254073795e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "9bdb30bb77f94801a33d418c27e115c8",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 41,
+        "nll": 5.483642354475191e-06,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.9999945163726807
+          },
+          {
+            "letter": "E",
+            "score": 3.906847268808633e-06
+          },
+          {
+            "letter": "M",
+            "score": 8.857971920406271e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "b1e545df3f904f26b7dcbd47734c8205",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 33,
+        "nll": 0.0005506004471106571,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9994495511054993
+          },
+          {
+            "letter": "N",
+            "score": 0.0005445011775009334
+          },
+          {
+            "letter": "I",
+            "score": 3.0740568490728037e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "c8ecd7c2857c4e2cb8c2551f41da56c9",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 39,
+        "nll": 0.0005547750788753409,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.999445378780365
+          },
+          {
+            "letter": "N",
+            "score": 0.0005393183673731983
+          },
+          {
+            "letter": "I",
+            "score": 9.378047252539545e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "d338d5bbd30d4672ae53b8df95a8e09e",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": 2.0861647431788266e-06,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9999979138374329
+          },
+          {
+            "letter": "M",
+            "score": 1.9488297766656615e-06
+          },
+          {
+            "letter": "A",
+            "score": 7.88566723031181e-08
+          }
+        ]
+      },
+      {
+        "clip_id": "d3e063f098154557b303b392472d842a",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 45,
+        "nll": 8.613242099091484e-05,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 0.9999138712882996
+          },
+          {
+            "letter": "E",
+            "score": 8.357119804713875e-05
+          },
+          {
+            "letter": "I",
+            "score": 2.475768951626378e-06
+          }
+        ]
+      },
+      {
+        "clip_id": "da3d056138354623a4d411e17a15bbb2",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 30,
+        "nll": 3.695494804406732e-06,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9999963045120239
+          },
+          {
+            "letter": "M",
+            "score": 3.0469232115137856e-06
+          },
+          {
+            "letter": "A",
+            "score": 3.131741834749846e-07
+          }
+        ]
+      },
+      {
+        "clip_id": "db4ecf61814d4a919c14bc8980651e2f",
+        "target": "M",
+        "prediction": "M",
+        "correct": true,
+        "valid_frames": 37,
+        "nll": 0.0003489268537653137,
+        "top3": [
+          {
+            "letter": "M",
+            "score": 0.9996511340141296
+          },
+          {
+            "letter": "N",
+            "score": 0.00032877037301659584
+          },
+          {
+            "letter": "I",
+            "score": 1.3521290384232998e-05
+          }
+        ]
+      },
+      {
+        "clip_id": "e1c65439811e4114b53300f40af1009e",
+        "target": "S",
+        "prediction": "S",
+        "correct": true,
+        "valid_frames": 51,
+        "nll": -0.0,
+        "top3": [
+          {
+            "letter": "S",
+            "score": 1.0
+          },
+          {
+            "letter": "E",
+            "score": 5.100077160591354e-08
+          },
+          {
+            "letter": "M",
+            "score": 3.91055934301221e-08
+          }
+        ]
+      },
+      {
+        "clip_id": "f189e18f4dec45558aed9e324b4acd59",
+        "target": "N",
+        "prediction": "N",
+        "correct": true,
+        "valid_frames": 48,
+        "nll": 2.563003009831205e-06,
+        "top3": [
+          {
+            "letter": "N",
+            "score": 0.9999974370002747
+          },
+          {
+            "letter": "M",
+            "score": 2.411476316410699e-06
+          },
+          {
+            "letter": "I",
+            "score": 5.427211036135304e-08
+          }
+        ]
+      },
+      {
+        "clip_id": "f7025c92c72f4ba3b506d7138a5a88b4",
+        "target": "E",
+        "prediction": "E",
+        "correct": true,
+        "valid_frames": 31,
+        "nll": 7.331398182007022e-06,
+        "top3": [
+          {
+            "letter": "E",
+            "score": 0.9999926686286926
+          },
+          {
+            "letter": "I",
+            "score": 4.647144123737235e-06
+          },
+          {
+            "letter": "X",
+            "score": 2.44307966568158e-06
+          }
+        ]
+      }
+    ]
+  },
+  "baseline_kaggle_validation": {
+    "correct": 10961,
+    "total": 11075,
+    "accuracy": 0.9897065758705139,
+    "loss": 0.04248809441924095,
+    "macro_accuracy": 0.9887024401356578,
+    "per_letter": {
+      "A": {
+        "correct": 430,
+        "total": 436
+      },
+      "B": {
+        "correct": 438,
+        "total": 440
+      },
+      "C": {
+        "correct": 391,
+        "total": 392
+      },
+      "D": {
+        "correct": 489,
+        "total": 491
+      },
+      "E": {
+        "correct": 457,
+        "total": 461
+      },
+      "F": {
+        "correct": 570,
+        "total": 573
+      },
+      "G": {
+        "correct": 486,
+        "total": 486
+      },
+      "H": {
+        "correct": 471,
+        "total": 475
+      },
+      "I": {
+        "correct": 471,
+        "total": 476
+      },
+      "K": {
+        "correct": 535,
+        "total": 540
+      },
+      "L": {
+        "correct": 502,
+        "total": 504
+      },
+      "M": {
+        "correct": 308,
+        "total": 321
+      },
+      "N": {
+        "correct": 245,
+        "total": 255
+      },
+      "O": {
+        "correct": 449,
+        "total": 452
+      },
+      "P": {
+        "correct": 402,
+        "total": 408
+      },
+      "Q": {
+        "correct": 423,
+        "total": 424
+      },
+      "R": {
+        "correct": 503,
+        "total": 509
+      },
+      "S": {
+        "correct": 508,
+        "total": 511
+      },
+      "T": {
+        "correct": 466,
+        "total": 471
+      },
+      "U": {
+        "correct": 492,
+        "total": 502
+      },
+      "V": {
+        "correct": 505,
+        "total": 510
+      },
+      "W": {
+        "correct": 483,
+        "total": 491
+      },
+      "X": {
+        "correct": 423,
+        "total": 431
+      },
+      "Y": {
+        "correct": 514,
+        "total": 516
+      }
+    },
+    "confusion": [
+      [
+        430,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        438,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        391,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        489,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        457,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        570,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        486,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        471,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        471,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        535,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        502,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        308,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        245,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        449,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        402,
+        5,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        423,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        503,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        508,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        466,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        492,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        505,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        5,
+        483,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        3,
+        0,
+        0,
+        0,
+        0,
+        423,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        514
+      ]
+    ]
+  },
+  "adapted_kaggle_validation": {
+    "correct": 10955,
+    "total": 11075,
+    "accuracy": 0.9891647696495056,
+    "loss": 0.04588117450475693,
+    "macro_accuracy": 0.9878259339175773,
+    "per_letter": {
+      "A": {
+        "correct": 431,
+        "total": 436
+      },
+      "B": {
+        "correct": 438,
+        "total": 440
+      },
+      "C": {
+        "correct": 391,
+        "total": 392
+      },
+      "D": {
+        "correct": 487,
+        "total": 491
+      },
+      "E": {
+        "correct": 457,
+        "total": 461
+      },
+      "F": {
+        "correct": 569,
+        "total": 573
+      },
+      "G": {
+        "correct": 486,
+        "total": 486
+      },
+      "H": {
+        "correct": 472,
+        "total": 475
+      },
+      "I": {
+        "correct": 471,
+        "total": 476
+      },
+      "K": {
+        "correct": 534,
+        "total": 540
+      },
+      "L": {
+        "correct": 502,
+        "total": 504
+      },
+      "M": {
+        "correct": 311,
+        "total": 321
+      },
+      "N": {
+        "correct": 238,
+        "total": 255
+      },
+      "O": {
+        "correct": 449,
+        "total": 452
+      },
+      "P": {
+        "correct": 404,
+        "total": 408
+      },
+      "Q": {
+        "correct": 421,
+        "total": 424
+      },
+      "R": {
+        "correct": 503,
+        "total": 509
+      },
+      "S": {
+        "correct": 507,
+        "total": 511
+      },
+      "T": {
+        "correct": 466,
+        "total": 471
+      },
+      "U": {
+        "correct": 492,
+        "total": 502
+      },
+      "V": {
+        "correct": 504,
+        "total": 510
+      },
+      "W": {
+        "correct": 485,
+        "total": 491
+      },
+      "X": {
+        "correct": 423,
+        "total": 431
+      },
+      "Y": {
+        "correct": 514,
+        "total": 516
+      }
+    },
+    "confusion": [
+      [
+        431,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        438,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        391,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        487,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        457,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        569,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        486,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        472,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        471,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        534,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        502,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        311,
+        8,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        238,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        449,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        404,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        421,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        503,
+        0,
+        0,
+        4,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        507,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        466,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        8,
+        0,
+        0,
+        492,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2,
+        504,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        485,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        4,
+        3,
+        0,
+        0,
+        0,
+        0,
+        423,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        514
+      ]
+    ]
+  },
+  "improved_clips": [
+    {
+      "clip_id": "0cebcc54656a48269b331d1d46271c47",
+      "target": "M",
+      "before": "N",
+      "after": "M",
+      "before_top3": [
+        {
+          "letter": "N",
+          "score": 0.8547700643539429
+        },
+        {
+          "letter": "M",
+          "score": 0.08711638301610947
+        },
+        {
+          "letter": "I",
+          "score": 0.03324831649661064
+        }
+      ],
+      "after_top3": [
+        {
+          "letter": "M",
+          "score": 0.997658371925354
+        },
+        {
+          "letter": "N",
+          "score": 0.0023366722743958235
+        },
+        {
+          "letter": "I",
+          "score": 4.323300345276948e-06
+        }
+      ]
+    },
+    {
+      "clip_id": "127def6c23174b718a9c842a256be7a2",
+      "target": "M",
+      "before": "N",
+      "after": "M",
+      "before_top3": [
+        {
+          "letter": "N",
+          "score": 0.856774091720581
+        },
+        {
+          "letter": "M",
+          "score": 0.11215069890022278
+        },
+        {
+          "letter": "I",
+          "score": 0.019868506118655205
+        }
+      ],
+      "after_top3": [
+        {
+          "letter": "M",
+          "score": 0.9978296756744385
+        },
+        {
+          "letter": "N",
+          "score": 0.0021681934595108032
+        },
+        {
+          "letter": "I",
+          "score": 1.9688011434482178e-06
+        }
+      ]
+    },
+    {
+      "clip_id": "3faea694875448bdb009efe017f248c8",
+      "target": "M",
+      "before": "N",
+      "after": "M",
+      "before_top3": [
+        {
+          "letter": "N",
+          "score": 0.6895059943199158
+        },
+        {
+          "letter": "M",
+          "score": 0.30853238701820374
+        },
+        {
+          "letter": "I",
+          "score": 0.0012172497808933258
+        }
+      ],
+      "after_top3": [
+        {
+          "letter": "M",
+          "score": 0.9865500330924988
+        },
+        {
+          "letter": "N",
+          "score": 0.013449355028569698
+        },
+        {
+          "letter": "I",
+          "score": 3.7094073945809214e-07
+        }
+      ]
+    },
+    {
+      "clip_id": "6bc2c2dfdd654a1aa45d073513624cc0",
+      "target": "M",
+      "before": "N",
+      "after": "M",
+      "before_top3": [
+        {
+          "letter": "N",
+          "score": 0.815772533416748
+        },
+        {
+          "letter": "M",
+          "score": 0.09987615793943405
+        },
+        {
+          "letter": "I",
+          "score": 0.05487010255455971
+        }
+      ],
+      "after_top3": [
+        {
+          "letter": "M",
+          "score": 0.9976271986961365
+        },
+        {
+          "letter": "N",
+          "score": 0.0023694538976997137
+        },
+        {
+          "letter": "I",
+          "score": 2.8459396617108723e-06
+        }
+      ]
+    },
+    {
+      "clip_id": "a2961067daf546b6841e2cdd2a271929",
+      "target": "M",
+      "before": "N",
+      "after": "M",
+      "before_top3": [
+        {
+          "letter": "N",
+          "score": 0.7984163761138916
+        },
+        {
+          "letter": "M",
+          "score": 0.20103417336940765
+        },
+        {
+          "letter": "I",
+          "score": 0.00033724159584380686
+        }
+      ],
+      "after_top3": [
+        {
+          "letter": "M",
+          "score": 0.9706616401672363
+        },
+        {
+          "letter": "N",
+          "score": 0.02933783456683159
+        },
+        {
+          "letter": "I",
+          "score": 3.1920620813252754e-07
+        }
+      ]
+    }
+  ],
+  "regressed_clips": [],
+  "changed_predictions": [
+    {
+      "clip_id": "0cebcc54656a48269b331d1d46271c47",
+      "target": "M",
+      "before": "N",
+      "after": "M",
+      "before_top3": [
+        {
+          "letter": "N",
+          "score": 0.8547700643539429
+        },
+        {
+          "letter": "M",
+          "score": 0.08711638301610947
+        },
+        {
+          "letter": "I",
+          "score": 0.03324831649661064
+        }
+      ],
+      "after_top3": [
+        {
+          "letter": "M",
+          "score": 0.997658371925354
+        },
+        {
+          "letter": "N",
+          "score": 0.0023366722743958235
+        },
+        {
+          "letter": "I",
+          "score": 4.323300345276948e-06
+        }
+      ]
+    },
+    {
+      "clip_id": "127def6c23174b718a9c842a256be7a2",
+      "target": "M",
+      "before": "N",
+      "after": "M",
+      "before_top3": [
+        {
+          "letter": "N",
+          "score": 0.856774091720581
+        },
+        {
+          "letter": "M",
+          "score": 0.11215069890022278
+        },
+        {
+          "letter": "I",
+          "score": 0.019868506118655205
+        }
+      ],
+      "after_top3": [
+        {
+          "letter": "M",
+          "score": 0.9978296756744385
+        },
+        {
+          "letter": "N",
+          "score": 0.0021681934595108032
+        },
+        {
+          "letter": "I",
+          "score": 1.9688011434482178e-06
+        }
+      ]
+    },
+    {
+      "clip_id": "3faea694875448bdb009efe017f248c8",
+      "target": "M",
+      "before": "N",
+      "after": "M",
+      "before_top3": [
+        {
+          "letter": "N",
+          "score": 0.6895059943199158
+        },
+        {
+          "letter": "M",
+          "score": 0.30853238701820374
+        },
+        {
+          "letter": "I",
+          "score": 0.0012172497808933258
+        }
+      ],
+      "after_top3": [
+        {
+          "letter": "M",
+          "score": 0.9865500330924988
+        },
+        {
+          "letter": "N",
+          "score": 0.013449355028569698
+        },
+        {
+          "letter": "I",
+          "score": 3.7094073945809214e-07
+        }
+      ]
+    },
+    {
+      "clip_id": "6bc2c2dfdd654a1aa45d073513624cc0",
+      "target": "M",
+      "before": "N",
+      "after": "M",
+      "before_top3": [
+        {
+          "letter": "N",
+          "score": 0.815772533416748
+        },
+        {
+          "letter": "M",
+          "score": 0.09987615793943405
+        },
+        {
+          "letter": "I",
+          "score": 0.05487010255455971
+        }
+      ],
+      "after_top3": [
+        {
+          "letter": "M",
+          "score": 0.9976271986961365
+        },
+        {
+          "letter": "N",
+          "score": 0.0023694538976997137
+        },
+        {
+          "letter": "I",
+          "score": 2.8459396617108723e-06
+        }
+      ]
+    },
+    {
+      "clip_id": "a2961067daf546b6841e2cdd2a271929",
+      "target": "M",
+      "before": "N",
+      "after": "M",
+      "before_top3": [
+        {
+          "letter": "N",
+          "score": 0.7984163761138916
+        },
+        {
+          "letter": "M",
+          "score": 0.20103417336940765
+        },
+        {
+          "letter": "I",
+          "score": 0.00033724159584380686
+        }
+      ],
+      "after_top3": [
+        {
+          "letter": "M",
+          "score": 0.9706616401672363
+        },
+        {
+          "letter": "N",
+          "score": 0.02933783456683159
+        },
+        {
+          "letter": "I",
+          "score": 3.1920620813252754e-07
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "train_sampled_loss": 0.22341782692819834,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.011601617459102312
+    },
+    {
+      "epoch": 2,
+      "train_sampled_loss": 0.053031937051564455,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.004910808132414395
+    },
+    {
+      "epoch": 3,
+      "train_sampled_loss": 0.03540592676959932,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.003110203517560201
+    },
+    {
+      "epoch": 4,
+      "train_sampled_loss": 0.029270097762346268,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0024638953297441246
+    },
+    {
+      "epoch": 5,
+      "train_sampled_loss": 0.024582791347056626,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0020620370157792755
+    },
+    {
+      "epoch": 6,
+      "train_sampled_loss": 0.02478878459893167,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.002262662829857899
+    },
+    {
+      "epoch": 7,
+      "train_sampled_loss": 0.0230449144449085,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.001844724057889906
+    },
+    {
+      "epoch": 8,
+      "train_sampled_loss": 0.021363192074932157,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0021399483793102087
+    },
+    {
+      "epoch": 9,
+      "train_sampled_loss": 0.020087408553808927,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.002232616362591984
+    },
+    {
+      "epoch": 10,
+      "train_sampled_loss": 0.022830546197947114,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.002093709295715729
+    },
+    {
+      "epoch": 11,
+      "train_sampled_loss": 0.02011668311199173,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0017901101628844062
+    },
+    {
+      "epoch": 12,
+      "train_sampled_loss": 0.018968954815063624,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0019150369312863117
+    },
+    {
+      "epoch": 13,
+      "train_sampled_loss": 0.016795189850963652,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0017504071294477403
+    },
+    {
+      "epoch": 14,
+      "train_sampled_loss": 0.01741091576172039,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.001674551713622975
+    },
+    {
+      "epoch": 15,
+      "train_sampled_loss": 0.0183015505108051,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0016322148019583527
+    },
+    {
+      "epoch": 16,
+      "train_sampled_loss": 0.017632953333668412,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0017433807005491297
+    },
+    {
+      "epoch": 17,
+      "train_sampled_loss": 0.01739246869459748,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0016189001505599661
+    },
+    {
+      "epoch": 18,
+      "train_sampled_loss": 0.01636295975651592,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0014809966434298281
+    },
+    {
+      "epoch": 19,
+      "train_sampled_loss": 0.017655310041736812,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0013441263410322204
+    },
+    {
+      "epoch": 20,
+      "train_sampled_loss": 0.017155841442290695,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0016648536399030197
+    },
+    {
+      "epoch": 21,
+      "train_sampled_loss": 0.01583549614995718,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0014150795646243586
+    },
+    {
+      "epoch": 22,
+      "train_sampled_loss": 0.016765250767348333,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0019606565862729233
+    },
+    {
+      "epoch": 23,
+      "train_sampled_loss": 0.016397868902422487,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0017988233134085371
+    },
+    {
+      "epoch": 24,
+      "train_sampled_loss": 0.01471254521748051,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.001672197139166044
+    },
+    {
+      "epoch": 25,
+      "train_sampled_loss": 0.01634911763481796,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0014207368640346866
+    },
+    {
+      "epoch": 26,
+      "train_sampled_loss": 0.014865080523304642,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0013876132339495173
+    },
+    {
+      "epoch": 27,
+      "train_sampled_loss": 0.019315428885165603,
+      "s03_correct": 40,
+      "s03_total": 40,
+      "s03_macro_accuracy": 1.0,
+      "s03_macro_nll": 0.0017104626652253705
+    }
+  ],
+  "actual_camera_draws_by_clip": {
+    "4b852176c00d47a898255ff2b51bbe17": 14237,
+    "01e672ed7d7d4683af41d01510bd76fb": 8023,
+    "db4ecf61814d4a919c14bc8980651e2f": 7728,
+    "e1c65439811e4114b53300f40af1009e": 17311,
+    "7b20b6d3c7d046a6a4cbddaad13e97ae": 7841,
+    "7a3556270daa4d4b9bc7d4b8efc03320": 12525,
+    "0f6fde9e5a03435ea8e1ecf49aa71517": 7775,
+    "d3e063f098154557b303b392472d842a": 17155,
+    "c8ecd7c2857c4e2cb8c2551f41da56c9": 8028,
+    "35f0c05b4ad94baf9891ce1bb08cc0a9": 7823,
+    "12b5ee4467d041dfa7f61f4061ea5034": 7707,
+    "9bdb30bb77f94801a33d418c27e115c8": 17231,
+    "68558c8478c94ba9b9093d30a870173c": 7759,
+    "63b440d8539e4822846dcdd8a330467e": 17294,
+    "90dc53bfc1654153a3dcb724ece628ab": 12324,
+    "793d15331bbe45d3b7bc4684a331b427": 17315,
+    "1f1aa8a488bd46cfb4e5d581a1c42c59": 12386,
+    "93f407688dd748cfa83a64a415f54729": 14488,
+    "d338d5bbd30d4672ae53b8df95a8e09e": 12315,
+    "f7025c92c72f4ba3b506d7138a5a88b4": 14518,
+    "57232fe3693943288b9d968d12dc2c19": 12265,
+    "b1e545df3f904f26b7dcbd47734c8205": 7833,
+    "f189e18f4dec45558aed9e324b4acd59": 12349,
+    "80a23b32cb3c4ccc8a15bfa8d41a4d95": 14434,
+    "22ecb1f2af7545668fc0339d0427fe41": 14400,
+    "085e350372114b4b963fe65e667086ef": 14603,
+    "da3d056138354623a4d411e17a15bbb2": 12336,
+    "60ef97b4bbdf4ebea1e3efe3af284def": 7723,
+    "91ad3f2f38e64bbea557e770b400352f": 7874
+  },
+  "actual_kaggle_draws_by_class": {
+    "B": 14374,
+    "C": 14308,
+    "N": 14584,
+    "M": 14549,
+    "X": 14410,
+    "D": 14531,
+    "K": 14473,
+    "V": 14391,
+    "P": 14379,
+    "R": 14270,
+    "L": 14212,
+    "H": 14359,
+    "A": 14416,
+    "G": 14423,
+    "F": 14394,
+    "Y": 14399,
+    "Q": 14369,
+    "O": 14252,
+    "S": 14308,
+    "I": 14519,
+    "W": 14541,
+    "E": 14441,
+    "U": 14551,
+    "T": 14147
+  },
+  "output_checkpoint": "models/mlp_static_adapted.pt",
+  "output_sha256": "d38c640d8b1bd92f98761a153e596212225600d3b6901810ca655760664cd2ef",
+  "interpretation": "s03 is validation used for selection, not an untouched test; only one signer. Kaggle validation monitored before/after, not used for selection."
+}

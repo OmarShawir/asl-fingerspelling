@@ -1,0 +1,5 @@
+split,model,sequences,cer,exact,empty,deletions,substitutions,insertions,predicted_characters,j_emitted,z_emitted,q_emitted,space_emitted
+validation,pilot,978,0.5059391987114958,110,35,1395,987,131,3703,0,0,0,0
+validation,long,978,0.4270183209180592,170,17,1072,855,194,4089,4,3,0,3
+train,pilot,5433,0.4933328666923319,803,299,9047,4482,567,20093,0,0,0,0
+train,long,5433,0.2891190984495853,2210,121,5620,2217,424,23377,33,34,0,13

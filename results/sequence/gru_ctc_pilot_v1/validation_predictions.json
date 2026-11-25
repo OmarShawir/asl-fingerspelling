@@ -1,0 +1,7866 @@
+{
+  "metrics": {
+    "sequences": 978,
+    "reference_characters": 4967,
+    "character_edits": 2513,
+    "cer": 0.5059391987114958,
+    "exact": 110,
+    "exact_accuracy": 0.11247443762781185,
+    "empty": 35,
+    "empty_rate": 0.03578732106339468,
+    "ctc_loss": 1.8556342912746258,
+    "ctc_loss_denominator": 976,
+    "ctc_loss_skipped": 2,
+    "ctc_loss_skipped_ids": [
+      "youtube_4/sean_berdy_5756",
+      "youtube_5/jeffrey_spinale_6043"
+    ],
+    "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+    "j_subset": {
+      "sequences": 15,
+      "reference_characters": 136,
+      "character_edits": 85,
+      "cer": 0.625,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 0,
+      "empty_rate": 0.0
+    },
+    "z_subset": {
+      "sequences": 18,
+      "reference_characters": 136,
+      "character_edits": 77,
+      "cer": 0.5661764705882353,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 0,
+      "empty_rate": 0.0
+    }
+  },
+  "predictions": [
+    {
+      "id": "aslized/joy_maisel_6419",
+      "signer": "0087",
+      "target": "joy maisel",
+      "prediction": "saioaisl",
+      "frames": 66,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "aslized/joy_maisel_6420",
+      "signer": "0087",
+      "target": "aslized",
+      "prediction": "asliatc",
+      "frames": 35,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/joy_maisel_6421",
+      "signer": "0087",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/joy_maisel_6422",
+      "signer": "0087",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/joy_maisel_6423",
+      "signer": "0087",
+      "target": "fiction",
+      "prediction": "fictinn",
+      "frames": 40,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/joy_maisel_6424",
+      "signer": "0087",
+      "target": "coda",
+      "prediction": "oda",
+      "frames": 29,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/joy_maisel_6425",
+      "signer": "0087",
+      "target": "of",
+      "prediction": "f",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "aslized/joy_maisel_6426",
+      "signer": "0087",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 38,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/joy_maisel_6427",
+      "signer": "0087",
+      "target": "asl corpus",
+      "prediction": "aslrvs",
+      "frames": 54,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "aslized/joy_maisel_6428",
+      "signer": "0087",
+      "target": "asl copupus",
+      "prediction": "aslobpa",
+      "frames": 47,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "aslized/joy_maisel_6429",
+      "signer": "0087",
+      "target": "fiction",
+      "prediction": "fictien",
+      "frames": 38,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/joy_maisel_6430",
+      "signer": "0087",
+      "target": "fiction",
+      "prediction": "fictien",
+      "frames": 33,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/joy_maisel_6431",
+      "signer": "0087",
+      "target": "fiction",
+      "prediction": "fctin",
+      "frames": 37,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/joy_maisel_6432",
+      "signer": "0087",
+      "target": "fiction",
+      "prediction": "ictien",
+      "frames": 33,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/joy_maisel_6433",
+      "signer": "0087",
+      "target": "fun",
+      "prediction": "fun",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/joy_maisel_6434",
+      "signer": "0087",
+      "target": "youtube link",
+      "prediction": "iortvelink",
+      "frames": 71,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "aslized/joy_maisel_6435",
+      "signer": "0087",
+      "target": "slide",
+      "prediction": "slide",
+      "frames": 25,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/joy_maisel_6436",
+      "signer": "0087",
+      "target": "fiction",
+      "prediction": "fictien",
+      "frames": 30,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/joy_maisel_6437",
+      "signer": "0087",
+      "target": "or",
+      "prediction": "r",
+      "frames": 9,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "aslized/joy_maisel_6438",
+      "signer": "0087",
+      "target": "fiction",
+      "prediction": "efictien",
+      "frames": 41,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/joy_maisel_6439",
+      "signer": "0087",
+      "target": "solid",
+      "prediction": "solid",
+      "frames": 24,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/joy_maisel_6440",
+      "signer": "0087",
+      "target": "props",
+      "prediction": "puopa",
+      "frames": 33,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/joy_maisel_6441",
+      "signer": "0087",
+      "target": "or",
+      "prediction": "er",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "aslized/joy_maisel_6442",
+      "signer": "0087",
+      "target": "fcts",
+      "prediction": "ft",
+      "frames": 36,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/joy_maisel_6443",
+      "signer": "0087",
+      "target": "ficion",
+      "prediction": "fcn",
+      "frames": 24,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "aslized/joy_maisel_6444",
+      "signer": "0087",
+      "target": "ficton",
+      "prediction": "ficin",
+      "frames": 22,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "aslized/joy_maisel_6445",
+      "signer": "0087",
+      "target": "or",
+      "prediction": "r",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "aslized/joy_maisel_6446",
+      "signer": "0087",
+      "target": "disq",
+      "prediction": "i",
+      "frames": 24,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/suzanne_stecker_0194",
+      "signer": "0088",
+      "target": "textfields",
+      "prediction": "tetfiela",
+      "frames": 70,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "aslized/suzanne_stecker_0195",
+      "signer": "0088",
+      "target": "copy",
+      "prediction": "ilcopi",
+      "frames": 33,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/suzanne_stecker_0196",
+      "signer": "0088",
+      "target": "paste",
+      "prediction": "paste",
+      "frames": 51,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/suzanne_stecker_0197",
+      "signer": "0088",
+      "target": "aslized",
+      "prediction": "aasliel",
+      "frames": 49,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/suzanne_stecker_0198",
+      "signer": "0088",
+      "target": "android",
+      "prediction": "andreil",
+      "frames": 45,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/suzanne_stecker_0199",
+      "signer": "0088",
+      "target": "unicode",
+      "prediction": "unicede",
+      "frames": 56,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/suzanne_stecker_0200",
+      "signer": "0088",
+      "target": "unicode",
+      "prediction": "icole",
+      "frames": 28,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/suzanne_stecker_0201",
+      "signer": "0088",
+      "target": "goole",
+      "prediction": "ole",
+      "frames": 38,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "aslized/suzanne_stecker_0202",
+      "signer": "0088",
+      "target": "microfsoft",
+      "prediction": "micosft",
+      "frames": 71,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "aslized/suzanne_stecker_0203",
+      "signer": "0088",
+      "target": "twitter",
+      "prediction": "twitert",
+      "frames": 35,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "aslized/suzanne_stecker_0204",
+      "signer": "0088",
+      "target": "asl or",
+      "prediction": "aslr",
+      "frames": 29,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "aslized/suzanne_stecker_0205",
+      "signer": "0088",
+      "target": "aslized",
+      "prediction": "aslie",
+      "frames": 48,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/suzanne_stecker_0206",
+      "signer": "0088",
+      "target": "copy",
+      "prediction": "ci",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/suzanne_stecker_0207",
+      "signer": "0088",
+      "target": "paste",
+      "prediction": "paste",
+      "frames": 42,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/suzanne_stecker_0208",
+      "signer": "0088",
+      "target": "gif",
+      "prediction": "gaiff",
+      "frames": 22,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0241",
+      "signer": "0088",
+      "target": "aslized",
+      "prediction": "aslid",
+      "frames": 53,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/suzanne_stecker_0242",
+      "signer": "0088",
+      "target": "deadline",
+      "prediction": "poaldine",
+      "frames": 40,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "aslized/suzanne_stecker_0243",
+      "signer": "0088",
+      "target": "aslized",
+      "prediction": "aslil",
+      "frames": 33,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/suzanne_stecker_0244",
+      "signer": "0088",
+      "target": "cards",
+      "prediction": "pcaut",
+      "frames": 25,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/suzanne_stecker_0245",
+      "signer": "0088",
+      "target": "specs",
+      "prediction": "tpeca",
+      "frames": 33,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/suzanne_stecker_0246",
+      "signer": "0088",
+      "target": "aslized",
+      "prediction": "aslil",
+      "frames": 35,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/suzanne_stecker_0247",
+      "signer": "0088",
+      "target": "june",
+      "prediction": "ihne",
+      "frames": 32,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/suzanne_stecker_0248",
+      "signer": "0088",
+      "target": "ed",
+      "prediction": "od",
+      "frames": 20,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "aslized/suzanne_stecker_0250",
+      "signer": "0088",
+      "target": "cite",
+      "prediction": "ite",
+      "frames": 49,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/suzanne_stecker_0251",
+      "signer": "0088",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 49,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0252",
+      "signer": "0088",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 28,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0253",
+      "signer": "0088",
+      "target": "asl",
+      "prediction": "al",
+      "frames": 19,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0254",
+      "signer": "0088",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 26,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0255",
+      "signer": "0088",
+      "target": "video",
+      "prediction": "aie",
+      "frames": 26,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/suzanne_stecker_0256",
+      "signer": "0088",
+      "target": "animators",
+      "prediction": "aniara",
+      "frames": 39,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "aslized/suzanne_stecker_0257",
+      "signer": "0088",
+      "target": "can",
+      "prediction": "pcna",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0258",
+      "signer": "0088",
+      "target": "fund",
+      "prediction": "ifund",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/suzanne_stecker_0259",
+      "signer": "0088",
+      "target": "asl",
+      "prediction": "al",
+      "frames": 19,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0260",
+      "signer": "0088",
+      "target": "poker",
+      "prediction": "pkor",
+      "frames": 35,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/suzanne_stecker_0261",
+      "signer": "0088",
+      "target": "eche rummy",
+      "prediction": "oerei",
+      "frames": 71,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "aslized/suzanne_stecker_0262",
+      "signer": "0088",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0263",
+      "signer": "0088",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 50,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0264",
+      "signer": "0088",
+      "target": "art",
+      "prediction": "art",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0265",
+      "signer": "0088",
+      "target": "media",
+      "prediction": "mla",
+      "frames": 25,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/suzanne_stecker_0266",
+      "signer": "0088",
+      "target": "dpi",
+      "prediction": "dpi",
+      "frames": 46,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0267",
+      "signer": "0088",
+      "target": "ian guzman",
+      "prediction": "tianrtman",
+      "frames": 76,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "aslized/suzanne_stecker_0268",
+      "signer": "0088",
+      "target": "art",
+      "prediction": "ana",
+      "frames": 18,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0269",
+      "signer": "0088",
+      "target": "media",
+      "prediction": "oela",
+      "frames": 22,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/suzanne_stecker_0270",
+      "signer": "0088",
+      "target": "files",
+      "prediction": "filea",
+      "frames": 32,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/suzanne_stecker_0271",
+      "signer": "0088",
+      "target": "fobm",
+      "prediction": "pfeors",
+      "frames": 43,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/suzanne_stecker_0272",
+      "signer": "0088",
+      "target": "aslized",
+      "prediction": "asl",
+      "frames": 40,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "aslized/suzanne_stecker_0273",
+      "signer": "0088",
+      "target": "if",
+      "prediction": "if",
+      "frames": 20,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "aslized/suzanne_stecker_0274",
+      "signer": "0088",
+      "target": "do",
+      "prediction": "ali",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "aslized/suzanne_stecker_0275",
+      "signer": "0088",
+      "target": "grm",
+      "prediction": "n",
+      "frames": 18,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0276",
+      "signer": "0088",
+      "target": "feb",
+      "prediction": "fer",
+      "frames": 35,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0277",
+      "signer": "0088",
+      "target": "ian",
+      "prediction": "ian",
+      "frames": 30,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "aslized/suzanne_stecker_0279",
+      "signer": "0088",
+      "target": "aslized facebook",
+      "prediction": "aslilfacebk",
+      "frames": 69,
+      "ctc_minimum": 17
+    },
+    {
+      "id": "aslized/suzanne_stecker_0280",
+      "signer": "0088",
+      "target": "page",
+      "prediction": "kape",
+      "frames": 42,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/suzanne_stecker_0281",
+      "signer": "0088",
+      "target": "vido",
+      "prediction": "avis",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/suzanne_stecker_0282",
+      "signer": "0088",
+      "target": "aslized or",
+      "prediction": "aaligarl",
+      "frames": 47,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "aslized/suzanne_stecker_0283",
+      "signer": "0088",
+      "target": "aslizd",
+      "prediction": "laill",
+      "frames": 34,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "aslized/suzanne_stecker_0284",
+      "signer": "0088",
+      "target": "page",
+      "prediction": "pale",
+      "frames": 29,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "aslized/suzanne_stecker_0285",
+      "signer": "0088",
+      "target": "or",
+      "prediction": "okv",
+      "frames": 17,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "aslized/suzanne_stecker_0286",
+      "signer": "0088",
+      "target": "email",
+      "prediction": "eal",
+      "frames": 18,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "aslized/suzanne_stecker_0287",
+      "signer": "0088",
+      "target": "ok",
+      "prediction": "ok",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1661",
+      "signer": "0089",
+      "target": "up date sc",
+      "prediction": "rpate",
+      "frames": 62,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1662",
+      "signer": "0089",
+      "target": "sc",
+      "prediction": "",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1663",
+      "signer": "0089",
+      "target": "mis",
+      "prediction": "ih",
+      "frames": 20,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1665",
+      "signer": "0089",
+      "target": "or",
+      "prediction": "",
+      "frames": 24,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1666",
+      "signer": "0089",
+      "target": "sc",
+      "prediction": "sc",
+      "frames": 22,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1667",
+      "signer": "0089",
+      "target": "mall",
+      "prediction": "eal",
+      "frames": 26,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1668",
+      "signer": "0089",
+      "target": "csubia",
+      "prediction": "cvisa",
+      "frames": 67,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1669",
+      "signer": "0089",
+      "target": "bitesl",
+      "prediction": "cide",
+      "frames": 25,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1670",
+      "signer": "0089",
+      "target": "md",
+      "prediction": "mel",
+      "frames": 26,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1671",
+      "signer": "0089",
+      "target": "la",
+      "prediction": "assp",
+      "frames": 18,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1672",
+      "signer": "0089",
+      "target": "md",
+      "prediction": "c",
+      "frames": 32,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1673",
+      "signer": "0089",
+      "target": "la",
+      "prediction": "als",
+      "frames": 14,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/confederateboy_1674",
+      "signer": "0089",
+      "target": "of",
+      "prediction": "o",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1782",
+      "signer": "0090",
+      "target": "tump",
+      "prediction": "trom",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1783",
+      "signer": "0090",
+      "target": "tump",
+      "prediction": "trm",
+      "frames": 17,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1784",
+      "signer": "0090",
+      "target": "tump",
+      "prediction": "semt",
+      "frames": 24,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1785",
+      "signer": "0090",
+      "target": "tmp",
+      "prediction": "t",
+      "frames": 19,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1786",
+      "signer": "0090",
+      "target": "tump",
+      "prediction": "tare",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1787",
+      "signer": "0090",
+      "target": "wow",
+      "prediction": "wow",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1788",
+      "signer": "0090",
+      "target": "wow",
+      "prediction": "wew",
+      "frames": 13,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1789",
+      "signer": "0090",
+      "target": "un",
+      "prediction": "n",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1790",
+      "signer": "0090",
+      "target": "tump",
+      "prediction": "tsrep",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1791",
+      "signer": "0090",
+      "target": "so",
+      "prediction": "so",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1792",
+      "signer": "0090",
+      "target": "gvn",
+      "prediction": "trn",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1793",
+      "signer": "0090",
+      "target": "gvn",
+      "prediction": "tvn",
+      "frames": 11,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1794",
+      "signer": "0090",
+      "target": "gvn",
+      "prediction": "tvn",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1795",
+      "signer": "0090",
+      "target": "walstre",
+      "prediction": "wslstes",
+      "frames": 28,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1796",
+      "signer": "0090",
+      "target": "gvn",
+      "prediction": "trn",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1797",
+      "signer": "0090",
+      "target": "en",
+      "prediction": "eon",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1798",
+      "signer": "0090",
+      "target": "bus",
+      "prediction": "ws",
+      "frames": 18,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/deafpoweronethumbtwo_1799",
+      "signer": "0090",
+      "target": "gvn",
+      "prediction": "trn",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2274",
+      "signer": "0091",
+      "target": "pearl",
+      "prediction": "ar",
+      "frames": 45,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2275",
+      "signer": "0091",
+      "target": "nikka",
+      "prediction": "ni",
+      "frames": 56,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2276",
+      "signer": "0091",
+      "target": "abces",
+      "prediction": "aon",
+      "frames": 22,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2277",
+      "signer": "0091",
+      "target": "ok",
+      "prediction": "ok",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2278",
+      "signer": "0091",
+      "target": "all",
+      "prediction": "as",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2279",
+      "signer": "0091",
+      "target": "yratd",
+      "prediction": "in",
+      "frames": 25,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2280",
+      "signer": "0091",
+      "target": "scs",
+      "prediction": "oo",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2281",
+      "signer": "0091",
+      "target": "mexer",
+      "prediction": "",
+      "frames": 23,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2282",
+      "signer": "0091",
+      "target": "hell",
+      "prediction": "",
+      "frames": 21,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2283",
+      "signer": "0091",
+      "target": "of all",
+      "prediction": "ad",
+      "frames": 17,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2284",
+      "signer": "0091",
+      "target": "if",
+      "prediction": "f",
+      "frames": 9,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2285",
+      "signer": "0091",
+      "target": "all",
+      "prediction": "a",
+      "frames": 14,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2286",
+      "signer": "0091",
+      "target": "yout",
+      "prediction": "aokt",
+      "frames": 20,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2287",
+      "signer": "0091",
+      "target": "ltway",
+      "prediction": "a",
+      "frames": 13,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2288",
+      "signer": "0091",
+      "target": "halhelink",
+      "prediction": "lo",
+      "frames": 36,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2289",
+      "signer": "0091",
+      "target": "feak",
+      "prediction": "t",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2290",
+      "signer": "0091",
+      "target": "aci",
+      "prediction": "aps",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2291",
+      "signer": "0091",
+      "target": "fell",
+      "prediction": "f",
+      "frames": 19,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2292",
+      "signer": "0091",
+      "target": "stairs",
+      "prediction": "stirs",
+      "frames": 22,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2293",
+      "signer": "0091",
+      "target": "so",
+      "prediction": "",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2294",
+      "signer": "0091",
+      "target": "railine",
+      "prediction": "oai",
+      "frames": 24,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2295",
+      "signer": "0091",
+      "target": "mathews",
+      "prediction": "atlrs",
+      "frames": 33,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2296",
+      "signer": "0091",
+      "target": "matosead",
+      "prediction": "teeet",
+      "frames": 27,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2297",
+      "signer": "0091",
+      "target": "doc",
+      "prediction": "oc",
+      "frames": 11,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2298",
+      "signer": "0091",
+      "target": "her",
+      "prediction": "r",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2299",
+      "signer": "0091",
+      "target": "inox",
+      "prediction": "mo",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/fairytales9_2300",
+      "signer": "0091",
+      "target": "xray o",
+      "prediction": "o",
+      "frames": 13,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/goatman_1519",
+      "signer": "0092",
+      "target": "so",
+      "prediction": "",
+      "frames": 15,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/goatman_1520",
+      "signer": "0092",
+      "target": "date",
+      "prediction": "dato",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1521",
+      "signer": "0092",
+      "target": "so",
+      "prediction": "",
+      "frames": 15,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/goatman_1522",
+      "signer": "0092",
+      "target": "line",
+      "prediction": "diane",
+      "frames": 29,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1523",
+      "signer": "0092",
+      "target": "date",
+      "prediction": "odat",
+      "frames": 20,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1524",
+      "signer": "0092",
+      "target": "date",
+      "prediction": "lat",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1525",
+      "signer": "0092",
+      "target": "date",
+      "prediction": "dato",
+      "frames": 24,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1526",
+      "signer": "0092",
+      "target": "date",
+      "prediction": "olato",
+      "frames": 20,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1527",
+      "signer": "0092",
+      "target": "is",
+      "prediction": "is",
+      "frames": 16,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/goatman_1528",
+      "signer": "0092",
+      "target": "neb",
+      "prediction": "l",
+      "frames": 25,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/goatman_1529",
+      "signer": "0092",
+      "target": "date",
+      "prediction": "odate",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1530",
+      "signer": "0092",
+      "target": "date",
+      "prediction": "lato",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1531",
+      "signer": "0092",
+      "target": "neb",
+      "prediction": "onbe",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/goatman_1532",
+      "signer": "0092",
+      "target": "date",
+      "prediction": "eto",
+      "frames": 24,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1533",
+      "signer": "0092",
+      "target": "pen",
+      "prediction": "ea",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/goatman_1534",
+      "signer": "0092",
+      "target": "va",
+      "prediction": "va",
+      "frames": 30,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/goatman_1535",
+      "signer": "0092",
+      "target": "dc",
+      "prediction": "d",
+      "frames": 18,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/goatman_1536",
+      "signer": "0092",
+      "target": "oregon",
+      "prediction": "eree",
+      "frames": 51,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/goatman_1537",
+      "signer": "0092",
+      "target": "utah",
+      "prediction": "ut",
+      "frames": 42,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1538",
+      "signer": "0092",
+      "target": "vermont",
+      "prediction": "uort",
+      "frames": 52,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_2/goatman_1539",
+      "signer": "0092",
+      "target": "date",
+      "prediction": "udat",
+      "frames": 21,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1540",
+      "signer": "0092",
+      "target": "sc",
+      "prediction": "asc",
+      "frames": 32,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/goatman_1541",
+      "signer": "0092",
+      "target": "sc",
+      "prediction": "sb",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/goatman_1542",
+      "signer": "0092",
+      "target": "oklahoma",
+      "prediction": "okaea",
+      "frames": 70,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_2/goatman_1543",
+      "signer": "0092",
+      "target": "ohio",
+      "prediction": "ei",
+      "frames": 27,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/goatman_1544",
+      "signer": "0092",
+      "target": "nc",
+      "prediction": "n",
+      "frames": 20,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/goatman_1545",
+      "signer": "0092",
+      "target": "date",
+      "prediction": "lat",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1546",
+      "signer": "0093",
+      "target": "savior",
+      "prediction": "eovier",
+      "frames": 47,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1547",
+      "signer": "0093",
+      "target": "or",
+      "prediction": "er",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1548",
+      "signer": "0093",
+      "target": "sam",
+      "prediction": "sm",
+      "frames": 38,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1549",
+      "signer": "0093",
+      "target": "was",
+      "prediction": "wtas",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1550",
+      "signer": "0093",
+      "target": "of",
+      "prediction": "f",
+      "frames": 18,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1551",
+      "signer": "0093",
+      "target": "of",
+      "prediction": "cec",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1552",
+      "signer": "0093",
+      "target": "evil",
+      "prediction": "evil",
+      "frames": 54,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1553",
+      "signer": "0093",
+      "target": "or",
+      "prediction": "er",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1554",
+      "signer": "0093",
+      "target": "isaiah",
+      "prediction": "es",
+      "frames": 29,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1555",
+      "signer": "0093",
+      "target": "i dash i",
+      "prediction": "cidahti",
+      "frames": 72,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1556",
+      "signer": "0093",
+      "target": "savoir",
+      "prediction": "svsr",
+      "frames": 28,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1557",
+      "signer": "0093",
+      "target": "sam",
+      "prediction": "etm",
+      "frames": 35,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1558",
+      "signer": "0093",
+      "target": "at",
+      "prediction": "t",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1559",
+      "signer": "0093",
+      "target": "saved",
+      "prediction": "ved",
+      "frames": 50,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1560",
+      "signer": "0093",
+      "target": "so",
+      "prediction": "sa",
+      "frames": 9,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1561",
+      "signer": "0093",
+      "target": "or",
+      "prediction": "eor",
+      "frames": 16,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1562",
+      "signer": "0093",
+      "target": "titus",
+      "prediction": "erltitvs",
+      "frames": 48,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1563",
+      "signer": "0093",
+      "target": "darn",
+      "prediction": "idadrn",
+      "frames": 28,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1564",
+      "signer": "0093",
+      "target": "savior",
+      "prediction": "ouier",
+      "frames": 47,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1565",
+      "signer": "0093",
+      "target": "or",
+      "prediction": "ber",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1566",
+      "signer": "0093",
+      "target": "jude",
+      "prediction": "isvde",
+      "frames": 52,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1567",
+      "signer": "0093",
+      "target": "the only",
+      "prediction": "theli",
+      "frames": 139,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1568",
+      "signer": "0093",
+      "target": "only",
+      "prediction": "knvliw",
+      "frames": 75,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1569",
+      "signer": "0093",
+      "target": "savior",
+      "prediction": "eavier",
+      "frames": 90,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1570",
+      "signer": "0093",
+      "target": "be",
+      "prediction": "le",
+      "frames": 23,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1571",
+      "signer": "0093",
+      "target": "or",
+      "prediction": "or",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1572",
+      "signer": "0093",
+      "target": "acts",
+      "prediction": "sactn",
+      "frames": 39,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1573",
+      "signer": "0093",
+      "target": "exalted",
+      "prediction": "cesaled",
+      "frames": 108,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1574",
+      "signer": "0093",
+      "target": "or",
+      "prediction": "er",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1575",
+      "signer": "0093",
+      "target": "or",
+      "prediction": "er",
+      "frames": 14,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1576",
+      "signer": "0093",
+      "target": "cheif",
+      "prediction": "ceif",
+      "frames": 86,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1577",
+      "signer": "0093",
+      "target": "cheif",
+      "prediction": "fneif",
+      "frames": 108,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1578",
+      "signer": "0093",
+      "target": "agent",
+      "prediction": "eenat",
+      "frames": 81,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1579",
+      "signer": "0093",
+      "target": "savior",
+      "prediction": "sairs",
+      "frames": 25,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1580",
+      "signer": "0093",
+      "target": "agents",
+      "prediction": "ssgstes",
+      "frames": 66,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1581",
+      "signer": "0093",
+      "target": "chef agent",
+      "prediction": "chefeaent",
+      "frames": 164,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1582",
+      "signer": "0093",
+      "target": "savior",
+      "prediction": "ovirt",
+      "frames": 65,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1583",
+      "signer": "0093",
+      "target": "the",
+      "prediction": "th",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1584",
+      "signer": "0093",
+      "target": "hand",
+      "prediction": "vd",
+      "frames": 42,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1585",
+      "signer": "0093",
+      "target": "to",
+      "prediction": "lae",
+      "frames": 19,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1586",
+      "signer": "0093",
+      "target": "to",
+      "prediction": "treb",
+      "frames": 19,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1587",
+      "signer": "0093",
+      "target": "of",
+      "prediction": "eof",
+      "frames": 24,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1588",
+      "signer": "0093",
+      "target": "or",
+      "prediction": "er",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1589",
+      "signer": "0093",
+      "target": "titus",
+      "prediction": "ivs",
+      "frames": 28,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1590",
+      "signer": "0093",
+      "target": "the",
+      "prediction": "the",
+      "frames": 36,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1591",
+      "signer": "0093",
+      "target": "the",
+      "prediction": "tahr",
+      "frames": 20,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1592",
+      "signer": "0093",
+      "target": "savior",
+      "prediction": "evieor",
+      "frames": 51,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1593",
+      "signer": "0093",
+      "target": "acts",
+      "prediction": "acetes",
+      "frames": 17,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1594",
+      "signer": "0093",
+      "target": "salvation",
+      "prediction": "olvation",
+      "frames": 117,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1595",
+      "signer": "0093",
+      "target": "if",
+      "prediction": "if",
+      "frames": 32,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1596",
+      "signer": "0093",
+      "target": "sckre of",
+      "prediction": "eserefe",
+      "frames": 45,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_2/sddsimple_1597",
+      "signer": "0093",
+      "target": "if",
+      "prediction": "if",
+      "frames": 20,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/crossover_3863",
+      "signer": "0094",
+      "target": "paleo herew",
+      "prediction": "palenew",
+      "frames": 86,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "deafvideo_3/crossover_3864",
+      "signer": "0094",
+      "target": "simlar",
+      "prediction": "eimlar",
+      "frames": 41,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/crossover_3865",
+      "signer": "0094",
+      "target": "babel tower",
+      "prediction": "babelaeewdu",
+      "frames": 88,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "deafvideo_3/crossover_3866",
+      "signer": "0094",
+      "target": "nirmod",
+      "prediction": "nivmeetd",
+      "frames": 77,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/crossover_3867",
+      "signer": "0094",
+      "target": "ih",
+      "prediction": "ih",
+      "frames": 32,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/crossover_3868",
+      "signer": "0094",
+      "target": "ih",
+      "prediction": "ik",
+      "frames": 14,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/crossover_3869",
+      "signer": "0094",
+      "target": "scatere",
+      "prediction": "scaeere",
+      "frames": 75,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/crossover_3870",
+      "signer": "0094",
+      "target": "hpaleo herew",
+      "prediction": "haleherew",
+      "frames": 92,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "deafvideo_3/crossover_3871",
+      "signer": "0094",
+      "target": "paleo herew",
+      "prediction": "palehew",
+      "frames": 75,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "deafvideo_3/crossover_3872",
+      "signer": "0094",
+      "target": "link",
+      "prediction": "liink",
+      "frames": 26,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/damien23_3600",
+      "signer": "0095",
+      "target": "ok",
+      "prediction": "k",
+      "frames": 16,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/damien23_3601",
+      "signer": "0095",
+      "target": "adam eve",
+      "prediction": "adaoce",
+      "frames": 40,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_3/damien23_3602",
+      "signer": "0095",
+      "target": "do",
+      "prediction": "d",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/damien23_3603",
+      "signer": "0095",
+      "target": "ok",
+      "prediction": "ok",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/damien23_3604",
+      "signer": "0095",
+      "target": "adam eve",
+      "prediction": "adam",
+      "frames": 29,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_3/damien23_3605",
+      "signer": "0095",
+      "target": "disobey",
+      "prediction": "diowi",
+      "frames": 19,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/damien23_3606",
+      "signer": "0095",
+      "target": "ok",
+      "prediction": "p",
+      "frames": 25,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/damien23_3607",
+      "signer": "0095",
+      "target": "or",
+      "prediction": "",
+      "frames": 17,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/damien23_3608",
+      "signer": "0095",
+      "target": "sex or aim",
+      "prediction": "oeiraci",
+      "frames": 38,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3060",
+      "signer": "0096",
+      "target": "all",
+      "prediction": "al",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3061",
+      "signer": "0096",
+      "target": "press word press",
+      "prediction": "prswewdves",
+      "frames": 106,
+      "ctc_minimum": 18
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3062",
+      "signer": "0096",
+      "target": "ed",
+      "prediction": "ed",
+      "frames": 17,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3063",
+      "signer": "0096",
+      "target": "go sem",
+      "prediction": "erem",
+      "frames": 47,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3064",
+      "signer": "0096",
+      "target": "all",
+      "prediction": "oa",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3065",
+      "signer": "0096",
+      "target": "asl",
+      "prediction": "assl",
+      "frames": 20,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3066",
+      "signer": "0096",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3067",
+      "signer": "0096",
+      "target": "pcs",
+      "prediction": "",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3068",
+      "signer": "0096",
+      "target": "hacker",
+      "prediction": "hacr",
+      "frames": 39,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3069",
+      "signer": "0096",
+      "target": "in",
+      "prediction": "sin",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3070",
+      "signer": "0096",
+      "target": "so",
+      "prediction": "",
+      "frames": 9,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3071",
+      "signer": "0096",
+      "target": "pugins",
+      "prediction": "ptine",
+      "frames": 44,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3072",
+      "signer": "0096",
+      "target": "hackers",
+      "prediction": "haepere",
+      "frames": 36,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3073",
+      "signer": "0096",
+      "target": "admin",
+      "prediction": "aileays",
+      "frames": 27,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3074",
+      "signer": "0096",
+      "target": "admin",
+      "prediction": "almin",
+      "frames": 30,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3075",
+      "signer": "0096",
+      "target": "all",
+      "prediction": "o",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3076",
+      "signer": "0096",
+      "target": "admin",
+      "prediction": "oalmy",
+      "frames": 26,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3077",
+      "signer": "0096",
+      "target": "poer",
+      "prediction": "pr",
+      "frames": 30,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3078",
+      "signer": "0096",
+      "target": "pn",
+      "prediction": "n",
+      "frames": 30,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3079",
+      "signer": "0096",
+      "target": "itheme",
+      "prediction": "itme",
+      "frames": 55,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3080",
+      "signer": "0096",
+      "target": "suckuri",
+      "prediction": "eri",
+      "frames": 64,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3081",
+      "signer": "0096",
+      "target": "prss",
+      "prediction": "",
+      "frames": 16,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3082",
+      "signer": "0096",
+      "target": "iq",
+      "prediction": "is",
+      "frames": 22,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3084",
+      "signer": "0096",
+      "target": "doman",
+      "prediction": "loan",
+      "frames": 40,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3085",
+      "signer": "0096",
+      "target": "cstat",
+      "prediction": "estat",
+      "frames": 62,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3086",
+      "signer": "0096",
+      "target": "web page",
+      "prediction": "webpage",
+      "frames": 59,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_3/deafgoldenhair_3087",
+      "signer": "0096",
+      "target": "haker",
+      "prediction": "aer",
+      "frames": 21,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/fieldstreamasl_4036",
+      "signer": "0097",
+      "target": "taylor",
+      "prediction": "atalilr",
+      "frames": 44,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/fieldstreamasl_4037",
+      "signer": "0097",
+      "target": "facess",
+      "prediction": "efaceles",
+      "frames": 78,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/fieldstreamasl_4038",
+      "signer": "0097",
+      "target": "gis",
+      "prediction": "gis",
+      "frames": 21,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/fieldstreamasl_4039",
+      "signer": "0097",
+      "target": "so",
+      "prediction": "ae",
+      "frames": 18,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/fieldstreamasl_4040",
+      "signer": "0097",
+      "target": "bandcd",
+      "prediction": "bannde",
+      "frames": 57,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/fieldstreamasl_4041",
+      "signer": "0097",
+      "target": "faceles",
+      "prediction": "facoles",
+      "frames": 70,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/fieldstreamasl_4042",
+      "signer": "0097",
+      "target": "so",
+      "prediction": "oe",
+      "frames": 16,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/fieldstreamasl_4043",
+      "signer": "0097",
+      "target": "do",
+      "prediction": "lo",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/fieldstreamasl_4044",
+      "signer": "0097",
+      "target": "yr",
+      "prediction": "uid",
+      "frames": 28,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/fieldstreamasl_4045",
+      "signer": "0097",
+      "target": "less",
+      "prediction": "let",
+      "frames": 23,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4543",
+      "signer": "0098",
+      "target": "shebaby",
+      "prediction": "ashewabia",
+      "frames": 35,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4544",
+      "signer": "0098",
+      "target": "ok",
+      "prediction": "o",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4545",
+      "signer": "0098",
+      "target": "bmom",
+      "prediction": "m",
+      "frames": 24,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4546",
+      "signer": "0098",
+      "target": "wow",
+      "prediction": "wow",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4547",
+      "signer": "0098",
+      "target": "wow",
+      "prediction": "wow",
+      "frames": 21,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4548",
+      "signer": "0098",
+      "target": "benn",
+      "prediction": "en",
+      "frames": 22,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4549",
+      "signer": "0098",
+      "target": "respect",
+      "prediction": "coalbt",
+      "frames": 33,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4550",
+      "signer": "0098",
+      "target": "past",
+      "prediction": "past",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4551",
+      "signer": "0098",
+      "target": "do",
+      "prediction": "do",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4552",
+      "signer": "0098",
+      "target": "disown",
+      "prediction": "isaown",
+      "frames": 37,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4553",
+      "signer": "0098",
+      "target": "or",
+      "prediction": "or",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4554",
+      "signer": "0098",
+      "target": "it",
+      "prediction": "it",
+      "frames": 15,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4555",
+      "signer": "0098",
+      "target": "respect",
+      "prediction": "alet",
+      "frames": 38,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4556",
+      "signer": "0098",
+      "target": "utmost",
+      "prediction": "utmmat",
+      "frames": 43,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4557",
+      "signer": "0098",
+      "target": "past",
+      "prediction": "past",
+      "frames": 20,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4558",
+      "signer": "0098",
+      "target": "nobel prip nopp no bel price",
+      "prediction": "nelripenednelribe",
+      "frames": 174,
+      "ctc_minimum": 29
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4559",
+      "signer": "0098",
+      "target": "nobel price",
+      "prediction": "nwelrice",
+      "frames": 49,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4560",
+      "signer": "0098",
+      "target": "or",
+      "prediction": "or",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4561",
+      "signer": "0098",
+      "target": "r",
+      "prediction": "r",
+      "frames": 8,
+      "ctc_minimum": 1
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4562",
+      "signer": "0098",
+      "target": "carof",
+      "prediction": "auef",
+      "frames": 19,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4563",
+      "signer": "0098",
+      "target": "at all",
+      "prediction": "atl",
+      "frames": 18,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4564",
+      "signer": "0098",
+      "target": "rots",
+      "prediction": "uota",
+      "frames": 21,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4565",
+      "signer": "0098",
+      "target": "he",
+      "prediction": "he",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4566",
+      "signer": "0098",
+      "target": "orphanage",
+      "prediction": "erpanae",
+      "frames": 56,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4567",
+      "signer": "0098",
+      "target": "he",
+      "prediction": "he",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4568",
+      "signer": "0098",
+      "target": "of",
+      "prediction": "of",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4569",
+      "signer": "0098",
+      "target": "ussr",
+      "prediction": "ussr",
+      "frames": 23,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4570",
+      "signer": "0098",
+      "target": "arphangelsk",
+      "prediction": "arantelsk",
+      "frames": 93,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4571",
+      "signer": "0098",
+      "target": "gulag",
+      "prediction": "vag",
+      "frames": 31,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4572",
+      "signer": "0098",
+      "target": "grandchildr grandchildren",
+      "prediction": "rauhileteavhilren",
+      "frames": 120,
+      "ctc_minimum": 25
+    },
+    {
+      "id": "deafvideo_3/geoalpha_4573",
+      "signer": "0098",
+      "target": "away",
+      "prediction": "wa",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4590",
+      "signer": "0099",
+      "target": "nfl zone",
+      "prediction": "fl",
+      "frames": 34,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4591",
+      "signer": "0099",
+      "target": "tv",
+      "prediction": "t",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4592",
+      "signer": "0099",
+      "target": "n zone nfl",
+      "prediction": "tl",
+      "frames": 23,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4593",
+      "signer": "0099",
+      "target": "tvtv",
+      "prediction": "ta",
+      "frames": 9,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4594",
+      "signer": "0099",
+      "target": "nfl",
+      "prediction": "nf",
+      "frames": 13,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4595",
+      "signer": "0099",
+      "target": "nfl",
+      "prediction": "nf",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4596",
+      "signer": "0099",
+      "target": "com",
+      "prediction": "ce",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4597",
+      "signer": "0099",
+      "target": "then",
+      "prediction": "tho",
+      "frames": 23,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4598",
+      "signer": "0099",
+      "target": "deaf nfl vloggers",
+      "prediction": "deafnflrleebs",
+      "frames": 79,
+      "ctc_minimum": 18
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4599",
+      "signer": "0099",
+      "target": "nfl zone",
+      "prediction": "nfle",
+      "frames": 21,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4600",
+      "signer": "0099",
+      "target": "big ben",
+      "prediction": "bbe",
+      "frames": 26,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4601",
+      "signer": "0099",
+      "target": "if",
+      "prediction": "if",
+      "frames": 4,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4602",
+      "signer": "0099",
+      "target": "jim",
+      "prediction": "io",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4603",
+      "signer": "0099",
+      "target": "biesel",
+      "prediction": "biesel",
+      "frames": 24,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4604",
+      "signer": "0099",
+      "target": "up to",
+      "prediction": "rps",
+      "frames": 15,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4605",
+      "signer": "0099",
+      "target": "if",
+      "prediction": "",
+      "frames": 3,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4606",
+      "signer": "0099",
+      "target": "if",
+      "prediction": "cf",
+      "frames": 18,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4607",
+      "signer": "0099",
+      "target": "afc nfc",
+      "prediction": "acenf",
+      "frames": 30,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4608",
+      "signer": "0099",
+      "target": "afc nfc",
+      "prediction": "afn",
+      "frames": 31,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4609",
+      "signer": "0099",
+      "target": "sb",
+      "prediction": "sb",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4610",
+      "signer": "0099",
+      "target": "ok",
+      "prediction": "p",
+      "frames": 4,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4611",
+      "signer": "0099",
+      "target": "big ben",
+      "prediction": "bbes",
+      "frames": 16,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4612",
+      "signer": "0099",
+      "target": "if",
+      "prediction": "i",
+      "frames": 4,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4613",
+      "signer": "0099",
+      "target": "taylor",
+      "prediction": "tacr",
+      "frames": 17,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4614",
+      "signer": "0099",
+      "target": "otis",
+      "prediction": "etis",
+      "frames": 27,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4615",
+      "signer": "0099",
+      "target": "hill",
+      "prediction": "il",
+      "frames": 24,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4616",
+      "signer": "0099",
+      "target": "facbk",
+      "prediction": "facbmr",
+      "frames": 17,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4617",
+      "signer": "0099",
+      "target": "dnv deaf nfl vlogs",
+      "prediction": "dordafnllewlegs",
+      "frames": 56,
+      "ctc_minimum": 18
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4618",
+      "signer": "0099",
+      "target": "admins",
+      "prediction": "ale",
+      "frames": 18,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4619",
+      "signer": "0099",
+      "target": "dvtv",
+      "prediction": "dwt",
+      "frames": 12,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4620",
+      "signer": "0099",
+      "target": "f",
+      "prediction": "f",
+      "frames": 4,
+      "ctc_minimum": 1
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4621",
+      "signer": "0099",
+      "target": "sb",
+      "prediction": "o",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4622",
+      "signer": "0099",
+      "target": "act",
+      "prediction": "it",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/otismhill82_4623",
+      "signer": "0099",
+      "target": "oly",
+      "prediction": "o",
+      "frames": 7,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/titans_4689",
+      "signer": "0100",
+      "target": "taylerade",
+      "prediction": "titert",
+      "frames": 55,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "deafvideo_3/titans_4690",
+      "signer": "0100",
+      "target": "f",
+      "prediction": "",
+      "frames": 4,
+      "ctc_minimum": 1
+    },
+    {
+      "id": "deafvideo_3/titans_4691",
+      "signer": "0100",
+      "target": "debg",
+      "prediction": "oc",
+      "frames": 43,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/titans_4692",
+      "signer": "0100",
+      "target": "or",
+      "prediction": "or",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/titans_4693",
+      "signer": "0100",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/titans_4694",
+      "signer": "0100",
+      "target": "ok",
+      "prediction": "on",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/titans_4695",
+      "signer": "0100",
+      "target": "asl",
+      "prediction": "sl",
+      "frames": 11,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/titans_4696",
+      "signer": "0100",
+      "target": "ak ok",
+      "prediction": "ape",
+      "frames": 12,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/titans_4697",
+      "signer": "0100",
+      "target": "or",
+      "prediction": "ok",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/titans_4698",
+      "signer": "0100",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/titans_4699",
+      "signer": "0100",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/titans_4700",
+      "signer": "0100",
+      "target": "ok asl",
+      "prediction": "tap",
+      "frames": 22,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/titans_4701",
+      "signer": "0100",
+      "target": "so",
+      "prediction": "o",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/titans_4702",
+      "signer": "0100",
+      "target": "debg",
+      "prediction": "oc",
+      "frames": 41,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/titans_4703",
+      "signer": "0100",
+      "target": "aked",
+      "prediction": "ap",
+      "frames": 11,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/titans_4704",
+      "signer": "0100",
+      "target": "kasl",
+      "prediction": "pasl",
+      "frames": 15,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4663",
+      "signer": "0101",
+      "target": "ok",
+      "prediction": "op",
+      "frames": 9,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4664",
+      "signer": "0101",
+      "target": "zack",
+      "prediction": "atstack",
+      "frames": 45,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4665",
+      "signer": "0101",
+      "target": "kathyjo",
+      "prediction": "atvieo",
+      "frames": 38,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4666",
+      "signer": "0101",
+      "target": "mat seatle",
+      "prediction": "natoatle",
+      "frames": 44,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4667",
+      "signer": "0101",
+      "target": "kathyo kathyjo",
+      "prediction": "nkatviealrkttio",
+      "frames": 93,
+      "ctc_minimum": 14
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4668",
+      "signer": "0101",
+      "target": "ut",
+      "prediction": "ut",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4669",
+      "signer": "0101",
+      "target": "katy",
+      "prediction": "ndi",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4670",
+      "signer": "0101",
+      "target": "tylor",
+      "prediction": "ti",
+      "frames": 13,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4671",
+      "signer": "0101",
+      "target": "taylor",
+      "prediction": "atler",
+      "frames": 30,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4672",
+      "signer": "0101",
+      "target": "kax",
+      "prediction": "pax",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4673",
+      "signer": "0101",
+      "target": "matseale",
+      "prediction": "eatsl",
+      "frames": 36,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4674",
+      "signer": "0101",
+      "target": "matseat",
+      "prediction": "matea",
+      "frames": 34,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4675",
+      "signer": "0101",
+      "target": "matseale",
+      "prediction": "natoeal",
+      "frames": 35,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4676",
+      "signer": "0101",
+      "target": "by",
+      "prediction": "bi",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4677",
+      "signer": "0101",
+      "target": "ok",
+      "prediction": "ok",
+      "frames": 15,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4678",
+      "signer": "0101",
+      "target": "matseale",
+      "prediction": "nateale",
+      "frames": 39,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4679",
+      "signer": "0101",
+      "target": "matseal",
+      "prediction": "roate",
+      "frames": 26,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4680",
+      "signer": "0101",
+      "target": "matsl",
+      "prediction": "natsl",
+      "frames": 28,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4681",
+      "signer": "0101",
+      "target": "ok",
+      "prediction": "k",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4682",
+      "signer": "0101",
+      "target": "zak",
+      "prediction": "asa",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4683",
+      "signer": "0101",
+      "target": "kathy jo",
+      "prediction": "datii",
+      "frames": 32,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4684",
+      "signer": "0101",
+      "target": "katy",
+      "prediction": "dai",
+      "frames": 21,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4685",
+      "signer": "0101",
+      "target": "matsl",
+      "prediction": "nat",
+      "frames": 26,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4686",
+      "signer": "0101",
+      "target": "matseatle",
+      "prediction": "natosatl",
+      "frames": 50,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4687",
+      "signer": "0101",
+      "target": "matseatle",
+      "prediction": "natsesal",
+      "frames": 38,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "deafvideo_3/yellowbirdie84_4688",
+      "signer": "0101",
+      "target": "ok",
+      "prediction": "sk",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yesyes_3101",
+      "signer": "0102",
+      "target": "dslr",
+      "prediction": "dolr",
+      "frames": 39,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yesyes_3102",
+      "signer": "0102",
+      "target": "filter lens",
+      "prediction": "fierles",
+      "frames": 82,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "deafvideo_3/yesyes_3103",
+      "signer": "0102",
+      "target": "uv",
+      "prediction": "v",
+      "frames": 26,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yesyes_3104",
+      "signer": "0102",
+      "target": "cpl",
+      "prediction": "cp",
+      "frames": 48,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/yesyes_3105",
+      "signer": "0102",
+      "target": "fld",
+      "prediction": "fl",
+      "frames": 48,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/yesyes_3106",
+      "signer": "0102",
+      "target": "sun",
+      "prediction": "srn",
+      "frames": 24,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/yesyes_3107",
+      "signer": "0102",
+      "target": "sn",
+      "prediction": "rn",
+      "frames": 14,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yesyes_3108",
+      "signer": "0102",
+      "target": "sn",
+      "prediction": "sn",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yesyes_3109",
+      "signer": "0102",
+      "target": "to",
+      "prediction": "tm",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yesyes_3110",
+      "signer": "0102",
+      "target": "ski",
+      "prediction": "eski",
+      "frames": 18,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_3/yesyes_3111",
+      "signer": "0102",
+      "target": "xmic",
+      "prediction": "oemic",
+      "frames": 48,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yesyes_3112",
+      "signer": "0102",
+      "target": "miclbergsma",
+      "prediction": "micergasma",
+      "frames": 120,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "deafvideo_3/yesyes_3113",
+      "signer": "0102",
+      "target": "dvtv",
+      "prediction": "dvtv",
+      "frames": 21,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yesyes_3114",
+      "signer": "0102",
+      "target": "filter f lens",
+      "prediction": "fiereles",
+      "frames": 82,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "deafvideo_3/yesyes_3115",
+      "signer": "0102",
+      "target": "dvtv",
+      "prediction": "dvtvp",
+      "frames": 25,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yesyes_3116",
+      "signer": "0102",
+      "target": "filter lens x",
+      "prediction": "fiterlees",
+      "frames": 49,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "deafvideo_3/yesyes_3117",
+      "signer": "0102",
+      "target": "file les",
+      "prediction": "ftele",
+      "frames": 31,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_3/yesyes_3118",
+      "signer": "0102",
+      "target": "clear",
+      "prediction": "ler",
+      "frames": 44,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/yesyes_3119",
+      "signer": "0102",
+      "target": "it",
+      "prediction": "it",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yesyes_4471",
+      "signer": "0102",
+      "target": "dslr",
+      "prediction": "dolr",
+      "frames": 30,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yesyes_4472",
+      "signer": "0102",
+      "target": "hows",
+      "prediction": "ors",
+      "frames": 17,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yesyes_4473",
+      "signer": "0102",
+      "target": "fish eye lens",
+      "prediction": "fheioeles",
+      "frames": 105,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "deafvideo_3/yesyes_4474",
+      "signer": "0102",
+      "target": "nikons",
+      "prediction": "nikea",
+      "frames": 54,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/yesyes_4475",
+      "signer": "0102",
+      "target": "canon",
+      "prediction": "canen",
+      "frames": 36,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_3/yesyes_4476",
+      "signer": "0102",
+      "target": "pentax",
+      "prediction": "potat",
+      "frames": 56,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/yesyes_4477",
+      "signer": "0102",
+      "target": "sony",
+      "prediction": "sei",
+      "frames": 51,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_3/yesyes_4478",
+      "signer": "0102",
+      "target": "sony e",
+      "prediction": "snie",
+      "frames": 39,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_3/yesyes_4479",
+      "signer": "0102",
+      "target": "om",
+      "prediction": "o",
+      "frames": 17,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_3/yesyes_4480",
+      "signer": "0102",
+      "target": "flash manual on",
+      "prediction": "flasheanaten",
+      "frames": 98,
+      "ctc_minimum": 15
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4952",
+      "signer": "0103",
+      "target": "pati",
+      "prediction": "ai",
+      "frames": 13,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4953",
+      "signer": "0103",
+      "target": "irs",
+      "prediction": "iusl",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4954",
+      "signer": "0103",
+      "target": "arrangement",
+      "prediction": "arannent",
+      "frames": 47,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4955",
+      "signer": "0103",
+      "target": "ira or",
+      "prediction": "idar",
+      "frames": 37,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4956",
+      "signer": "0103",
+      "target": "rollover",
+      "prediction": "unlerer",
+      "frames": 31,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4957",
+      "signer": "0103",
+      "target": "ira or",
+      "prediction": "ivanr",
+      "frames": 31,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4958",
+      "signer": "0103",
+      "target": "ark",
+      "prediction": "ovk",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4959",
+      "signer": "0103",
+      "target": "details",
+      "prediction": "dotils",
+      "frames": 25,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4960",
+      "signer": "0103",
+      "target": "irs",
+      "prediction": "ius",
+      "frames": 18,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4961",
+      "signer": "0103",
+      "target": "gov",
+      "prediction": "pr",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4962",
+      "signer": "0103",
+      "target": "rollovers",
+      "prediction": "nlerers",
+      "frames": 53,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4963",
+      "signer": "0103",
+      "target": "faq",
+      "prediction": "fa",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_4/tax_tips_by_irs_4964",
+      "signer": "0103",
+      "target": "rollover",
+      "prediction": "evnlouer",
+      "frames": 30,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "deafvideo_4/titans_4705",
+      "signer": "0100",
+      "target": "kasl",
+      "prediction": "pasp",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/deafpoweronethumbtwo_7291",
+      "signer": "0090",
+      "target": "land",
+      "prediction": "ln",
+      "frames": 24,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/deafpoweronethumbtwo_7292",
+      "signer": "0090",
+      "target": "land",
+      "prediction": "land",
+      "frames": 21,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/deafpoweronethumbtwo_7293",
+      "signer": "0090",
+      "target": "s dive",
+      "prediction": "edive",
+      "frames": 39,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_5/deafpoweronethumbtwo_7294",
+      "signer": "0090",
+      "target": "ok or",
+      "prediction": "okr",
+      "frames": 45,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_5/deafpoweronethumbtwo_7295",
+      "signer": "0090",
+      "target": "or",
+      "prediction": "er",
+      "frames": 16,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_5/deafpoweronethumbtwo_7296",
+      "signer": "0090",
+      "target": "wow",
+      "prediction": "wow",
+      "frames": 19,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/morningstar_6244",
+      "signer": "0104",
+      "target": "dvtv",
+      "prediction": "dvtlv",
+      "frames": 39,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/morningstar_6245",
+      "signer": "0104",
+      "target": "dvtv",
+      "prediction": "dvtv",
+      "frames": 28,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/morningstar_6246",
+      "signer": "0104",
+      "target": "at a ok",
+      "prediction": "atada",
+      "frames": 33,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_5/morningstar_6247",
+      "signer": "0104",
+      "target": "whine",
+      "prediction": "witscee",
+      "frames": 30,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_5/morningstar_6248",
+      "signer": "0104",
+      "target": "deal",
+      "prediction": "deal",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/morningstar_6249",
+      "signer": "0104",
+      "target": "del",
+      "prediction": "le",
+      "frames": 9,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/morningstar_6250",
+      "signer": "0104",
+      "target": "ok it",
+      "prediction": "orlitt",
+      "frames": 46,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_5/morningstar_6251",
+      "signer": "0104",
+      "target": "fuck you",
+      "prediction": "fuekliev",
+      "frames": 48,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_5/morningstar_6252",
+      "signer": "0104",
+      "target": "ok",
+      "prediction": "sra",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_5/morningstar_6253",
+      "signer": "0104",
+      "target": "dvtv",
+      "prediction": "dvt",
+      "frames": 14,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/morningstar_6254",
+      "signer": "0104",
+      "target": "whiners",
+      "prediction": "rins",
+      "frames": 32,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_5/morningstar_6255",
+      "signer": "0104",
+      "target": "dvt",
+      "prediction": "dvt",
+      "frames": 18,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/morningstar_6256",
+      "signer": "0104",
+      "target": "sex",
+      "prediction": "os",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/morningstar_6257",
+      "signer": "0104",
+      "target": "haf",
+      "prediction": "aci",
+      "frames": 19,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/morningstar_6258",
+      "signer": "0104",
+      "target": "us",
+      "prediction": "ue",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_5/morningstar_6259",
+      "signer": "0104",
+      "target": "out",
+      "prediction": "ort",
+      "frames": 11,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/morningstar_6260",
+      "signer": "0104",
+      "target": "dvt",
+      "prediction": "d",
+      "frames": 11,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/morningstar_6261",
+      "signer": "0104",
+      "target": "it",
+      "prediction": "i",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_5/morningstar_6262",
+      "signer": "0104",
+      "target": "trash",
+      "prediction": "traph",
+      "frames": 26,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_5/morningstar_6263",
+      "signer": "0104",
+      "target": "atak",
+      "prediction": "ata",
+      "frames": 21,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/morningstar_6264",
+      "signer": "0104",
+      "target": "whines",
+      "prediction": "wayneo",
+      "frames": 30,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_5/morningstar_6265",
+      "signer": "0104",
+      "target": "chard",
+      "prediction": "har",
+      "frames": 21,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_5/morningstar_6266",
+      "signer": "0104",
+      "target": "naive",
+      "prediction": "nave",
+      "frames": 49,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6447",
+      "signer": "0105",
+      "target": "st patrick",
+      "prediction": "stpatraiek",
+      "frames": 37,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6448",
+      "signer": "0105",
+      "target": "past patrick",
+      "prediction": "pasatri",
+      "frames": 39,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6449",
+      "signer": "0105",
+      "target": "all",
+      "prediction": "tal",
+      "frames": 11,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6450",
+      "signer": "0105",
+      "target": "oh",
+      "prediction": "oh",
+      "frames": 14,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6451",
+      "signer": "0105",
+      "target": "it",
+      "prediction": "it",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6452",
+      "signer": "0105",
+      "target": "so",
+      "prediction": "o",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6453",
+      "signer": "0105",
+      "target": "st patrick",
+      "prediction": "tpatrk",
+      "frames": 56,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6454",
+      "signer": "0105",
+      "target": "patrick",
+      "prediction": "patvek",
+      "frames": 34,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6455",
+      "signer": "0105",
+      "target": "heras",
+      "prediction": "hras",
+      "frames": 17,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6456",
+      "signer": "0105",
+      "target": "pirates",
+      "prediction": "paivates",
+      "frames": 34,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6457",
+      "signer": "0105",
+      "target": "patrick",
+      "prediction": "patrk",
+      "frames": 27,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6458",
+      "signer": "0105",
+      "target": "sock",
+      "prediction": "ao",
+      "frames": 14,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6459",
+      "signer": "0105",
+      "target": "return",
+      "prediction": "uetvn",
+      "frames": 26,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6460",
+      "signer": "0105",
+      "target": "he did",
+      "prediction": "helil",
+      "frames": 20,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6461",
+      "signer": "0105",
+      "target": "march",
+      "prediction": "oarh",
+      "frames": 30,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6462",
+      "signer": "0105",
+      "target": "ad",
+      "prediction": "ad",
+      "frames": 18,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6463",
+      "signer": "0105",
+      "target": "he",
+      "prediction": "he",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6464",
+      "signer": "0105",
+      "target": "st patrick",
+      "prediction": "stpatved",
+      "frames": 30,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "deafvideo_5/scottnorby_6465",
+      "signer": "0105",
+      "target": "all",
+      "prediction": "l",
+      "frames": 8,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7315",
+      "signer": "0106",
+      "target": "ok",
+      "prediction": "ok",
+      "frames": 27,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7316",
+      "signer": "0106",
+      "target": "syran",
+      "prediction": "oirarn",
+      "frames": 38,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7317",
+      "signer": "0106",
+      "target": "asad",
+      "prediction": "as",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7318",
+      "signer": "0106",
+      "target": "libyran",
+      "prediction": "lcinan",
+      "frames": 95,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7319",
+      "signer": "0106",
+      "target": "gaddafi",
+      "prediction": "alsafi",
+      "frames": 83,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7320",
+      "signer": "0106",
+      "target": "gadi",
+      "prediction": "adi",
+      "frames": 27,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7321",
+      "signer": "0106",
+      "target": "dicator",
+      "prediction": "dieater",
+      "frames": 50,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7322",
+      "signer": "0106",
+      "target": "asd",
+      "prediction": "aad",
+      "frames": 26,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7323",
+      "signer": "0106",
+      "target": "assd cown",
+      "prediction": "assden",
+      "frames": 76,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7324",
+      "signer": "0106",
+      "target": "ovn",
+      "prediction": "eovn",
+      "frames": 11,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7325",
+      "signer": "0106",
+      "target": "libyan",
+      "prediction": "lican",
+      "frames": 37,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7326",
+      "signer": "0106",
+      "target": "gadfi",
+      "prediction": "adefi",
+      "frames": 98,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7327",
+      "signer": "0106",
+      "target": "him",
+      "prediction": "hie",
+      "frames": 64,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7328",
+      "signer": "0106",
+      "target": "gadi",
+      "prediction": "adi",
+      "frames": 28,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7329",
+      "signer": "0106",
+      "target": "gadi",
+      "prediction": "ai",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7330",
+      "signer": "0106",
+      "target": "nlr",
+      "prediction": "ner",
+      "frames": 18,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "deafvideo_5/silentoneye_7331",
+      "signer": "0106",
+      "target": "usa",
+      "prediction": "uo",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2777",
+      "signer": "0107",
+      "target": "ryerson",
+      "prediction": "mricin",
+      "frames": 40,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2778",
+      "signer": "0107",
+      "target": "acdeic",
+      "prediction": "abec",
+      "frames": 25,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2779",
+      "signer": "0107",
+      "target": "fr",
+      "prediction": "",
+      "frames": 4,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2780",
+      "signer": "0107",
+      "target": "mm",
+      "prediction": "m",
+      "frames": 8,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2781",
+      "signer": "0107",
+      "target": "arifex sr",
+      "prediction": "srifs",
+      "frames": 41,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2782",
+      "signer": "0107",
+      "target": "her",
+      "prediction": "hr",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2783",
+      "signer": "0107",
+      "target": "grants",
+      "prediction": "prtt",
+      "frames": 14,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2784",
+      "signer": "0107",
+      "target": "hoth",
+      "prediction": "hth",
+      "frames": 15,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2785",
+      "signer": "0107",
+      "target": "log",
+      "prediction": "l",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2786",
+      "signer": "0107",
+      "target": "or tag",
+      "prediction": "rt",
+      "frames": 14,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2787",
+      "signer": "0107",
+      "target": "nfb",
+      "prediction": "nfc",
+      "frames": 19,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2788",
+      "signer": "0107",
+      "target": "excted",
+      "prediction": "epf",
+      "frames": 25,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2789",
+      "signer": "0107",
+      "target": "nfb",
+      "prediction": "of",
+      "frames": 13,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2790",
+      "signer": "0107",
+      "target": "agretishp",
+      "prediction": "aoretep",
+      "frames": 31,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2791",
+      "signer": "0107",
+      "target": "ssg",
+      "prediction": "oa",
+      "frames": 12,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2792",
+      "signer": "0107",
+      "target": "or",
+      "prediction": "r",
+      "frames": 5,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2793",
+      "signer": "0107",
+      "target": "dga",
+      "prediction": "a",
+      "frames": 13,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2794",
+      "signer": "0107",
+      "target": "or",
+      "prediction": "r",
+      "frames": 4,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2795",
+      "signer": "0107",
+      "target": "or",
+      "prediction": "or",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2796",
+      "signer": "0107",
+      "target": "mixer",
+      "prediction": "mi",
+      "frames": 28,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2797",
+      "signer": "0107",
+      "target": "stes",
+      "prediction": "sts",
+      "frames": 27,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2798",
+      "signer": "0107",
+      "target": "or",
+      "prediction": "or",
+      "frames": 9,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2799",
+      "signer": "0107",
+      "target": "kc",
+      "prediction": "",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2800",
+      "signer": "0107",
+      "target": "craty",
+      "prediction": "fi",
+      "frames": 11,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2801",
+      "signer": "0107",
+      "target": "cast frw",
+      "prediction": "etrew",
+      "frames": 21,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2802",
+      "signer": "0107",
+      "target": "fd",
+      "prediction": "ed",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2803",
+      "signer": "0107",
+      "target": "ok",
+      "prediction": "",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2804",
+      "signer": "0107",
+      "target": "glee",
+      "prediction": "lc",
+      "frames": 22,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2805",
+      "signer": "0107",
+      "target": "jles dameron",
+      "prediction": "ilesdmen",
+      "frames": 33,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2806",
+      "signer": "0107",
+      "target": "glee",
+      "prediction": "t",
+      "frames": 9,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2807",
+      "signer": "0107",
+      "target": "wow",
+      "prediction": "mr",
+      "frames": 18,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2808",
+      "signer": "0107",
+      "target": "at",
+      "prediction": "at",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2809",
+      "signer": "0107",
+      "target": "hungry",
+      "prediction": "hori",
+      "frames": 15,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2810",
+      "signer": "0107",
+      "target": "crw",
+      "prediction": "mw",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2811",
+      "signer": "0107",
+      "target": "asl",
+      "prediction": "osl",
+      "frames": 11,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2812",
+      "signer": "0107",
+      "target": "lt",
+      "prediction": "",
+      "frames": 3,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2813",
+      "signer": "0107",
+      "target": "hamll",
+      "prediction": "haml",
+      "frames": 20,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2814",
+      "signer": "0107",
+      "target": "bio pic",
+      "prediction": "bicoc",
+      "frames": 23,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2815",
+      "signer": "0107",
+      "target": "mat hamll",
+      "prediction": "othel",
+      "frames": 29,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2816",
+      "signer": "0107",
+      "target": "ufc utc",
+      "prediction": "ufete",
+      "frames": 34,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2817",
+      "signer": "0107",
+      "target": "tv",
+      "prediction": "t",
+      "frames": 3,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2818",
+      "signer": "0107",
+      "target": "reaity",
+      "prediction": "it",
+      "frames": 9,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2819",
+      "signer": "0107",
+      "target": "co",
+      "prediction": "bo",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2820",
+      "signer": "0107",
+      "target": "fre",
+      "prediction": "fe",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2821",
+      "signer": "0107",
+      "target": "matt",
+      "prediction": "tt",
+      "frames": 13,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2822",
+      "signer": "0107",
+      "target": "ufc",
+      "prediction": "f",
+      "frames": 9,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2823",
+      "signer": "0107",
+      "target": "rt",
+      "prediction": "t",
+      "frames": 23,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2824",
+      "signer": "0107",
+      "target": "cot",
+      "prediction": "st",
+      "frames": 9,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2825",
+      "signer": "0107",
+      "target": "fb",
+      "prediction": "fc",
+      "frames": 15,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2826",
+      "signer": "0107",
+      "target": "hamll the",
+      "prediction": "hemlt",
+      "frames": 34,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2827",
+      "signer": "0107",
+      "target": "demend it",
+      "prediction": "denia",
+      "frames": 35,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2828",
+      "signer": "0107",
+      "target": "disribon",
+      "prediction": "ren",
+      "frames": 33,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2829",
+      "signer": "0107",
+      "target": "hmll",
+      "prediction": "henl",
+      "frames": 16,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2830",
+      "signer": "0107",
+      "target": "shoshoshna stern",
+      "prediction": "aoeehnastrn",
+      "frames": 80,
+      "ctc_minimum": 16
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2831",
+      "signer": "0107",
+      "target": "hml",
+      "prediction": "n",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2832",
+      "signer": "0107",
+      "target": "lexi merin",
+      "prediction": "leimn",
+      "frames": 40,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2833",
+      "signer": "0107",
+      "target": "of",
+      "prediction": "f",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2834",
+      "signer": "0107",
+      "target": "jay",
+      "prediction": "iaa",
+      "frames": 13,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2835",
+      "signer": "0107",
+      "target": "nyke prince",
+      "prediction": "oiloprie",
+      "frames": 31,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2836",
+      "signer": "0107",
+      "target": "stcy larence",
+      "prediction": "ticne",
+      "frames": 45,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2837",
+      "signer": "0107",
+      "target": "crty",
+      "prediction": "rti",
+      "frames": 15,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2838",
+      "signer": "0107",
+      "target": "sty lafnce",
+      "prediction": "tin",
+      "frames": 24,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2839",
+      "signer": "0107",
+      "target": "extra",
+      "prediction": "es",
+      "frames": 15,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2840",
+      "signer": "0107",
+      "target": "mentor",
+      "prediction": "menter",
+      "frames": 27,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2841",
+      "signer": "0107",
+      "target": "or",
+      "prediction": "",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2842",
+      "signer": "0107",
+      "target": "ok",
+      "prediction": "ok",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2843",
+      "signer": "0107",
+      "target": "asl",
+      "prediction": "osl",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2844",
+      "signer": "0107",
+      "target": "colabrion",
+      "prediction": "loon",
+      "frames": 31,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2845",
+      "signer": "0107",
+      "target": "or",
+      "prediction": "",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/catherine_mackinnon_2846",
+      "signer": "0107",
+      "target": "ft",
+      "prediction": "ft",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/don_grushkin_2301",
+      "signer": "0122",
+      "target": "hammer",
+      "prediction": "heamr",
+      "frames": 81,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_1/don_grushkin_2302",
+      "signer": "0122",
+      "target": "saw",
+      "prediction": "w",
+      "frames": 52,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2303",
+      "signer": "0122",
+      "target": "tols",
+      "prediction": "tsels",
+      "frames": 56,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/don_grushkin_2304",
+      "signer": "0122",
+      "target": "hammer",
+      "prediction": "hamr",
+      "frames": 27,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_1/don_grushkin_2305",
+      "signer": "0122",
+      "target": "nail",
+      "prediction": "nai",
+      "frames": 25,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/don_grushkin_2306",
+      "signer": "0122",
+      "target": "saw",
+      "prediction": "ossw",
+      "frames": 27,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2307",
+      "signer": "0122",
+      "target": "screw",
+      "prediction": "scew",
+      "frames": 26,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2308",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tol",
+      "frames": 28,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2309",
+      "signer": "0122",
+      "target": "or",
+      "prediction": "or",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/don_grushkin_2310",
+      "signer": "0122",
+      "target": "tools",
+      "prediction": "solos",
+      "frames": 35,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/don_grushkin_2311",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tel",
+      "frames": 22,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2312",
+      "signer": "0122",
+      "target": "car tool",
+      "prediction": "certml",
+      "frames": 60,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_1/don_grushkin_2313",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tol",
+      "frames": 23,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2314",
+      "signer": "0122",
+      "target": "toll",
+      "prediction": "tol",
+      "frames": 22,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2315",
+      "signer": "0122",
+      "target": "ta",
+      "prediction": "t",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/don_grushkin_2316",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tml",
+      "frames": 18,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2317",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tol",
+      "frames": 41,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2318",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tol",
+      "frames": 15,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2319",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tml",
+      "frames": 23,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2320",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "al",
+      "frames": 21,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2321",
+      "signer": "0122",
+      "target": "use",
+      "prediction": "vo",
+      "frames": 33,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2322",
+      "signer": "0122",
+      "target": "use",
+      "prediction": "us",
+      "frames": 31,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2323",
+      "signer": "0122",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 33,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2324",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tml",
+      "frames": 38,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2325",
+      "signer": "0122",
+      "target": "use",
+      "prediction": "veo",
+      "frames": 22,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2326",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tml",
+      "frames": 28,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2327",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tl",
+      "frames": 24,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2328",
+      "signer": "0122",
+      "target": "tool",
+      "prediction": "tol",
+      "frames": 31,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2329",
+      "signer": "0122",
+      "target": "asl",
+      "prediction": "ssl",
+      "frames": 22,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2330",
+      "signer": "0122",
+      "target": "toll",
+      "prediction": "sdl",
+      "frames": 12,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2331",
+      "signer": "0122",
+      "target": "speak asl",
+      "prediction": "speskal",
+      "frames": 92,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_1/don_grushkin_2332",
+      "signer": "0122",
+      "target": "speak spak",
+      "prediction": "sxekepk",
+      "frames": 65,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_1/don_grushkin_2333",
+      "signer": "0122",
+      "target": "speak spak",
+      "prediction": "ospekepek",
+      "frames": 81,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_1/don_grushkin_2334",
+      "signer": "0122",
+      "target": "asl",
+      "prediction": "oad",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2335",
+      "signer": "0122",
+      "target": "use",
+      "prediction": "o",
+      "frames": 26,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2758",
+      "signer": "0122",
+      "target": "iphne",
+      "prediction": "ie",
+      "frames": 37,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2759",
+      "signer": "0122",
+      "target": "feature applilion",
+      "prediction": "foatreapilin",
+      "frames": 117,
+      "ctc_minimum": 18
+    },
+    {
+      "id": "youtube_1/don_grushkin_2760",
+      "signer": "0122",
+      "target": "siri",
+      "prediction": "osiri",
+      "frames": 50,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/don_grushkin_2761",
+      "signer": "0122",
+      "target": "email",
+      "prediction": "eil",
+      "frames": 32,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2762",
+      "signer": "0122",
+      "target": "siri",
+      "prediction": "oibi",
+      "frames": 21,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/don_grushkin_2763",
+      "signer": "0122",
+      "target": "but",
+      "prediction": "t",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2764",
+      "signer": "0122",
+      "target": "onts",
+      "prediction": "onte",
+      "frames": 18,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/don_grushkin_2765",
+      "signer": "0122",
+      "target": "but",
+      "prediction": "bts",
+      "frames": 41,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2766",
+      "signer": "0122",
+      "target": "ton",
+      "prediction": "n",
+      "frames": 32,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2767",
+      "signer": "0122",
+      "target": "cash regsters",
+      "prediction": "caregotrst",
+      "frames": 68,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_1/don_grushkin_2768",
+      "signer": "0122",
+      "target": "thn",
+      "prediction": "she",
+      "frames": 41,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2769",
+      "signer": "0122",
+      "target": "text",
+      "prediction": "teos",
+      "frames": 37,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/don_grushkin_2770",
+      "signer": "0122",
+      "target": "text",
+      "prediction": "teodt",
+      "frames": 35,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/don_grushkin_2771",
+      "signer": "0122",
+      "target": "tbn",
+      "prediction": "",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2772",
+      "signer": "0122",
+      "target": "thn",
+      "prediction": "",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/don_grushkin_2773",
+      "signer": "0122",
+      "target": "siri",
+      "prediction": "siri",
+      "frames": 46,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/don_grushkin_2774",
+      "signer": "0122",
+      "target": "science fiction",
+      "prediction": "sciocofctin",
+      "frames": 98,
+      "ctc_minimum": 15
+    },
+    {
+      "id": "youtube_1/don_grushkin_2775",
+      "signer": "0122",
+      "target": "free",
+      "prediction": "fo",
+      "frames": 24,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/don_grushkin_2776",
+      "signer": "0122",
+      "target": "siri",
+      "prediction": "siri",
+      "frames": 47,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2336",
+      "signer": "0108",
+      "target": "feb",
+      "prediction": "feb",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2337",
+      "signer": "0108",
+      "target": "dr pady ladd",
+      "prediction": "rpadilad",
+      "frames": 62,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2338",
+      "signer": "0108",
+      "target": "dfhd foundation",
+      "prediction": "efhedfevnatinn",
+      "frames": 86,
+      "ctc_minimum": 15
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2339",
+      "signer": "0108",
+      "target": "dhf",
+      "prediction": "hf",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2340",
+      "signer": "0108",
+      "target": "deanne bray",
+      "prediction": "deanebni",
+      "frames": 64,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2341",
+      "signer": "0108",
+      "target": "raja rajeshwari",
+      "prediction": "vnaiaraiaeshnri",
+      "frames": 88,
+      "ctc_minimum": 15
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2342",
+      "signer": "0108",
+      "target": "dfhd dfhd",
+      "prediction": "dafhdesfhed",
+      "frames": 84,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2343",
+      "signer": "0108",
+      "target": "deanne bray",
+      "prediction": "deanera",
+      "frames": 42,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2344",
+      "signer": "0108",
+      "target": "dhf",
+      "prediction": "df",
+      "frames": 21,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2345",
+      "signer": "0108",
+      "target": "defhd",
+      "prediction": "dofh",
+      "frames": 30,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2346",
+      "signer": "0108",
+      "target": "defhd",
+      "prediction": "dsfd",
+      "frames": 30,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2347",
+      "signer": "0108",
+      "target": "feb",
+      "prediction": "fb",
+      "frames": 9,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2349",
+      "signer": "0108",
+      "target": "melvin paterson",
+      "prediction": "olinpatere",
+      "frames": 99,
+      "ctc_minimum": 15
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2350",
+      "signer": "0108",
+      "target": "deane bray",
+      "prediction": "deaneny",
+      "frames": 60,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2351",
+      "signer": "0108",
+      "target": "deafhood foundation",
+      "prediction": "desfhedferntin",
+      "frames": 83,
+      "ctc_minimum": 20
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2352",
+      "signer": "0108",
+      "target": "pasion",
+      "prediction": "pastn",
+      "frames": 32,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2353",
+      "signer": "0108",
+      "target": "dhf",
+      "prediction": "dhf",
+      "frames": 27,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2356",
+      "signer": "0108",
+      "target": "defhood",
+      "prediction": "dsfhed",
+      "frames": 35,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2357",
+      "signer": "0108",
+      "target": "dr pady ladd",
+      "prediction": "dupadilaed",
+      "frames": 74,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2358",
+      "signer": "0108",
+      "target": "defhood",
+      "prediction": "defed",
+      "frames": 30,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2359",
+      "signer": "0108",
+      "target": "dean bray",
+      "prediction": "dsenay",
+      "frames": 32,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2363",
+      "signer": "0108",
+      "target": "pc",
+      "prediction": "",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2364",
+      "signer": "0108",
+      "target": "mac",
+      "prediction": "oc",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2365",
+      "signer": "0108",
+      "target": "dean bay",
+      "prediction": "deana",
+      "frames": 34,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2367",
+      "signer": "0108",
+      "target": "deafhooyd yoga",
+      "prediction": "defoidioa",
+      "frames": 63,
+      "ctc_minimum": 15
+    },
+    {
+      "id": "youtube_1/melvin_patterson_2369",
+      "signer": "0108",
+      "target": "defhood yoga",
+      "prediction": "eflitaa",
+      "frames": 47,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2370",
+      "signer": "0109",
+      "target": "map",
+      "prediction": "ma",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2371",
+      "signer": "0109",
+      "target": "door",
+      "prediction": "or",
+      "frames": 13,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2372",
+      "signer": "0109",
+      "target": "so",
+      "prediction": "so",
+      "frames": 16,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2373",
+      "signer": "0109",
+      "target": "tony",
+      "prediction": "toi",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2374",
+      "signer": "0109",
+      "target": "m m",
+      "prediction": "mor",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2375",
+      "signer": "0109",
+      "target": "m m",
+      "prediction": "m",
+      "frames": 6,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2376",
+      "signer": "0109",
+      "target": "oscar",
+      "prediction": "oca",
+      "frames": 16,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2377",
+      "signer": "0109",
+      "target": "to",
+      "prediction": "n",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2378",
+      "signer": "0109",
+      "target": "are all",
+      "prediction": "taresl",
+      "frames": 20,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2379",
+      "signer": "0109",
+      "target": "to",
+      "prediction": "to",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2380",
+      "signer": "0109",
+      "target": "out",
+      "prediction": "obats",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2381",
+      "signer": "0109",
+      "target": "modern",
+      "prediction": "modern",
+      "frames": 27,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2382",
+      "signer": "0109",
+      "target": "lens",
+      "prediction": "lena",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2383",
+      "signer": "0109",
+      "target": "ada",
+      "prediction": "ada",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2384",
+      "signer": "0109",
+      "target": "of asl",
+      "prediction": "nfasl",
+      "frames": 32,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2385",
+      "signer": "0109",
+      "target": "of",
+      "prediction": "",
+      "frames": 4,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2386",
+      "signer": "0109",
+      "target": "asl",
+      "prediction": "asl",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2387",
+      "signer": "0109",
+      "target": "mainsteam",
+      "prediction": "mainstce",
+      "frames": 32,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2388",
+      "signer": "0109",
+      "target": "it",
+      "prediction": "ita",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2389",
+      "signer": "0109",
+      "target": "so",
+      "prediction": "a",
+      "frames": 5,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2390",
+      "signer": "0109",
+      "target": "asl",
+      "prediction": "al",
+      "frames": 9,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2391",
+      "signer": "0109",
+      "target": "so",
+      "prediction": "ao",
+      "frames": 15,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2392",
+      "signer": "0109",
+      "target": "mark medoff",
+      "prediction": "markeeie",
+      "frames": 32,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2393",
+      "signer": "0109",
+      "target": "way",
+      "prediction": "ri",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2394",
+      "signer": "0109",
+      "target": "extrmes",
+      "prediction": "es",
+      "frames": 23,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2395",
+      "signer": "0109",
+      "target": "so",
+      "prediction": "se",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2396",
+      "signer": "0109",
+      "target": "hurt",
+      "prediction": "t",
+      "frames": 25,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2397",
+      "signer": "0109",
+      "target": "to",
+      "prediction": "to",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_1/shoshannah_stern_2398",
+      "signer": "0109",
+      "target": "to",
+      "prediction": "to",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_3/ben_bahan_4523",
+      "signer": "0110",
+      "target": "cop",
+      "prediction": "op",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_3/ben_bahan_4524",
+      "signer": "0110",
+      "target": "mayor",
+      "prediction": "oare",
+      "frames": 29,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_3/ben_bahan_4525",
+      "signer": "0110",
+      "target": "do",
+      "prediction": "",
+      "frames": 5,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_3/ben_bahan_4526",
+      "signer": "0110",
+      "target": "whisperer",
+      "prediction": "mislerer",
+      "frames": 56,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_3/ben_bahan_4527",
+      "signer": "0110",
+      "target": "care",
+      "prediction": "eare",
+      "frames": 20,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_3/ben_bahan_4528",
+      "signer": "0110",
+      "target": "do",
+      "prediction": "",
+      "frames": 11,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_3/ben_bahan_4529",
+      "signer": "0110",
+      "target": "fun",
+      "prediction": "frn",
+      "frames": 18,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_3/ben_bahan_4530",
+      "signer": "0110",
+      "target": "bus",
+      "prediction": "be",
+      "frames": 22,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_3/ben_bahan_4531",
+      "signer": "0110",
+      "target": "mayo",
+      "prediction": "i",
+      "frames": 11,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_3/ben_bahan_4532",
+      "signer": "0110",
+      "target": "ok",
+      "prediction": "ok",
+      "frames": 26,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_3/ben_bahan_4533",
+      "signer": "0110",
+      "target": "ok",
+      "prediction": "o",
+      "frames": 17,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_3/ben_bahan_4534",
+      "signer": "0110",
+      "target": "tck",
+      "prediction": "tk",
+      "frames": 24,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_3/ben_bahan_4535",
+      "signer": "0110",
+      "target": "baa",
+      "prediction": "a",
+      "frames": 56,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_3/ben_bahan_4536",
+      "signer": "0110",
+      "target": "baa",
+      "prediction": "ba",
+      "frames": 14,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_3/ben_bahan_4537",
+      "signer": "0110",
+      "target": "baa",
+      "prediction": "aa",
+      "frames": 78,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5559",
+      "signer": "0111",
+      "target": "aha",
+      "prediction": "pa",
+      "frames": 27,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5560",
+      "signer": "0111",
+      "target": "immigrants",
+      "prediction": "imtnts",
+      "frames": 30,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5561",
+      "signer": "0111",
+      "target": "us",
+      "prediction": "do",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5562",
+      "signer": "0111",
+      "target": "fr",
+      "prediction": "fr",
+      "frames": 10,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5563",
+      "signer": "0111",
+      "target": "ice",
+      "prediction": "ice",
+      "frames": 24,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5564",
+      "signer": "0111",
+      "target": "ice",
+      "prediction": "ice",
+      "frames": 19,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5565",
+      "signer": "0111",
+      "target": "customa enforcement",
+      "prediction": "cuseaeneet",
+      "frames": 54,
+      "ctc_minimum": 19
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5566",
+      "signer": "0111",
+      "target": "ice",
+      "prediction": "ce",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5567",
+      "signer": "0111",
+      "target": "vido",
+      "prediction": "eio",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5568",
+      "signer": "0111",
+      "target": "cuonil de manos",
+      "prediction": "ceoilemes",
+      "frames": 62,
+      "ctc_minimum": 15
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5569",
+      "signer": "0111",
+      "target": "aclu",
+      "prediction": "aelr",
+      "frames": 41,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5570",
+      "signer": "0111",
+      "target": "cill",
+      "prediction": "eil",
+      "frames": 17,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5571",
+      "signer": "0111",
+      "target": "unin",
+      "prediction": "uein",
+      "frames": 18,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5572",
+      "signer": "0111",
+      "target": "aclu",
+      "prediction": "selr",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5573",
+      "signer": "0111",
+      "target": "us",
+      "prediction": "un",
+      "frames": 16,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5574",
+      "signer": "0111",
+      "target": "do",
+      "prediction": "o",
+      "frames": 14,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5575",
+      "signer": "0111",
+      "target": "nad",
+      "prediction": "oad",
+      "frames": 18,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5576",
+      "signer": "0111",
+      "target": "ice",
+      "prediction": "ico",
+      "frames": 20,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5577",
+      "signer": "0111",
+      "target": "cdi",
+      "prediction": "ci",
+      "frames": 21,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/howard_rosenblum_5578",
+      "signer": "0111",
+      "target": "if",
+      "prediction": "if",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/lizzie_sorkin_(nad)_5245",
+      "signer": "0112",
+      "target": "grassrots",
+      "prediction": "almerst",
+      "frames": 23,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_4/lizzie_sorkin_(nad)_5246",
+      "signer": "0112",
+      "target": "dgm",
+      "prediction": "na",
+      "frames": 21,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/lizzie_sorkin_(nad)_5247",
+      "signer": "0112",
+      "target": "flint",
+      "prediction": "flint",
+      "frames": 21,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_4/lizzie_sorkin_(nad)_5248",
+      "signer": "0112",
+      "target": "standing rock",
+      "prediction": "stndisgrk",
+      "frames": 63,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_4/lizzie_sorkin_(nad)_5249",
+      "signer": "0112",
+      "target": "dapl",
+      "prediction": "dip",
+      "frames": 44,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/lizzie_sorkin_(nad)_5250",
+      "signer": "0112",
+      "target": "muslim",
+      "prediction": "euslim",
+      "frames": 27,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_4/lizzie_sorkin_(nad)_5251",
+      "signer": "0112",
+      "target": "dmag",
+      "prediction": "meisg",
+      "frames": 24,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/lizzie_sorkin_(nad)_5252",
+      "signer": "0112",
+      "target": "civic resistnace",
+      "prediction": "civicestoce",
+      "frames": 86,
+      "ctc_minimum": 16
+    },
+    {
+      "id": "youtube_4/lizzie_sorkin_(nad)_5253",
+      "signer": "0112",
+      "target": "nad",
+      "prediction": "n",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/lizzie_sorkin_(nad)_5254",
+      "signer": "0112",
+      "target": "resistnce",
+      "prediction": "esitce",
+      "frames": 36,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_4/sean_berdy_5728",
+      "signer": "0113",
+      "target": "well",
+      "prediction": "rl",
+      "frames": 24,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_4/sean_berdy_5729",
+      "signer": "0113",
+      "target": "not",
+      "prediction": "est",
+      "frames": 11,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/sean_berdy_5730",
+      "signer": "0113",
+      "target": "flow",
+      "prediction": "flerw",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/sean_berdy_5731",
+      "signer": "0113",
+      "target": "songs",
+      "prediction": "eaa",
+      "frames": 17,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_4/sean_berdy_5732",
+      "signer": "0113",
+      "target": "profoundly",
+      "prediction": "referndi",
+      "frames": 34,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_4/sean_berdy_5733",
+      "signer": "0113",
+      "target": "deaf",
+      "prediction": "eaf",
+      "frames": 15,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/sean_berdy_5734",
+      "signer": "0113",
+      "target": "poem",
+      "prediction": "es",
+      "frames": 19,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/sean_berdy_5735",
+      "signer": "0113",
+      "target": "so",
+      "prediction": "ao",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/sean_berdy_5736",
+      "signer": "0113",
+      "target": "script",
+      "prediction": "a",
+      "frames": 18,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_4/sean_berdy_5737",
+      "signer": "0113",
+      "target": "video",
+      "prediction": "ui",
+      "frames": 15,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_4/sean_berdy_5738",
+      "signer": "0113",
+      "target": "producing",
+      "prediction": "redin",
+      "frames": 22,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_4/sean_berdy_5741",
+      "signer": "0113",
+      "target": "own",
+      "prediction": "n",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/sean_berdy_5742",
+      "signer": "0113",
+      "target": "co",
+      "prediction": "s",
+      "frames": 5,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/sean_berdy_5743",
+      "signer": "0113",
+      "target": "co",
+      "prediction": "s",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/sean_berdy_5744",
+      "signer": "0113",
+      "target": "sean berdy entertainment",
+      "prediction": "seasrerdlietentainen",
+      "frames": 96,
+      "ctc_minimum": 24
+    },
+    {
+      "id": "youtube_4/sean_berdy_5747",
+      "signer": "0113",
+      "target": "abc",
+      "prediction": "ac",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/sean_berdy_5748",
+      "signer": "0113",
+      "target": "cast",
+      "prediction": "s",
+      "frames": 17,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/sean_berdy_5749",
+      "signer": "0113",
+      "target": "lizzie",
+      "prediction": "iinei",
+      "frames": 11,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_4/sean_berdy_5750",
+      "signer": "0113",
+      "target": "asl",
+      "prediction": "al",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/sean_berdy_5751",
+      "signer": "0113",
+      "target": "consultant",
+      "prediction": "onrltea",
+      "frames": 41,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_4/sean_berdy_5752",
+      "signer": "0113",
+      "target": "episodes",
+      "prediction": "id",
+      "frames": 15,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_4/sean_berdy_5753",
+      "signer": "0113",
+      "target": "whirlwind",
+      "prediction": "dind",
+      "frames": 18,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_4/sean_berdy_5754",
+      "signer": "0113",
+      "target": "things",
+      "prediction": "n",
+      "frames": 8,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_4/sean_berdy_5755",
+      "signer": "0113",
+      "target": "love",
+      "prediction": "ov",
+      "frames": 9,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/sean_berdy_5756",
+      "signer": "0113",
+      "target": "emmett",
+      "prediction": "od",
+      "frames": 7,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_4/sean_berdy_5757",
+      "signer": "0113",
+      "target": "crew did",
+      "prediction": "ewlid",
+      "frames": 16,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_4/sean_berdy_5758",
+      "signer": "0113",
+      "target": "it",
+      "prediction": "t",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/tim_albert_5263",
+      "signer": "0114",
+      "target": "tim albebt",
+      "prediction": "timatcet",
+      "frames": 44,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_4/tim_albert_5264",
+      "signer": "0114",
+      "target": "nbda",
+      "prediction": "oncda",
+      "frames": 23,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/tim_albert_5265",
+      "signer": "0114",
+      "target": "nbda",
+      "prediction": "nra",
+      "frames": 21,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/tim_albert_5266",
+      "signer": "0114",
+      "target": "advocates nbda",
+      "prediction": "alreatesnap",
+      "frames": 76,
+      "ctc_minimum": 14
+    },
+    {
+      "id": "youtube_4/tim_albert_5267",
+      "signer": "0114",
+      "target": "ntid",
+      "prediction": "ssi",
+      "frames": 37,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/tim_albert_5268",
+      "signer": "0114",
+      "target": "ntid",
+      "prediction": "t",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/tim_albert_5269",
+      "signer": "0114",
+      "target": "st paul minn",
+      "prediction": "astarlean",
+      "frames": 64,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_4/tim_albert_5270",
+      "signer": "0114",
+      "target": "minn",
+      "prediction": "in",
+      "frames": 29,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_4/tim_albert_5271",
+      "signer": "0114",
+      "target": "ntid",
+      "prediction": "ttit",
+      "frames": 26,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/tim_albert_5272",
+      "signer": "0114",
+      "target": "minn",
+      "prediction": "i",
+      "frames": 13,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_4/tim_albert_5273",
+      "signer": "0114",
+      "target": "fla",
+      "prediction": "flaa",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/tim_albert_5274",
+      "signer": "0114",
+      "target": "mic",
+      "prediction": "oi",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/tim_albert_5275",
+      "signer": "0114",
+      "target": "so",
+      "prediction": "so",
+      "frames": 17,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/tim_albert_5276",
+      "signer": "0114",
+      "target": "ylt",
+      "prediction": "ils",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/tim_albert_5277",
+      "signer": "0114",
+      "target": "tim",
+      "prediction": "tim",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/tim_albert_5278",
+      "signer": "0114",
+      "target": "tim",
+      "prediction": "o",
+      "frames": 6,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/tim_albert_5279",
+      "signer": "0114",
+      "target": "tim",
+      "prediction": "i",
+      "frames": 6,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/tim_albert_5280",
+      "signer": "0114",
+      "target": "ylt",
+      "prediction": "it",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/tim_albert_5281",
+      "signer": "0114",
+      "target": "so",
+      "prediction": "ao",
+      "frames": 21,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_4/tim_albert_5282",
+      "signer": "0114",
+      "target": "ylt",
+      "prediction": "ils",
+      "frames": 29,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_4/tim_albert_5283",
+      "signer": "0114",
+      "target": "ntid",
+      "prediction": "",
+      "frames": 30,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_4/tim_albert_5284",
+      "signer": "0114",
+      "target": "ntid",
+      "prediction": "n",
+      "frames": 10,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5848",
+      "signer": "0115",
+      "target": "nad",
+      "prediction": "nd",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5849",
+      "signer": "0115",
+      "target": "mountain states health allice",
+      "prediction": "morntinestatshesalthaice",
+      "frames": 152,
+      "ctc_minimum": 30
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5850",
+      "signer": "0115",
+      "target": "jhnson cty h",
+      "prediction": "insenti",
+      "frames": 63,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5851",
+      "signer": "0115",
+      "target": "johnson cty tenn",
+      "prediction": "hnsetitn",
+      "frames": 102,
+      "ctc_minimum": 17
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5852",
+      "signer": "0115",
+      "target": "tenn",
+      "prediction": "te",
+      "frames": 17,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5853",
+      "signer": "0115",
+      "target": "vri",
+      "prediction": "ui",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5854",
+      "signer": "0115",
+      "target": "sydney catell",
+      "prediction": "sidniatel",
+      "frames": 68,
+      "ctc_minimum": 14
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5855",
+      "signer": "0115",
+      "target": "chris catell",
+      "prediction": "ehiscatel",
+      "frames": 50,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5856",
+      "signer": "0115",
+      "target": "dona carell",
+      "prediction": "deaerel",
+      "frames": 50,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5857",
+      "signer": "0115",
+      "target": "cancer",
+      "prediction": "caner",
+      "frames": 41,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5858",
+      "signer": "0115",
+      "target": "dec",
+      "prediction": "l",
+      "frames": 11,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5859",
+      "signer": "0115",
+      "target": "days",
+      "prediction": "dis",
+      "frames": 38,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5860",
+      "signer": "0115",
+      "target": "vri",
+      "prediction": "vi",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5861",
+      "signer": "0115",
+      "target": "hystecl",
+      "prediction": "histtl",
+      "frames": 43,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5862",
+      "signer": "0115",
+      "target": "nad",
+      "prediction": "nd",
+      "frames": 13,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5863",
+      "signer": "0115",
+      "target": "disabity",
+      "prediction": "discii",
+      "frames": 51,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5864",
+      "signer": "0115",
+      "target": "tenn",
+      "prediction": "too",
+      "frames": 29,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5865",
+      "signer": "0115",
+      "target": "johnso city",
+      "prediction": "insetti",
+      "frames": 50,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5866",
+      "signer": "0115",
+      "target": "allice",
+      "prediction": "alie",
+      "frames": 25,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_5/caroline_jackson_5867",
+      "signer": "0115",
+      "target": "ada",
+      "prediction": "adla",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/daniel_durant_5875",
+      "signer": "0116",
+      "target": "daniel durant",
+      "prediction": "danielvsn",
+      "frames": 70,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_5/daniel_durant_5876",
+      "signer": "0116",
+      "target": "live",
+      "prediction": "lin",
+      "frames": 12,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/daniel_durant_5877",
+      "signer": "0116",
+      "target": "tv",
+      "prediction": "atv",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/daniel_durant_5878",
+      "signer": "0116",
+      "target": "dtv",
+      "prediction": "tv",
+      "frames": 8,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/daniel_durant_5879",
+      "signer": "0116",
+      "target": "at",
+      "prediction": "att",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/daniel_durant_5880",
+      "signer": "0116",
+      "target": "switched at",
+      "prediction": "swiepat",
+      "frames": 28,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_5/daniel_durant_5881",
+      "signer": "0116",
+      "target": "all crew cast",
+      "prediction": "srwas",
+      "frames": 43,
+      "ctc_minimum": 14
+    },
+    {
+      "id": "youtube_5/daniel_durant_5882",
+      "signer": "0116",
+      "target": "set",
+      "prediction": "set",
+      "frames": 22,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/daniel_durant_5883",
+      "signer": "0116",
+      "target": "rolling",
+      "prediction": "uols",
+      "frames": 24,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_5/daniel_durant_5884",
+      "signer": "0116",
+      "target": "all",
+      "prediction": "sl",
+      "frames": 8,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/daniel_durant_5885",
+      "signer": "0116",
+      "target": "crew",
+      "prediction": "cew",
+      "frames": 17,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/daniel_durant_5886",
+      "signer": "0116",
+      "target": "all",
+      "prediction": "",
+      "frames": 6,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/daniel_durant_5887",
+      "signer": "0116",
+      "target": "asl",
+      "prediction": "al",
+      "frames": 8,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/daniel_durant_5888",
+      "signer": "0116",
+      "target": "well",
+      "prediction": "ril",
+      "frames": 9,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/daniel_durant_5889",
+      "signer": "0116",
+      "target": "moritz",
+      "prediction": "ooritsti",
+      "frames": 39,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_5/daniel_durant_5890",
+      "signer": "0116",
+      "target": "rich",
+      "prediction": "uih",
+      "frames": 14,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/daniel_durant_5891",
+      "signer": "0116",
+      "target": "fans",
+      "prediction": "fan",
+      "frames": 13,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/daniel_durant_5892",
+      "signer": "0116",
+      "target": "out",
+      "prediction": "t",
+      "frames": 7,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/daniel_durant_5893",
+      "signer": "0116",
+      "target": "or cd or cast",
+      "prediction": "reras",
+      "frames": 41,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_5/daniel_durant_5894",
+      "signer": "0116",
+      "target": "switched bi at",
+      "prediction": "awitedit",
+      "frames": 37,
+      "ctc_minimum": 14
+    },
+    {
+      "id": "youtube_5/daniel_durant_5895",
+      "signer": "0116",
+      "target": "fans",
+      "prediction": "aes",
+      "frames": 13,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/daniel_durant_5896",
+      "signer": "0116",
+      "target": "do it",
+      "prediction": "ins",
+      "frames": 10,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/debra_patkin_5786",
+      "signer": "0117",
+      "target": "debra patkin",
+      "prediction": "deapatin",
+      "frames": 82,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_5/debra_patkin_5787",
+      "signer": "0117",
+      "target": "of",
+      "prediction": "f",
+      "frames": 3,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/debra_patkin_5788",
+      "signer": "0117",
+      "target": "nad",
+      "prediction": "nad",
+      "frames": 24,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/debra_patkin_5789",
+      "signer": "0117",
+      "target": "rit",
+      "prediction": "rit",
+      "frames": 23,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/debra_patkin_5790",
+      "signer": "0117",
+      "target": "bs",
+      "prediction": "es",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/debra_patkin_5791",
+      "signer": "0117",
+      "target": "ma",
+      "prediction": "a",
+      "frames": 9,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/debra_patkin_5792",
+      "signer": "0117",
+      "target": "ucla",
+      "prediction": "erla",
+      "frames": 30,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/debra_patkin_5793",
+      "signer": "0117",
+      "target": "jd",
+      "prediction": "oid",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/debra_patkin_5794",
+      "signer": "0117",
+      "target": "da",
+      "prediction": "da",
+      "frames": 9,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/debra_patkin_5795",
+      "signer": "0117",
+      "target": "nad",
+      "prediction": "nad",
+      "frames": 20,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6039",
+      "signer": "0118",
+      "target": "lesbians gays bisxual",
+      "prediction": "lecinsaisrisl",
+      "frames": 63,
+      "ctc_minimum": 21
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6040",
+      "signer": "0118",
+      "target": "lgbt",
+      "prediction": "lt",
+      "frames": 15,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6041",
+      "signer": "0118",
+      "target": "details",
+      "prediction": "taia",
+      "frames": 15,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6042",
+      "signer": "0118",
+      "target": "fundig",
+      "prediction": "fundi",
+      "frames": 17,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6043",
+      "signer": "0118",
+      "target": "all",
+      "prediction": "",
+      "frames": 3,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6044",
+      "signer": "0118",
+      "target": "outeach",
+      "prediction": "ovtech",
+      "frames": 21,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6045",
+      "signer": "0118",
+      "target": "welless",
+      "prediction": "ln",
+      "frames": 16,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6046",
+      "signer": "0118",
+      "target": "dirctory",
+      "prediction": "oicci",
+      "frames": 19,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6047",
+      "signer": "0118",
+      "target": "ylc",
+      "prediction": "il",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6048",
+      "signer": "0118",
+      "target": "ok",
+      "prediction": "ok",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6049",
+      "signer": "0118",
+      "target": "n",
+      "prediction": "s",
+      "frames": 9,
+      "ctc_minimum": 1
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6050",
+      "signer": "0118",
+      "target": "fest",
+      "prediction": "ieat",
+      "frames": 12,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6051",
+      "signer": "0118",
+      "target": "lgbt",
+      "prediction": "lct",
+      "frames": 20,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6052",
+      "signer": "0118",
+      "target": "apil",
+      "prediction": "l",
+      "frames": 7,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6053",
+      "signer": "0118",
+      "target": "tips",
+      "prediction": "ipn",
+      "frames": 12,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6054",
+      "signer": "0118",
+      "target": "rainbow sity",
+      "prediction": "vsinwewsit",
+      "frames": 47,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6055",
+      "signer": "0118",
+      "target": "lgbt cub",
+      "prediction": "lct",
+      "frames": 21,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6056",
+      "signer": "0118",
+      "target": "nad",
+      "prediction": "nad",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6057",
+      "signer": "0118",
+      "target": "ylc",
+      "prediction": "il",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6058",
+      "signer": "0118",
+      "target": "sbg",
+      "prediction": "sb",
+      "frames": 16,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6059",
+      "signer": "0118",
+      "target": "body",
+      "prediction": "oli",
+      "frames": 8,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6060",
+      "signer": "0118",
+      "target": "fest",
+      "prediction": "fs",
+      "frames": 13,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/jeffrey_spinale_6061",
+      "signer": "0118",
+      "target": "ylc",
+      "prediction": "ilo",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5833",
+      "signer": "0119",
+      "target": "md",
+      "prediction": "md",
+      "frames": 23,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5834",
+      "signer": "0119",
+      "target": "council of",
+      "prediction": "corenilef",
+      "frames": 47,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5835",
+      "signer": "0119",
+      "target": "raitionle",
+      "prediction": "rite",
+      "frames": 31,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5836",
+      "signer": "0119",
+      "target": "asl",
+      "prediction": "as",
+      "frames": 13,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5837",
+      "signer": "0119",
+      "target": "weite",
+      "prediction": "et",
+      "frames": 13,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5838",
+      "signer": "0119",
+      "target": "nad",
+      "prediction": "nald",
+      "frames": 24,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5839",
+      "signer": "0119",
+      "target": "all",
+      "prediction": "il",
+      "frames": 17,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5840",
+      "signer": "0119",
+      "target": "hartfrd conn",
+      "prediction": "artcdn",
+      "frames": 58,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5841",
+      "signer": "0119",
+      "target": "asd",
+      "prediction": "asl",
+      "frames": 20,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5842",
+      "signer": "0119",
+      "target": "nad",
+      "prediction": "on",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5843",
+      "signer": "0119",
+      "target": "nbda",
+      "prediction": "nda",
+      "frames": 22,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5844",
+      "signer": "0119",
+      "target": "tim alert",
+      "prediction": "titmrt",
+      "frames": 38,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5845",
+      "signer": "0119",
+      "target": "emt",
+      "prediction": "met",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5846",
+      "signer": "0119",
+      "target": "or",
+      "prediction": "re",
+      "frames": 13,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/melissa_draganac-hawk_5847",
+      "signer": "0119",
+      "target": "met",
+      "prediction": "mt",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6124",
+      "signer": "0123",
+      "target": "ck",
+      "prediction": "k",
+      "frames": 14,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6125",
+      "signer": "0123",
+      "target": "kate",
+      "prediction": "ntte",
+      "frames": 15,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6126",
+      "signer": "0123",
+      "target": "vp",
+      "prediction": "rp",
+      "frames": 24,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6127",
+      "signer": "0123",
+      "target": "asociate povost",
+      "prediction": "aseociatepereet",
+      "frames": 61,
+      "ctc_minimum": 15
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6128",
+      "signer": "0123",
+      "target": "vpapedi",
+      "prediction": "rpapedi",
+      "frames": 46,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6129",
+      "signer": "0123",
+      "target": "cdo",
+      "prediction": "cd",
+      "frames": 25,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6130",
+      "signer": "0123",
+      "target": "vpapedi",
+      "prediction": "rpape",
+      "frames": 33,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6131",
+      "signer": "0123",
+      "target": "cdo",
+      "prediction": "cdo",
+      "frames": 14,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6132",
+      "signer": "0123",
+      "target": "co",
+      "prediction": "b",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6133",
+      "signer": "0123",
+      "target": "kafi lemons",
+      "prediction": "ifilenest",
+      "frames": 45,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6134",
+      "signer": "0123",
+      "target": "adm",
+      "prediction": "ade",
+      "frames": 13,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6135",
+      "signer": "0123",
+      "target": "mary ann sereth",
+      "prediction": "eaciarnesereth",
+      "frames": 80,
+      "ctc_minimum": 16
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6136",
+      "signer": "0123",
+      "target": "at",
+      "prediction": "tt",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6137",
+      "signer": "0123",
+      "target": "model",
+      "prediction": "meel",
+      "frames": 20,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6138",
+      "signer": "0123",
+      "target": "mssd",
+      "prediction": "ossrd",
+      "frames": 26,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6139",
+      "signer": "0123",
+      "target": "if",
+      "prediction": "f",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6140",
+      "signer": "0123",
+      "target": "all",
+      "prediction": "a",
+      "frames": 15,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6141",
+      "signer": "0123",
+      "target": "stakeholders",
+      "prediction": "atadeedet",
+      "frames": 36,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6142",
+      "signer": "0123",
+      "target": "all",
+      "prediction": "aal",
+      "frames": 21,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6143",
+      "signer": "0123",
+      "target": "upates",
+      "prediction": "te",
+      "frames": 15,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6144",
+      "signer": "0123",
+      "target": "co",
+      "prediction": "bo",
+      "frames": 9,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6145",
+      "signer": "0123",
+      "target": "by",
+      "prediction": "ci",
+      "frames": 22,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6146",
+      "signer": "0123",
+      "target": "all",
+      "prediction": "asl",
+      "frames": 12,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6147",
+      "signer": "0123",
+      "target": "vpapedi",
+      "prediction": "rpskedi",
+      "frames": 37,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6148",
+      "signer": "0123",
+      "target": "cdo",
+      "prediction": "cdo",
+      "frames": 27,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6149",
+      "signer": "0123",
+      "target": "do",
+      "prediction": "o",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6150",
+      "signer": "0123",
+      "target": "dr maftin luther",
+      "prediction": "prmlintpe",
+      "frames": 47,
+      "ctc_minimum": 16
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6151",
+      "signer": "0123",
+      "target": "ir",
+      "prediction": "ir",
+      "frames": 25,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6152",
+      "signer": "0123",
+      "target": "ek",
+      "prediction": "erp",
+      "frames": 15,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6153",
+      "signer": "0123",
+      "target": "sfe",
+      "prediction": "tife",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/roberta_cordano_6154",
+      "signer": "0123",
+      "target": "ck",
+      "prediction": "erp",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/sean_berdy_6078",
+      "signer": "0113",
+      "target": "it",
+      "prediction": "it",
+      "frames": 12,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/sean_berdy_6079",
+      "signer": "0113",
+      "target": "emmett",
+      "prediction": "et",
+      "frames": 19,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_5/sean_berdy_6080",
+      "signer": "0113",
+      "target": "of",
+      "prediction": "f",
+      "frames": 14,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/sean_berdy_6081",
+      "signer": "0113",
+      "target": "he cope",
+      "prediction": "hce",
+      "frames": 20,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_5/sean_berdy_6082",
+      "signer": "0113",
+      "target": "season",
+      "prediction": "ssn",
+      "frames": 14,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_5/sean_berdy_6083",
+      "signer": "0113",
+      "target": "well",
+      "prediction": "e",
+      "frames": 21,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/sean_berdy_6084",
+      "signer": "0113",
+      "target": "at",
+      "prediction": "at",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/sean_berdy_6085",
+      "signer": "0113",
+      "target": "there",
+      "prediction": "",
+      "frames": 5,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/sean_berdy_6086",
+      "signer": "0113",
+      "target": "violence",
+      "prediction": "uite",
+      "frames": 30,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_5/sean_berdy_6087",
+      "signer": "0113",
+      "target": "of",
+      "prediction": "f",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/sean_berdy_6088",
+      "signer": "0113",
+      "target": "fit",
+      "prediction": "t",
+      "frames": 11,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/sean_berdy_6089",
+      "signer": "0113",
+      "target": "well",
+      "prediction": "e",
+      "frames": 26,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/sean_berdy_6090",
+      "signer": "0113",
+      "target": "emmett do",
+      "prediction": "etlo",
+      "frames": 19,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_5/sean_berdy_6091",
+      "signer": "0113",
+      "target": "friendship",
+      "prediction": "reish",
+      "frames": 27,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_5/sean_berdy_6092",
+      "signer": "0113",
+      "target": "bay",
+      "prediction": "a",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/sean_berdy_6093",
+      "signer": "0113",
+      "target": "well",
+      "prediction": "w",
+      "frames": 9,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/sean_berdy_6094",
+      "signer": "0113",
+      "target": "ett",
+      "prediction": "a",
+      "frames": 10,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/sean_berdy_6095",
+      "signer": "0113",
+      "target": "of",
+      "prediction": "",
+      "frames": 4,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/sean_berdy_6096",
+      "signer": "0113",
+      "target": "her",
+      "prediction": "",
+      "frames": 5,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/sean_berdy_6097",
+      "signer": "0113",
+      "target": "ipf",
+      "prediction": "ih",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/sean_berdy_6098",
+      "signer": "0113",
+      "target": "cope",
+      "prediction": "oke",
+      "frames": 11,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/sean_berdy_6099",
+      "signer": "0113",
+      "target": "fit",
+      "prediction": "ft",
+      "frames": 8,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/sean_berdy_6100",
+      "signer": "0113",
+      "target": "of",
+      "prediction": "f",
+      "frames": 5,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/sean_berdy_6101",
+      "signer": "0113",
+      "target": "well",
+      "prediction": "wt",
+      "frames": 8,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/sean_berdy_6102",
+      "signer": "0113",
+      "target": "emmett he",
+      "prediction": "othe",
+      "frames": 46,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_5/sean_berdy_6103",
+      "signer": "0113",
+      "target": "season",
+      "prediction": "seso",
+      "frames": 21,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_5/sean_berdy_6104",
+      "signer": "0113",
+      "target": "all",
+      "prediction": "l",
+      "frames": 4,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/sean_berdy_6105",
+      "signer": "0113",
+      "target": "him",
+      "prediction": "haie",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/sean_berdy_6106",
+      "signer": "0113",
+      "target": "well",
+      "prediction": "",
+      "frames": 6,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/sean_berdy_6107",
+      "signer": "0113",
+      "target": "too",
+      "prediction": "to",
+      "frames": 9,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/sean_berdy_6108",
+      "signer": "0113",
+      "target": "wel",
+      "prediction": "wl",
+      "frames": 8,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/sean_berdy_6109",
+      "signer": "0113",
+      "target": "drumming",
+      "prediction": "uoin",
+      "frames": 27,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_5/sean_berdy_6110",
+      "signer": "0113",
+      "target": "ett",
+      "prediction": "et",
+      "frames": 7,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/sean_berdy_6111",
+      "signer": "0113",
+      "target": "drum",
+      "prediction": "ro",
+      "frames": 10,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/sean_berdy_6112",
+      "signer": "0113",
+      "target": "emtt",
+      "prediction": "et",
+      "frames": 11,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/sean_berdy_6113",
+      "signer": "0113",
+      "target": "scan",
+      "prediction": "ssos",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/sean_berdy_6114",
+      "signer": "0113",
+      "target": "in",
+      "prediction": "it",
+      "frames": 7,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/sean_berdy_6115",
+      "signer": "0113",
+      "target": "concert alike",
+      "prediction": "caalive",
+      "frames": 37,
+      "ctc_minimum": 13
+    },
+    {
+      "id": "youtube_5/sean_berdy_6116",
+      "signer": "0113",
+      "target": "um",
+      "prediction": "o",
+      "frames": 16,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/sean_berdy_6117",
+      "signer": "0113",
+      "target": "are",
+      "prediction": "ore",
+      "frames": 9,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/sean_berdy_6118",
+      "signer": "0113",
+      "target": "but",
+      "prediction": "bt",
+      "frames": 15,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/sean_berdy_6119",
+      "signer": "0113",
+      "target": "do",
+      "prediction": "do",
+      "frames": 6,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/sean_berdy_6120",
+      "signer": "0113",
+      "target": "of it",
+      "prediction": "it",
+      "frames": 12,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/sean_berdy_6121",
+      "signer": "0113",
+      "target": "season",
+      "prediction": "asn",
+      "frames": 15,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_5/sean_berdy_6122",
+      "signer": "0113",
+      "target": "fans",
+      "prediction": "fn",
+      "frames": 8,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_5/sean_berdy_6123",
+      "signer": "0113",
+      "target": "of it",
+      "prediction": "it",
+      "frames": 10,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_5/tanea_brown_6028",
+      "signer": "0120",
+      "target": "tanea brown",
+      "prediction": "tanearer",
+      "frames": 53,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_5/tanea_brown_6029",
+      "signer": "0120",
+      "target": "yap",
+      "prediction": "iap",
+      "frames": 17,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/tanea_brown_6030",
+      "signer": "0120",
+      "target": "ambassdor",
+      "prediction": "amasder",
+      "frames": 47,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_5/tanea_brown_6031",
+      "signer": "0120",
+      "target": "nad",
+      "prediction": "nat",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/tanea_brown_6032",
+      "signer": "0120",
+      "target": "poc",
+      "prediction": "pc",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/tanea_brown_6033",
+      "signer": "0120",
+      "target": "of",
+      "prediction": "f",
+      "frames": 5,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/tanea_brown_6034",
+      "signer": "0120",
+      "target": "us",
+      "prediction": "a",
+      "frames": 4,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/tanea_brown_6035",
+      "signer": "0120",
+      "target": "website",
+      "prediction": "eebesitae",
+      "frames": 30,
+      "ctc_minimum": 7
+    },
+    {
+      "id": "youtube_5/tanea_brown_6036",
+      "signer": "0120",
+      "target": "up",
+      "prediction": "sp",
+      "frames": 9,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_5/tanea_brown_6037",
+      "signer": "0120",
+      "target": "poc",
+      "prediction": "",
+      "frames": 10,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_5/tanea_brown_6038",
+      "signer": "0120",
+      "target": "utah",
+      "prediction": "ut",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6517",
+      "signer": "0121",
+      "target": "myles",
+      "prediction": "sites",
+      "frames": 34,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6518",
+      "signer": "0121",
+      "target": "camaspace",
+      "prediction": "eamssae",
+      "frames": 71,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6519",
+      "signer": "0121",
+      "target": "great",
+      "prediction": "eat",
+      "frames": 45,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6520",
+      "signer": "0121",
+      "target": "cymaspace",
+      "prediction": "amalae",
+      "frames": 70,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6521",
+      "signer": "0121",
+      "target": "asl",
+      "prediction": "al",
+      "frames": 19,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6522",
+      "signer": "0121",
+      "target": "all",
+      "prediction": "",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6523",
+      "signer": "0121",
+      "target": "all senses",
+      "prediction": "alnns",
+      "frames": 56,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6524",
+      "signer": "0121",
+      "target": "all senses",
+      "prediction": "al",
+      "frames": 49,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6525",
+      "signer": "0121",
+      "target": "fetre",
+      "prediction": "fdauee",
+      "frames": 38,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6526",
+      "signer": "0121",
+      "target": "electronics",
+      "prediction": "elertrrices",
+      "frames": 82,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6527",
+      "signer": "0121",
+      "target": "open source",
+      "prediction": "pensre",
+      "frames": 79,
+      "ctc_minimum": 11
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6528",
+      "signer": "0121",
+      "target": "frequency",
+      "prediction": "rerennecy",
+      "frames": 86,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6529",
+      "signer": "0121",
+      "target": "brain",
+      "prediction": "boainn",
+      "frames": 48,
+      "ctc_minimum": 5
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6530",
+      "signer": "0121",
+      "target": "all",
+      "prediction": "",
+      "frames": 15,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6531",
+      "signer": "0121",
+      "target": "senses",
+      "prediction": "oten",
+      "frames": 30,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_6/myles_de_bastion_6532",
+      "signer": "0121",
+      "target": "senses",
+      "prediction": "aonn",
+      "frames": 41,
+      "ctc_minimum": 6
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6466",
+      "signer": "0123",
+      "target": "bobbi cordano",
+      "prediction": "obictne",
+      "frames": 41,
+      "ctc_minimum": 14
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6467",
+      "signer": "0123",
+      "target": "provost cabol erting",
+      "prediction": "erestcaclerimeng",
+      "frames": 73,
+      "ctc_minimum": 20
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6468",
+      "signer": "0123",
+      "target": "vp ron stern",
+      "prediction": "rpensern",
+      "frames": 52,
+      "ctc_minimum": 12
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6469",
+      "signer": "0123",
+      "target": "task fce",
+      "prediction": "taske",
+      "frames": 42,
+      "ctc_minimum": 8
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6470",
+      "signer": "0123",
+      "target": "frame wouk",
+      "prediction": "forerk",
+      "frames": 33,
+      "ctc_minimum": 10
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6471",
+      "signer": "0123",
+      "target": "co chairs",
+      "prediction": "boirs",
+      "frames": 32,
+      "ctc_minimum": 9
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6472",
+      "signer": "0123",
+      "target": "dr jefrey lewis",
+      "prediction": "drdieileris",
+      "frames": 67,
+      "ctc_minimum": 15
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6473",
+      "signer": "0123",
+      "target": "dept",
+      "prediction": "ropa",
+      "frames": 14,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6474",
+      "signer": "0123",
+      "target": "dr kristin mulrooney",
+      "prediction": "prislirnmwlenei",
+      "frames": 111,
+      "ctc_minimum": 21
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6475",
+      "signer": "0123",
+      "target": "dept",
+      "prediction": "doept",
+      "frames": 16,
+      "ctc_minimum": 4
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6476",
+      "signer": "0123",
+      "target": "feb",
+      "prediction": "fer",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6477",
+      "signer": "0123",
+      "target": "by",
+      "prediction": "ci",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6478",
+      "signer": "0123",
+      "target": "feb",
+      "prediction": "feob",
+      "frames": 12,
+      "ctc_minimum": 3
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6479",
+      "signer": "0123",
+      "target": "ok",
+      "prediction": "k",
+      "frames": 8,
+      "ctc_minimum": 2
+    },
+    {
+      "id": "youtube_6/roberta_cordano_6480",
+      "signer": "0123",
+      "target": "by",
+      "prediction": "ci",
+      "frames": 7,
+      "ctc_minimum": 2
+    }
+  ]
+}

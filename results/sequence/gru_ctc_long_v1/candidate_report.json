@@ -1,0 +1,160 @@
+{
+  "best_epoch": 38,
+  "epochs_run": 43,
+  "budget_reached": false,
+  "validation": {
+    "sequences": 978,
+    "reference_characters": 4967,
+    "character_edits": 2121,
+    "cer": 0.4270183209180592,
+    "exact": 170,
+    "exact_accuracy": 0.1738241308793456,
+    "empty": 17,
+    "empty_rate": 0.017382413087934562,
+    "ctc_loss": 1.752830408147124,
+    "ctc_loss_denominator": 976,
+    "ctc_loss_skipped": 2,
+    "ctc_loss_skipped_ids": [
+      "youtube_4/sean_berdy_5756",
+      "youtube_5/jeffrey_spinale_6043"
+    ],
+    "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+    "j_subset": {
+      "sequences": 15,
+      "reference_characters": 136,
+      "character_edits": 66,
+      "cer": 0.4852941176470588,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 0,
+      "empty_rate": 0.0
+    },
+    "z_subset": {
+      "sequences": 18,
+      "reference_characters": 136,
+      "character_edits": 70,
+      "cer": 0.5147058823529411,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 0,
+      "empty_rate": 0.0
+    }
+  },
+  "training": {
+    "sequences": 5433,
+    "reference_characters": 28573,
+    "character_edits": 8261,
+    "cer": 0.2891190984495853,
+    "exact": 2210,
+    "exact_accuracy": 0.4067734216823118,
+    "empty": 121,
+    "empty_rate": 0.022271304988036075,
+    "ctc_loss": 0.8938213042982064,
+    "ctc_loss_denominator": 5433,
+    "ctc_loss_skipped": 0,
+    "ctc_loss_skipped_ids": [],
+    "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+    "j_subset": {
+      "sequences": 133,
+      "reference_characters": 1016,
+      "character_edits": 445,
+      "cer": 0.43799212598425197,
+      "exact": 16,
+      "exact_accuracy": 0.12030075187969924,
+      "empty": 2,
+      "empty_rate": 0.015037593984962405
+    },
+    "z_subset": {
+      "sequences": 72,
+      "reference_characters": 647,
+      "character_edits": 202,
+      "cer": 0.312210200927357,
+      "exact": 11,
+      "exact_accuracy": 0.1527777777777778,
+      "empty": 0,
+      "empty_rate": 0.0
+    }
+  },
+  "debug": {
+    "sequences": 16,
+    "reference_characters": 42,
+    "character_edits": 0,
+    "cer": 0.0,
+    "exact": 16,
+    "exact_accuracy": 1.0,
+    "empty": 0,
+    "empty_rate": 0.0,
+    "ctc_loss": 0.008291613310575485,
+    "ctc_loss_denominator": 16,
+    "ctc_loss_skipped": 0,
+    "ctc_loss_skipped_ids": [],
+    "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+    "j_subset": {
+      "sequences": 1,
+      "reference_characters": 4,
+      "character_edits": 0,
+      "cer": 0.0,
+      "exact": 1,
+      "exact_accuracy": 1.0,
+      "empty": 0,
+      "empty_rate": 0.0
+    },
+    "z_subset": {
+      "sequences": 0,
+      "reference_characters": 0,
+      "character_edits": 0,
+      "cer": null,
+      "exact": 0,
+      "exact_accuracy": null,
+      "empty": 0,
+      "empty_rate": null
+    }
+  },
+  "initial_validation": {
+    "sequences": 978,
+    "reference_characters": 4967,
+    "character_edits": 4803,
+    "cer": 0.9669820817394805,
+    "exact": 0,
+    "exact_accuracy": 0.0,
+    "empty": 0,
+    "empty_rate": 0.0,
+    "ctc_loss": 16.144215789974712,
+    "ctc_loss_denominator": 976,
+    "ctc_loss_skipped": 2,
+    "ctc_loss_skipped_ids": [
+      "youtube_4/sean_berdy_5756",
+      "youtube_5/jeffrey_spinale_6043"
+    ],
+    "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+    "j_subset": {
+      "sequences": 15,
+      "reference_characters": 136,
+      "character_edits": 131,
+      "cer": 0.9632352941176471,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 0,
+      "empty_rate": 0.0
+    },
+    "z_subset": {
+      "sequences": 18,
+      "reference_characters": 136,
+      "character_edits": 129,
+      "cer": 0.9485294117647058,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 0,
+      "empty_rate": 0.0
+    }
+  },
+  "checkpoint": "models/sequence/gru_ctc_long_v1.pt",
+  "checkpoint_sha256": "762d11636d38f35ae8590fbef6bfb9edd2687b5f0acdd5c027dba063146973fc",
+  "elapsed_seconds": 473.6940520629869,
+  "pilot_elapsed_seconds": 456.4535007759987,
+  "peak_process_rss_bytes": 652627968,
+  "test_inference": false,
+  "sources_unchanged": true,
+  "static_unchanged": true,
+  "interpretation": "Alphabet-plus-space offline feasibility pilot; validation used for selection. No test, streaming or live performance claim."
+}

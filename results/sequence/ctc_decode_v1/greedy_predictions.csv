@@ -1,0 +1,979 @@
+id,target,prediction,frames,decoding_ms
+aslized/joy_maisel_6419,joy maisel,samnaisl,66,0.8698370074853301
+aslized/joy_maisel_6420,aslized,asliatcd,35,0.27351599419489503
+aslized/joy_maisel_6421,asl,asl,17,0.14744600048288703
+aslized/joy_maisel_6422,asl,asl,14,0.12886000331491232
+aslized/joy_maisel_6423,fiction,fiction,40,0.26822101790457964
+aslized/joy_maisel_6424,coda,boda,29,0.23111497284844518
+aslized/joy_maisel_6425,of,sf,11,0.1103469985537231
+aslized/joy_maisel_6426,asl,asl,38,0.292200013063848
+aslized/joy_maisel_6427,asl corpus,aslbus,54,0.353593030013144
+aslized/joy_maisel_6428,asl copupus,aslcobpra,47,0.3277349751442671
+aslized/joy_maisel_6429,fiction,fiction,38,0.2833629841916263
+aslized/joy_maisel_6430,fiction,bfictin,33,0.24437298998236656
+aslized/joy_maisel_6431,fiction,fictin,37,0.30999898444861174
+aslized/joy_maisel_6432,fiction,iction,33,0.7874580333009362
+aslized/joy_maisel_6433,fun,fun,14,0.1580989919602871
+aslized/joy_maisel_6434,youtube link,ioutvbelink,71,0.5305429804138839
+aslized/joy_maisel_6435,slide,slide,25,0.22944097872823477
+aslized/joy_maisel_6436,fiction,fictin,30,0.24872802896425128
+aslized/joy_maisel_6437,or,or,9,0.11001498205587268
+aslized/joy_maisel_6438,fiction,fictin,41,0.27916301041841507
+aslized/joy_maisel_6439,solid,eli,24,0.20771997515112162
+aslized/joy_maisel_6440,props,props,33,0.23273297119885683
+aslized/joy_maisel_6441,or,or,12,0.11514400830492377
+aslized/joy_maisel_6442,fcts,fcta,36,0.2676779986359179
+aslized/joy_maisel_6443,ficion,fion,24,0.20599697018042207
+aslized/joy_maisel_6444,ficton,ficin,22,0.19361102022230625
+aslized/joy_maisel_6445,or,or,8,0.10774104157462716
+aslized/joy_maisel_6446,disq,di,24,0.2005270216614008
+aslized/suzanne_stecker_0194,textfields,ktextfiels,70,0.4435310256667435
+aslized/suzanne_stecker_0195,copy,lcoky,33,0.25544798700138927
+aslized/suzanne_stecker_0196,paste,paste,51,0.35187898902222514
+aslized/suzanne_stecker_0197,aslized,asliled,49,0.34129596315324306
+aslized/suzanne_stecker_0198,android,android,45,0.3554070135578513
+aslized/suzanne_stecker_0199,unicode,unicode,56,0.3659140202216804
+aslized/suzanne_stecker_0200,unicode,dicode,28,0.22385199554264545
+aslized/suzanne_stecker_0201,goole,gole,38,0.2683509956113994
+aslized/suzanne_stecker_0202,microfsoft,microesft,71,0.497675035148859
+aslized/suzanne_stecker_0203,twitter,twitoert,35,0.28614402981474996
+aslized/suzanne_stecker_0204,asl or,aslor,29,0.23442297242581844
+aslized/suzanne_stecker_0205,aslized,aslited,48,0.33547403290867805
+aslized/suzanne_stecker_0206,copy,coliy,22,0.2147009945474565
+aslized/suzanne_stecker_0207,paste,paste,42,0.303334032651037
+aslized/suzanne_stecker_0208,gif,giff,22,0.18651504069566727
+aslized/suzanne_stecker_0241,aslized,aslied,53,0.3388010081835091
+aslized/suzanne_stecker_0242,deadline,esdlie,40,0.27533102547749877
+aslized/suzanne_stecker_0243,aslized,asl,33,0.2554450184106827
+aslized/suzanne_stecker_0244,cards,pcauds,25,0.2216569846495986
+aslized/suzanne_stecker_0245,specs,tapecs,33,0.24556700373068452
+aslized/suzanne_stecker_0246,aslized,aslid,35,0.26809703558683395
+aslized/suzanne_stecker_0247,june,yshnec,32,0.24840497644618154
+aslized/suzanne_stecker_0248,ed,ed,20,0.1698059495538473
+aslized/suzanne_stecker_0250,cite,ile,49,0.3314469940960407
+aslized/suzanne_stecker_0251,asl,tasl,49,0.3638360067270696
+aslized/suzanne_stecker_0252,asl,asl,28,0.24634000146761537
+aslized/suzanne_stecker_0253,asl,al,19,0.17498800298199058
+aslized/suzanne_stecker_0254,asl,asl,26,0.20709802629426122
+aslized/suzanne_stecker_0255,video,alilo,26,0.2394460025243461
+aslized/suzanne_stecker_0256,animators,aniars,39,0.3101609763689339
+aslized/suzanne_stecker_0257,can,pcna,16,0.1666839816607535
+aslized/suzanne_stecker_0258,fund,ifund,22,0.17790100537240505
+aslized/suzanne_stecker_0259,asl,asl,19,0.17137301620095968
+aslized/suzanne_stecker_0260,poker,oknr,35,0.2604899927973747
+aslized/suzanne_stecker_0261,eche rummy,echermyl,71,0.45085104648023844
+aslized/suzanne_stecker_0262,asl,asl,23,0.17341901548206806
+aslized/suzanne_stecker_0263,asl,asl,50,0.34498301101848483
+aslized/suzanne_stecker_0264,art,trt,23,0.18543098121881485
+aslized/suzanne_stecker_0265,media,mila,25,0.20364997908473015
+aslized/suzanne_stecker_0266,dpi,dpi,46,0.3060640301555395
+aslized/suzanne_stecker_0267,ian guzman,isnuman,76,0.5416450439952314
+aslized/suzanne_stecker_0268,art,akt,18,0.16783899627625942
+aslized/suzanne_stecker_0269,media,omila,22,0.17899996601045132
+aslized/suzanne_stecker_0270,files,filet,32,0.24854001821950078
+aslized/suzanne_stecker_0271,fobm,fsram,43,0.2910489565692842
+aslized/suzanne_stecker_0272,aslized,asl,40,0.27963100001215935
+aslized/suzanne_stecker_0273,if,if,20,0.16817596042528749
+aslized/suzanne_stecker_0274,do,li,13,0.1160020474344492
+aslized/suzanne_stecker_0275,grm,hn,18,0.15599699690937996
+aslized/suzanne_stecker_0276,feb,feb,35,0.2596699632704258
+aslized/suzanne_stecker_0277,ian,ian,30,0.23210898507386446
+aslized/suzanne_stecker_0279,aslized facebook,masli facbcokk,69,0.43960200855508447
+aslized/suzanne_stecker_0280,page,kapex,42,0.293200952000916
+aslized/suzanne_stecker_0281,vido,avido,19,0.17629604553803802
+aslized/suzanne_stecker_0282,aslized or,iaslgr,47,0.30587194487452507
+aslized/suzanne_stecker_0283,aslizd,lasil,34,0.27473800582811236
+aslized/suzanne_stecker_0284,page,kale,29,0.23893802426755428
+aslized/suzanne_stecker_0285,or,ok,17,0.1669490011408925
+aslized/suzanne_stecker_0286,email,eal,18,0.15794398495927453
+aslized/suzanne_stecker_0287,ok,ok,13,0.12940802844241261
+deafvideo_2/confederateboy_1661,up date sc,uoattesr,62,0.4209980252198875
+deafvideo_2/confederateboy_1662,sc,,11,0.11411495506763458
+deafvideo_2/confederateboy_1663,mis,iodh,20,0.1758559956215322
+deafvideo_2/confederateboy_1665,or,pn,24,0.17162796575576067
+deafvideo_2/confederateboy_1666,sc,os,22,0.1936639891937375
+deafvideo_2/confederateboy_1667,mall,maal,26,0.22476603044196963
+deafvideo_2/confederateboy_1668,csubia,hcoubfys,67,0.4483759985305369
+deafvideo_2/confederateboy_1669,bitesl,bidesll,25,0.21140999160706997
+deafvideo_2/confederateboy_1670,md,ml,26,0.1999249798245728
+deafvideo_2/confederateboy_1671,la,lasg,18,0.15254103345796466
+deafvideo_2/confederateboy_1672,md,bic,32,0.247577961999923
+deafvideo_2/confederateboy_1673,la,als,14,0.12819503899663687
+deafvideo_2/confederateboy_1674,of,err,10,0.1125499838963151
+deafvideo_2/deafpoweronethumbtwo_1782,tump,trom,19,0.1596640213392675
+deafvideo_2/deafpoweronethumbtwo_1783,tump,trimp,17,0.1528550055809319
+deafvideo_2/deafpoweronethumbtwo_1784,tump,omt,24,0.19618496298789978
+deafvideo_2/deafpoweronethumbtwo_1785,tmp,tob,19,0.1631489722058177
+deafvideo_2/deafpoweronethumbtwo_1786,tump,trom,19,0.1820690231397748
+deafvideo_2/deafpoweronethumbtwo_1787,wow,wmw,16,0.150355976074934
+deafvideo_2/deafpoweronethumbtwo_1788,wow,wow,13,0.12769200839102268
+deafvideo_2/deafpoweronethumbtwo_1789,un,n,13,0.13277999823912978
+deafvideo_2/deafpoweronethumbtwo_1790,tump,tsromp,19,0.1757189747877419
+deafvideo_2/deafpoweronethumbtwo_1791,so,so,7,0.08879799861460924
+deafvideo_2/deafpoweronethumbtwo_1792,gvn,arn,10,0.10728399502113461
+deafvideo_2/deafpoweronethumbtwo_1793,gvn,run,11,0.11590402573347092
+deafvideo_2/deafpoweronethumbtwo_1794,gvn,atvn,16,0.14721398474648595
+deafvideo_2/deafpoweronethumbtwo_1795,walstre,walstres,28,0.22146198898553848
+deafvideo_2/deafpoweronethumbtwo_1796,gvn,rn,10,0.1130219898186624
+deafvideo_2/deafpoweronethumbtwo_1797,en,ren,10,0.1233220100402832
+deafvideo_2/deafpoweronethumbtwo_1798,bus,buks,18,0.15215401072055101
+deafvideo_2/deafpoweronethumbtwo_1799,gvn,rn,16,0.41335797868669033
+deafvideo_2/fairytales9_2274,pearl,sr,45,0.36437297239899635
+deafvideo_2/fairytales9_2275,nikka,oknis,56,0.39245799416676164
+deafvideo_2/fairytales9_2276,abces,aben,22,0.16957405023276806
+deafvideo_2/fairytales9_2277,ok,ok,13,0.12969999806955457
+deafvideo_2/fairytales9_2278,all,al,16,0.16104301903396845
+deafvideo_2/fairytales9_2279,yratd,ibs,25,0.22966397227719426
+deafvideo_2/fairytales9_2280,scs,tc,17,0.1490100403316319
+deafvideo_2/fairytales9_2281,mexer,oo,23,0.20245800260454416
+deafvideo_2/fairytales9_2282,hell,ax,21,0.16578799113631248
+deafvideo_2/fairytales9_2283,of all,oal,17,0.1475409953854978
+deafvideo_2/fairytales9_2284,if,i,9,0.10317598935216665
+deafvideo_2/fairytales9_2285,all,ga,14,0.13286201283335686
+deafvideo_2/fairytales9_2286,yout,asnkn,20,0.16114400932565331
+deafvideo_2/fairytales9_2287,ltway,aut,13,0.13871199917048216
+deafvideo_2/fairytales9_2288,halhelink,slstiok,36,0.2543900045566261
+deafvideo_2/fairytales9_2289,feak,,19,0.17668202053755522
+deafvideo_2/fairytales9_2290,aci,aps,15,0.12599100591614842
+deafvideo_2/fairytales9_2291,fell,fod,19,0.1619950053282082
+deafvideo_2/fairytales9_2292,stairs,stirs,22,0.21476199617609382
+deafvideo_2/fairytales9_2293,so,so,6,0.08751399582251906
+deafvideo_2/fairytales9_2294,railine,ao,24,0.19215198699384928
+deafvideo_2/fairytales9_2295,mathews,nndtsoencs,33,0.24357798974961042
+deafvideo_2/fairytales9_2296,matosead,oaset,27,0.22275798255577683
+deafvideo_2/fairytales9_2297,doc,ec,11,0.10619498789310455
+deafvideo_2/fairytales9_2298,her,or,14,0.1408969983458519
+deafvideo_2/fairytales9_2299,inox,o,19,0.1719989813864231
+deafvideo_2/fairytales9_2300,xray o,o,13,0.12817501556128263
+deafvideo_2/goatman_1519,so,ao,15,0.16101798973977566
+deafvideo_2/goatman_1520,date,daes,22,0.1728050410747528
+deafvideo_2/goatman_1521,so,so,15,0.13455795124173164
+deafvideo_2/goatman_1522,line,ine,29,0.20563800353556871
+deafvideo_2/goatman_1523,date,odlates,20,0.1642680144868791
+deafvideo_2/goatman_1524,date,dates,19,0.20414398750290275
+deafvideo_2/goatman_1525,date,date,24,0.19696401432156563
+deafvideo_2/goatman_1526,date,odate,20,0.18157699378207326
+deafvideo_2/goatman_1527,is,is,16,0.14313403517007828
+deafvideo_2/goatman_1528,neb,led,25,0.19400601740926504
+deafvideo_2/goatman_1529,date,oae,22,0.18370297038927674
+deafvideo_2/goatman_1530,date,dtte,19,0.17173500964418054
+deafvideo_2/goatman_1531,neb,nsbe,23,0.1900039496831596
+deafvideo_2/goatman_1532,date,mtes,24,0.21388998720794916
+deafvideo_2/goatman_1533,pen,en,23,0.20300800679251552
+deafvideo_2/goatman_1534,va,a,30,0.24704303359612823
+deafvideo_2/goatman_1535,dc,odc,18,0.1540280063636601
+deafvideo_2/goatman_1536,oregon,sreen,51,0.3400699933990836
+deafvideo_2/goatman_1537,utah,wt,42,0.3338599926792085
+deafvideo_2/goatman_1538,vermont,serseonnt,52,0.35501300590112805
+deafvideo_2/goatman_1539,date,dates,21,0.20321295596659184
+deafvideo_2/goatman_1540,sc,sc,32,0.2356710028834641
+deafvideo_2/goatman_1541,sc,sc,12,0.12689101276919246
+deafvideo_2/goatman_1542,oklahoma,ekapea,70,0.4435309674590826
+deafvideo_2/goatman_1543,ohio,ehio,27,0.20798598416149616
+deafvideo_2/goatman_1544,nc,nc,20,0.16909599071368575
+deafvideo_2/goatman_1545,date,ate,22,0.1928919809870422
+deafvideo_2/sddsimple_1546,savior,savior,47,0.3458879655227065
+deafvideo_2/sddsimple_1547,or,or,12,0.14702900080010295
+deafvideo_2/sddsimple_1548,sam,sam,38,0.2646400243975222
+deafvideo_2/sddsimple_1549,was,was,12,0.12818101095035672
+deafvideo_2/sddsimple_1550,of,f,18,0.16940495697781444
+deafvideo_2/sddsimple_1551,of,cofb,12,0.13584800763055682
+deafvideo_2/sddsimple_1552,evil,cevilh,54,0.3696890198625624
+deafvideo_2/sddsimple_1553,or,beb,12,0.11597998673096299
+deafvideo_2/sddsimple_1554,isaiah,cess,29,0.2209680387750268
+deafvideo_2/sddsimple_1555,i dash i,idashii,72,0.47596695367246866
+deafvideo_2/sddsimple_1556,savoir,svr,28,0.22940296912565827
+deafvideo_2/sddsimple_1557,sam,etm,35,0.2872360055334866
+deafvideo_2/sddsimple_1558,at,at,10,0.11347199324518442
+deafvideo_2/sddsimple_1559,saved,saveld,50,0.3550240071490407
+deafvideo_2/sddsimple_1560,so,oo,9,0.09460700675845146
+deafvideo_2/sddsimple_1561,or,r,16,0.13842701446264982
+deafvideo_2/sddsimple_1562,titus,rltitren,48,0.3408860065974295
+deafvideo_2/sddsimple_1563,darn,ldarn,28,0.22465904476121068
+deafvideo_2/sddsimple_1564,savior,eoariou,47,0.33429200993850827
+deafvideo_2/sddsimple_1565,or,or,13,0.11907902080565691
+deafvideo_2/sddsimple_1566,jude,jisrde,52,0.35768101224675775
+deafvideo_2/sddsimple_1567,the only,thekkli,139,0.8284380310215056
+deafvideo_2/sddsimple_1568,only,cknklibc,75,0.513217004481703
+deafvideo_2/sddsimple_1569,savior,esavir,90,0.5868939915671945
+deafvideo_2/sddsimple_1570,be,be,23,0.1958570210263133
+deafvideo_2/sddsimple_1571,or,bor,10,0.100435980129987
+deafvideo_2/sddsimple_1572,acts,acts,39,0.2975809620693326
+deafvideo_2/sddsimple_1573,exalted,bedalted,108,0.6606329698115587
+deafvideo_2/sddsimple_1574,or,or,13,0.1346480567008257
+deafvideo_2/sddsimple_1575,or,r,14,0.1404820359311998
+deafvideo_2/sddsimple_1576,cheif,cheif,86,0.8232489926740527
+deafvideo_2/sddsimple_1577,cheif,fcheif,108,0.687187013681978
+deafvideo_2/sddsimple_1578,agent,agnt,81,0.49861398292705417
+deafvideo_2/sddsimple_1579,savior,sariors,25,0.2275320002809167
+deafvideo_2/sddsimple_1580,agents,sgentes,66,0.428432016633451
+deafvideo_2/sddsimple_1581,chef agent,chefaent,164,0.978783005848527
+deafvideo_2/sddsimple_1582,savior,eavior,65,0.42416300857439637
+deafvideo_2/sddsimple_1583,the,th,17,0.15759700909256935
+deafvideo_2/sddsimple_1584,hand,vasd,42,0.305238994769752
+deafvideo_2/sddsimple_1585,to,to,19,0.16595801571384072
+deafvideo_2/sddsimple_1586,to,trcoc,19,0.15747500583529472
+deafvideo_2/sddsimple_1587,of,of,24,0.1857129973359406
+deafvideo_2/sddsimple_1588,or,er,11,0.11121999705210328
+deafvideo_2/sddsimple_1589,titus,tivss,28,0.23103301646187901
+deafvideo_2/sddsimple_1590,the,the,36,0.24696200853213668
+deafvideo_2/sddsimple_1591,the,thr,20,0.1790820388123393
+deafvideo_2/sddsimple_1592,savior,avior,51,0.3566240193322301
+deafvideo_2/sddsimple_1593,acts,actn,17,0.16573799075558782
+deafvideo_2/sddsimple_1594,salvation,saluatiokn,117,0.7221819832921028
+deafvideo_2/sddsimple_1595,if,if,32,0.24658197071403265
+deafvideo_2/sddsimple_1596,sckre of,cohrebfe,45,0.31749095069244504
+deafvideo_2/sddsimple_1597,if,if,20,0.183385971467942
+deafvideo_3/crossover_3863,paleo herew,palehw,86,0.5502250278368592
+deafvideo_3/crossover_3864,simlar,omlar,41,0.3085379721596837
+deafvideo_3/crossover_3865,babel tower,babeltewdu,88,0.5524649750441313
+deafvideo_3/crossover_3866,nirmod,niumnmtzd,77,0.47906499821692705
+deafvideo_3/crossover_3867,ih,ih,32,0.2446739817969501
+deafvideo_3/crossover_3868,ih,ik,14,0.1292229862883687
+deafvideo_3/crossover_3869,scatere,scatr,75,0.4843489732593298
+deafvideo_3/crossover_3870,hpaleo herew,halehhr,92,0.602066982537508
+deafvideo_3/crossover_3871,paleo herew,palehrroew,75,0.4813679843209684
+deafvideo_3/crossover_3872,link,liinkk,26,0.43997401371598244
+deafvideo_3/damien23_3600,ok,k,16,0.1589279854670167
+deafvideo_3/damien23_3601,adam eve,adasebure,40,0.2860429813154042
+deafvideo_3/damien23_3602,do,d,6,0.08601101581007242
+deafvideo_3/damien23_3603,ok,ok,11,0.10970799485221505
+deafvideo_3/damien23_3604,adam eve,adamo,29,0.24804804706946015
+deafvideo_3/damien23_3605,disobey,edisoby,19,0.15450501814484596
+deafvideo_3/damien23_3606,ok,pk,25,0.20052300533279777
+deafvideo_3/damien23_3607,or,o,17,0.1568080042488873
+deafvideo_3/damien23_3608,sex or aim,exsrsryom,38,0.2902260166592896
+deafvideo_3/deafgoldenhair_3060,all,al,19,0.16457604942843318
+deafvideo_3/deafgoldenhair_3061,press word press,prswmwduos,106,0.6672890158370137
+deafvideo_3/deafgoldenhair_3062,ed,ed,17,0.1646180171519518
+deafvideo_3/deafgoldenhair_3063,go sem,obom,47,0.31100097112357616
+deafvideo_3/deafgoldenhair_3064,all,all,19,0.1567410072311759
+deafvideo_3/deafgoldenhair_3065,asl,asl,20,0.16781000886112452
+deafvideo_3/deafgoldenhair_3066,asl,asl,23,0.37345895543694496
+deafvideo_3/deafgoldenhair_3067,pcs,o,10,0.09993999265134335
+deafvideo_3/deafgoldenhair_3068,hacker,haclor,39,0.3096439759247005
+deafvideo_3/deafgoldenhair_3069,in,in,12,0.12159498874098063
+deafvideo_3/deafgoldenhair_3070,so,o,9,0.08871202589944005
+deafvideo_3/deafgoldenhair_3071,pugins,ktgyns,44,0.29828998958691955
+deafvideo_3/deafgoldenhair_3072,hackers,haopres,36,0.27225998928770423
+deafvideo_3/deafgoldenhair_3073,admin,aidmayn,27,0.21307100541889668
+deafvideo_3/deafgoldenhair_3074,admin,admyn,30,0.2319509512744844
+deafvideo_3/deafgoldenhair_3075,all,ag,16,0.17590599600225687
+deafvideo_3/deafgoldenhair_3076,admin,admy,26,0.22257998352870345
+deafvideo_3/deafgoldenhair_3077,poer,pu,30,0.2418179647065699
+deafvideo_3/deafgoldenhair_3078,pn,hn,30,0.24044897872954607
+deafvideo_3/deafgoldenhair_3079,itheme,itme,55,0.3545579966157675
+deafvideo_3/deafgoldenhair_3080,suckuri,suci,64,0.4289619973860681
+deafvideo_3/deafgoldenhair_3081,prss,hs,16,0.14854100299999118
+deafvideo_3/deafgoldenhair_3082,iq,i,22,0.19685504958033562
+deafvideo_3/deafgoldenhair_3084,doman,loman,40,0.2768560079857707
+deafvideo_3/deafgoldenhair_3085,cstat,costat,62,0.3998500178568065
+deafvideo_3/deafgoldenhair_3086,web page,webupage,59,0.37558795884251595
+deafvideo_3/deafgoldenhair_3087,haker,aer,21,0.5362389492802322
+deafvideo_3/fieldstreamasl_4036,taylor,talor,44,0.3025730256922543
+deafvideo_3/fieldstreamasl_4037,facess,farcoles,78,0.4979269579052925
+deafvideo_3/fieldstreamasl_4038,gis,gis,21,0.18940604059025645
+deafvideo_3/fieldstreamasl_4039,so,hse,18,0.17689901869744062
+deafvideo_3/fieldstreamasl_4040,bandcd,bannded,57,0.37655100459232926
+deafvideo_3/fieldstreamasl_4041,faceles,ofacoles,70,0.4695850075222552
+deafvideo_3/fieldstreamasl_4042,so,,16,0.15668402193114161
+deafvideo_3/fieldstreamasl_4043,do,lo,13,0.1410150434821844
+deafvideo_3/fieldstreamasl_4044,yr,uic,28,0.21008000476285815
+deafvideo_3/fieldstreamasl_4045,less,let,23,0.1940079964697361
+deafvideo_3/geoalpha_4543,shebaby,ahebaby,35,0.28650101739913225
+deafvideo_3/geoalpha_4544,ok,o,8,0.09504699846729636
+deafvideo_3/geoalpha_4545,bmom,bmm,24,0.18572999397292733
+deafvideo_3/geoalpha_4546,wow,wow,17,0.15227700350806117
+deafvideo_3/geoalpha_4547,wow,wowp,21,0.18537900177761912
+deafvideo_3/geoalpha_4548,benn,ben,22,0.17703400226309896
+deafvideo_3/geoalpha_4549,respect,csalet,33,0.23085303837433457
+deafvideo_3/geoalpha_4550,past,pasat,22,0.20393403246998787
+deafvideo_3/geoalpha_4551,do,o,10,0.10326801566407084
+deafvideo_3/geoalpha_4552,disown,disown,37,0.29147102031856775
+deafvideo_3/geoalpha_4553,or,or,10,0.111724017187953
+deafvideo_3/geoalpha_4554,it,it,15,0.13394298730418086
+deafvideo_3/geoalpha_4555,respect,ucalnt,38,0.2800950314849615
+deafvideo_3/geoalpha_4556,utmost,utmmost,43,0.32822502544149756
+deafvideo_3/geoalpha_4557,past,pasl,20,0.17845595721155405
+deafvideo_3/geoalpha_4558,nobel prip nopp no bel price,noblvipporornobelrice,174,1.0321330046281219
+deafvideo_3/geoalpha_4559,nobel price,nobelrice,49,0.3391950158402324
+deafvideo_3/geoalpha_4560,or,or,10,0.10378699516877532
+deafvideo_3/geoalpha_4561,r,r,8,0.08545600576326251
+deafvideo_3/geoalpha_4562,carof,carf,19,0.16458099707961082
+deafvideo_3/geoalpha_4563,at all,atl,18,0.15683198580518365
+deafvideo_3/geoalpha_4564,rots,rotes,21,0.174156972207129
+deafvideo_3/geoalpha_4565,he,he,13,0.12002798030152917
+deafvideo_3/geoalpha_4566,orphanage,orphannage,56,0.37232699105516076
+deafvideo_3/geoalpha_4567,he,hen,11,0.116471026558429
+deafvideo_3/geoalpha_4568,of,of,12,0.13976101763546467
+deafvideo_3/geoalpha_4569,ussr,ussr,23,0.1817119773477316
+deafvideo_3/geoalpha_4570,arphangelsk,arkhankgelsk,93,0.6002199952490628
+deafvideo_3/geoalpha_4571,gulag,gvulag,31,0.2382979728281498
+deafvideo_3/geoalpha_4572,grandchildr grandchildren,gortchilgandchilren,120,0.7326490012928843
+deafvideo_3/geoalpha_4573,away,wa,16,0.15012803487479687
+deafvideo_3/otismhill82_4590,nfl zone,nflos,34,0.23868598509579897
+deafvideo_3/otismhill82_4591,tv,t,6,0.08174596587195992
+deafvideo_3/otismhill82_4592,n zone nfl,ntnel,23,0.2060999977402389
+deafvideo_3/otismhill82_4593,tvtv,tr,9,0.09235600009560585
+deafvideo_3/otismhill82_4594,nfl,nf,13,0.14380895299836993
+deafvideo_3/otismhill82_4595,nfl,nfil,12,0.1129040028899908
+deafvideo_3/otismhill82_4596,com,com,15,0.15917897690087557
+deafvideo_3/otismhill82_4597,then,tho,23,0.19277201499789953
+deafvideo_3/otismhill82_4598,deaf nfl vloggers,eafnflvloges,79,0.5134869716130197
+deafvideo_3/otismhill82_4599,nfl zone,nfltoe,21,0.17931300681084394
+deafvideo_3/otismhill82_4600,big ben,bbe,26,0.20282098557800055
+deafvideo_3/otismhill82_4601,if,if,4,0.060853955801576376
+deafvideo_3/otismhill82_4602,jim,im,17,0.14455494238063693
+deafvideo_3/otismhill82_4603,biesel,biesel,24,0.21061795996502042
+deafvideo_3/otismhill82_4604,up to,ra,15,0.1424110378138721
+deafvideo_3/otismhill82_4605,if,,3,0.05764601519331336
+deafvideo_3/otismhill82_4606,if,bf,18,0.1565499696880579
+deafvideo_3/otismhill82_4607,afc nfc,acnf,30,0.2394230104982853
+deafvideo_3/otismhill82_4608,afc nfc,afcnfc,31,0.2578870044089854
+deafvideo_3/otismhill82_4609,sb,sb,11,0.12535304995253682
+deafvideo_3/otismhill82_4610,ok,p,4,0.06609095726162195
+deafvideo_3/otismhill82_4611,big ben,bbeo,16,0.14960399130359292
+deafvideo_3/otismhill82_4612,if,if,4,0.07644895231351256
+deafvideo_3/otismhill82_4613,taylor,tacr,17,0.1477350015193224
+deafvideo_3/otismhill82_4614,otis,otis,27,0.23079500533640385
+deafvideo_3/otismhill82_4615,hill,hil,24,0.19314303062856197
+deafvideo_3/otismhill82_4616,facbk,fabm,17,0.14071399345993996
+deafvideo_3/otismhill82_4617,dnv deaf nfl vlogs,dordfnlewlos,56,0.3980579786002636
+deafvideo_3/otismhill82_4618,admins,admn,18,0.16778596909716725
+deafvideo_3/otismhill82_4619,dvtv,dt,12,0.10800798190757632
+deafvideo_3/otismhill82_4620,f,c,4,0.0907920184545219
+deafvideo_3/otismhill82_4621,sb,,6,0.07996900239959359
+deafvideo_3/otismhill82_4622,act,irt,12,0.10955502511933446
+deafvideo_3/otismhill82_4623,oly,o,7,0.09225698886439204
+deafvideo_3/titans_4689,taylerade,ttrot,55,0.40839205030351877
+deafvideo_3/titans_4690,f,o,4,0.07925601676106453
+deafvideo_3/titans_4691,debg,ocgo,43,0.3001210279762745
+deafvideo_3/titans_4692,or,or,7,0.09863096056506038
+deafvideo_3/titans_4693,asl,atl,16,0.15726801939308643
+deafvideo_3/titans_4694,ok,n,12,0.1804850180633366
+deafvideo_3/titans_4695,asl,atl,11,0.11394597822800279
+deafvideo_3/titans_4696,ak ok,spo,12,0.11987000470981002
+deafvideo_3/titans_4697,or,ok,7,0.09797100210562348
+deafvideo_3/titans_4698,asl,tl,12,0.4871070268563926
+deafvideo_3/titans_4699,asl,al,15,0.14999299310147762
+deafvideo_3/titans_4700,ok asl,tp,22,0.20255899289622903
+deafvideo_3/titans_4701,so,o,11,0.12410595081746578
+deafvideo_3/titans_4702,debg,sbg,41,0.3191190189681947
+deafvideo_3/titans_4703,aked,spe,11,0.12212299043312669
+deafvideo_3/titans_4704,kasl,pasl,15,0.15183701179921627
+deafvideo_3/yellowbirdie84_4663,ok,op,9,0.1269369968213141
+deafvideo_3/yellowbirdie84_4664,zack,tstack,45,0.33229903783649206
+deafvideo_3/yellowbirdie84_4665,kathyjo,atryo,38,0.28072198620066047
+deafvideo_3/yellowbirdie84_4666,mat seatle,natseatle,44,0.3175589954480529
+deafvideo_3/yellowbirdie84_4667,kathyo kathyjo,kathyaukaio,93,0.5840520025230944
+deafvideo_3/yellowbirdie84_4668,ut,ut,8,0.09879301069304347
+deafvideo_3/yellowbirdie84_4669,katy,nkdi,19,0.1582070253789425
+deafvideo_3/yellowbirdie84_4670,tylor,til,13,0.12264505494385958
+deafvideo_3/yellowbirdie84_4671,taylor,ataler,30,0.242534966673702
+deafvideo_3/yellowbirdie84_4672,kax,papg,15,0.13201701221987605
+deafvideo_3/yellowbirdie84_4673,matseale,veatesal,36,0.2898250240832567
+deafvideo_3/yellowbirdie84_4674,matseat,mateeat,34,0.25060505140572786
+deafvideo_3/yellowbirdie84_4675,matseale,nateseal,35,0.25396200362592936
+deafvideo_3/yellowbirdie84_4676,by,bi,7,0.07735902909189463
+deafvideo_3/yellowbirdie84_4677,ok,ok,15,0.13792800018563867
+deafvideo_3/yellowbirdie84_4678,matseale,nateale,39,0.263689027633518
+deafvideo_3/yellowbirdie84_4679,matseal,moatel,26,0.20344200311228633
+deafvideo_3/yellowbirdie84_4680,matsl,natsl,28,0.20201399456709623
+deafvideo_3/yellowbirdie84_4681,ok,k,8,0.11358200572431087
+deafvideo_3/yellowbirdie84_4682,zak,alstak,17,0.14722900232300162
+deafvideo_3/yellowbirdie84_4683,kathy jo,katiio,32,0.25044602807611227
+deafvideo_3/yellowbirdie84_4684,katy,kai,21,0.19682099809870124
+deafvideo_3/yellowbirdie84_4685,matsl,nat,26,0.2233079867437482
+deafvideo_3/yellowbirdie84_4686,matseatle,nateatl,50,0.3301110118627548
+deafvideo_3/yellowbirdie84_4687,matseatle,rnatseal,38,0.2669609966687858
+deafvideo_3/yellowbirdie84_4688,ok,ok,7,0.09488599607720971
+deafvideo_3/yesyes_3101,dslr,dolu,39,0.2889630268327892
+deafvideo_3/yesyes_3102,filter lens,filerlenns,82,0.5122370203025639
+deafvideo_3/yesyes_3103,uv,u,26,0.19407999934628606
+deafvideo_3/yesyes_3104,cpl,cpl,48,0.32001303043216467
+deafvideo_3/yesyes_3105,fld,fld,48,0.33885298762470484
+deafvideo_3/yesyes_3106,sun,sun,24,0.1860699849203229
+deafvideo_3/yesyes_3107,sn,un,14,0.14049396850168705
+deafvideo_3/yesyes_3108,sn,sn,10,0.10239297989755869
+deafvideo_3/yesyes_3109,to,to,13,0.11890096357092261
+deafvideo_3/yesyes_3110,ski,eski,18,0.14650699449703097
+deafvideo_3/yesyes_3111,xmic,opmic,48,0.33690204145386815
+deafvideo_3/yesyes_3112,miclbergsma,micbergasma,120,0.7079239585436881
+deafvideo_3/yesyes_3113,dvtv,dvtv,21,0.2249469980597496
+deafvideo_3/yesyes_3114,filter f lens,filterlens,82,0.5029719904996455
+deafvideo_3/yesyes_3115,dvtv,dvtvd,25,0.4557570209726691
+deafvideo_3/yesyes_3116,filter lens x,fierlens,49,0.3495019627735019
+deafvideo_3/yesyes_3117,file les,fies,31,0.256030005402863
+deafvideo_3/yesyes_3118,clear,cler,44,0.32342999475076795
+deafvideo_3/yesyes_3119,it,it,11,0.10650500189512968
+deafvideo_3/yesyes_4471,dslr,dolrr,30,0.24432799546048045
+deafvideo_3/yesyes_4472,hows,owrs,17,0.14568900223821402
+deafvideo_3/yesyes_4473,fish eye lens,fisheyslens,105,0.6458399584516883
+deafvideo_3/yesyes_4474,nikons,nikenna,54,0.4057720070704818
+deafvideo_3/yesyes_4475,canon,canon,36,0.2889320021495223
+deafvideo_3/yesyes_4476,pentax,ponta,56,0.4177269875071943
+deafvideo_3/yesyes_4477,sony,soni,51,0.35973801277577877
+deafvideo_3/yesyes_4478,sony e,snie,39,0.29450003057718277
+deafvideo_3/yesyes_4479,om,o,17,0.1533239847049117
+deafvideo_3/yesyes_4480,flash manual on,flashmann,98,0.6748290034011006
+deafvideo_4/tax_tips_by_irs_4952,pati,tdi,13,0.12738502118736506
+deafvideo_4/tax_tips_by_irs_4953,irs,ius,16,0.14541001291945577
+deafvideo_4/tax_tips_by_irs_4954,arrangement,aravngennt,47,0.3529490204527974
+deafvideo_4/tax_tips_by_irs_4955,ira or,ailar,37,0.28724997537210584
+deafvideo_4/tax_tips_by_irs_4956,rollover,usoleuer,31,0.26709598023444414
+deafvideo_4/tax_tips_by_irs_4957,ira or,iuasr,31,0.27211999986320734
+deafvideo_4/tax_tips_by_irs_4958,ark,ud,12,0.12296898057684302
+deafvideo_4/tax_tips_by_irs_4959,details,dotils,25,0.21966604981571436
+deafvideo_4/tax_tips_by_irs_4960,irs,ius,18,0.1582970144227147
+deafvideo_4/tax_tips_by_irs_4961,gov,por,17,0.16678404062986374
+deafvideo_4/tax_tips_by_irs_4962,rollovers,olovers,53,0.35092898178845644
+deafvideo_4/tax_tips_by_irs_4963,faq,fa,23,0.19869499374181032
+deafvideo_4/tax_tips_by_irs_4964,rollover,unloner,30,0.24443300208076835
+deafvideo_4/titans_4705,kasl,a,16,0.14991802163422108
+deafvideo_5/deafpoweronethumbtwo_7291,land,lan,24,0.18090801313519478
+deafvideo_5/deafpoweronethumbtwo_7292,land,land,21,0.17886899877339602
+deafvideo_5/deafpoweronethumbtwo_7293,s dive,sdive,39,0.2738010371103883
+deafvideo_5/deafpoweronethumbtwo_7294,ok or,skr,45,0.3051990061067045
+deafvideo_5/deafpoweronethumbtwo_7295,or,or,16,0.16312400111928582
+deafvideo_5/deafpoweronethumbtwo_7296,wow,wow,19,0.16307301120832562
+deafvideo_5/morningstar_6244,dvtv,dvtv,39,0.282029970549047
+deafvideo_5/morningstar_6245,dvtv,ldvtv,28,0.21877599647268653
+deafvideo_5/morningstar_6246,at a ok,ataka,33,0.249225995503366
+deafvideo_5/morningstar_6247,whine,witscr,30,0.24139805464074016
+deafvideo_5/morningstar_6248,deal,ldeal,22,0.20317902090027928
+deafvideo_5/morningstar_6249,del,e,9,0.09731401223689318
+deafvideo_5/morningstar_6250,ok it,owkytt,46,0.34355802927166224
+deafvideo_5/morningstar_6251,fuck you,fukyu,48,0.36770402221009135
+deafvideo_5/morningstar_6252,ok,sra,13,0.1237200340256095
+deafvideo_5/morningstar_6253,dvtv,dvt,14,0.14595699030905962
+deafvideo_5/morningstar_6254,whiners,rhincra,32,0.22653199266642332
+deafvideo_5/morningstar_6255,dvt,dvt,18,0.16365200281143188
+deafvideo_5/morningstar_6256,sex,sd,23,0.1845369697548449
+deafvideo_5/morningstar_6257,haf,habyt,19,0.17168500926345587
+deafvideo_5/morningstar_6258,us,us,13,0.13948703417554498
+deafvideo_5/morningstar_6259,out,ort,11,0.11738803004845977
+deafvideo_5/morningstar_6260,dvt,d,11,0.10220799595117569
+deafvideo_5/morningstar_6261,it,i,7,0.0850250362418592
+deafvideo_5/morningstar_6262,trash,trah,26,0.21072197705507278
+deafvideo_5/morningstar_6263,atak,asta,21,0.16863603377714753
+deafvideo_5/morningstar_6264,whines,rhincs,30,0.2372940070927143
+deafvideo_5/morningstar_6265,chard,hard,21,0.17275498248636723
+deafvideo_5/morningstar_6266,naive,naive,49,0.529430981259793
+deafvideo_5/scottnorby_6447,st patrick,stpatraicek,37,0.3025669720955193
+deafvideo_5/scottnorby_6448,past patrick,pastatri,39,0.3049580263905227
+deafvideo_5/scottnorby_6449,all,tl,11,0.1292420201934874
+deafvideo_5/scottnorby_6450,oh,oh,14,0.12436602264642715
+deafvideo_5/scottnorby_6451,it,it,7,0.10394904529675841
+deafvideo_5/scottnorby_6452,so,o,6,0.07465999806299806
+deafvideo_5/scottnorby_6453,st patrick,stpatrcok,56,0.35061396192759275
+deafvideo_5/scottnorby_6454,patrick,patrcek,34,0.2583760069683194
+deafvideo_5/scottnorby_6455,heras,erts,17,0.1436009770259261
+deafvideo_5/scottnorby_6456,pirates,pairates,34,0.23568799952045083
+deafvideo_5/scottnorby_6457,patrick,patrcok,27,0.22265396546572447
+deafvideo_5/scottnorby_6458,sock,aot,14,0.13638701057061553
+deafvideo_5/scottnorby_6459,return,return,26,0.18882902804762125
+deafvideo_5/scottnorby_6460,he did,hedil,20,0.17403101082891226
+deafvideo_5/scottnorby_6461,march,mauch,30,0.23404601961374283
+deafvideo_5/scottnorby_6462,ad,ad,18,0.16841001342982054
+deafvideo_5/scottnorby_6463,he,he,10,0.09413895895704627
+deafvideo_5/scottnorby_6464,st patrick,statrek,30,0.24826702428981662
+deafvideo_5/scottnorby_6465,all,l,8,0.10243902215734124
+deafvideo_5/silentoneye_7315,ok,ok,27,0.20360201597213745
+deafvideo_5/silentoneye_7316,syran,syrarn,38,0.3079960006289184
+deafvideo_5/silentoneye_7317,asad,asd,22,0.180328032001853
+deafvideo_5/silentoneye_7318,libyran,laian,95,0.5926680169068277
+deafvideo_5/silentoneye_7319,gaddafi,galafi,83,0.5279949982650578
+deafvideo_5/silentoneye_7320,gadi,gaadi,27,0.21565600764006376
+deafvideo_5/silentoneye_7321,dicator,dicsater,50,0.34533801954239607
+deafvideo_5/silentoneye_7322,asd,asd,26,0.19391695968806744
+deafvideo_5/silentoneye_7323,assd cown,sdcn,76,0.5228639929555357
+deafvideo_5/silentoneye_7324,ovn,okn,11,0.11645600898191333
+deafvideo_5/silentoneye_7325,libyan,lican,37,0.27897499967366457
+deafvideo_5/silentoneye_7326,gadfi,gadefi,98,0.5912409978918731
+deafvideo_5/silentoneye_7327,him,hiwm,64,0.42209698585793376
+deafvideo_5/silentoneye_7328,gadi,gadei,28,0.22310600616037846
+deafvideo_5/silentoneye_7329,gadi,gat,22,0.17841998487710953
+deafvideo_5/silentoneye_7330,nlr,nlr,18,0.16690598567947745
+deafvideo_5/silentoneye_7331,usa,roa,16,0.14305301010608673
+youtube_1/catherine_mackinnon_2777,ryerson,ricin,40,0.27868495089933276
+youtube_1/catherine_mackinnon_2778,acdeic,abic,25,0.19925698870792985
+youtube_1/catherine_mackinnon_2779,fr,r,4,0.06862502777948976
+youtube_1/catherine_mackinnon_2780,mm,mo,8,0.09390898048877716
+youtube_1/catherine_mackinnon_2781,arifex sr,orifscr,41,0.29820797499269247
+youtube_1/catherine_mackinnon_2782,her,pr,15,0.156377034727484
+youtube_1/catherine_mackinnon_2783,grants,ratt,14,0.14166900655254722
+youtube_1/catherine_mackinnon_2784,hoth,h,15,0.1360069727525115
+youtube_1/catherine_mackinnon_2785,log,lil,12,0.11886400170624256
+youtube_1/catherine_mackinnon_2786,or tag,rtg,14,0.12495601549744606
+youtube_1/catherine_mackinnon_2787,nfb,nfb,19,0.16641500405967236
+youtube_1/catherine_mackinnon_2788,excted,eiofe,25,0.1986239803954959
+youtube_1/catherine_mackinnon_2789,nfb,nfb,13,0.13055599993094802
+youtube_1/catherine_mackinnon_2790,agretishp,aretiep,31,0.24264701642096043
+youtube_1/catherine_mackinnon_2791,ssg,oalg,12,0.1311230007559061
+youtube_1/catherine_mackinnon_2792,or,or,5,0.0794270308688283
+youtube_1/catherine_mackinnon_2793,dga,lg,13,0.12056500418111682
+youtube_1/catherine_mackinnon_2794,or,r,4,0.06049795774742961
+youtube_1/catherine_mackinnon_2795,or,b,10,0.094388029538095
+youtube_1/catherine_mackinnon_2796,mixer,mixr,28,0.2149019856005907
+youtube_1/catherine_mackinnon_2797,stes,stos,27,0.20162295550107956
+youtube_1/catherine_mackinnon_2798,or,or,9,0.09370001498609781
+youtube_1/catherine_mackinnon_2799,kc,c,7,0.08505699224770069
+youtube_1/catherine_mackinnon_2800,craty,rti,11,0.10624603601172566
+youtube_1/catherine_mackinnon_2801,cast frw,ctrw,21,0.17604802269488573
+youtube_1/catherine_mackinnon_2802,fd,ed,6,0.08473097113892436
+youtube_1/catherine_mackinnon_2803,ok,p,11,0.350603018887341
+youtube_1/catherine_mackinnon_2804,glee,lc,22,0.19212299957871437
+youtube_1/catherine_mackinnon_2805,jles dameron,lesdmfn,33,0.2430379972793162
+youtube_1/catherine_mackinnon_2806,glee,l,9,0.10057201143354177
+youtube_1/catherine_mackinnon_2807,wow,mw,18,0.17312599811702967
+youtube_1/catherine_mackinnon_2808,at,at,11,0.13017799938097596
+youtube_1/catherine_mackinnon_2809,hungry,hori,15,0.13235799269750714
+youtube_1/catherine_mackinnon_2810,crw,mw,15,0.13393803965300322
+youtube_1/catherine_mackinnon_2811,asl,sl,11,0.11773401638492942
+youtube_1/catherine_mackinnon_2812,lt,,3,0.06205902900546789
+youtube_1/catherine_mackinnon_2813,hamll,haml,20,0.16143900575116277
+youtube_1/catherine_mackinnon_2814,bio pic,biboc,23,0.18868199549615383
+youtube_1/catherine_mackinnon_2815,mat hamll,thol,29,0.2084079897031188
+youtube_1/catherine_mackinnon_2816,ufc utc,ufcratce,34,0.25355303660035133
+youtube_1/catherine_mackinnon_2817,tv,t,3,0.05983299342915416
+youtube_1/catherine_mackinnon_2818,reaity,ti,9,0.08923298446461558
+youtube_1/catherine_mackinnon_2819,co,bo,8,0.08789199637249112
+youtube_1/catherine_mackinnon_2820,fre,fric,12,0.13002799823880196
+youtube_1/catherine_mackinnon_2821,matt,tt,13,0.11885998537763953
+youtube_1/catherine_mackinnon_2822,ufc,fc,9,0.11075398651883006
+youtube_1/catherine_mackinnon_2823,rt,t,23,0.19801105372607708
+youtube_1/catherine_mackinnon_2824,cot,s,9,0.09345397120341659
+youtube_1/catherine_mackinnon_2825,fb,frb,15,0.15774497296661139
+youtube_1/catherine_mackinnon_2826,hamll the,hemleto,34,0.27300900546833873
+youtube_1/catherine_mackinnon_2827,demend it,omentia,35,0.2592849778011441
+youtube_1/catherine_mackinnon_2828,disribon,isrisonm,33,0.24979299632832408
+youtube_1/catherine_mackinnon_2829,hmll,hnll,16,0.14139700215309858
+youtube_1/catherine_mackinnon_2830,shoshoshna stern,ahehoshonastrn,80,0.5102650029584765
+youtube_1/catherine_mackinnon_2831,hml,ndo,10,0.12542802141979337
+youtube_1/catherine_mackinnon_2832,lexi merin,rloxymrn,40,0.3229609574191272
+youtube_1/catherine_mackinnon_2833,of,f,7,0.10664801811799407
+youtube_1/catherine_mackinnon_2834,jay,ia,13,0.14785199891775846
+youtube_1/catherine_mackinnon_2835,nyke prince,milchpor,31,0.252589990850538
+youtube_1/catherine_mackinnon_2836,stcy larence,tlycin,45,0.2965310122817755
+youtube_1/catherine_mackinnon_2837,crty,rti,15,0.13614102499559522
+youtube_1/catherine_mackinnon_2838,sty lafnce,tie,24,0.21348404698073864
+youtube_1/catherine_mackinnon_2839,extra,rs,15,0.1383500057272613
+youtube_1/catherine_mackinnon_2840,mentor,menmor,27,0.20792096620425582
+youtube_1/catherine_mackinnon_2841,or,r,6,0.09491899982094765
+youtube_1/catherine_mackinnon_2842,ok,ok,10,0.11224800255149603
+youtube_1/catherine_mackinnon_2843,asl,l,12,0.1292930101044476
+youtube_1/catherine_mackinnon_2844,colabrion,ciolobiicon,31,1.5666850376874208
+youtube_1/catherine_mackinnon_2845,or,,6,0.06934796692803502
+youtube_1/catherine_mackinnon_2846,ft,ft,8,0.10117498459294438
+youtube_1/don_grushkin_2301,hammer,hamr,81,0.5255200085230172
+youtube_1/don_grushkin_2302,saw,oa,52,0.36487396573647857
+youtube_1/don_grushkin_2303,tols,tols,56,0.3721470129676163
+youtube_1/don_grushkin_2304,hammer,haer,27,0.21323905093595386
+youtube_1/don_grushkin_2305,nail,nai,25,0.2013909979723394
+youtube_1/don_grushkin_2306,saw,sam,27,0.20374997984617949
+youtube_1/don_grushkin_2307,screw,sscow,26,0.2076330129057169
+youtube_1/don_grushkin_2308,tool,tol,28,0.20999094704166055
+youtube_1/don_grushkin_2309,or,or,11,0.12044800678268075
+youtube_1/don_grushkin_2310,tools,tols,35,0.2565779723227024
+youtube_1/don_grushkin_2311,tool,tol,22,0.17426599515601993
+youtube_1/don_grushkin_2312,car tool,cartol,60,0.4091049777343869
+youtube_1/don_grushkin_2313,tool,tol,23,0.19434100249782205
+youtube_1/don_grushkin_2314,toll,tol,22,0.17864099936559796
+youtube_1/don_grushkin_2315,ta,ta,10,0.10803400073200464
+youtube_1/don_grushkin_2316,tool,tol,18,0.1835610019043088
+youtube_1/don_grushkin_2317,tool,tol,41,0.30858098762109876
+youtube_1/don_grushkin_2318,tool,tol,15,0.13108400162309408
+youtube_1/don_grushkin_2319,tool,tol,23,0.21360197570174932
+youtube_1/don_grushkin_2320,tool,tol,21,0.184438016731292
+youtube_1/don_grushkin_2321,use,voe,33,0.26294903364032507
+youtube_1/don_grushkin_2322,use,uso,31,0.2428920124657452
+youtube_1/don_grushkin_2323,asl,asl,33,0.2561880392022431
+youtube_1/don_grushkin_2324,tool,tocl,38,0.26474997866898775
+youtube_1/don_grushkin_2325,use,roe,22,0.18954701954498887
+youtube_1/don_grushkin_2326,tool,tol,28,0.22130401339381933
+youtube_1/don_grushkin_2327,tool,tol,24,0.1913559972308576
+youtube_1/don_grushkin_2328,tool,tocl,31,0.22374402033165097
+youtube_1/don_grushkin_2329,asl,asl,22,0.19709003390744328
+youtube_1/don_grushkin_2330,toll,tll,12,0.36849098978564143
+youtube_1/don_grushkin_2331,speak asl,spekasl,92,0.578933977521956
+youtube_1/don_grushkin_2332,speak spak,sgpekspok,65,0.4292610101401806
+youtube_1/don_grushkin_2333,speak spak,spekspok,81,0.4986220155842602
+youtube_1/don_grushkin_2334,asl,ar,17,0.16039196634665132
+youtube_1/don_grushkin_2335,use,roe,26,0.21280505461618304
+youtube_1/don_grushkin_2758,iphne,ioke,37,0.25635695783421397
+youtube_1/don_grushkin_2759,feature applilion,featreapilin,117,0.8133549708873034
+youtube_1/don_grushkin_2760,siri,siri,50,0.32959599047899246
+youtube_1/don_grushkin_2761,email,eil,32,0.24707801640033722
+youtube_1/don_grushkin_2762,siri,sibi,21,0.1822410267777741
+youtube_1/don_grushkin_2763,but,ut,12,0.13495999155566096
+youtube_1/don_grushkin_2764,onts,nte,18,0.1821070327423513
+youtube_1/don_grushkin_2765,but,brts,41,0.3046710044145584
+youtube_1/don_grushkin_2766,ton,sn,32,0.2445720019750297
+youtube_1/don_grushkin_2767,cash regsters,caohrgostrst,68,0.4355030250735581
+youtube_1/don_grushkin_2768,thn,tho,41,0.3162460052408278
+youtube_1/don_grushkin_2769,text,texs,37,0.2862279652617872
+youtube_1/don_grushkin_2770,text,tet,35,0.26506197173148394
+youtube_1/don_grushkin_2771,tbn,,15,0.14020095113664865
+youtube_1/don_grushkin_2772,thn,o,15,0.15963602345436811
+youtube_1/don_grushkin_2773,siri,siri,46,0.30853599309921265
+youtube_1/don_grushkin_2774,science fiction,scyonofictirn,98,0.6038790452294052
+youtube_1/don_grushkin_2775,free,fco,24,0.20199199207127094
+youtube_1/don_grushkin_2776,siri,siri,47,0.32315601129084826
+youtube_1/melvin_patterson_2336,feb,feb,15,0.14992302749305964
+youtube_1/melvin_patterson_2337,dr pady ladd,dradilad,62,0.42048696195706725
+youtube_1/melvin_patterson_2338,dfhd foundation,defhed ferkndation,86,0.5587800405919552
+youtube_1/melvin_patterson_2339,dhf,dhf,23,0.19164499826729298
+youtube_1/melvin_patterson_2340,deanne bray,deanebty,64,0.41805196087807417
+youtube_1/melvin_patterson_2341,raja rajeshwari,uaiarayeshwovi,88,0.5786829860880971
+youtube_1/melvin_patterson_2342,dfhd dfhd,dafheodesfhd,84,0.5301450146362185
+youtube_1/melvin_patterson_2343,deanne bray,deanera,42,0.3065109485760331
+youtube_1/melvin_patterson_2344,dhf,dhf,21,0.18241797806695104
+youtube_1/melvin_patterson_2345,defhd,deifhes,30,0.22678397363051772
+youtube_1/melvin_patterson_2346,defhd,dafheed,30,0.2229929668828845
+youtube_1/melvin_patterson_2347,feb,fb,9,0.22692099446430802
+youtube_1/melvin_patterson_2349,melvin paterson,meluvinateron,99,0.6412470247596502
+youtube_1/melvin_patterson_2350,deane bray,deanebkty,60,0.4008160321973264
+youtube_1/melvin_patterson_2351,deafhood foundation,desfhedferndaion,83,0.5233979900367558
+youtube_1/melvin_patterson_2352,pasion,pasion,32,0.24151703109964728
+youtube_1/melvin_patterson_2353,dhf,dhf,27,0.21425203885883093
+youtube_1/melvin_patterson_2356,defhood,desfhed,35,0.2613490214571357
+youtube_1/melvin_patterson_2357,dr pady ladd,drpailad,74,0.4719599965028465
+youtube_1/melvin_patterson_2358,defhood,defed,30,0.23273000260815024
+youtube_1/melvin_patterson_2359,dean bray,daobny,32,0.23538997629657388
+youtube_1/melvin_patterson_2363,pc,o,12,0.12170599075034261
+youtube_1/melvin_patterson_2364,mac,m,14,0.12397998943924904
+youtube_1/melvin_patterson_2365,dean bay,deanbs,34,0.23792602587491274
+youtube_1/melvin_patterson_2367,deafhooyd yoga,deifhidiopa,63,0.4313840181566775
+youtube_1/melvin_patterson_2369,defhood yoga,efhedia,47,0.35334896529093385
+youtube_1/shoshannah_stern_2370,map,ma,16,0.13998703798279166
+youtube_1/shoshannah_stern_2371,door,or,13,0.13535196194425225
+youtube_1/shoshannah_stern_2372,so,so,16,0.1503810053691268
+youtube_1/shoshannah_stern_2373,tony,toy,16,0.1377119915559888
+youtube_1/shoshannah_stern_2374,m m,mw,14,0.1256520044989884
+youtube_1/shoshannah_stern_2375,m m,m,6,0.08038198575377464
+youtube_1/shoshannah_stern_2376,oscar,obnh,16,0.14441501116380095
+youtube_1/shoshannah_stern_2377,to,,6,0.07475202437490225
+youtube_1/shoshannah_stern_2378,are all,trsl,20,0.1613189815543592
+youtube_1/shoshannah_stern_2379,to,st,8,0.08965202141553164
+youtube_1/shoshannah_stern_2380,out,ort,15,0.14241196913644671
+youtube_1/shoshannah_stern_2381,modern,mdern,27,0.22380298469215631
+youtube_1/shoshannah_stern_2382,lens,lens,16,0.13970001600682735
+youtube_1/shoshannah_stern_2383,ada,ada,16,0.14263397315517068
+youtube_1/shoshannah_stern_2384,of asl,ofasl,32,0.25321199791505933
+youtube_1/shoshannah_stern_2385,of,,4,0.07193902274593711
+youtube_1/shoshannah_stern_2386,asl,asl,14,0.13184198178350925
+youtube_1/shoshannah_stern_2387,mainsteam,mainsto,32,0.23589900229126215
+youtube_1/shoshannah_stern_2388,it,it,8,0.10084302630275488
+youtube_1/shoshannah_stern_2389,so,a,5,0.06327696610242128
+youtube_1/shoshannah_stern_2390,asl,al,9,0.11028698645532131
+youtube_1/shoshannah_stern_2391,so,so,15,0.13010000111535192
+youtube_1/shoshannah_stern_2392,mark medoff,markmelifm,32,0.254753977060318
+youtube_1/shoshannah_stern_2393,way,ray,12,0.13194396160542965
+youtube_1/shoshannah_stern_2394,extrmes,os,23,0.18417404498904943
+youtube_1/shoshannah_stern_2395,so,s,6,0.07298297714442015
+youtube_1/shoshannah_stern_2396,hurt,t,25,0.21452398505061865
+youtube_1/shoshannah_stern_2397,to,,6,0.07498101331293583
+youtube_1/shoshannah_stern_2398,to,tos,10,0.2973219961859286
+youtube_3/ben_bahan_4523,cop,ok,15,0.13925100211054087
+youtube_3/ben_bahan_4524,mayor,mar,29,0.22844999330118299
+youtube_3/ben_bahan_4525,do,,5,0.07626600563526154
+youtube_3/ben_bahan_4526,whisperer,mhispeur,56,0.38504699477925897
+youtube_3/ben_bahan_4527,care,caue,20,0.16822997713461518
+youtube_3/ben_bahan_4528,do,,11,0.11873297626152635
+youtube_3/ben_bahan_4529,fun,fn,18,0.17628801288083196
+youtube_3/ben_bahan_4530,bus,bres,22,0.17185002798214555
+youtube_3/ben_bahan_4531,mayo,oy,11,0.10350003140047193
+youtube_3/ben_bahan_4532,ok,ek,26,0.24309399304911494
+youtube_3/ben_bahan_4533,ok,ok,17,0.16125797992572188
+youtube_3/ben_bahan_4534,tck,trk,24,0.1972090103663504
+youtube_3/ben_bahan_4535,baa,ba,56,0.38217694964259863
+youtube_3/ben_bahan_4536,baa,ba,14,0.13169896556064487
+youtube_3/ben_bahan_4537,baa,a,78,0.48651196993887424
+youtube_4/howard_rosenblum_5559,aha,pa,27,0.2090359921567142
+youtube_4/howard_rosenblum_5560,immigrants,imgonts,30,0.23499398957937956
+youtube_4/howard_rosenblum_5561,us,o,13,0.1406929804943502
+youtube_4/howard_rosenblum_5562,fr,ofr,10,0.12015202082693577
+youtube_4/howard_rosenblum_5563,ice,ico,24,0.18814601935446262
+youtube_4/howard_rosenblum_5564,ice,ice,19,0.17300702165812254
+youtube_4/howard_rosenblum_5565,customa enforcement,custesencet,54,0.3585939994081855
+youtube_4/howard_rosenblum_5566,ice,ce,10,0.1110740122385323
+youtube_4/howard_rosenblum_5567,vido,veidn,16,0.138850009534508
+youtube_4/howard_rosenblum_5568,cuonil de manos,coilemsnrces,62,0.4194899811409414
+youtube_4/howard_rosenblum_5569,aclu,aelu,41,0.2734129666350782
+youtube_4/howard_rosenblum_5570,cill,ill,17,0.14795101014897227
+youtube_4/howard_rosenblum_5571,unin,uin,18,0.1641369890421629
+youtube_4/howard_rosenblum_5572,aclu,scelu,16,0.14006701530888677
+youtube_4/howard_rosenblum_5573,us,o,16,0.14915800420567393
+youtube_4/howard_rosenblum_5574,do,do,14,0.12896698899567127
+youtube_4/howard_rosenblum_5575,nad,ad,18,0.1725340262055397
+youtube_4/howard_rosenblum_5576,ice,ice,20,0.16125699039548635
+youtube_4/howard_rosenblum_5577,cdi,cdi,21,0.17324602231383324
+youtube_4/howard_rosenblum_5578,if,if,6,0.07831701077520847
+youtube_4/lizzie_sorkin_(nad)_5245,grassrots,aesrst,23,0.2050410257652402
+youtube_4/lizzie_sorkin_(nad)_5246,dgm,ogm,21,0.16814202535897493
+youtube_4/lizzie_sorkin_(nad)_5247,flint,flvt,21,0.17310900148004293
+youtube_4/lizzie_sorkin_(nad)_5248,standing rock,standigrck,63,0.39765099063515663
+youtube_4/lizzie_sorkin_(nad)_5249,dapl,daap,44,0.2954229712486267
+youtube_4/lizzie_sorkin_(nad)_5250,muslim,meuslim,27,0.22353400709107518
+youtube_4/lizzie_sorkin_(nad)_5251,dmag,mg,24,0.19267800962552428
+youtube_4/lizzie_sorkin_(nad)_5252,civic resistnace,civicesitoce,86,0.5483520217239857
+youtube_4/lizzie_sorkin_(nad)_5253,nad,n,12,0.13692001812160015
+youtube_4/lizzie_sorkin_(nad)_5254,resistnce,esistece,36,0.2800370566546917
+youtube_4/sean_berdy_5728,well,vel,24,0.21421501878648996
+youtube_4/sean_berdy_5729,not,rst,11,0.11361099313944578
+youtube_4/sean_berdy_5730,flow,flew,16,0.161267991643399
+youtube_4/sean_berdy_5731,songs,ega,17,0.1636400120332837
+youtube_4/sean_berdy_5732,profoundly,hreferndy,34,0.2709229593165219
+youtube_4/sean_berdy_5733,deaf,deaf,15,0.15329400775954127
+youtube_4/sean_berdy_5734,poem,hes,19,0.17278495943173766
+youtube_4/sean_berdy_5735,so,ae,8,0.09771803161129355
+youtube_4/sean_berdy_5736,script,oa,18,0.16036501619964838
+youtube_4/sean_berdy_5737,video,vis,15,0.13595697237178683
+youtube_4/sean_berdy_5738,producing,rodeig,22,0.19509397679939866
+youtube_4/sean_berdy_5741,own,en,10,0.11560803977772593
+youtube_4/sean_berdy_5742,co,s,5,0.08571299258619547
+youtube_4/sean_berdy_5743,co,o,7,0.08283898932859302
+youtube_4/sean_berdy_5744,sean berdy entertainment,seasmberdynteratainent,96,0.5809969734400511
+youtube_4/sean_berdy_5747,abc,asb,12,0.11609401553869247
+youtube_4/sean_berdy_5748,cast,st,17,0.16569800209254026
+youtube_4/sean_berdy_5749,lizzie,eny,11,0.1256489777006209
+youtube_4/sean_berdy_5750,asl,asd,16,0.13951299479231238
+youtube_4/sean_berdy_5751,consultant,enuletnm,41,0.3118530148640275
+youtube_4/sean_berdy_5752,episodes,ohl,15,0.13658299576491117
+youtube_4/sean_berdy_5753,whirlwind,din,18,0.1636529923416674
+youtube_4/sean_berdy_5754,things,n,8,0.08704204810783267
+youtube_4/sean_berdy_5755,love,heh,9,0.09111600229516625
+youtube_4/sean_berdy_5756,emmett,o,7,0.09035802213475108
+youtube_4/sean_berdy_5757,crew did,wld,16,0.13997196219861507
+youtube_4/sean_berdy_5758,it,t,6,0.0690470333211124
+youtube_4/tim_albert_5263,tim albebt,timalt,44,0.30295003671199083
+youtube_4/tim_albert_5264,nbda,nbda,23,0.19068195251747966
+youtube_4/tim_albert_5265,nbda,nbda,21,0.18044101307168603
+youtube_4/tim_albert_5266,advocates nbda,adrmcatesonba,76,0.5060560069978237
+youtube_4/tim_albert_5267,ntid,ttixe,37,0.29189803171902895
+youtube_4/tim_albert_5268,ntid,ntd,22,0.1812780392356217
+youtube_4/tim_albert_5269,st paul minn,starlin,64,0.43927598744630814
+youtube_4/tim_albert_5270,minn,rinnn,29,0.23800705093890429
+youtube_4/tim_albert_5271,ntid,ttiz,26,0.21135603310540318
+youtube_4/tim_albert_5272,minn,rim,13,0.12883200543001294
+youtube_4/tim_albert_5273,fla,ofla,14,0.13480597408488393
+youtube_4/tim_albert_5274,mic,oi,10,0.10613002814352512
+youtube_4/tim_albert_5275,so,so,17,0.14873396139591932
+youtube_4/tim_albert_5276,ylt,ylt,23,0.17875299090519547
+youtube_4/tim_albert_5277,tim,tim,14,0.14204700710251927
+youtube_4/tim_albert_5278,tim,o,6,0.09398703696206212
+youtube_4/tim_albert_5279,tim,ti,6,0.07986300624907017
+youtube_4/tim_albert_5280,ylt,yt,14,0.12257398338988423
+youtube_4/tim_albert_5281,so,asc,21,0.17786602256819606
+youtube_4/tim_albert_5282,ylt,yls,29,0.22531498689204454
+youtube_4/tim_albert_5283,ntid,d,30,0.23451598826795816
+youtube_4/tim_albert_5284,ntid,ni,10,0.1134589547291398
+youtube_5/caroline_jackson_5848,nad,nd,12,0.13072800356894732
+youtube_5/caroline_jackson_5849,mountain states health allice,morntinstatesheoslthalyc,152,0.9783279965631664
+youtube_5/caroline_jackson_5850,jhnson cty h,jhnsencstyh,63,0.4837040323764086
+youtube_5/caroline_jackson_5851,johnson cty tenn,jehnsenctyten,102,0.6479700095951557
+youtube_5/caroline_jackson_5852,tenn,ten,17,0.1651920028962195
+youtube_5/caroline_jackson_5853,vri,ui,16,0.15795795479789376
+youtube_5/caroline_jackson_5854,sydney catell,saydnicazel,68,0.4485640092752874
+youtube_5/caroline_jackson_5855,chris catell,chiscael,50,0.3432099474593997
+youtube_5/caroline_jackson_5856,dona carell,denacsrel,50,0.36628899397328496
+youtube_5/caroline_jackson_5857,cancer,cancr,41,0.28921099146828055
+youtube_5/caroline_jackson_5858,dec,d,11,0.10776304407045245
+youtube_5/caroline_jackson_5859,days,da,38,0.2934230142273009
+youtube_5/caroline_jackson_5860,vri,i,15,0.13286701869219542
+youtube_5/caroline_jackson_5861,hystecl,histol,43,0.3223420353606343
+youtube_5/caroline_jackson_5862,nad,nd,13,0.12188800610601902
+youtube_5/caroline_jackson_5863,disabity,disbity,51,0.3664370160549879
+youtube_5/caroline_jackson_5864,tenn,tnon,29,0.22640201495960355
+youtube_5/caroline_jackson_5865,johnso city,jsectt,50,0.328363967128098
+youtube_5/caroline_jackson_5866,allice,alie,25,0.2163969911634922
+youtube_5/caroline_jackson_5867,ada,ada,23,0.18989399541169405
+youtube_5/daniel_durant_5875,daniel durant,danielvsnt,70,0.4351820098236203
+youtube_5/daniel_durant_5876,live,li,12,0.12864096788689494
+youtube_5/daniel_durant_5877,tv,av,7,0.07794902194291353
+youtube_5/daniel_durant_5878,dtv,tv,8,0.10392698459327221
+youtube_5/daniel_durant_5879,at,t,7,0.09754899656400084
+youtube_5/daniel_durant_5880,switched at,swyepat,28,0.21464598830789328
+youtube_5/daniel_durant_5881,all crew cast,sllurrwas,43,0.29915699269622564
+youtube_5/daniel_durant_5882,set,sc,22,0.19006297225132585
+youtube_5/daniel_durant_5883,rolling,uolng,24,0.19748997874557972
+youtube_5/daniel_durant_5884,all,sli,8,0.09077199501916766
+youtube_5/daniel_durant_5885,crew,crew,17,0.1475089811719954
+youtube_5/daniel_durant_5886,all,l,6,0.07899099728092551
+youtube_5/daniel_durant_5887,asl,al,8,0.08356099715456367
+youtube_5/daniel_durant_5888,well,ul,9,0.11689495295286179
+youtube_5/daniel_durant_5889,moritz,oulyats,39,0.2717400202527642
+youtube_5/daniel_durant_5890,rich,uych,14,0.1426340313628316
+youtube_5/daniel_durant_5891,fans,fan,13,0.1410149852745235
+youtube_5/daniel_durant_5892,out,ut,7,0.07972505409270525
+youtube_5/daniel_durant_5893,or cd or cast,rcercas,41,0.2836550120264292
+youtube_5/daniel_durant_5894,switched bi at,swiedbitap,37,0.30653399880975485
+youtube_5/daniel_durant_5895,fans,aus,13,0.1286680344492197
+youtube_5/daniel_durant_5896,do it,is,10,0.1148800365626812
+youtube_5/debra_patkin_5786,debra patkin,debrapatkin,82,0.5083719734102488
+youtube_5/debra_patkin_5787,of,f,3,0.0868550268933177
+youtube_5/debra_patkin_5788,nad,nar,24,0.18104200717061758
+youtube_5/debra_patkin_5789,rit,rit,23,0.19133201567456126
+youtube_5/debra_patkin_5790,bs,bs,13,0.14111300697550178
+youtube_5/debra_patkin_5791,ma,a,9,0.11276901932433248
+youtube_5/debra_patkin_5792,ucla,rrla,30,0.23717095609754324
+youtube_5/debra_patkin_5793,jd,id,13,0.12396305100992322
+youtube_5/debra_patkin_5794,da,da,9,0.1252380316145718
+youtube_5/debra_patkin_5795,nad,nad,20,0.16870099352672696
+youtube_5/jeffrey_spinale_6039,lesbians gays bisxual,lesynsygysbisl,63,0.4157319781370461
+youtube_5/jeffrey_spinale_6040,lgbt,lt,15,0.15278300270438194
+youtube_5/jeffrey_spinale_6041,details,oayls,15,0.15295000048354268
+youtube_5/jeffrey_spinale_6042,fundig,fndig,17,0.17111399210989475
+youtube_5/jeffrey_spinale_6043,all,,3,0.0813559745438397
+youtube_5/jeffrey_spinale_6044,outeach,outch,21,0.1830250257626176
+youtube_5/jeffrey_spinale_6045,welless,rlue,16,0.1545539707876742
+youtube_5/jeffrey_spinale_6046,dirctory,dicri,19,0.14886498684063554
+youtube_5/jeffrey_spinale_6047,ylc,il,10,0.09934400441125035
+youtube_5/jeffrey_spinale_6048,ok,or,8,0.09979901369661093
+youtube_5/jeffrey_spinale_6049,n,,9,0.10328198550269008
+youtube_5/jeffrey_spinale_6050,fest,est,12,0.11830398580059409
+youtube_5/jeffrey_spinale_6051,lgbt,lclt,20,0.19585498375818133
+youtube_5/jeffrey_spinale_6052,apil,d,7,0.10102899977937341
+youtube_5/jeffrey_spinale_6053,tips,ipo,12,0.11695298599079251
+youtube_5/jeffrey_spinale_6054,rainbow sity,uainwowsit,47,0.331095012370497
+youtube_5/jeffrey_spinale_6055,lgbt cub,ltc,21,0.1770540256984532
+youtube_5/jeffrey_spinale_6056,nad,nad,16,0.17564703011885285
+youtube_5/jeffrey_spinale_6057,ylc,yl,10,0.11364900274202228
+youtube_5/jeffrey_spinale_6058,sbg,sbg,16,0.20309101091697812
+youtube_5/jeffrey_spinale_6059,body,ody,8,0.12157100718468428
+youtube_5/jeffrey_spinale_6060,fest,fst,13,0.14733400894328952
+youtube_5/jeffrey_spinale_6061,ylc,ilo,10,0.1125249546021223
+youtube_5/melissa_draganac-hawk_5833,md,md,23,0.1976679777726531
+youtube_5/melissa_draganac-hawk_5834,council of,coronilof,47,0.3354889922775328
+youtube_5/melissa_draganac-hawk_5835,raitionle,ritondig,31,0.24192500859498978
+youtube_5/melissa_draganac-hawk_5836,asl,asl,13,0.13447599485516548
+youtube_5/melissa_draganac-hawk_5837,weite,oit,13,0.14873099280521274
+youtube_5/melissa_draganac-hawk_5838,nad,nad,24,0.1835259608924389
+youtube_5/melissa_draganac-hawk_5839,all,il,17,0.15415099915117025
+youtube_5/melissa_draganac-hawk_5840,hartfrd conn,narterdeon,58,0.3946920041926205
+youtube_5/melissa_draganac-hawk_5841,asd,asd,20,0.1775710261426866
+youtube_5/melissa_draganac-hawk_5842,nad,nkl,14,0.36376703064888716
+youtube_5/melissa_draganac-hawk_5843,nbda,ncda,22,0.178042973857373
+youtube_5/melissa_draganac-hawk_5844,tim alert,tioart,38,0.260177010204643
+youtube_5/melissa_draganac-hawk_5845,emt,omt,14,0.11865998385474086
+youtube_5/melissa_draganac-hawk_5846,or,re,13,0.1464730012230575
+youtube_5/melissa_draganac-hawk_5847,met,met,17,0.14498498057946563
+youtube_5/roberta_cordano_6124,ck,k,14,0.12048502685502172
+youtube_5/roberta_cordano_6125,kate,pate,15,0.14329201076179743
+youtube_5/roberta_cordano_6126,vp,up,24,0.21663802908733487
+youtube_5/roberta_cordano_6127,asociate povost,asocyatreporoet,61,0.40665396954864264
+youtube_5/roberta_cordano_6128,vpapedi,rpapedi,46,0.3280089586041868
+youtube_5/roberta_cordano_6129,cdo,cdo,25,0.1980499946512282
+youtube_5/roberta_cordano_6130,vpapedi,vpape,33,0.23696798598393798
+youtube_5/roberta_cordano_6131,cdo,cdo,14,0.1268739579245448
+youtube_5/roberta_cordano_6132,co,c,6,0.08684402564540505
+youtube_5/roberta_cordano_6133,kafi lemons,kailenst,45,0.3066090284846723
+youtube_5/roberta_cordano_6134,adm,adm,13,0.14748895773664117
+youtube_5/roberta_cordano_6135,mary ann sereth,mtrisrnsereth,80,0.5006010178476572
+youtube_5/roberta_cordano_6136,at,t,8,0.08585699833929539
+youtube_5/roberta_cordano_6137,model,moel,20,0.162759970407933
+youtube_5/roberta_cordano_6138,mssd,ossrd,26,0.18258800264447927
+youtube_5/roberta_cordano_6139,if,of,12,0.12521800817921758
+youtube_5/roberta_cordano_6140,all,ap,15,0.16378803411498666
+youtube_5/roberta_cordano_6141,stakeholders,atakehdert,36,0.28282497078180313
+youtube_5/roberta_cordano_6142,all,l,21,0.16442901687696576
+youtube_5/roberta_cordano_6143,upates,kae,15,0.14147500041872263
+youtube_5/roberta_cordano_6144,co,co,9,0.09745999705046415
+youtube_5/roberta_cordano_6145,by,bi,22,0.17668504733592272
+youtube_5/roberta_cordano_6146,all,al,12,0.11465500574558973
+youtube_5/roberta_cordano_6147,vpapedi,rpokodi,37,0.26676798006519675
+youtube_5/roberta_cordano_6148,cdo,cdo,27,0.23689999943599105
+youtube_5/roberta_cordano_6149,do,o,6,0.09252503514289856
+youtube_5/roberta_cordano_6150,dr maftin luther,prmblidnbrter,47,0.3290610038675368
+youtube_5/roberta_cordano_6151,ir,ir,25,0.2178820432163775
+youtube_5/roberta_cordano_6152,ek,k,15,0.14030199963599443
+youtube_5/roberta_cordano_6153,sfe,tfe,10,0.11432700557634234
+youtube_5/roberta_cordano_6154,ck,crk,8,0.08605897892266512
+youtube_5/sean_berdy_6078,it,it,12,0.10992499301210046
+youtube_5/sean_berdy_6079,emmett,emet,19,0.17525401199236512
+youtube_5/sean_berdy_6080,of,of,14,0.13174297055229545
+youtube_5/sean_berdy_6081,he cope,hche,20,0.17046602442860603
+youtube_5/sean_berdy_6082,season,ssn,14,0.14409201685339212
+youtube_5/sean_berdy_6083,well,og,21,0.18976296996697783
+youtube_5/sean_berdy_6084,at,at,8,0.11381297372281551
+youtube_5/sean_berdy_6085,there,h,5,0.06331398617476225
+youtube_5/sean_berdy_6086,violence,uiooe,30,0.2278609899803996
+youtube_5/sean_berdy_6087,of,of,8,0.10682200081646442
+youtube_5/sean_berdy_6088,fit,oft,11,0.107981963083148
+youtube_5/sean_berdy_6089,well,w,26,0.20825897809118032
+youtube_5/sean_berdy_6090,emmett do,etlo,19,0.16099802451208234
+youtube_5/sean_berdy_6091,friendship,relsh,27,0.22801099112257361
+youtube_5/sean_berdy_6092,bay,a,17,0.15499303117394447
+youtube_5/sean_berdy_6093,well,w,9,0.10362401371821761
+youtube_5/sean_berdy_6094,ett,a,10,0.11980801355093718
+youtube_5/sean_berdy_6095,of,,4,0.06484903860837221
+youtube_5/sean_berdy_6096,her,n,5,0.0622029765509069
+youtube_5/sean_berdy_6097,ipf,p,12,0.10610598837956786
+youtube_5/sean_berdy_6098,cope,h,11,0.09955500718206167
+youtube_5/sean_berdy_6099,fit,ft,8,0.10300998110324144
+youtube_5/sean_berdy_6100,of,if,5,0.07070100400596857
+youtube_5/sean_berdy_6101,well,wl,8,0.07996900239959359
+youtube_5/sean_berdy_6102,emmett he,metahe,46,0.3130709519609809
+youtube_5/sean_berdy_6103,season,eson,21,0.18975598504766822
+youtube_5/sean_berdy_6104,all,al,4,0.06480800220742822
+youtube_5/sean_berdy_6105,him,hi,15,0.1298189745284617
+youtube_5/sean_berdy_6106,well,o,6,0.07260404527187347
+youtube_5/sean_berdy_6107,too,to,9,0.11200399603694677
+youtube_5/sean_berdy_6108,wel,wl,8,0.08630199590697885
+youtube_5/sean_berdy_6109,drumming,umyng,27,0.1950759906321764
+youtube_5/sean_berdy_6110,ett,et,7,0.0833770027384162
+youtube_5/sean_berdy_6111,drum,ro,10,0.09682599920779467
+youtube_5/sean_berdy_6112,emtt,et,11,0.10612496407702565
+youtube_5/sean_berdy_6113,scan,ssm,16,0.1657090033404529
+youtube_5/sean_berdy_6114,in,it,7,0.09250798029825091
+youtube_5/sean_berdy_6115,concert alike,coraaliue,37,0.27818098897114396
+youtube_5/sean_berdy_6116,um,m,16,0.14547602040693164
+youtube_5/sean_berdy_6117,are,ue,9,0.10853097774088383
+youtube_5/sean_berdy_6118,but,bt,15,0.14168600318953395
+youtube_5/sean_berdy_6119,do,do,6,0.10235200170427561
+youtube_5/sean_berdy_6120,of it,it,12,0.12045702897012234
+youtube_5/sean_berdy_6121,season,esn,15,0.1420479966327548
+youtube_5/sean_berdy_6122,fans,fn,8,0.12148299720138311
+youtube_5/sean_berdy_6123,of it,it,10,0.11519703548401594
+youtube_5/tanea_brown_6028,tanea brown,taneabown,53,0.3649200079962611
+youtube_5/tanea_brown_6029,yap,iap,17,0.17068599117919803
+youtube_5/tanea_brown_6030,ambassdor,ambasderr,47,0.33671699929982424
+youtube_5/tanea_brown_6031,nad,nad,12,0.11972000356763601
+youtube_5/tanea_brown_6032,poc,pc,12,0.14197704149410129
+youtube_5/tanea_brown_6033,of,of,5,0.06479898001998663
+youtube_5/tanea_brown_6034,us,s,4,0.057859986554831266
+youtube_5/tanea_brown_6035,website,rebesite,30,0.23295101709663868
+youtube_5/tanea_brown_6036,up,p,9,0.12429995695129037
+youtube_5/tanea_brown_6037,poc,c,10,0.1125819981098175
+youtube_5/tanea_brown_6038,utah,uth,16,0.14181900769472122
+youtube_6/myles_de_bastion_6517,myles,oiless,34,0.2446990110911429
+youtube_6/myles_de_bastion_6518,camaspace,camapce,71,0.4630089970305562
+youtube_6/myles_de_bastion_6519,great,reat,45,0.31050597317516804
+youtube_6/myles_de_bastion_6520,cymaspace,imsse,70,0.4785190103575587
+youtube_6/myles_de_bastion_6521,asl,al,19,0.18258497584611177
+youtube_6/myles_de_bastion_6522,all,,16,0.13785104965791106
+youtube_6/myles_de_bastion_6523,all senses,aidnsns,56,0.39639498572796583
+youtube_6/myles_de_bastion_6524,all senses,alossensns,49,0.3429449861869216
+youtube_6/myles_de_bastion_6525,fetre,idnuere,38,0.27259497437626123
+youtube_6/myles_de_bastion_6526,electronics,elebtrresrics,82,0.5685280193574727
+youtube_6/myles_de_bastion_6527,open source,sensre,79,0.5064220167696476
+youtube_6/myles_de_bastion_6528,frequency,erennecy,86,0.5361209623515606
+youtube_6/myles_de_bastion_6529,brain,busaivn,48,0.32366300001740456
+youtube_6/myles_de_bastion_6530,all,l,15,0.13739900896325707
+youtube_6/myles_de_bastion_6531,senses,stsnns,30,0.22325600730255246
+youtube_6/myles_de_bastion_6532,senses,asnsnn,41,0.30175899155437946
+youtube_6/roberta_cordano_6466,bobbi cordano,bbicobano,41,0.30148698715493083
+youtube_6/roberta_cordano_6467,provost cabol erting,prowostcabolebimng,73,0.49160997150465846
+youtube_6/roberta_cordano_6468,vp ron stern,vpcbonsern,52,0.37069799145683646
+youtube_6/roberta_cordano_6469,task fce,task fbce,42,0.3210499999113381
+youtube_6/roberta_cordano_6470,frame wouk,fbobewbk,33,0.24665601085871458
+youtube_6/roberta_cordano_6471,co chairs,botirs,32,0.25722297141328454
+youtube_6/roberta_cordano_6472,dr jefrey lewis,drieileris,67,0.4406080115586519
+youtube_6/roberta_cordano_6473,dept,ept,14,0.13635196955874562
+youtube_6/roberta_cordano_6474,dr kristin mulrooney,prkbystirnmrlconey,111,0.7031940040178597
+youtube_6/roberta_cordano_6475,dept,dept,16,0.14893600018694997
+youtube_6/roberta_cordano_6476,feb,feb,12,0.11807499686256051
+youtube_6/roberta_cordano_6477,by,y,8,0.09445101022720337
+youtube_6/roberta_cordano_6478,feb,feb,12,0.13364298501983285
+youtube_6/roberta_cordano_6479,ok,ok,8,0.08822698146104813
+youtube_6/roberta_cordano_6480,by,by,7,0.07831101538613439

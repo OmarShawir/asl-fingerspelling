@@ -1,0 +1,32 @@
+{
+  "checkpoint_sha256": "762d11636d38f35ae8590fbef6bfb9edd2687b5f0acdd5c027dba063146973fc",
+  "decoder_config_sha256": "1fa8f0d3b57f094d8d322caee90df72d2d38d6e217222700cd9a2fc1d4c03774",
+  "tolerance": {
+    "atol": 2e-05,
+    "rtol": 1e-05
+  },
+  "results": [
+    {
+      "id": "aslized/joy_maisel_6419",
+      "target": "joy maisel",
+      "frames": 66,
+      "missing_frames": 11,
+      "max_abs_logit_difference": 4.76837158203125e-06,
+      "full_text": "samnaisl",
+      "stream_text": "samnaisl"
+    },
+    {
+      "id": "aslized/joy_maisel_6420",
+      "target": "aslized",
+      "frames": 35,
+      "missing_frames": 0,
+      "max_abs_logit_difference": 4.76837158203125e-06,
+      "full_text": "asliatcd",
+      "stream_text": "asliatcd"
+    }
+  ],
+  "reset_between_words_verified": true,
+  "missing_frames_advance_state_without_forced_blank": true,
+  "test_inference": false,
+  "camera_trial": false
+}

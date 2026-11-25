@@ -1,0 +1,21 @@
+{
+  "image_count": 72000,
+  "image_sizes": {
+    "200x200": 72000
+  },
+  "detected_features_compared": 55368,
+  "train_count": 44293,
+  "validation_count": 11075,
+  "max_abs_feature_difference": 0.0,
+  "dimensions_manifest_sha256": "35ed8027bfe716e4a70510dc24dcf6b917d83b84744a75ebc2ef0d481ea745d3",
+  "split_sha256": "6980a06a014fa221b20ed1aaceb9eee0abd9af42efa9f53429815647a79c95cd",
+  "source_checkpoint": "models/mlp_static.pt",
+  "source_checkpoint_sha256": "f26200e9da636868ed8ae31ab958fcbe76f3edfe64b288b59c2792084efd06d6",
+  "feature_version": "width-units-wrist-maxradius-canonical-right-v2",
+  "weights_sha256": "db33387a03213bd9c462eb571d4c852539b7726e2553101ca79c5b0b39facc4e",
+  "weights_hash_format": "sorted keys + NUL + numpy dtype + shape + contiguous tensor bytes",
+  "training_performed": false,
+  "derived_checkpoint": "models/mlp_static_aspect_v2.pt",
+  "derived_checkpoint_sha256": "8f514f6180a1c5ac65c29483201f91365d76fab67d410263a1efc2c9f35423e9",
+  "tensors_bit_identical": true
+}

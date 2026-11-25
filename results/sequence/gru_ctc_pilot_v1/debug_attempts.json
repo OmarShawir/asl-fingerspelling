@@ -1,0 +1,57 @@
+[
+  {
+    "attempt": 1,
+    "source": "results/sequence/gru_ctc_debug_attempt1",
+    "steps": 600,
+    "elapsed_seconds": 3.9881810270017013,
+    "exact": 14,
+    "cer": 0.046511627906976744,
+    "debug_seed": 42,
+    "initial_blank_bias": "default random",
+    "subset": "original shortest 16 unique training labels; leading missing frames allowed"
+  },
+  {
+    "attempt": 2,
+    "source": "results/sequence/gru_ctc_debug_attempt2",
+    "steps": 3000,
+    "elapsed_seconds": 24.468291667988524,
+    "exact": 14,
+    "cer": 0.046511627906976744,
+    "debug_seed": 42,
+    "initial_blank_bias": "default random",
+    "subset": "original shortest 16 unique training labels; leading missing frames allowed"
+  },
+  {
+    "attempt": 3,
+    "source": "results/sequence/gru_ctc_debug_attempt3",
+    "steps": 1500,
+    "elapsed_seconds": 10.73304155500955,
+    "exact": 14,
+    "cer": 0.046511627906976744,
+    "debug_seed": 7,
+    "initial_blank_bias": "default random",
+    "subset": "original shortest 16 unique training labels; leading missing frames allowed"
+  },
+  {
+    "attempt": 4,
+    "source": "results/sequence/gru_ctc_debug_attempt4",
+    "steps": 1500,
+    "elapsed_seconds": 11.843822608992923,
+    "exact": 14,
+    "cer": 0.046511627906976744,
+    "debug_seed": 7,
+    "initial_blank_bias": 2,
+    "subset": "original shortest 16 unique training labels; leading missing frames allowed"
+  },
+  {
+    "attempt": 5,
+    "source": "results/sequence/gru_ctc_pilot_v1",
+    "steps": 700,
+    "elapsed_seconds": 4.406641675013816,
+    "exact": 16,
+    "cer": 0,
+    "debug_seed": 7,
+    "initial_blank_bias": "default random",
+    "subset": "first 16 unique short training labels sorted by frames/id, 10-35 frames, 2-5 characters, hand present in first frame; debugging only"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "train": {
+    "sequences": 5433,
+    "signers": 87,
+    "frames": 150368,
+    "missing_hand_frames": 2596,
+    "j_clips": 133,
+    "z_clips": 72
+  },
+  "validation": {
+    "sequences": 978,
+    "signers": 37,
+    "frames": 27772,
+    "missing_hand_frames": 414,
+    "j_clips": 15,
+    "z_clips": 18
+  },
+  "test": {
+    "sequences": 867,
+    "signers": 36,
+    "frames": 25950,
+    "missing_hand_frames": 317,
+    "j_clips": 30,
+    "z_clips": 8
+  }
+}

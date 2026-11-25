@@ -1,0 +1,105 @@
+[
+  {
+    "epoch": 0,
+    "train_sampled_loss": null,
+    "macro_accuracy": 0.9212121212121213,
+    "macro_nll": 0.49433753232418126,
+    "correct": 152
+  },
+  {
+    "epoch": 1,
+    "train_sampled_loss": 0.0374920399999246,
+    "macro_accuracy": 0.9545454545454546,
+    "macro_nll": 0.4240036377795817,
+    "correct": 156,
+    "selected": true
+  },
+  {
+    "epoch": 2,
+    "train_sampled_loss": 0.02734215009957552,
+    "macro_accuracy": 0.9462121212121213,
+    "macro_nll": 0.39912441558839,
+    "correct": 155,
+    "selected": false
+  },
+  {
+    "epoch": 3,
+    "train_sampled_loss": 0.024034869787283242,
+    "macro_accuracy": 0.9378787878787879,
+    "macro_nll": 0.39656837192456645,
+    "correct": 154,
+    "selected": false
+  },
+  {
+    "epoch": 4,
+    "train_sampled_loss": 0.02192748374538496,
+    "macro_accuracy": 0.9545454545454546,
+    "macro_nll": 0.36417561575674423,
+    "correct": 156,
+    "selected": true
+  },
+  {
+    "epoch": 5,
+    "train_sampled_loss": 0.01913585196249187,
+    "macro_accuracy": 0.9462121212121213,
+    "macro_nll": 0.3974047472525683,
+    "correct": 155,
+    "selected": false
+  },
+  {
+    "epoch": 6,
+    "train_sampled_loss": 0.018681955356150866,
+    "macro_accuracy": 0.9545454545454546,
+    "macro_nll": 0.40141969069018657,
+    "correct": 156,
+    "selected": false
+  },
+  {
+    "epoch": 7,
+    "train_sampled_loss": 0.019596042595803737,
+    "macro_accuracy": 0.9545454545454546,
+    "macro_nll": 0.3923309947692894,
+    "correct": 156,
+    "selected": false
+  },
+  {
+    "epoch": 8,
+    "train_sampled_loss": 0.018848871048539877,
+    "macro_accuracy": 0.9378787878787879,
+    "macro_nll": 0.41795788928262945,
+    "correct": 154,
+    "selected": false
+  },
+  {
+    "epoch": 9,
+    "train_sampled_loss": 0.017793045337311922,
+    "macro_accuracy": 0.9545454545454546,
+    "macro_nll": 0.39557700232462034,
+    "correct": 156,
+    "selected": false
+  },
+  {
+    "epoch": 10,
+    "train_sampled_loss": 0.02228003504103981,
+    "macro_accuracy": 0.9503787878787878,
+    "macro_nll": 0.419409561317106,
+    "correct": 155,
+    "selected": false
+  },
+  {
+    "epoch": 11,
+    "train_sampled_loss": 0.018680454292334617,
+    "macro_accuracy": 0.9545454545454546,
+    "macro_nll": 0.3810841186046147,
+    "correct": 156,
+    "selected": false
+  },
+  {
+    "epoch": 12,
+    "train_sampled_loss": 0.017609969503246246,
+    "macro_accuracy": 0.9545454545454546,
+    "macro_nll": 0.41385017786915035,
+    "correct": 156,
+    "selected": false
+  }
+]

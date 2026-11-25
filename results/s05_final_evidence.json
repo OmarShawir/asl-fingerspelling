@@ -1,0 +1,3212 @@
+{
+  "checkpoint_sha256": "7821db6c17a04ba0be940fbca10a85fcb40db41b3aaa1dff1b33fdbaec08ce0a",
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+  ],
+  "feature_version": "width-units-wrist-maxradius-canonical-right-v2",
+  "person": "p01",
+  "session": "s05",
+  "correct": 116,
+  "total": 122,
+  "frames": 4149,
+  "valid_frames": 4149,
+  "clips": [
+    {
+      "clip_id": "0202d7b4ba2940dc8c952644e0584ae7",
+      "target": "W",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "W",
+      "confidence": 0.9999979734420776,
+      "top3": [
+        {
+          "letter": "W",
+          "score": 0.9999979734420776
+        },
+        {
+          "letter": "V",
+          "score": 1.7846974742496968e-06
+        },
+        {
+          "letter": "E",
+          "score": 1.0197932454047987e-07
+        }
+      ],
+      "frames": 42,
+      "valid_frames": 42,
+      "correct": true
+    },
+    {
+      "clip_id": "03031684c43040628e1796dbfce49c60",
+      "target": "E",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "E",
+      "confidence": 0.999751627445221,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.999751627445221
+        },
+        {
+          "letter": "I",
+          "score": 0.00018624837684910744
+        },
+        {
+          "letter": "X",
+          "score": 5.342160875443369e-05
+        }
+      ],
+      "frames": 29,
+      "valid_frames": 29,
+      "correct": true
+    },
+    {
+      "clip_id": "072490e5245345a8aedb171a6d9ef4a2",
+      "target": "S",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "S",
+      "confidence": 0.7380567789077759,
+      "top3": [
+        {
+          "letter": "S",
+          "score": 0.7380567789077759
+        },
+        {
+          "letter": "E",
+          "score": 0.24878168106079102
+        },
+        {
+          "letter": "I",
+          "score": 0.013145736418664455
+        }
+      ],
+      "frames": 22,
+      "valid_frames": 22,
+      "correct": true
+    },
+    {
+      "clip_id": "08e605593f364672ab149c4dfa3db1d2",
+      "target": "S",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "S",
+      "confidence": 0.9997998476028442,
+      "top3": [
+        {
+          "letter": "S",
+          "score": 0.9997998476028442
+        },
+        {
+          "letter": "E",
+          "score": 0.0001299427094636485
+        },
+        {
+          "letter": "I",
+          "score": 7.016985910013318e-05
+        }
+      ],
+      "frames": 17,
+      "valid_frames": 17,
+      "correct": true
+    },
+    {
+      "clip_id": "095b9bf71f584031b59eb5e0ce0db432",
+      "target": "D",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "D",
+      "confidence": 0.9999596476554871,
+      "top3": [
+        {
+          "letter": "D",
+          "score": 0.9999596476554871
+        },
+        {
+          "letter": "O",
+          "score": 3.701647074194625e-05
+        },
+        {
+          "letter": "L",
+          "score": 2.9365332920860965e-06
+        }
+      ],
+      "frames": 41,
+      "valid_frames": 41,
+      "correct": true
+    },
+    {
+      "clip_id": "09f2ab12e9c84096b413d519795d1281",
+      "target": "B",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "B",
+      "confidence": 0.9996035695075989,
+      "top3": [
+        {
+          "letter": "B",
+          "score": 0.9996035695075989
+        },
+        {
+          "letter": "E",
+          "score": 0.0002056840166915208
+        },
+        {
+          "letter": "W",
+          "score": 0.00016442613559775054
+        }
+      ],
+      "frames": 49,
+      "valid_frames": 49,
+      "correct": true
+    },
+    {
+      "clip_id": "0bc77e45b7f841f586ca70a15694ebbe",
+      "target": "M",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "M",
+      "confidence": 0.9998247027397156,
+      "top3": [
+        {
+          "letter": "M",
+          "score": 0.9998247027397156
+        },
+        {
+          "letter": "N",
+          "score": 0.00014534778892993927
+        },
+        {
+          "letter": "I",
+          "score": 2.0679244698840193e-05
+        }
+      ],
+      "frames": 25,
+      "valid_frames": 25,
+      "correct": true
+    },
+    {
+      "clip_id": "1034b3fe853a42f5a35a2b5120736ac8",
+      "target": "F",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "F",
+      "confidence": 0.9993537068367004,
+      "top3": [
+        {
+          "letter": "F",
+          "score": 0.9993537068367004
+        },
+        {
+          "letter": "E",
+          "score": 0.0005334100569598377
+        },
+        {
+          "letter": "N",
+          "score": 8.598054409958422e-05
+        }
+      ],
+      "frames": 33,
+      "valid_frames": 33,
+      "correct": true
+    },
+    {
+      "clip_id": "105553cf237a4551aeb063df0a8d19a1",
+      "target": "E",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "E",
+      "confidence": 0.9995365142822266,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.9995365142822266
+        },
+        {
+          "letter": "I",
+          "score": 0.000441252370364964
+        },
+        {
+          "letter": "X",
+          "score": 1.7017302525346167e-05
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": true
+    },
+    {
+      "clip_id": "113df658c7f0487a9f7fb36f0ca4ad0e",
+      "target": "U",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "U",
+      "confidence": 0.969080924987793,
+      "top3": [
+        {
+          "letter": "U",
+          "score": 0.969080924987793
+        },
+        {
+          "letter": "V",
+          "score": 0.029571454972028732
+        },
+        {
+          "letter": "K",
+          "score": 0.0013077260227873921
+        }
+      ],
+      "frames": 26,
+      "valid_frames": 26,
+      "correct": true
+    },
+    {
+      "clip_id": "13036c87577547439295a11f93479be7",
+      "target": "I",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "I",
+      "confidence": 0.9999988079071045,
+      "top3": [
+        {
+          "letter": "I",
+          "score": 0.9999988079071045
+        },
+        {
+          "letter": "N",
+          "score": 8.084358000814973e-07
+        },
+        {
+          "letter": "M",
+          "score": 3.965088524182647e-07
+        }
+      ],
+      "frames": 18,
+      "valid_frames": 18,
+      "correct": true
+    },
+    {
+      "clip_id": "13fa73ba2ce848e4996f85748567c9cd",
+      "target": "T",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "T",
+      "confidence": 0.9997267723083496,
+      "top3": [
+        {
+          "letter": "T",
+          "score": 0.9997267723083496
+        },
+        {
+          "letter": "N",
+          "score": 0.0002557055850047618
+        },
+        {
+          "letter": "M",
+          "score": 1.5928255379549228e-05
+        }
+      ],
+      "frames": 24,
+      "valid_frames": 24,
+      "correct": true
+    },
+    {
+      "clip_id": "1408294bd55543009a51c43a4b8b4be3",
+      "target": "K",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "K",
+      "confidence": 0.886498212814331,
+      "top3": [
+        {
+          "letter": "K",
+          "score": 0.886498212814331
+        },
+        {
+          "letter": "V",
+          "score": 0.1134691908955574
+        },
+        {
+          "letter": "W",
+          "score": 2.6103452910319902e-05
+        }
+      ],
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "149ef879a91443659fcdad2d1315eef9",
+      "target": "N",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "N",
+      "confidence": 0.9999828934669495,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.9999828934669495
+        },
+        {
+          "letter": "M",
+          "score": 7.096478384482907e-06
+        },
+        {
+          "letter": "P",
+          "score": 4.925934263155796e-06
+        }
+      ],
+      "frames": 27,
+      "valid_frames": 27,
+      "correct": true
+    },
+    {
+      "clip_id": "15ca43546c0b4ae9ab31bccabe273c6f",
+      "target": "U",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "U",
+      "confidence": 0.9988560080528259,
+      "top3": [
+        {
+          "letter": "U",
+          "score": 0.9988560080528259
+        },
+        {
+          "letter": "R",
+          "score": 0.0004163997946307063
+        },
+        {
+          "letter": "K",
+          "score": 0.0003567257372196764
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": true
+    },
+    {
+      "clip_id": "1c9206b90d584e22a7294d09981ac86e",
+      "target": "C",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "C",
+      "confidence": 0.9998357892036438,
+      "top3": [
+        {
+          "letter": "C",
+          "score": 0.9998357892036438
+        },
+        {
+          "letter": "D",
+          "score": 0.00015019759302958846
+        },
+        {
+          "letter": "O",
+          "score": 1.3976577974972315e-05
+        }
+      ],
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "1ef901519c1740f1a74b69c57cc39da9",
+      "target": "S",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "S",
+      "confidence": 0.9884483218193054,
+      "top3": [
+        {
+          "letter": "S",
+          "score": 0.9884483218193054
+        },
+        {
+          "letter": "E",
+          "score": 0.011410248465836048
+        },
+        {
+          "letter": "I",
+          "score": 0.00012581824557855725
+        }
+      ],
+      "frames": 20,
+      "valid_frames": 20,
+      "correct": true
+    },
+    {
+      "clip_id": "21a7ba74cabb4b028028415e5cc2b036",
+      "target": "X",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "X",
+      "confidence": 0.9304479360580444,
+      "top3": [
+        {
+          "letter": "X",
+          "score": 0.9304479360580444
+        },
+        {
+          "letter": "L",
+          "score": 0.05711473897099495
+        },
+        {
+          "letter": "I",
+          "score": 0.007982115261256695
+        }
+      ],
+      "frames": 35,
+      "valid_frames": 35,
+      "correct": true
+    },
+    {
+      "clip_id": "242d6aa25bcd48ff8f875c89f6cdddb5",
+      "target": "W",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "W",
+      "confidence": 0.7738699913024902,
+      "top3": [
+        {
+          "letter": "W",
+          "score": 0.7738699913024902
+        },
+        {
+          "letter": "E",
+          "score": 0.1451631635427475
+        },
+        {
+          "letter": "S",
+          "score": 0.07720193266868591
+        }
+      ],
+      "frames": 48,
+      "valid_frames": 48,
+      "correct": true
+    },
+    {
+      "clip_id": "259c88e1ae284853befe20358e40d0fd",
+      "target": "X",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "X",
+      "confidence": 0.9991422295570374,
+      "top3": [
+        {
+          "letter": "X",
+          "score": 0.9991422295570374
+        },
+        {
+          "letter": "M",
+          "score": 0.0006798087269999087
+        },
+        {
+          "letter": "I",
+          "score": 0.0001478844351368025
+        }
+      ],
+      "frames": 25,
+      "valid_frames": 25,
+      "correct": true
+    },
+    {
+      "clip_id": "272d7c6c7e0b4814875f0bae9bd8f770",
+      "target": "T",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "T",
+      "confidence": 0.9923959970474243,
+      "top3": [
+        {
+          "letter": "T",
+          "score": 0.9923959970474243
+        },
+        {
+          "letter": "N",
+          "score": 0.007387432735413313
+        },
+        {
+          "letter": "M",
+          "score": 0.00020918315567541867
+        }
+      ],
+      "frames": 31,
+      "valid_frames": 31,
+      "correct": true
+    },
+    {
+      "clip_id": "28e4fd00668c49ed9b1df4b5a9e1231a",
+      "target": "R",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "R",
+      "confidence": 0.9985038638114929,
+      "top3": [
+        {
+          "letter": "R",
+          "score": 0.9985038638114929
+        },
+        {
+          "letter": "U",
+          "score": 0.0007169019663706422
+        },
+        {
+          "letter": "W",
+          "score": 0.00042867986485362053
+        }
+      ],
+      "frames": 45,
+      "valid_frames": 45,
+      "correct": true
+    },
+    {
+      "clip_id": "310963a429a84930aa27f06a0bbe6f8d",
+      "target": "W",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "W",
+      "confidence": 0.9999998807907104,
+      "top3": [
+        {
+          "letter": "W",
+          "score": 0.9999998807907104
+        },
+        {
+          "letter": "V",
+          "score": 1.757631338250576e-07
+        },
+        {
+          "letter": "E",
+          "score": 1.4652796309633231e-08
+        }
+      ],
+      "frames": 35,
+      "valid_frames": 35,
+      "correct": true
+    },
+    {
+      "clip_id": "31f629349fc64eb684d16a65302da2ed",
+      "target": "N",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "N",
+      "confidence": 0.999960720539093,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.999960720539093
+        },
+        {
+          "letter": "M",
+          "score": 2.4177654267987236e-05
+        },
+        {
+          "letter": "I",
+          "score": 7.140098205127288e-06
+        }
+      ],
+      "frames": 30,
+      "valid_frames": 30,
+      "correct": true
+    },
+    {
+      "clip_id": "34ac94e92e89485ea4184c2ce30345db",
+      "target": "N",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "N",
+      "confidence": 0.9998298287391663,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.9998298287391663
+        },
+        {
+          "letter": "M",
+          "score": 0.00012641683861147612
+        },
+        {
+          "letter": "I",
+          "score": 2.578186285973061e-05
+        }
+      ],
+      "frames": 28,
+      "valid_frames": 28,
+      "correct": true
+    },
+    {
+      "clip_id": "3b1490db1d584532876666d4943d4132",
+      "target": "H",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "H",
+      "confidence": 0.9999998211860657,
+      "top3": [
+        {
+          "letter": "H",
+          "score": 0.9999998211860657
+        },
+        {
+          "letter": "G",
+          "score": 2.85312410142069e-07
+        },
+        {
+          "letter": "P",
+          "score": 1.0959085017248071e-07
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": true
+    },
+    {
+      "clip_id": "3b7547a108ae4e318b89b260112873cc",
+      "target": "K",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "V",
+      "confidence": 0.993026614189148,
+      "top3": [
+        {
+          "letter": "V",
+          "score": 0.993026614189148
+        },
+        {
+          "letter": "W",
+          "score": 0.006184758618474007
+        },
+        {
+          "letter": "K",
+          "score": 0.0007340888842009008
+        }
+      ],
+      "frames": 20,
+      "valid_frames": 20,
+      "correct": false
+    },
+    {
+      "clip_id": "4021cf79499343339072b110a121a9a8",
+      "target": "E",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "E",
+      "confidence": 0.9991260170936584,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.9991260170936584
+        },
+        {
+          "letter": "I",
+          "score": 0.0008104604203253984
+        },
+        {
+          "letter": "X",
+          "score": 3.10770446958486e-05
+        }
+      ],
+      "frames": 35,
+      "valid_frames": 35,
+      "correct": true
+    },
+    {
+      "clip_id": "414bb9985ea24e468ff0158fc30e8c65",
+      "target": "B",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "B",
+      "confidence": 0.9977060556411743,
+      "top3": [
+        {
+          "letter": "B",
+          "score": 0.9977060556411743
+        },
+        {
+          "letter": "E",
+          "score": 0.0016463538631796837
+        },
+        {
+          "letter": "W",
+          "score": 0.0006213543238118291
+        }
+      ],
+      "frames": 40,
+      "valid_frames": 40,
+      "correct": true
+    },
+    {
+      "clip_id": "4153fd051dd2404886ea32c699b6d258",
+      "target": "R",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "R",
+      "confidence": 0.9853078722953796,
+      "top3": [
+        {
+          "letter": "R",
+          "score": 0.9853078722953796
+        },
+        {
+          "letter": "X",
+          "score": 0.01294468343257904
+        },
+        {
+          "letter": "U",
+          "score": 0.0012018244015052915
+        }
+      ],
+      "frames": 28,
+      "valid_frames": 28,
+      "correct": true
+    },
+    {
+      "clip_id": "422166068344466e8efa745d0b5220cd",
+      "target": "T",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "T",
+      "confidence": 0.8519811630249023,
+      "top3": [
+        {
+          "letter": "T",
+          "score": 0.8519811630249023
+        },
+        {
+          "letter": "E",
+          "score": 0.05754068121314049
+        },
+        {
+          "letter": "L",
+          "score": 0.04843585565686226
+        }
+      ],
+      "frames": 211,
+      "valid_frames": 211,
+      "correct": true
+    },
+    {
+      "clip_id": "440d7b9571ca46ab8580cdee6088e69e",
+      "target": "Q",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "Q",
+      "confidence": 0.9999244213104248,
+      "top3": [
+        {
+          "letter": "Q",
+          "score": 0.9999244213104248
+        },
+        {
+          "letter": "P",
+          "score": 7.562420069007203e-05
+        },
+        {
+          "letter": "C",
+          "score": 8.319839817083619e-10
+        }
+      ],
+      "frames": 21,
+      "valid_frames": 21,
+      "correct": true
+    },
+    {
+      "clip_id": "490af6d979484a78a8c10c0633e132e0",
+      "target": "A",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "A",
+      "confidence": 0.9996863007545471,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9996863007545471
+        },
+        {
+          "letter": "T",
+          "score": 0.0002621272287797183
+        },
+        {
+          "letter": "Y",
+          "score": 4.841962072532624e-05
+        }
+      ],
+      "frames": 48,
+      "valid_frames": 48,
+      "correct": true
+    },
+    {
+      "clip_id": "4c0e60c5e215455c9a21bfa2fe1caf10",
+      "target": "O",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "O",
+      "confidence": 0.9759679436683655,
+      "top3": [
+        {
+          "letter": "O",
+          "score": 0.9759679436683655
+        },
+        {
+          "letter": "D",
+          "score": 0.02370014414191246
+        },
+        {
+          "letter": "C",
+          "score": 0.0003275536000728607
+        }
+      ],
+      "frames": 28,
+      "valid_frames": 28,
+      "correct": true
+    },
+    {
+      "clip_id": "4e2fcdc0facd4aa0b0d8ef1000733d5d",
+      "target": "R",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "R",
+      "confidence": 0.9873390197753906,
+      "top3": [
+        {
+          "letter": "R",
+          "score": 0.9873390197753906
+        },
+        {
+          "letter": "U",
+          "score": 0.009272877126932144
+        },
+        {
+          "letter": "X",
+          "score": 0.002208191668614745
+        }
+      ],
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "4f0ac996152141a09235fc02b1f919f9",
+      "target": "G",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "G",
+      "confidence": 0.9996746182441711,
+      "top3": [
+        {
+          "letter": "G",
+          "score": 0.9996746182441711
+        },
+        {
+          "letter": "H",
+          "score": 0.00012342674017418176
+        },
+        {
+          "letter": "I",
+          "score": 8.93880715011619e-05
+        }
+      ],
+      "frames": 25,
+      "valid_frames": 25,
+      "correct": true
+    },
+    {
+      "clip_id": "4f605114a770466687b89d55908d6634",
+      "target": "D",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "D",
+      "confidence": 0.9999999403953552,
+      "top3": [
+        {
+          "letter": "D",
+          "score": 0.9999999403953552
+        },
+        {
+          "letter": "L",
+          "score": 3.602875153774221e-07
+        },
+        {
+          "letter": "O",
+          "score": 2.586635261536685e-08
+        }
+      ],
+      "frames": 47,
+      "valid_frames": 47,
+      "correct": true
+    },
+    {
+      "clip_id": "523c64c55e314cdba2288f46948212e0",
+      "target": "C",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "C",
+      "confidence": 0.9998997449874878,
+      "top3": [
+        {
+          "letter": "C",
+          "score": 0.9998997449874878
+        },
+        {
+          "letter": "D",
+          "score": 8.073484059423208e-05
+        },
+        {
+          "letter": "O",
+          "score": 1.93420364666963e-05
+        }
+      ],
+      "frames": 40,
+      "valid_frames": 40,
+      "correct": true
+    },
+    {
+      "clip_id": "57c600e6c3a44e34a61afc89622990e3",
+      "target": "Y",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "Y",
+      "confidence": 0.999997615814209,
+      "top3": [
+        {
+          "letter": "Y",
+          "score": 0.999997615814209
+        },
+        {
+          "letter": "T",
+          "score": 2.418539224890992e-06
+        },
+        {
+          "letter": "I",
+          "score": 2.542237753644372e-09
+        }
+      ],
+      "frames": 19,
+      "valid_frames": 19,
+      "correct": true
+    },
+    {
+      "clip_id": "5ad13869667440aba093593c31bd316a",
+      "target": "R",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "R",
+      "confidence": 0.992443859577179,
+      "top3": [
+        {
+          "letter": "R",
+          "score": 0.992443859577179
+        },
+        {
+          "letter": "X",
+          "score": 0.003552366280928254
+        },
+        {
+          "letter": "U",
+          "score": 0.0020958585664629936
+        }
+      ],
+      "frames": 19,
+      "valid_frames": 19,
+      "correct": true
+    },
+    {
+      "clip_id": "5ad59d1f578c46139ed355977024a698",
+      "target": "Y",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "Y",
+      "confidence": 0.9999943375587463,
+      "top3": [
+        {
+          "letter": "Y",
+          "score": 0.9999943375587463
+        },
+        {
+          "letter": "T",
+          "score": 5.612921086139977e-06
+        },
+        {
+          "letter": "A",
+          "score": 1.4078516130666685e-09
+        }
+      ],
+      "frames": 25,
+      "valid_frames": 25,
+      "correct": true
+    },
+    {
+      "clip_id": "5b7dff0a512d448d8d0334ef05fbcfb1",
+      "target": "L",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "L",
+      "confidence": 1.0,
+      "top3": [
+        {
+          "letter": "L",
+          "score": 1.0
+        },
+        {
+          "letter": "T",
+          "score": 1.1749178696618401e-07
+        },
+        {
+          "letter": "I",
+          "score": 9.975927861560763e-10
+        }
+      ],
+      "frames": 28,
+      "valid_frames": 28,
+      "correct": true
+    },
+    {
+      "clip_id": "5c3994c367284af69798ae71eefd0b52",
+      "target": "C",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "C",
+      "confidence": 0.9997397661209106,
+      "top3": [
+        {
+          "letter": "C",
+          "score": 0.9997397661209106
+        },
+        {
+          "letter": "D",
+          "score": 0.0002330988208996132
+        },
+        {
+          "letter": "O",
+          "score": 1.959053406608291e-05
+        }
+      ],
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "5e6a97b61c194c88bd4f0d1dd90aab86",
+      "target": "A",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "A",
+      "confidence": 0.9801270961761475,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9801270961761475
+        },
+        {
+          "letter": "Y",
+          "score": 0.012271755374968052
+        },
+        {
+          "letter": "T",
+          "score": 0.00759947020560503
+        }
+      ],
+      "frames": 45,
+      "valid_frames": 45,
+      "correct": true
+    },
+    {
+      "clip_id": "62c064e6744c428b95ca04356bb0c729",
+      "target": "A",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "A",
+      "confidence": 0.9729711413383484,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9729711413383484
+        },
+        {
+          "letter": "Y",
+          "score": 0.023710200563073158
+        },
+        {
+          "letter": "T",
+          "score": 0.003311879700049758
+        }
+      ],
+      "frames": 47,
+      "valid_frames": 47,
+      "correct": true
+    },
+    {
+      "clip_id": "6585069009b54cfcb35bc2e65110bd5a",
+      "target": "L",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "L",
+      "confidence": 1.0,
+      "top3": [
+        {
+          "letter": "L",
+          "score": 1.0
+        },
+        {
+          "letter": "T",
+          "score": 2.423280953678386e-08
+        },
+        {
+          "letter": "I",
+          "score": 1.2372033397767268e-09
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": true
+    },
+    {
+      "clip_id": "67f7fcd0f2fd4b8298d515ac98e14ef8",
+      "target": "T",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "T",
+      "confidence": 0.9773491621017456,
+      "top3": [
+        {
+          "letter": "T",
+          "score": 0.9773491621017456
+        },
+        {
+          "letter": "L",
+          "score": 0.02262657694518566
+        },
+        {
+          "letter": "M",
+          "score": 1.6359110304620117e-05
+        }
+      ],
+      "frames": 18,
+      "valid_frames": 18,
+      "correct": true
+    },
+    {
+      "clip_id": "69db0952b7ce40a6bf334388ff9e96f7",
+      "target": "O",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "O",
+      "confidence": 0.9845356345176697,
+      "top3": [
+        {
+          "letter": "O",
+          "score": 0.9845356345176697
+        },
+        {
+          "letter": "D",
+          "score": 0.015350640751421452
+        },
+        {
+          "letter": "C",
+          "score": 0.00011364124657120556
+        }
+      ],
+      "frames": 27,
+      "valid_frames": 27,
+      "correct": true
+    },
+    {
+      "clip_id": "6a023a4d75474990ae116a65ad27f573",
+      "target": "G",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "G",
+      "confidence": 0.966009795665741,
+      "top3": [
+        {
+          "letter": "G",
+          "score": 0.966009795665741
+        },
+        {
+          "letter": "H",
+          "score": 0.030581917613744736
+        },
+        {
+          "letter": "Q",
+          "score": 0.0010853094281628728
+        }
+      ],
+      "frames": 26,
+      "valid_frames": 26,
+      "correct": true
+    },
+    {
+      "clip_id": "6d2942fb61e04a45b48f1e99f66c4cfe",
+      "target": "Q",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "Q",
+      "confidence": 0.760198712348938,
+      "top3": [
+        {
+          "letter": "Q",
+          "score": 0.760198712348938
+        },
+        {
+          "letter": "P",
+          "score": 0.23980122804641724
+        },
+        {
+          "letter": "N",
+          "score": 5.782092316053422e-08
+        }
+      ],
+      "frames": 43,
+      "valid_frames": 43,
+      "correct": true
+    },
+    {
+      "clip_id": "72603580bbaf4cadb5c72d35ce95eb7b",
+      "target": "N",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "N",
+      "confidence": 0.9999847412109375,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.9999847412109375
+        },
+        {
+          "letter": "M",
+          "score": 1.1999442904198077e-05
+        },
+        {
+          "letter": "I",
+          "score": 1.369739834444772e-06
+        }
+      ],
+      "frames": 27,
+      "valid_frames": 27,
+      "correct": true
+    },
+    {
+      "clip_id": "735c1c9a2eb64b379027a0c51dcb9870",
+      "target": "D",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "D",
+      "confidence": 0.9999998807907104,
+      "top3": [
+        {
+          "letter": "D",
+          "score": 0.9999998807907104
+        },
+        {
+          "letter": "L",
+          "score": 2.2729543047717016e-07
+        },
+        {
+          "letter": "O",
+          "score": 1.1255264809051369e-07
+        }
+      ],
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "77b96b0f0cf14905a9a2a96a01df2320",
+      "target": "G",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "G",
+      "confidence": 0.997287392616272,
+      "top3": [
+        {
+          "letter": "G",
+          "score": 0.997287392616272
+        },
+        {
+          "letter": "H",
+          "score": 0.0016086718533188105
+        },
+        {
+          "letter": "P",
+          "score": 0.0007743246969766915
+        }
+      ],
+      "frames": 30,
+      "valid_frames": 30,
+      "correct": true
+    },
+    {
+      "clip_id": "77c1188cde43402bb6b5a17729995fcc",
+      "target": "O",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "O",
+      "confidence": 0.9469157457351685,
+      "top3": [
+        {
+          "letter": "O",
+          "score": 0.9469157457351685
+        },
+        {
+          "letter": "D",
+          "score": 0.052752263844013214
+        },
+        {
+          "letter": "C",
+          "score": 0.00032505192211829126
+        }
+      ],
+      "frames": 28,
+      "valid_frames": 28,
+      "correct": true
+    },
+    {
+      "clip_id": "78123539c43640ddacd5f064b84a8736",
+      "target": "M",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "M",
+      "confidence": 0.9993554353713989,
+      "top3": [
+        {
+          "letter": "M",
+          "score": 0.9993554353713989
+        },
+        {
+          "letter": "N",
+          "score": 0.0006350097246468067
+        },
+        {
+          "letter": "I",
+          "score": 5.927814981987467e-06
+        }
+      ],
+      "frames": 35,
+      "valid_frames": 35,
+      "correct": true
+    },
+    {
+      "clip_id": "79a6e65306a54a1d870d559ddaf6f494",
+      "target": "P",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "P",
+      "confidence": 1.0,
+      "top3": [
+        {
+          "letter": "P",
+          "score": 1.0
+        },
+        {
+          "letter": "H",
+          "score": 1.1419643008991898e-10
+        },
+        {
+          "letter": "L",
+          "score": 4.4421129968830186e-11
+        }
+      ],
+      "frames": 20,
+      "valid_frames": 20,
+      "correct": true
+    },
+    {
+      "clip_id": "7ef5df26310d41a7b48e731aab790f55",
+      "target": "E",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "E",
+      "confidence": 0.9989902377128601,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.9989902377128601
+        },
+        {
+          "letter": "I",
+          "score": 0.0008648860966786742
+        },
+        {
+          "letter": "X",
+          "score": 0.00012985238572582603
+        }
+      ],
+      "frames": 31,
+      "valid_frames": 31,
+      "correct": true
+    },
+    {
+      "clip_id": "7f89d3d8705b479ca28b434d83428b6b",
+      "target": "L",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "L",
+      "confidence": 1.0,
+      "top3": [
+        {
+          "letter": "L",
+          "score": 1.0
+        },
+        {
+          "letter": "T",
+          "score": 3.30564020600832e-08
+        },
+        {
+          "letter": "P",
+          "score": 5.440132788692154e-10
+        }
+      ],
+      "frames": 28,
+      "valid_frames": 28,
+      "correct": true
+    },
+    {
+      "clip_id": "8020b3acfafe4f80972da80a44082631",
+      "target": "S",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "S",
+      "confidence": 0.9768745303153992,
+      "top3": [
+        {
+          "letter": "S",
+          "score": 0.9768745303153992
+        },
+        {
+          "letter": "E",
+          "score": 0.015311404131352901
+        },
+        {
+          "letter": "I",
+          "score": 0.007812497206032276
+        }
+      ],
+      "frames": 17,
+      "valid_frames": 17,
+      "correct": true
+    },
+    {
+      "clip_id": "84ae8e651803465b9c6c530c38decfcb",
+      "target": "W",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "W",
+      "confidence": 0.9999998807907104,
+      "top3": [
+        {
+          "letter": "W",
+          "score": 0.9999998807907104
+        },
+        {
+          "letter": "V",
+          "score": 2.103099490113891e-07
+        },
+        {
+          "letter": "F",
+          "score": 1.106122482497085e-08
+        }
+      ],
+      "frames": 35,
+      "valid_frames": 35,
+      "correct": true
+    },
+    {
+      "clip_id": "88fa7e9f163143b299c887786b9e1337",
+      "target": "H",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "H",
+      "confidence": 0.9999982118606567,
+      "top3": [
+        {
+          "letter": "H",
+          "score": 0.9999982118606567
+        },
+        {
+          "letter": "G",
+          "score": 1.0302512691851007e-06
+        },
+        {
+          "letter": "P",
+          "score": 6.898929427734402e-07
+        }
+      ],
+      "frames": 32,
+      "valid_frames": 32,
+      "correct": true
+    },
+    {
+      "clip_id": "8bfb64e7c4bd412fa2a4e564c85c4b1e",
+      "target": "Y",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "Y",
+      "confidence": 0.9999905824661255,
+      "top3": [
+        {
+          "letter": "Y",
+          "score": 0.9999905824661255
+        },
+        {
+          "letter": "T",
+          "score": 9.34914805839071e-06
+        },
+        {
+          "letter": "I",
+          "score": 1.5709667877672473e-07
+        }
+      ],
+      "frames": 32,
+      "valid_frames": 32,
+      "correct": true
+    },
+    {
+      "clip_id": "8c5931c3277a4a0fbba2d128a6b747c1",
+      "target": "P",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "P",
+      "confidence": 1.0,
+      "top3": [
+        {
+          "letter": "P",
+          "score": 1.0
+        },
+        {
+          "letter": "H",
+          "score": 4.5959916428195413e-10
+        },
+        {
+          "letter": "L",
+          "score": 7.812367419646193e-11
+        }
+      ],
+      "frames": 21,
+      "valid_frames": 21,
+      "correct": true
+    },
+    {
+      "clip_id": "8d9437260e93427ba086d98aa246cde5",
+      "target": "Q",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "Q",
+      "confidence": 0.7213534116744995,
+      "top3": [
+        {
+          "letter": "Q",
+          "score": 0.7213534116744995
+        },
+        {
+          "letter": "P",
+          "score": 0.2786465883255005
+        },
+        {
+          "letter": "L",
+          "score": 1.7327174361980724e-08
+        }
+      ],
+      "frames": 32,
+      "valid_frames": 32,
+      "correct": true
+    },
+    {
+      "clip_id": "8e4e02599bec4499b4544cef532ae89d",
+      "target": "A",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "A",
+      "confidence": 0.9996560215950012,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9996560215950012
+        },
+        {
+          "letter": "T",
+          "score": 0.00027664739172905684
+        },
+        {
+          "letter": "Y",
+          "score": 6.619436317123473e-05
+        }
+      ],
+      "frames": 40,
+      "valid_frames": 40,
+      "correct": true
+    },
+    {
+      "clip_id": "953c6ecf8f9748d491ee30b71c247c08",
+      "target": "X",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "X",
+      "confidence": 0.9997076392173767,
+      "top3": [
+        {
+          "letter": "X",
+          "score": 0.9997076392173767
+        },
+        {
+          "letter": "M",
+          "score": 0.0001440305932192132
+        },
+        {
+          "letter": "I",
+          "score": 0.00011969387560384348
+        }
+      ],
+      "frames": 30,
+      "valid_frames": 30,
+      "correct": true
+    },
+    {
+      "clip_id": "955721b92bcb4c7baf1a3ac42f06b838",
+      "target": "X",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "X",
+      "confidence": 0.9996012449264526,
+      "top3": [
+        {
+          "letter": "X",
+          "score": 0.9996012449264526
+        },
+        {
+          "letter": "M",
+          "score": 0.00017957601812668145
+        },
+        {
+          "letter": "U",
+          "score": 0.00014104030560702085
+        }
+      ],
+      "frames": 54,
+      "valid_frames": 54,
+      "correct": true
+    },
+    {
+      "clip_id": "990013db7b664b99adbea602cea50e56",
+      "target": "Q",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "P",
+      "confidence": 0.9961796402931213,
+      "top3": [
+        {
+          "letter": "P",
+          "score": 0.9961796402931213
+        },
+        {
+          "letter": "Q",
+          "score": 0.0038202241994440556
+        },
+        {
+          "letter": "L",
+          "score": 4.555387533855537e-08
+        }
+      ],
+      "frames": 29,
+      "valid_frames": 29,
+      "correct": false
+    },
+    {
+      "clip_id": "9ac7e9369d5b4e39b10080077cd1a6be",
+      "target": "R",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "R",
+      "confidence": 0.9374330043792725,
+      "top3": [
+        {
+          "letter": "R",
+          "score": 0.9374330043792725
+        },
+        {
+          "letter": "U",
+          "score": 0.058036163449287415
+        },
+        {
+          "letter": "X",
+          "score": 0.004446481820195913
+        }
+      ],
+      "frames": 73,
+      "valid_frames": 73,
+      "correct": true
+    },
+    {
+      "clip_id": "9f04b20ba62d4bea996dcc47176859d9",
+      "target": "B",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "B",
+      "confidence": 0.9992936849594116,
+      "top3": [
+        {
+          "letter": "B",
+          "score": 0.9992936849594116
+        },
+        {
+          "letter": "W",
+          "score": 0.0004409884859342128
+        },
+        {
+          "letter": "E",
+          "score": 0.0002520506386645138
+        }
+      ],
+      "frames": 46,
+      "valid_frames": 46,
+      "correct": true
+    },
+    {
+      "clip_id": "a484d42233b24e29b86be1a82a70deff",
+      "target": "I",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "I",
+      "confidence": 0.9999993443489075,
+      "top3": [
+        {
+          "letter": "I",
+          "score": 0.9999993443489075
+        },
+        {
+          "letter": "N",
+          "score": 3.897898466220795e-07
+        },
+        {
+          "letter": "M",
+          "score": 2.7733523211281863e-07
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": true
+    },
+    {
+      "clip_id": "a8d74539143844888a02dd0669b29e73",
+      "target": "S",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "S",
+      "confidence": 0.9999693036079407,
+      "top3": [
+        {
+          "letter": "S",
+          "score": 0.9999693036079407
+        },
+        {
+          "letter": "E",
+          "score": 2.3467444407287985e-05
+        },
+        {
+          "letter": "I",
+          "score": 7.03593150319648e-06
+        }
+      ],
+      "frames": 21,
+      "valid_frames": 21,
+      "correct": true
+    },
+    {
+      "clip_id": "ab2a4a93a9a241a591ebbce83256ed43",
+      "target": "Q",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "Q",
+      "confidence": 0.9917142391204834,
+      "top3": [
+        {
+          "letter": "Q",
+          "score": 0.9917142391204834
+        },
+        {
+          "letter": "P",
+          "score": 0.00818613264709711
+        },
+        {
+          "letter": "N",
+          "score": 9.946065983967856e-05
+        }
+      ],
+      "frames": 22,
+      "valid_frames": 22,
+      "correct": true
+    },
+    {
+      "clip_id": "b5400e59b67843809f7fe010e712e2fc",
+      "target": "G",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "G",
+      "confidence": 0.9996718168258667,
+      "top3": [
+        {
+          "letter": "G",
+          "score": 0.9996718168258667
+        },
+        {
+          "letter": "I",
+          "score": 0.00015001614519860595
+        },
+        {
+          "letter": "P",
+          "score": 9.865858010016382e-05
+        }
+      ],
+      "frames": 36,
+      "valid_frames": 36,
+      "correct": true
+    },
+    {
+      "clip_id": "b5b8b553320e462f99918522751fb265",
+      "target": "C",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "C",
+      "confidence": 0.9997512698173523,
+      "top3": [
+        {
+          "letter": "C",
+          "score": 0.9997512698173523
+        },
+        {
+          "letter": "D",
+          "score": 0.0001724674366414547
+        },
+        {
+          "letter": "O",
+          "score": 5.5573316785739735e-05
+        }
+      ],
+      "frames": 35,
+      "valid_frames": 35,
+      "correct": true
+    },
+    {
+      "clip_id": "b624b04530bb48fdb03bb77fa2d9b398",
+      "target": "Y",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "Y",
+      "confidence": 0.9999955296516418,
+      "top3": [
+        {
+          "letter": "Y",
+          "score": 0.9999955296516418
+        },
+        {
+          "letter": "T",
+          "score": 4.6036070671107154e-06
+        },
+        {
+          "letter": "I",
+          "score": 8.22159673674605e-09
+        }
+      ],
+      "frames": 35,
+      "valid_frames": 35,
+      "correct": true
+    },
+    {
+      "clip_id": "b6297ddca5b34c1a95c30df61526652c",
+      "target": "M",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "M",
+      "confidence": 0.9996567368507385,
+      "top3": [
+        {
+          "letter": "M",
+          "score": 0.9996567368507385
+        },
+        {
+          "letter": "N",
+          "score": 0.00022802434978075325
+        },
+        {
+          "letter": "I",
+          "score": 8.284642535727471e-05
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": true
+    },
+    {
+      "clip_id": "b6874903b2b0477f8b181d81cff74f4a",
+      "target": "V",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "V",
+      "confidence": 0.9999982118606567,
+      "top3": [
+        {
+          "letter": "V",
+          "score": 0.9999982118606567
+        },
+        {
+          "letter": "K",
+          "score": 1.4314354075395386e-06
+        },
+        {
+          "letter": "G",
+          "score": 1.4735745423877233e-07
+        }
+      ],
+      "frames": 20,
+      "valid_frames": 20,
+      "correct": true
+    },
+    {
+      "clip_id": "b6e8dcbf36744f5bb56f109d7200db86",
+      "target": "V",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "V",
+      "confidence": 0.7222243547439575,
+      "top3": [
+        {
+          "letter": "V",
+          "score": 0.7222243547439575
+        },
+        {
+          "letter": "W",
+          "score": 0.27633851766586304
+        },
+        {
+          "letter": "K",
+          "score": 0.0014304558280855417
+        }
+      ],
+      "frames": 28,
+      "valid_frames": 28,
+      "correct": true
+    },
+    {
+      "clip_id": "b94741238f87482f847fce6418895a7b",
+      "target": "K",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "V",
+      "confidence": 0.9972648024559021,
+      "top3": [
+        {
+          "letter": "V",
+          "score": 0.9972648024559021
+        },
+        {
+          "letter": "U",
+          "score": 0.0026072459295392036
+        },
+        {
+          "letter": "W",
+          "score": 9.526279609417543e-05
+        }
+      ],
+      "frames": 50,
+      "valid_frames": 50,
+      "correct": false
+    },
+    {
+      "clip_id": "bd0a07772f8f41d8ae1486f480cdbb6d",
+      "target": "H",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "H",
+      "confidence": 0.9999996423721313,
+      "top3": [
+        {
+          "letter": "H",
+          "score": 0.9999996423721313
+        },
+        {
+          "letter": "G",
+          "score": 2.426599507998617e-07
+        },
+        {
+          "letter": "P",
+          "score": 2.0312890569584852e-07
+        }
+      ],
+      "frames": 31,
+      "valid_frames": 31,
+      "correct": true
+    },
+    {
+      "clip_id": "be3874fb5ba64c7ab8f8f5df06c032ca",
+      "target": "I",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "I",
+      "confidence": 0.9999876022338867,
+      "top3": [
+        {
+          "letter": "I",
+          "score": 0.9999876022338867
+        },
+        {
+          "letter": "M",
+          "score": 9.383679753227625e-06
+        },
+        {
+          "letter": "T",
+          "score": 1.295082370234013e-06
+        }
+      ],
+      "frames": 22,
+      "valid_frames": 22,
+      "correct": true
+    },
+    {
+      "clip_id": "bf0e433012ef4c80a1ffe16d104e09fa",
+      "target": "Y",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "Y",
+      "confidence": 0.9999904036521912,
+      "top3": [
+        {
+          "letter": "Y",
+          "score": 0.9999904036521912
+        },
+        {
+          "letter": "T",
+          "score": 8.763870937400497e-06
+        },
+        {
+          "letter": "N",
+          "score": 3.765896110508038e-07
+        }
+      ],
+      "frames": 29,
+      "valid_frames": 29,
+      "correct": true
+    },
+    {
+      "clip_id": "bf58cfcc60314dd886d6a752bcfae7c6",
+      "target": "I",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "I",
+      "confidence": 0.9999998807907104,
+      "top3": [
+        {
+          "letter": "I",
+          "score": 0.9999998807907104
+        },
+        {
+          "letter": "N",
+          "score": 2.942508956493839e-07
+        },
+        {
+          "letter": "M",
+          "score": 8.881727353582392e-08
+        }
+      ],
+      "frames": 35,
+      "valid_frames": 35,
+      "correct": true
+    },
+    {
+      "clip_id": "c398030948f740e1bcfda3e1433774f9",
+      "target": "H",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "H",
+      "confidence": 0.9999998807907104,
+      "top3": [
+        {
+          "letter": "H",
+          "score": 0.9999998807907104
+        },
+        {
+          "letter": "P",
+          "score": 1.1649353837128729e-07
+        },
+        {
+          "letter": "G",
+          "score": 1.03239941040556e-07
+        }
+      ],
+      "frames": 33,
+      "valid_frames": 33,
+      "correct": true
+    },
+    {
+      "clip_id": "c508a2b61781413d9eb1bc3e1a4b3b8f",
+      "target": "O",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "O",
+      "confidence": 0.9777446985244751,
+      "top3": [
+        {
+          "letter": "O",
+          "score": 0.9777446985244751
+        },
+        {
+          "letter": "D",
+          "score": 0.022213470190763474
+        },
+        {
+          "letter": "C",
+          "score": 3.9339774957625195e-05
+        }
+      ],
+      "frames": 20,
+      "valid_frames": 20,
+      "correct": true
+    },
+    {
+      "clip_id": "c5a0576b2c3b49dbbdd5bda9c8446290",
+      "target": "O",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "O",
+      "confidence": 0.811076819896698,
+      "top3": [
+        {
+          "letter": "O",
+          "score": 0.811076819896698
+        },
+        {
+          "letter": "D",
+          "score": 0.18851372599601746
+        },
+        {
+          "letter": "C",
+          "score": 0.0004062629013787955
+        }
+      ],
+      "frames": 27,
+      "valid_frames": 27,
+      "correct": true
+    },
+    {
+      "clip_id": "c5b394a31ad04f45a7b6746d0c2490b5",
+      "target": "M",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "M",
+      "confidence": 0.9930794835090637,
+      "top3": [
+        {
+          "letter": "M",
+          "score": 0.9930794835090637
+        },
+        {
+          "letter": "N",
+          "score": 0.006700508762151003
+        },
+        {
+          "letter": "I",
+          "score": 0.0001217927347170189
+        }
+      ],
+      "frames": 26,
+      "valid_frames": 26,
+      "correct": true
+    },
+    {
+      "clip_id": "c605d1f6674a4a218bc1574e422abc26",
+      "target": "B",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "B",
+      "confidence": 0.9978553056716919,
+      "top3": [
+        {
+          "letter": "B",
+          "score": 0.9978553056716919
+        },
+        {
+          "letter": "W",
+          "score": 0.001409783959388733
+        },
+        {
+          "letter": "E",
+          "score": 0.0006120786420069635
+        }
+      ],
+      "frames": 36,
+      "valid_frames": 36,
+      "correct": true
+    },
+    {
+      "clip_id": "c7836c2909f244d08a8bebad2ed8ea4a",
+      "target": "K",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "V",
+      "confidence": 0.9980265498161316,
+      "top3": [
+        {
+          "letter": "V",
+          "score": 0.9980265498161316
+        },
+        {
+          "letter": "K",
+          "score": 0.0018567597726359963
+        },
+        {
+          "letter": "W",
+          "score": 0.00011650201486190781
+        }
+      ],
+      "frames": 24,
+      "valid_frames": 24,
+      "correct": false
+    },
+    {
+      "clip_id": "c89c0e8be27e4dba8219c865c19788bb",
+      "target": "H",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "H",
+      "confidence": 0.9999996423721313,
+      "top3": [
+        {
+          "letter": "H",
+          "score": 0.9999996423721313
+        },
+        {
+          "letter": "P",
+          "score": 3.1988412274586153e-07
+        },
+        {
+          "letter": "G",
+          "score": 1.1831755841740232e-07
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": true
+    },
+    {
+      "clip_id": "c9a3e2fecdaa4c30976af7a3a4e987e7",
+      "target": "G",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "G",
+      "confidence": 0.980650007724762,
+      "top3": [
+        {
+          "letter": "G",
+          "score": 0.980650007724762
+        },
+        {
+          "letter": "H",
+          "score": 0.010164465755224228
+        },
+        {
+          "letter": "P",
+          "score": 0.008728890679776669
+        }
+      ],
+      "frames": 26,
+      "valid_frames": 26,
+      "correct": true
+    },
+    {
+      "clip_id": "ca9e1b8c19444497a10ecab597944fee",
+      "target": "M",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "M",
+      "confidence": 0.9995065331459045,
+      "top3": [
+        {
+          "letter": "M",
+          "score": 0.9995065331459045
+        },
+        {
+          "letter": "N",
+          "score": 0.0003857520641759038
+        },
+        {
+          "letter": "I",
+          "score": 6.834403029642999e-05
+        }
+      ],
+      "frames": 25,
+      "valid_frames": 25,
+      "correct": true
+    },
+    {
+      "clip_id": "cb726c9909414d00940fca69166ac6cd",
+      "target": "F",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "F",
+      "confidence": 0.9995369911193848,
+      "top3": [
+        {
+          "letter": "F",
+          "score": 0.9995369911193848
+        },
+        {
+          "letter": "E",
+          "score": 0.00043984668445773423
+        },
+        {
+          "letter": "N",
+          "score": 1.5790043107699603e-05
+        }
+      ],
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "cbe5cb0633d64496af88b6f84a4fe4ea",
+      "target": "W",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "W",
+      "confidence": 0.9984647631645203,
+      "top3": [
+        {
+          "letter": "W",
+          "score": 0.9984647631645203
+        },
+        {
+          "letter": "V",
+          "score": 0.0015317187644541264
+        },
+        {
+          "letter": "E",
+          "score": 3.421801693548332e-06
+        }
+      ],
+      "frames": 57,
+      "valid_frames": 57,
+      "correct": true
+    },
+    {
+      "clip_id": "d26598a194994578b1f786cbbc276ec4",
+      "target": "P",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "P",
+      "confidence": 1.0,
+      "top3": [
+        {
+          "letter": "P",
+          "score": 1.0
+        },
+        {
+          "letter": "L",
+          "score": 1.3064731241296812e-10
+        },
+        {
+          "letter": "M",
+          "score": 3.195368275532573e-11
+        }
+      ],
+      "frames": 31,
+      "valid_frames": 31,
+      "correct": true
+    },
+    {
+      "clip_id": "d6b5bcd93fa641cc8a3604bc9aaee58c",
+      "target": "U",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "U",
+      "confidence": 0.9987654089927673,
+      "top3": [
+        {
+          "letter": "U",
+          "score": 0.9987654089927673
+        },
+        {
+          "letter": "R",
+          "score": 0.0005938210524618626
+        },
+        {
+          "letter": "K",
+          "score": 0.0005173613899387419
+        }
+      ],
+      "frames": 27,
+      "valid_frames": 27,
+      "correct": true
+    },
+    {
+      "clip_id": "d720d13f5ddd497495e2a332fbd07115",
+      "target": "F",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "F",
+      "confidence": 0.9980973601341248,
+      "top3": [
+        {
+          "letter": "F",
+          "score": 0.9980973601341248
+        },
+        {
+          "letter": "E",
+          "score": 0.0016614265041425824
+        },
+        {
+          "letter": "N",
+          "score": 0.00019200742826797068
+        }
+      ],
+      "frames": 54,
+      "valid_frames": 54,
+      "correct": true
+    },
+    {
+      "clip_id": "d79ed3b46b194b92b42a4f85337c5712",
+      "target": "L",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "L",
+      "confidence": 1.0,
+      "top3": [
+        {
+          "letter": "L",
+          "score": 1.0
+        },
+        {
+          "letter": "T",
+          "score": 1.3037186441522408e-08
+        },
+        {
+          "letter": "I",
+          "score": 3.952359328707189e-09
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": true
+    },
+    {
+      "clip_id": "da1eabfcf4184c7e8d6581038658ac0f",
+      "target": "B",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "B",
+      "confidence": 0.9994094371795654,
+      "top3": [
+        {
+          "letter": "B",
+          "score": 0.9994094371795654
+        },
+        {
+          "letter": "E",
+          "score": 0.00032178484252654016
+        },
+        {
+          "letter": "W",
+          "score": 0.00025991300935857
+        }
+      ],
+      "frames": 31,
+      "valid_frames": 31,
+      "correct": true
+    },
+    {
+      "clip_id": "db46034949e2469fb4a3cfc6599bc7c5",
+      "target": "P",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "P",
+      "confidence": 1.0,
+      "top3": [
+        {
+          "letter": "P",
+          "score": 1.0
+        },
+        {
+          "letter": "L",
+          "score": 1.0394921035050686e-10
+        },
+        {
+          "letter": "X",
+          "score": 7.488495067098366e-12
+        }
+      ],
+      "frames": 34,
+      "valid_frames": 34,
+      "correct": true
+    },
+    {
+      "clip_id": "dbef86f2db8b46c5afa0e335c222ad73",
+      "target": "V",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "V",
+      "confidence": 0.999469518661499,
+      "top3": [
+        {
+          "letter": "V",
+          "score": 0.999469518661499
+        },
+        {
+          "letter": "W",
+          "score": 0.0005266293883323669
+        },
+        {
+          "letter": "K",
+          "score": 3.73448619939154e-06
+        }
+      ],
+      "frames": 34,
+      "valid_frames": 34,
+      "correct": true
+    },
+    {
+      "clip_id": "dc1829d760df4b7bbe96dbe5c31b4540",
+      "target": "T",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "T",
+      "confidence": 0.9999992251396179,
+      "top3": [
+        {
+          "letter": "T",
+          "score": 0.9999992251396179
+        },
+        {
+          "letter": "Y",
+          "score": 5.548312174141756e-07
+        },
+        {
+          "letter": "M",
+          "score": 1.9466801859380212e-07
+        }
+      ],
+      "frames": 34,
+      "valid_frames": 34,
+      "correct": true
+    },
+    {
+      "clip_id": "dcda4316c19c40dda86ad4634b4273bb",
+      "target": "N",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "N",
+      "confidence": 0.9999687075614929,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.9999687075614929
+        },
+        {
+          "letter": "M",
+          "score": 2.1560899767791852e-05
+        },
+        {
+          "letter": "I",
+          "score": 5.866632818651851e-06
+        }
+      ],
+      "frames": 31,
+      "valid_frames": 31,
+      "correct": true
+    },
+    {
+      "clip_id": "dd4110fe819b46a9a4308a72196f58e3",
+      "target": "P",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "P",
+      "confidence": 0.9998947381973267,
+      "top3": [
+        {
+          "letter": "P",
+          "score": 0.9998947381973267
+        },
+        {
+          "letter": "H",
+          "score": 9.936634887708351e-05
+        },
+        {
+          "letter": "G",
+          "score": 5.175724254513625e-06
+        }
+      ],
+      "frames": 34,
+      "valid_frames": 34,
+      "correct": true
+    },
+    {
+      "clip_id": "df39eb5a102846239603c30c132cfe80",
+      "target": "V",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "V",
+      "confidence": 0.9999999403953552,
+      "top3": [
+        {
+          "letter": "V",
+          "score": 0.9999999403953552
+        },
+        {
+          "letter": "W",
+          "score": 2.3275379135156982e-07
+        },
+        {
+          "letter": "K",
+          "score": 4.560056776625743e-09
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": true
+    },
+    {
+      "clip_id": "df3f3b71d6c640cc94c12e982b421c85",
+      "target": "X",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "X",
+      "confidence": 0.9038985371589661,
+      "top3": [
+        {
+          "letter": "X",
+          "score": 0.9038985371589661
+        },
+        {
+          "letter": "M",
+          "score": 0.06089533120393753
+        },
+        {
+          "letter": "I",
+          "score": 0.03280312195420265
+        }
+      ],
+      "frames": 36,
+      "valid_frames": 36,
+      "correct": true
+    },
+    {
+      "clip_id": "df4cc7d7824243dab91970a589ea2b2d",
+      "target": "H",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "H",
+      "confidence": 0.7039889097213745,
+      "top3": [
+        {
+          "letter": "H",
+          "score": 0.7039889097213745
+        },
+        {
+          "letter": "F",
+          "score": 0.23697267472743988
+        },
+        {
+          "letter": "G",
+          "score": 0.03622327744960785
+        }
+      ],
+      "frames": 127,
+      "valid_frames": 127,
+      "correct": true
+    },
+    {
+      "clip_id": "df7271f1179e479e95c57c20124ff847",
+      "target": "D",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "D",
+      "confidence": 0.999999463558197,
+      "top3": [
+        {
+          "letter": "D",
+          "score": 0.999999463558197
+        },
+        {
+          "letter": "L",
+          "score": 6.182194169923605e-07
+        },
+        {
+          "letter": "O",
+          "score": 5.776325195938625e-08
+        }
+      ],
+      "frames": 45,
+      "valid_frames": 45,
+      "correct": true
+    },
+    {
+      "clip_id": "df843f8270b34a3e84a3f12aef75191d",
+      "target": "U",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "U",
+      "confidence": 0.9990432858467102,
+      "top3": [
+        {
+          "letter": "U",
+          "score": 0.9990432858467102
+        },
+        {
+          "letter": "K",
+          "score": 0.000521883019246161
+        },
+        {
+          "letter": "R",
+          "score": 0.0002170832158299163
+        }
+      ],
+      "frames": 30,
+      "valid_frames": 30,
+      "correct": true
+    },
+    {
+      "clip_id": "e1a0e92c3d37413a8005a0993603a029",
+      "target": "F",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "F",
+      "confidence": 0.9998382329940796,
+      "top3": [
+        {
+          "letter": "F",
+          "score": 0.9998382329940796
+        },
+        {
+          "letter": "E",
+          "score": 0.00011371162690920755
+        },
+        {
+          "letter": "N",
+          "score": 2.3210801373352297e-05
+        }
+      ],
+      "frames": 45,
+      "valid_frames": 45,
+      "correct": true
+    },
+    {
+      "clip_id": "e1c52fdc238747968b4d97696b9b12a1",
+      "target": "V",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "V",
+      "confidence": 0.9918509125709534,
+      "top3": [
+        {
+          "letter": "V",
+          "score": 0.9918509125709534
+        },
+        {
+          "letter": "K",
+          "score": 0.007443512324243784
+        },
+        {
+          "letter": "W",
+          "score": 0.0007040551863610744
+        }
+      ],
+      "frames": 34,
+      "valid_frames": 34,
+      "correct": true
+    },
+    {
+      "clip_id": "e2708554be4342fe9379aa1a87a14e66",
+      "target": "T",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "N",
+      "confidence": 0.971530556678772,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.971530556678772
+        },
+        {
+          "letter": "M",
+          "score": 0.024072518572211266
+        },
+        {
+          "letter": "T",
+          "score": 0.004396427422761917
+        }
+      ],
+      "frames": 25,
+      "valid_frames": 25,
+      "correct": false
+    },
+    {
+      "clip_id": "e4ddefc2d7914d9396bf95409e6194ca",
+      "target": "D",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "D",
+      "confidence": 0.9999973773956299,
+      "top3": [
+        {
+          "letter": "D",
+          "score": 0.9999973773956299
+        },
+        {
+          "letter": "O",
+          "score": 1.8351269090999267e-06
+        },
+        {
+          "letter": "L",
+          "score": 8.086037155408121e-07
+        }
+      ],
+      "frames": 36,
+      "valid_frames": 36,
+      "correct": true
+    },
+    {
+      "clip_id": "e6a1965fb5924c649f1b68d69fb23671",
+      "target": "I",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "I",
+      "confidence": 0.9999991655349731,
+      "top3": [
+        {
+          "letter": "I",
+          "score": 0.9999991655349731
+        },
+        {
+          "letter": "N",
+          "score": 5.753187792834069e-07
+        },
+        {
+          "letter": "M",
+          "score": 1.9658310179693217e-07
+        }
+      ],
+      "frames": 32,
+      "valid_frames": 32,
+      "correct": true
+    },
+    {
+      "clip_id": "e6d9bde0f03b4234a294d35a8e8b146e",
+      "target": "U",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "U",
+      "confidence": 0.9986273646354675,
+      "top3": [
+        {
+          "letter": "U",
+          "score": 0.9986273646354675
+        },
+        {
+          "letter": "K",
+          "score": 0.0010133790783584118
+        },
+        {
+          "letter": "V",
+          "score": 0.00020989697077311575
+        }
+      ],
+      "frames": 20,
+      "valid_frames": 20,
+      "correct": true
+    },
+    {
+      "clip_id": "ea38bff33ded42b88a77d2bbac3e4099",
+      "target": "A",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "A",
+      "confidence": 0.9986798167228699,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9986798167228699
+        },
+        {
+          "letter": "T",
+          "score": 0.0010045894887298346
+        },
+        {
+          "letter": "Y",
+          "score": 0.00031287342426367104
+        }
+      ],
+      "frames": 52,
+      "valid_frames": 52,
+      "correct": true
+    },
+    {
+      "clip_id": "ed74936014114edc91ed55c93faac9b7",
+      "target": "F",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "F",
+      "confidence": 0.9998596906661987,
+      "top3": [
+        {
+          "letter": "F",
+          "score": 0.9998596906661987
+        },
+        {
+          "letter": "E",
+          "score": 6.969000969547778e-05
+        },
+        {
+          "letter": "N",
+          "score": 4.930524664814584e-05
+        }
+      ],
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "edb8ae3ef0434d868ee307adb80b07a4",
+      "target": "L",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "L",
+      "confidence": 1.0,
+      "top3": [
+        {
+          "letter": "L",
+          "score": 1.0
+        },
+        {
+          "letter": "T",
+          "score": 2.389365327815085e-08
+        },
+        {
+          "letter": "P",
+          "score": 1.5510986939304416e-09
+        }
+      ],
+      "frames": 27,
+      "valid_frames": 27,
+      "correct": true
+    },
+    {
+      "clip_id": "f1215596552f4381bb646334782c4899",
+      "target": "C",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "C",
+      "confidence": 0.9983710050582886,
+      "top3": [
+        {
+          "letter": "C",
+          "score": 0.9983710050582886
+        },
+        {
+          "letter": "D",
+          "score": 0.0012619071640074253
+        },
+        {
+          "letter": "O",
+          "score": 0.000365067069651559
+        }
+      ],
+      "frames": 34,
+      "valid_frames": 34,
+      "correct": true
+    },
+    {
+      "clip_id": "f529e6ab05c24448a2ea37c289ef34a4",
+      "target": "E",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "E",
+      "confidence": 0.9998283386230469,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.9998283386230469
+        },
+        {
+          "letter": "I",
+          "score": 0.00010856545850401744
+        },
+        {
+          "letter": "X",
+          "score": 5.61389206268359e-05
+        }
+      ],
+      "frames": 40,
+      "valid_frames": 40,
+      "correct": true
+    },
+    {
+      "clip_id": "fe427b5e24f04233a7d26b1aaa21b555",
+      "target": "K",
+      "hand": "left",
+      "frame_width": 640,
+      "frame_height": 480,
+      "prediction": "V",
+      "confidence": 0.9998903274536133,
+      "top3": [
+        {
+          "letter": "V",
+          "score": 0.9998903274536133
+        },
+        {
+          "letter": "K",
+          "score": 0.00010598856169963256
+        },
+        {
+          "letter": "W",
+          "score": 2.319524355698377e-06
+        }
+      ],
+      "frames": 22,
+      "valid_frames": 22,
+      "correct": false
+    }
+  ],
+  "aggregation": "mean softmax probabilities over valid frames; one argmax per clip",
+  "training_use": "none; no model or hyperparameter selection on these clips"
+}

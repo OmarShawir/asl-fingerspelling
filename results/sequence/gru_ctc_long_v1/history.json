@@ -1,0 +1,2022 @@
+[
+  {
+    "epoch": 0,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 4803,
+      "cer": 0.9669820817394805,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 0,
+      "empty_rate": 0.0,
+      "ctc_loss": 16.144215789974712,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 131,
+        "cer": 0.9632352941176471,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 129,
+        "cer": 0.9485294117647058,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "training_loss": null
+  },
+  {
+    "epoch": 1,
+    "training_loss": 3.9311955998489347,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 4967,
+      "cer": 1.0,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 978,
+      "empty_rate": 1.0,
+      "ctc_loss": 3.441302814688839,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 136,
+        "cer": 1.0,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 15,
+        "empty_rate": 1.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 136,
+        "cer": 1.0,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 18,
+        "empty_rate": 1.0
+      }
+    },
+    "elapsed_seconds": 8.382870357017964,
+    "selected": false
+  },
+  {
+    "epoch": 2,
+    "training_loss": 3.4261014177591655,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 4636,
+      "cer": 0.9333601771693175,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 0,
+      "empty_rate": 0.0,
+      "ctc_loss": 3.398374404819285,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 128,
+        "cer": 0.9411764705882353,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 130,
+        "cer": 0.9558823529411765,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 8.67809195999871,
+    "selected": true
+  },
+  {
+    "epoch": 3,
+    "training_loss": 3.394033805586325,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 4636,
+      "cer": 0.9333601771693175,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 0,
+      "empty_rate": 0.0,
+      "ctc_loss": 3.368602943224985,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 128,
+        "cer": 0.9411764705882353,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 130,
+        "cer": 0.9558823529411765,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 8.714075102994684,
+    "selected": false
+  },
+  {
+    "epoch": 4,
+    "training_loss": 3.369638719370895,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 4636,
+      "cer": 0.9333601771693175,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 0,
+      "empty_rate": 0.0,
+      "ctc_loss": 3.3560603678715033,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 128,
+        "cer": 0.9411764705882353,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 130,
+        "cer": 0.9558823529411765,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 11.613812098017661,
+    "selected": false
+  },
+  {
+    "epoch": 5,
+    "training_loss": 3.345043448130992,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 4466,
+      "cer": 0.8991342862895108,
+      "exact": 1,
+      "exact_accuracy": 0.0010224948875255625,
+      "empty": 0,
+      "empty_rate": 0.0,
+      "ctc_loss": 3.3180917980240996,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 128,
+        "cer": 0.9411764705882353,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 120,
+        "cer": 0.8823529411764706,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 11.24429823301034,
+    "selected": true
+  },
+  {
+    "epoch": 6,
+    "training_loss": 3.259776700251716,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 4452,
+      "cer": 0.8963156835111737,
+      "exact": 4,
+      "exact_accuracy": 0.00408997955010225,
+      "empty": 0,
+      "empty_rate": 0.0,
+      "ctc_loss": 3.2381731286400655,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 129,
+        "cer": 0.9485294117647058,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 119,
+        "cer": 0.875,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 8.715807006985415,
+    "selected": true
+  },
+  {
+    "epoch": 7,
+    "training_loss": 3.14645984974571,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 4583,
+      "cer": 0.922689752365613,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 14,
+      "empty_rate": 0.014314928425357873,
+      "ctc_loss": 3.0333621042673706,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 133,
+        "cer": 0.9779411764705882,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 124,
+        "cer": 0.9117647058823529,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 10.018340605980484,
+    "selected": false
+  },
+  {
+    "epoch": 8,
+    "training_loss": 2.911748222327904,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 4721,
+      "cer": 0.9504731226092209,
+      "exact": 0,
+      "exact_accuracy": 0.0,
+      "empty": 440,
+      "empty_rate": 0.4498977505112474,
+      "ctc_loss": 2.720842536111347,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 133,
+        "cer": 0.9779411764705882,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 4,
+        "empty_rate": 0.26666666666666666
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 132,
+        "cer": 0.9705882352941176,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 9,
+        "empty_rate": 0.5
+      }
+    },
+    "elapsed_seconds": 13.538218532019528,
+    "selected": false
+  },
+  {
+    "epoch": 9,
+    "training_loss": 2.574694196624517,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 4247,
+      "cer": 0.8550432856855245,
+      "exact": 6,
+      "exact_accuracy": 0.006134969325153374,
+      "empty": 365,
+      "empty_rate": 0.37321063394683024,
+      "ctc_loss": 2.289210749698467,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 122,
+        "cer": 0.8970588235294118,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 3,
+        "empty_rate": 0.2
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 109,
+        "cer": 0.8014705882352942,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 3,
+        "empty_rate": 0.16666666666666666
+      }
+    },
+    "elapsed_seconds": 15.205734285002109,
+    "selected": true
+  },
+  {
+    "epoch": 10,
+    "training_loss": 2.305662923615742,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 3833,
+      "cer": 0.771693174954701,
+      "exact": 20,
+      "exact_accuracy": 0.02044989775051125,
+      "empty": 199,
+      "empty_rate": 0.2034764826175869,
+      "ctc_loss": 2.1402190835749515,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 120,
+        "cer": 0.8823529411764706,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 99,
+        "cer": 0.7279411764705882,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 1,
+        "empty_rate": 0.05555555555555555
+      }
+    },
+    "elapsed_seconds": 13.363221722014714,
+    "selected": true
+  },
+  {
+    "epoch": 11,
+    "training_loss": 2.149019817236969,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 3394,
+      "cer": 0.6833098449768472,
+      "exact": 53,
+      "exact_accuracy": 0.0541922290388548,
+      "empty": 118,
+      "empty_rate": 0.12065439672801637,
+      "ctc_loss": 2.040004581457279,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 109,
+        "cer": 0.8014705882352942,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 92,
+        "cer": 0.6764705882352942,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 1,
+        "empty_rate": 0.05555555555555555
+      }
+    },
+    "elapsed_seconds": 8.939736448985059,
+    "selected": true
+  },
+  {
+    "epoch": 12,
+    "training_loss": 2.019874105395565,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 3034,
+      "cer": 0.6108314878196094,
+      "exact": 49,
+      "exact_accuracy": 0.050102249488752554,
+      "empty": 76,
+      "empty_rate": 0.07770961145194274,
+      "ctc_loss": 1.9441127979853114,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 96,
+        "cer": 0.7058823529411765,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 88,
+        "cer": 0.6470588235294118,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 1,
+        "empty_rate": 0.05555555555555555
+      }
+    },
+    "elapsed_seconds": 8.835025548003614,
+    "selected": true
+  },
+  {
+    "epoch": 13,
+    "training_loss": 1.9281742761921932,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2692,
+      "cer": 0.5419770485202335,
+      "exact": 79,
+      "exact_accuracy": 0.08077709611451943,
+      "empty": 55,
+      "empty_rate": 0.05623721881390593,
+      "ctc_loss": 1.8691206116412507,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 86,
+        "cer": 0.6323529411764706,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 83,
+        "cer": 0.6102941176470589,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 9.658769478002796,
+    "selected": true
+  },
+  {
+    "epoch": 14,
+    "training_loss": 1.8481260257686192,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2513,
+      "cer": 0.5059391987114958,
+      "exact": 110,
+      "exact_accuracy": 0.11247443762781185,
+      "empty": 35,
+      "empty_rate": 0.03578732106339468,
+      "ctc_loss": 1.8556342912746258,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 85,
+        "cer": 0.625,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 77,
+        "cer": 0.5661764705882353,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 10.557569049997255,
+    "selected": true
+  },
+  {
+    "epoch": 15,
+    "training_loss": 1.776996476356658,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2600,
+      "cer": 0.5234548016911617,
+      "exact": 112,
+      "exact_accuracy": 0.11451942740286299,
+      "empty": 58,
+      "empty_rate": 0.05930470347648262,
+      "ctc_loss": 1.7800843699789437,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 87,
+        "cer": 0.6397058823529411,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 75,
+        "cer": 0.5514705882352942,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 10.617750479985261,
+    "selected": false
+  },
+  {
+    "epoch": 16,
+    "training_loss": 1.7114567508492136,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2438,
+      "cer": 0.49083954097040466,
+      "exact": 127,
+      "exact_accuracy": 0.12985685071574643,
+      "empty": 30,
+      "empty_rate": 0.03067484662576687,
+      "ctc_loss": 1.7516300672146141,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 76,
+        "cer": 0.5588235294117647,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 68,
+        "cer": 0.5,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 11.65675610001199,
+    "selected": true
+  },
+  {
+    "epoch": 17,
+    "training_loss": 1.6748534783504296,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2513,
+      "cer": 0.5059391987114958,
+      "exact": 114,
+      "exact_accuracy": 0.1165644171779141,
+      "empty": 42,
+      "empty_rate": 0.04294478527607362,
+      "ctc_loss": 1.7230656976338292,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 79,
+        "cer": 0.5808823529411765,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 72,
+        "cer": 0.5294117647058824,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 9.552597116009565,
+    "selected": false
+  },
+  {
+    "epoch": 18,
+    "training_loss": 1.621206020049445,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2353,
+      "cer": 0.4737265955305013,
+      "exact": 130,
+      "exact_accuracy": 0.1329243353783231,
+      "empty": 35,
+      "empty_rate": 0.03578732106339468,
+      "ctc_loss": 1.707697047439755,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 74,
+        "cer": 0.5441176470588235,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 67,
+        "cer": 0.49264705882352944,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 9.265340588986874,
+    "selected": true
+  },
+  {
+    "epoch": 19,
+    "training_loss": 1.5752231457736772,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2359,
+      "cer": 0.4749345681497886,
+      "exact": 127,
+      "exact_accuracy": 0.12985685071574643,
+      "empty": 25,
+      "empty_rate": 0.02556237218813906,
+      "ctc_loss": 1.7061382215775427,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 74,
+        "cer": 0.5441176470588235,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 64,
+        "cer": 0.47058823529411764,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 9.178953827009536,
+    "selected": false
+  },
+  {
+    "epoch": 20,
+    "training_loss": 1.5250817674443402,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2256,
+      "cer": 0.4541977048520234,
+      "exact": 140,
+      "exact_accuracy": 0.14314928425357873,
+      "empty": 35,
+      "empty_rate": 0.03578732106339468,
+      "ctc_loss": 1.6862775412250737,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 72,
+        "cer": 0.5294117647058824,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 66,
+        "cer": 0.4852941176470588,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 10.25534117600182,
+    "selected": true
+  },
+  {
+    "epoch": 21,
+    "training_loss": 1.4876392144602173,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2303,
+      "cer": 0.46366015703644053,
+      "exact": 135,
+      "exact_accuracy": 0.13803680981595093,
+      "empty": 28,
+      "empty_rate": 0.028629856850715747,
+      "ctc_loss": 1.695123835909562,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 74,
+        "cer": 0.5441176470588235,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 66,
+        "cer": 0.4852941176470588,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 12.345102137012873,
+    "selected": false
+  },
+  {
+    "epoch": 22,
+    "training_loss": 1.4487294148898533,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2293,
+      "cer": 0.46164686933762833,
+      "exact": 141,
+      "exact_accuracy": 0.1441717791411043,
+      "empty": 27,
+      "empty_rate": 0.027607361963190184,
+      "ctc_loss": 1.6791144539831115,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 67,
+        "cer": 0.49264705882352944,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 68,
+        "cer": 0.5,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 10.062925645004725,
+    "selected": false
+  },
+  {
+    "epoch": 23,
+    "training_loss": 1.4106902554398102,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2216,
+      "cer": 0.4461445540567747,
+      "exact": 159,
+      "exact_accuracy": 0.16257668711656442,
+      "empty": 30,
+      "empty_rate": 0.03067484662576687,
+      "ctc_loss": 1.6648166668219644,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 75,
+        "cer": 0.5514705882352942,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 64,
+        "cer": 0.47058823529411764,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 10.361807613982819,
+    "selected": true
+  },
+  {
+    "epoch": 24,
+    "training_loss": 1.3747154467895328,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2226,
+      "cer": 0.44815784175558687,
+      "exact": 154,
+      "exact_accuracy": 0.1574642126789366,
+      "empty": 20,
+      "empty_rate": 0.02044989775051125,
+      "ctc_loss": 1.6492012488793155,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 76,
+        "cer": 0.5588235294117647,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 63,
+        "cer": 0.4632352941176471,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 9.681496659002732,
+    "selected": false
+  },
+  {
+    "epoch": 25,
+    "training_loss": 1.3550344833062977,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2215,
+      "cer": 0.4459432252868935,
+      "exact": 157,
+      "exact_accuracy": 0.1605316973415133,
+      "empty": 24,
+      "empty_rate": 0.024539877300613498,
+      "ctc_loss": 1.6581533597629579,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 71,
+        "cer": 0.5220588235294118,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 65,
+        "cer": 0.47794117647058826,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 10.688021612004377,
+    "selected": true
+  },
+  {
+    "epoch": 26,
+    "training_loss": 1.308692157959688,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2186,
+      "cer": 0.4401046909603382,
+      "exact": 165,
+      "exact_accuracy": 0.1687116564417178,
+      "empty": 15,
+      "empty_rate": 0.015337423312883436,
+      "ctc_loss": 1.6979053077883408,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 71,
+        "cer": 0.5220588235294118,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 61,
+        "cer": 0.4485294117647059,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 8.947971248999238,
+    "selected": true
+  },
+  {
+    "epoch": 27,
+    "training_loss": 1.2804802547342844,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2195,
+      "cer": 0.44191664988926915,
+      "exact": 157,
+      "exact_accuracy": 0.1605316973415133,
+      "empty": 27,
+      "empty_rate": 0.027607361963190184,
+      "ctc_loss": 1.6858621628069488,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 75,
+        "cer": 0.5514705882352942,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 65,
+        "cer": 0.47794117647058826,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 9.808033353008796,
+    "selected": false
+  },
+  {
+    "epoch": 28,
+    "training_loss": 1.2566245139555754,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2207,
+      "cer": 0.4443325951278438,
+      "exact": 162,
+      "exact_accuracy": 0.1656441717791411,
+      "empty": 21,
+      "empty_rate": 0.02147239263803681,
+      "ctc_loss": 1.676282626561454,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 69,
+        "cer": 0.5073529411764706,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 63,
+        "cer": 0.4632352941176471,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 11.489989224995952,
+    "selected": false
+  },
+  {
+    "epoch": 29,
+    "training_loss": 1.2138983111299908,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2159,
+      "cer": 0.4346688141735454,
+      "exact": 169,
+      "exact_accuracy": 0.17280163599182005,
+      "empty": 22,
+      "empty_rate": 0.022494887525562373,
+      "ctc_loss": 1.6565026937693845,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 68,
+        "cer": 0.5,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 69,
+        "cer": 0.5073529411764706,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 9.665710109984502,
+    "selected": true
+  },
+  {
+    "epoch": 30,
+    "training_loss": 1.1887338412262207,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2176,
+      "cer": 0.43809140326152607,
+      "exact": 159,
+      "exact_accuracy": 0.16257668711656442,
+      "empty": 20,
+      "empty_rate": 0.02044989775051125,
+      "ctc_loss": 1.699872654603153,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 71,
+        "cer": 0.5220588235294118,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 65,
+        "cer": 0.47794117647058826,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 8.971317450981587,
+    "selected": false
+  },
+  {
+    "epoch": 31,
+    "training_loss": 1.173493371008949,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2209,
+      "cer": 0.4447352526676062,
+      "exact": 162,
+      "exact_accuracy": 0.1656441717791411,
+      "empty": 18,
+      "empty_rate": 0.018404907975460124,
+      "ctc_loss": 1.7007889952815947,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 66,
+        "cer": 0.4852941176470588,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 67,
+        "cer": 0.49264705882352944,
+        "exact": 1,
+        "exact_accuracy": 0.05555555555555555,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 9.425576231005834,
+    "selected": false
+  },
+  {
+    "epoch": 32,
+    "training_loss": 1.1352999694391703,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2150,
+      "cer": 0.4328568552446145,
+      "exact": 168,
+      "exact_accuracy": 0.17177914110429449,
+      "empty": 22,
+      "empty_rate": 0.022494887525562373,
+      "ctc_loss": 1.6989665057082646,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 68,
+        "cer": 0.5,
+        "exact": 1,
+        "exact_accuracy": 0.06666666666666667,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 68,
+        "cer": 0.5,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 10.551179123984184,
+    "selected": true
+  },
+  {
+    "epoch": 33,
+    "training_loss": 1.115220199352291,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2161,
+      "cer": 0.43507147171330784,
+      "exact": 158,
+      "exact_accuracy": 0.16155419222903886,
+      "empty": 17,
+      "empty_rate": 0.017382413087934562,
+      "ctc_loss": 1.7223185507244752,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 67,
+        "cer": 0.49264705882352944,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 66,
+        "cer": 0.4852941176470588,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 11.03227126999991,
+    "selected": false
+  },
+  {
+    "epoch": 34,
+    "training_loss": 1.0872078779190038,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2142,
+      "cer": 0.4312462250855647,
+      "exact": 162,
+      "exact_accuracy": 0.1656441717791411,
+      "empty": 21,
+      "empty_rate": 0.02147239263803681,
+      "ctc_loss": 1.7103583917754595,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 67,
+        "cer": 0.49264705882352944,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 68,
+        "cer": 0.5,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 9.07782545799273,
+    "selected": true
+  },
+  {
+    "epoch": 35,
+    "training_loss": 1.0610531598367943,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2183,
+      "cer": 0.4395007046506946,
+      "exact": 166,
+      "exact_accuracy": 0.16973415132924335,
+      "empty": 20,
+      "empty_rate": 0.02044989775051125,
+      "ctc_loss": 1.7235109098866337,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 70,
+        "cer": 0.5147058823529411,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 69,
+        "cer": 0.5073529411764706,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 14.285242553014541,
+    "selected": false
+  },
+  {
+    "epoch": 36,
+    "training_loss": 1.0423876160353602,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2187,
+      "cer": 0.44030601973021943,
+      "exact": 152,
+      "exact_accuracy": 0.1554192229038855,
+      "empty": 18,
+      "empty_rate": 0.018404907975460124,
+      "ctc_loss": 1.7763525127876,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 67,
+        "cer": 0.49264705882352944,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 66,
+        "cer": 0.4852941176470588,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 12.87405939400196,
+    "selected": false
+  },
+  {
+    "epoch": 37,
+    "training_loss": 1.0177312708682125,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2210,
+      "cer": 0.44493658143748743,
+      "exact": 168,
+      "exact_accuracy": 0.17177914110429449,
+      "empty": 19,
+      "empty_rate": 0.019427402862985686,
+      "ctc_loss": 1.7509848201861147,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 63,
+        "cer": 0.4632352941176471,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 69,
+        "cer": 0.5073529411764706,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 10.562597963988082,
+    "selected": false
+  },
+  {
+    "epoch": 38,
+    "training_loss": 0.9770370293295495,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2121,
+      "cer": 0.4270183209180592,
+      "exact": 170,
+      "exact_accuracy": 0.1738241308793456,
+      "empty": 17,
+      "empty_rate": 0.017382413087934562,
+      "ctc_loss": 1.752830408147124,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 66,
+        "cer": 0.4852941176470588,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 70,
+        "cer": 0.5147058823529411,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 9.22098284898675,
+    "selected": true
+  },
+  {
+    "epoch": 39,
+    "training_loss": 0.9784348170971884,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2165,
+      "cer": 0.4358767867928327,
+      "exact": 156,
+      "exact_accuracy": 0.15950920245398773,
+      "empty": 16,
+      "empty_rate": 0.016359918200409,
+      "ctc_loss": 1.7878666001020884,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 61,
+        "cer": 0.4485294117647059,
+        "exact": 1,
+        "exact_accuracy": 0.06666666666666667,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 62,
+        "cer": 0.45588235294117646,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 10.83177447100752,
+    "selected": false
+  },
+  {
+    "epoch": 40,
+    "training_loss": 0.9552162695431301,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2142,
+      "cer": 0.4312462250855647,
+      "exact": 156,
+      "exact_accuracy": 0.15950920245398773,
+      "empty": 18,
+      "empty_rate": 0.018404907975460124,
+      "ctc_loss": 1.827642561104454,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 65,
+        "cer": 0.47794117647058826,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 64,
+        "cer": 0.47058823529411764,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 11.113515748991631,
+    "selected": false
+  },
+  {
+    "epoch": 41,
+    "training_loss": 0.9234546352964331,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2211,
+      "cer": 0.44513791020736865,
+      "exact": 162,
+      "exact_accuracy": 0.1656441717791411,
+      "empty": 17,
+      "empty_rate": 0.017382413087934562,
+      "ctc_loss": 1.8063511027664434,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 71,
+        "cer": 0.5220588235294118,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 65,
+        "cer": 0.47794117647058826,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 11.090367194992723,
+    "selected": false
+  },
+  {
+    "epoch": 42,
+    "training_loss": 0.9124938230498728,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2140,
+      "cer": 0.4308435675458023,
+      "exact": 158,
+      "exact_accuracy": 0.16155419222903886,
+      "empty": 13,
+      "empty_rate": 0.013292433537832311,
+      "ctc_loss": 1.8215046503016206,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 68,
+        "cer": 0.5,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 69,
+        "cer": 0.5073529411764706,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 11.224196732975543,
+    "selected": false
+  },
+  {
+    "epoch": 43,
+    "training_loss": 0.8910387170571507,
+    "training_samples": 5433,
+    "complete_epoch": true,
+    "validation": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2177,
+      "cer": 0.4382927320314073,
+      "exact": 157,
+      "exact_accuracy": 0.1605316973415133,
+      "empty": 12,
+      "empty_rate": 0.012269938650306749,
+      "ctc_loss": 1.8550437269885032,
+      "ctc_loss_denominator": 976,
+      "ctc_loss_skipped": 2,
+      "ctc_loss_skipped_ids": [
+        "youtube_4/sean_berdy_5756",
+        "youtube_5/jeffrey_spinale_6043"
+      ],
+      "loss_definition": "mean per-clip CTC NLL / target length, alignable clips only",
+      "j_subset": {
+        "sequences": 15,
+        "reference_characters": 136,
+        "character_edits": 68,
+        "cer": 0.5,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      },
+      "z_subset": {
+        "sequences": 18,
+        "reference_characters": 136,
+        "character_edits": 71,
+        "cer": 0.5220588235294118,
+        "exact": 0,
+        "exact_accuracy": 0.0,
+        "empty": 0,
+        "empty_rate": 0.0
+      }
+    },
+    "elapsed_seconds": 12.038174578017788,
+    "selected": false
+  }
+]

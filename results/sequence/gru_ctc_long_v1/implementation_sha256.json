@@ -1,0 +1,10 @@
+{
+  "scripts/train_ctc.py": "7f4562ba1bca18066d3c95875a8348bf0388f8612845772e96baf51be20e8829",
+  "scripts/diagnose_ctc.py": "6f7d2659614b66aa1fa183e3e924c9b1a8173474c6978c3ad6ea8367cc680966",
+  "scripts/compare_ctc_runs.py": "2e84ca9b20caa6097d6252b7d6cde5b21b12e192b165629fc382962892a969eb",
+  "src/fingerspelling/ctc_decode.py": "e2d6712b8c8f2ac3f674a80cdc19b37e2d1b369b53d9c900ec5b974dbdfadaa8",
+  "src/fingerspelling/sequence_data.py": "6d86a94798cf13062b6a6714ab6c1559d20add78e97496a4e409688bbbc1f17d",
+  "src/fingerspelling/models/gru_ctc.py": "76661a8bf961bed050354f967480ffe1dc98d2922a8bd3f854046e881647f66f",
+  "src/fingerspelling/sequence_diagnostics.py": "7700719c7f815e4578bac5ca2cdd5ff772466777fecd597c48576fd2a1e155a9",
+  "tests/test_sequence_diagnostics.py": "fb23212ad6511213cd5804ed3af7e0d5f950c0413e3fb22f8e782327b6d81f56"
+}

@@ -1,0 +1,12 @@
+{
+  "data/external/chicagofswild/parquet/train-00000-of-00001.parquet": "4cb8e73f9a4a3889f001c55a5afc2b1948d0184bce5a607f62b8e42831730edc",
+  "data/external/chicagofswild/parquet/validation-00000-of-00001.parquet": "396c849dd03d644924c8e696bf35e241d09b283ecb523131ee0d684137942533",
+  "data/external/chicagofswild/parquet/test-00000-of-00001.parquet": "848a12d531a91a62f84615545204d31105897edaebfcfdc3542272b987bdddef",
+  "data/external/chicagofswild/source/ChicagoFSWild.csv": "ed0698ae6a606742030bb6130daddef115a2032414efc34a92000029ddd17e61",
+  "asl_sequence_audit/results/pilot_train_ids.txt": "b9301b115ccf223fc390ec86b0ad9d0f58a905db0edc24ef7371dbd0eccda28e",
+  "asl_sequence_audit/results/pilot_validation_ids.txt": "94fc3c312820837e93133775dfcf586e4d4ab6c5d48be93a33286887980ffdea",
+  "asl_sequence_audit/results/pilot_test_ids.txt": "0fe522613706631a4adf95dca15de539043425c23bb67320d1f9f0a420d7c2c9",
+  "asl_sequence_audit/results/sequence_manifest.csv": "52239df8851cbb92614ec7375209939363d76d3f327507f89c706d31725625de",
+  "asl_sequence_audit/results/pilot_plan.json": "1c3ddd8456bfabffb98d5c90e5d9654fb12a1d20502e46f2bbcd45cebdcd5ae1",
+  "asl_sequence_audit/FILES_SHA256.json": "a8ce1dc6d8b00c838e3ec7f21ba9ce79cc9b1e2dc9c71e9827819543220a210f"
+}

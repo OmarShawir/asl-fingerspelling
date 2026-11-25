@@ -1,0 +1,10 @@
+{
+  "src/fingerspelling/sequence_decode.py": "9a1b7f079153bec1c7576052eb6a38138acca4ef07cf2f1782b0abd4f13a02a7",
+  "src/fingerspelling/sequence_live.py": "909fa118c94eed15ac44c52bdaaed16b093e2c7aeb82ef67ac4c066ce88c7798",
+  "src/fingerspelling/hand_tracker.py": "c26a2971d98750bc23e4dcd38f054f5ae64a7ba1ca26d30a9a182af43c0d7a79",
+  "src/fingerspelling/app.py": "5c9a2dd24edd104ff5b36af8427ae6a035743eec4344edde461e0682275c9ad3",
+  "scripts/compare_ctc_decoders.py": "acd9ae76b714fe640750d0b231b90798c280bfe564aec9285c981333bf3f73e2",
+  "scripts/replay_sequence_stream.py": "b5ee549ec5725741d89d9610ce40b93bc4f1180caaccfb7f8e039d9b39e93486",
+  "tests/test_prefix_beam.py": "e5da5f05f8d6daec0669e03b0520a48ffdeb2c9b0b87d74ce5303f405834f50c",
+  "tests/test_sequence_live.py": "01c7d0da9f9e728d389bbc708e926b61a00bb0c35a72215e3d1eb7d0fafc47c7"
+}

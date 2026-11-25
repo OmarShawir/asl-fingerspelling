@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "threads": 4,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "batch_size": 32,
+  "gradient_clip_norm": 5.0,
+  "max_epochs": 60,
+  "pilot_seconds_budget": 900.0,
+  "patience": 5,
+  "debug_steps": 1500,
+  "debug_seconds": 120,
+  "debug_learning_rate": 0.003,
+  "debug_seed": 7,
+  "debug_selection": "first 16 unique short training labels sorted by frames/id, 10-35 frames, 2-5 characters, hand present in first frame; debugging only",
+  "feature_version": "sequence-unordered-hand-shape-wrist-scale-v1",
+  "train_count": 5433,
+  "validation_count": 978,
+  "selection": "lowest validation micro CER across all 978 clips, including epoch 0",
+  "decoder": "greedy CTC, no language model",
+  "no_time_downsampling": true,
+  "test_inference": false,
+  "static_checkpoint_sha256": "7821db6c17a04ba0be940fbca10a85fcb40db41b3aaa1dff1b33fdbaec08ce0a",
+  "library_versions": {
+    "torch": "2.6.0+cpu",
+    "numpy": "1.26.4"
+  },
+  "architecture": {
+    "hand_hidden": 96,
+    "hand_embedding": 64,
+    "hidden_size": 128,
+    "layers": 2,
+    "dropout": 0.1,
+    "classes": 28
+  },
+  "parameters": 214876
+}

@@ -1,0 +1,979 @@
+id,signer,target,prediction,frames,ctc_minimum
+aslized/joy_maisel_6419,0087,joy maisel,samnaisl,66,10
+aslized/joy_maisel_6420,0087,aslized,asliatcd,35,7
+aslized/joy_maisel_6421,0087,asl,asl,17,3
+aslized/joy_maisel_6422,0087,asl,asl,14,3
+aslized/joy_maisel_6423,0087,fiction,fiction,40,7
+aslized/joy_maisel_6424,0087,coda,boda,29,4
+aslized/joy_maisel_6425,0087,of,sf,11,2
+aslized/joy_maisel_6426,0087,asl,asl,38,3
+aslized/joy_maisel_6427,0087,asl corpus,aslbus,54,10
+aslized/joy_maisel_6428,0087,asl copupus,aslcobpra,47,11
+aslized/joy_maisel_6429,0087,fiction,fiction,38,7
+aslized/joy_maisel_6430,0087,fiction,bfictin,33,7
+aslized/joy_maisel_6431,0087,fiction,fictin,37,7
+aslized/joy_maisel_6432,0087,fiction,iction,33,7
+aslized/joy_maisel_6433,0087,fun,fun,14,3
+aslized/joy_maisel_6434,0087,youtube link,ioutvbelink,71,12
+aslized/joy_maisel_6435,0087,slide,slide,25,5
+aslized/joy_maisel_6436,0087,fiction,fictin,30,7
+aslized/joy_maisel_6437,0087,or,or,9,2
+aslized/joy_maisel_6438,0087,fiction,fictin,41,7
+aslized/joy_maisel_6439,0087,solid,eli,24,5
+aslized/joy_maisel_6440,0087,props,props,33,5
+aslized/joy_maisel_6441,0087,or,or,12,2
+aslized/joy_maisel_6442,0087,fcts,fcta,36,4
+aslized/joy_maisel_6443,0087,ficion,fion,24,6
+aslized/joy_maisel_6444,0087,ficton,ficin,22,6
+aslized/joy_maisel_6445,0087,or,or,8,2
+aslized/joy_maisel_6446,0087,disq,di,24,4
+aslized/suzanne_stecker_0194,0088,textfields,ktextfiels,70,10
+aslized/suzanne_stecker_0195,0088,copy,lcoky,33,4
+aslized/suzanne_stecker_0196,0088,paste,paste,51,5
+aslized/suzanne_stecker_0197,0088,aslized,asliled,49,7
+aslized/suzanne_stecker_0198,0088,android,android,45,7
+aslized/suzanne_stecker_0199,0088,unicode,unicode,56,7
+aslized/suzanne_stecker_0200,0088,unicode,dicode,28,7
+aslized/suzanne_stecker_0201,0088,goole,gole,38,6
+aslized/suzanne_stecker_0202,0088,microfsoft,microesft,71,10
+aslized/suzanne_stecker_0203,0088,twitter,twitoert,35,8
+aslized/suzanne_stecker_0204,0088,asl or,aslor,29,6
+aslized/suzanne_stecker_0205,0088,aslized,aslited,48,7
+aslized/suzanne_stecker_0206,0088,copy,coliy,22,4
+aslized/suzanne_stecker_0207,0088,paste,paste,42,5
+aslized/suzanne_stecker_0208,0088,gif,giff,22,3
+aslized/suzanne_stecker_0241,0088,aslized,aslied,53,7
+aslized/suzanne_stecker_0242,0088,deadline,esdlie,40,8
+aslized/suzanne_stecker_0243,0088,aslized,asl,33,7
+aslized/suzanne_stecker_0244,0088,cards,pcauds,25,5
+aslized/suzanne_stecker_0245,0088,specs,tapecs,33,5
+aslized/suzanne_stecker_0246,0088,aslized,aslid,35,7
+aslized/suzanne_stecker_0247,0088,june,yshnec,32,4
+aslized/suzanne_stecker_0248,0088,ed,ed,20,2
+aslized/suzanne_stecker_0250,0088,cite,ile,49,4
+aslized/suzanne_stecker_0251,0088,asl,tasl,49,3
+aslized/suzanne_stecker_0252,0088,asl,asl,28,3
+aslized/suzanne_stecker_0253,0088,asl,al,19,3
+aslized/suzanne_stecker_0254,0088,asl,asl,26,3
+aslized/suzanne_stecker_0255,0088,video,alilo,26,5
+aslized/suzanne_stecker_0256,0088,animators,aniars,39,9
+aslized/suzanne_stecker_0257,0088,can,pcna,16,3
+aslized/suzanne_stecker_0258,0088,fund,ifund,22,4
+aslized/suzanne_stecker_0259,0088,asl,asl,19,3
+aslized/suzanne_stecker_0260,0088,poker,oknr,35,5
+aslized/suzanne_stecker_0261,0088,eche rummy,echermyl,71,11
+aslized/suzanne_stecker_0262,0088,asl,asl,23,3
+aslized/suzanne_stecker_0263,0088,asl,asl,50,3
+aslized/suzanne_stecker_0264,0088,art,trt,23,3
+aslized/suzanne_stecker_0265,0088,media,mila,25,5
+aslized/suzanne_stecker_0266,0088,dpi,dpi,46,3
+aslized/suzanne_stecker_0267,0088,ian guzman,isnuman,76,10
+aslized/suzanne_stecker_0268,0088,art,akt,18,3
+aslized/suzanne_stecker_0269,0088,media,omila,22,5
+aslized/suzanne_stecker_0270,0088,files,filet,32,5
+aslized/suzanne_stecker_0271,0088,fobm,fsram,43,4
+aslized/suzanne_stecker_0272,0088,aslized,asl,40,7
+aslized/suzanne_stecker_0273,0088,if,if,20,2
+aslized/suzanne_stecker_0274,0088,do,li,13,2
+aslized/suzanne_stecker_0275,0088,grm,hn,18,3
+aslized/suzanne_stecker_0276,0088,feb,feb,35,3
+aslized/suzanne_stecker_0277,0088,ian,ian,30,3
+aslized/suzanne_stecker_0279,0088,aslized facebook,masli facbcokk,69,17
+aslized/suzanne_stecker_0280,0088,page,kapex,42,4
+aslized/suzanne_stecker_0281,0088,vido,avido,19,4
+aslized/suzanne_stecker_0282,0088,aslized or,iaslgr,47,10
+aslized/suzanne_stecker_0283,0088,aslizd,lasil,34,6
+aslized/suzanne_stecker_0284,0088,page,kale,29,4
+aslized/suzanne_stecker_0285,0088,or,ok,17,2
+aslized/suzanne_stecker_0286,0088,email,eal,18,5
+aslized/suzanne_stecker_0287,0088,ok,ok,13,2
+deafvideo_2/confederateboy_1661,0089,up date sc,uoattesr,62,10
+deafvideo_2/confederateboy_1662,0089,sc,,11,2
+deafvideo_2/confederateboy_1663,0089,mis,iodh,20,3
+deafvideo_2/confederateboy_1665,0089,or,pn,24,2
+deafvideo_2/confederateboy_1666,0089,sc,os,22,2
+deafvideo_2/confederateboy_1667,0089,mall,maal,26,5
+deafvideo_2/confederateboy_1668,0089,csubia,hcoubfys,67,6
+deafvideo_2/confederateboy_1669,0089,bitesl,bidesll,25,6
+deafvideo_2/confederateboy_1670,0089,md,ml,26,2
+deafvideo_2/confederateboy_1671,0089,la,lasg,18,2
+deafvideo_2/confederateboy_1672,0089,md,bic,32,2
+deafvideo_2/confederateboy_1673,0089,la,als,14,2
+deafvideo_2/confederateboy_1674,0089,of,err,10,2
+deafvideo_2/deafpoweronethumbtwo_1782,0090,tump,trom,19,4
+deafvideo_2/deafpoweronethumbtwo_1783,0090,tump,trimp,17,4
+deafvideo_2/deafpoweronethumbtwo_1784,0090,tump,omt,24,4
+deafvideo_2/deafpoweronethumbtwo_1785,0090,tmp,tob,19,3
+deafvideo_2/deafpoweronethumbtwo_1786,0090,tump,trom,19,4
+deafvideo_2/deafpoweronethumbtwo_1787,0090,wow,wmw,16,3
+deafvideo_2/deafpoweronethumbtwo_1788,0090,wow,wow,13,3
+deafvideo_2/deafpoweronethumbtwo_1789,0090,un,n,13,2
+deafvideo_2/deafpoweronethumbtwo_1790,0090,tump,tsromp,19,4
+deafvideo_2/deafpoweronethumbtwo_1791,0090,so,so,7,2
+deafvideo_2/deafpoweronethumbtwo_1792,0090,gvn,arn,10,3
+deafvideo_2/deafpoweronethumbtwo_1793,0090,gvn,run,11,3
+deafvideo_2/deafpoweronethumbtwo_1794,0090,gvn,atvn,16,3
+deafvideo_2/deafpoweronethumbtwo_1795,0090,walstre,walstres,28,7
+deafvideo_2/deafpoweronethumbtwo_1796,0090,gvn,rn,10,3
+deafvideo_2/deafpoweronethumbtwo_1797,0090,en,ren,10,2
+deafvideo_2/deafpoweronethumbtwo_1798,0090,bus,buks,18,3
+deafvideo_2/deafpoweronethumbtwo_1799,0090,gvn,rn,16,3
+deafvideo_2/fairytales9_2274,0091,pearl,sr,45,5
+deafvideo_2/fairytales9_2275,0091,nikka,oknis,56,6
+deafvideo_2/fairytales9_2276,0091,abces,aben,22,5
+deafvideo_2/fairytales9_2277,0091,ok,ok,13,2
+deafvideo_2/fairytales9_2278,0091,all,al,16,4
+deafvideo_2/fairytales9_2279,0091,yratd,ibs,25,5
+deafvideo_2/fairytales9_2280,0091,scs,tc,17,3
+deafvideo_2/fairytales9_2281,0091,mexer,oo,23,5
+deafvideo_2/fairytales9_2282,0091,hell,ax,21,5
+deafvideo_2/fairytales9_2283,0091,of all,oal,17,7
+deafvideo_2/fairytales9_2284,0091,if,i,9,2
+deafvideo_2/fairytales9_2285,0091,all,ga,14,4
+deafvideo_2/fairytales9_2286,0091,yout,asnkn,20,4
+deafvideo_2/fairytales9_2287,0091,ltway,aut,13,5
+deafvideo_2/fairytales9_2288,0091,halhelink,slstiok,36,9
+deafvideo_2/fairytales9_2289,0091,feak,,19,4
+deafvideo_2/fairytales9_2290,0091,aci,aps,15,3
+deafvideo_2/fairytales9_2291,0091,fell,fod,19,5
+deafvideo_2/fairytales9_2292,0091,stairs,stirs,22,6
+deafvideo_2/fairytales9_2293,0091,so,so,6,2
+deafvideo_2/fairytales9_2294,0091,railine,ao,24,7
+deafvideo_2/fairytales9_2295,0091,mathews,nndtsoencs,33,7
+deafvideo_2/fairytales9_2296,0091,matosead,oaset,27,8
+deafvideo_2/fairytales9_2297,0091,doc,ec,11,3
+deafvideo_2/fairytales9_2298,0091,her,or,14,3
+deafvideo_2/fairytales9_2299,0091,inox,o,19,4
+deafvideo_2/fairytales9_2300,0091,xray o,o,13,6
+deafvideo_2/goatman_1519,0092,so,ao,15,2
+deafvideo_2/goatman_1520,0092,date,daes,22,4
+deafvideo_2/goatman_1521,0092,so,so,15,2
+deafvideo_2/goatman_1522,0092,line,ine,29,4
+deafvideo_2/goatman_1523,0092,date,odlates,20,4
+deafvideo_2/goatman_1524,0092,date,dates,19,4
+deafvideo_2/goatman_1525,0092,date,date,24,4
+deafvideo_2/goatman_1526,0092,date,odate,20,4
+deafvideo_2/goatman_1527,0092,is,is,16,2
+deafvideo_2/goatman_1528,0092,neb,led,25,3
+deafvideo_2/goatman_1529,0092,date,oae,22,4
+deafvideo_2/goatman_1530,0092,date,dtte,19,4
+deafvideo_2/goatman_1531,0092,neb,nsbe,23,3
+deafvideo_2/goatman_1532,0092,date,mtes,24,4
+deafvideo_2/goatman_1533,0092,pen,en,23,3
+deafvideo_2/goatman_1534,0092,va,a,30,2
+deafvideo_2/goatman_1535,0092,dc,odc,18,2
+deafvideo_2/goatman_1536,0092,oregon,sreen,51,6
+deafvideo_2/goatman_1537,0092,utah,wt,42,4
+deafvideo_2/goatman_1538,0092,vermont,serseonnt,52,7
+deafvideo_2/goatman_1539,0092,date,dates,21,4
+deafvideo_2/goatman_1540,0092,sc,sc,32,2
+deafvideo_2/goatman_1541,0092,sc,sc,12,2
+deafvideo_2/goatman_1542,0092,oklahoma,ekapea,70,8
+deafvideo_2/goatman_1543,0092,ohio,ehio,27,4
+deafvideo_2/goatman_1544,0092,nc,nc,20,2
+deafvideo_2/goatman_1545,0092,date,ate,22,4
+deafvideo_2/sddsimple_1546,0093,savior,savior,47,6
+deafvideo_2/sddsimple_1547,0093,or,or,12,2
+deafvideo_2/sddsimple_1548,0093,sam,sam,38,3
+deafvideo_2/sddsimple_1549,0093,was,was,12,3
+deafvideo_2/sddsimple_1550,0093,of,f,18,2
+deafvideo_2/sddsimple_1551,0093,of,cofb,12,2
+deafvideo_2/sddsimple_1552,0093,evil,cevilh,54,4
+deafvideo_2/sddsimple_1553,0093,or,beb,12,2
+deafvideo_2/sddsimple_1554,0093,isaiah,cess,29,6
+deafvideo_2/sddsimple_1555,0093,i dash i,idashii,72,8
+deafvideo_2/sddsimple_1556,0093,savoir,svr,28,6
+deafvideo_2/sddsimple_1557,0093,sam,etm,35,3
+deafvideo_2/sddsimple_1558,0093,at,at,10,2
+deafvideo_2/sddsimple_1559,0093,saved,saveld,50,5
+deafvideo_2/sddsimple_1560,0093,so,oo,9,2
+deafvideo_2/sddsimple_1561,0093,or,r,16,2
+deafvideo_2/sddsimple_1562,0093,titus,rltitren,48,5
+deafvideo_2/sddsimple_1563,0093,darn,ldarn,28,4
+deafvideo_2/sddsimple_1564,0093,savior,eoariou,47,6
+deafvideo_2/sddsimple_1565,0093,or,or,13,2
+deafvideo_2/sddsimple_1566,0093,jude,jisrde,52,4
+deafvideo_2/sddsimple_1567,0093,the only,thekkli,139,8
+deafvideo_2/sddsimple_1568,0093,only,cknklibc,75,4
+deafvideo_2/sddsimple_1569,0093,savior,esavir,90,6
+deafvideo_2/sddsimple_1570,0093,be,be,23,2
+deafvideo_2/sddsimple_1571,0093,or,bor,10,2
+deafvideo_2/sddsimple_1572,0093,acts,acts,39,4
+deafvideo_2/sddsimple_1573,0093,exalted,bedalted,108,7
+deafvideo_2/sddsimple_1574,0093,or,or,13,2
+deafvideo_2/sddsimple_1575,0093,or,r,14,2
+deafvideo_2/sddsimple_1576,0093,cheif,cheif,86,5
+deafvideo_2/sddsimple_1577,0093,cheif,fcheif,108,5
+deafvideo_2/sddsimple_1578,0093,agent,agnt,81,5
+deafvideo_2/sddsimple_1579,0093,savior,sariors,25,6
+deafvideo_2/sddsimple_1580,0093,agents,sgentes,66,6
+deafvideo_2/sddsimple_1581,0093,chef agent,chefaent,164,10
+deafvideo_2/sddsimple_1582,0093,savior,eavior,65,6
+deafvideo_2/sddsimple_1583,0093,the,th,17,3
+deafvideo_2/sddsimple_1584,0093,hand,vasd,42,4
+deafvideo_2/sddsimple_1585,0093,to,to,19,2
+deafvideo_2/sddsimple_1586,0093,to,trcoc,19,2
+deafvideo_2/sddsimple_1587,0093,of,of,24,2
+deafvideo_2/sddsimple_1588,0093,or,er,11,2
+deafvideo_2/sddsimple_1589,0093,titus,tivss,28,5
+deafvideo_2/sddsimple_1590,0093,the,the,36,3
+deafvideo_2/sddsimple_1591,0093,the,thr,20,3
+deafvideo_2/sddsimple_1592,0093,savior,avior,51,6
+deafvideo_2/sddsimple_1593,0093,acts,actn,17,4
+deafvideo_2/sddsimple_1594,0093,salvation,saluatiokn,117,9
+deafvideo_2/sddsimple_1595,0093,if,if,32,2
+deafvideo_2/sddsimple_1596,0093,sckre of,cohrebfe,45,8
+deafvideo_2/sddsimple_1597,0093,if,if,20,2
+deafvideo_3/crossover_3863,0094,paleo herew,palehw,86,11
+deafvideo_3/crossover_3864,0094,simlar,omlar,41,6
+deafvideo_3/crossover_3865,0094,babel tower,babeltewdu,88,11
+deafvideo_3/crossover_3866,0094,nirmod,niumnmtzd,77,6
+deafvideo_3/crossover_3867,0094,ih,ih,32,2
+deafvideo_3/crossover_3868,0094,ih,ik,14,2
+deafvideo_3/crossover_3869,0094,scatere,scatr,75,7
+deafvideo_3/crossover_3870,0094,hpaleo herew,halehhr,92,12
+deafvideo_3/crossover_3871,0094,paleo herew,palehrroew,75,11
+deafvideo_3/crossover_3872,0094,link,liinkk,26,4
+deafvideo_3/damien23_3600,0095,ok,k,16,2
+deafvideo_3/damien23_3601,0095,adam eve,adasebure,40,8
+deafvideo_3/damien23_3602,0095,do,d,6,2
+deafvideo_3/damien23_3603,0095,ok,ok,11,2
+deafvideo_3/damien23_3604,0095,adam eve,adamo,29,8
+deafvideo_3/damien23_3605,0095,disobey,edisoby,19,7
+deafvideo_3/damien23_3606,0095,ok,pk,25,2
+deafvideo_3/damien23_3607,0095,or,o,17,2
+deafvideo_3/damien23_3608,0095,sex or aim,exsrsryom,38,10
+deafvideo_3/deafgoldenhair_3060,0096,all,al,19,4
+deafvideo_3/deafgoldenhair_3061,0096,press word press,prswmwduos,106,18
+deafvideo_3/deafgoldenhair_3062,0096,ed,ed,17,2
+deafvideo_3/deafgoldenhair_3063,0096,go sem,obom,47,6
+deafvideo_3/deafgoldenhair_3064,0096,all,all,19,4
+deafvideo_3/deafgoldenhair_3065,0096,asl,asl,20,3
+deafvideo_3/deafgoldenhair_3066,0096,asl,asl,23,3
+deafvideo_3/deafgoldenhair_3067,0096,pcs,o,10,3
+deafvideo_3/deafgoldenhair_3068,0096,hacker,haclor,39,6
+deafvideo_3/deafgoldenhair_3069,0096,in,in,12,2
+deafvideo_3/deafgoldenhair_3070,0096,so,o,9,2
+deafvideo_3/deafgoldenhair_3071,0096,pugins,ktgyns,44,6
+deafvideo_3/deafgoldenhair_3072,0096,hackers,haopres,36,7
+deafvideo_3/deafgoldenhair_3073,0096,admin,aidmayn,27,5
+deafvideo_3/deafgoldenhair_3074,0096,admin,admyn,30,5
+deafvideo_3/deafgoldenhair_3075,0096,all,ag,16,4
+deafvideo_3/deafgoldenhair_3076,0096,admin,admy,26,5
+deafvideo_3/deafgoldenhair_3077,0096,poer,pu,30,4
+deafvideo_3/deafgoldenhair_3078,0096,pn,hn,30,2
+deafvideo_3/deafgoldenhair_3079,0096,itheme,itme,55,6
+deafvideo_3/deafgoldenhair_3080,0096,suckuri,suci,64,7
+deafvideo_3/deafgoldenhair_3081,0096,prss,hs,16,5
+deafvideo_3/deafgoldenhair_3082,0096,iq,i,22,2
+deafvideo_3/deafgoldenhair_3084,0096,doman,loman,40,5
+deafvideo_3/deafgoldenhair_3085,0096,cstat,costat,62,5
+deafvideo_3/deafgoldenhair_3086,0096,web page,webupage,59,8
+deafvideo_3/deafgoldenhair_3087,0096,haker,aer,21,5
+deafvideo_3/fieldstreamasl_4036,0097,taylor,talor,44,6
+deafvideo_3/fieldstreamasl_4037,0097,facess,farcoles,78,7
+deafvideo_3/fieldstreamasl_4038,0097,gis,gis,21,3
+deafvideo_3/fieldstreamasl_4039,0097,so,hse,18,2
+deafvideo_3/fieldstreamasl_4040,0097,bandcd,bannded,57,6
+deafvideo_3/fieldstreamasl_4041,0097,faceles,ofacoles,70,7
+deafvideo_3/fieldstreamasl_4042,0097,so,,16,2
+deafvideo_3/fieldstreamasl_4043,0097,do,lo,13,2
+deafvideo_3/fieldstreamasl_4044,0097,yr,uic,28,2
+deafvideo_3/fieldstreamasl_4045,0097,less,let,23,5
+deafvideo_3/geoalpha_4543,0098,shebaby,ahebaby,35,7
+deafvideo_3/geoalpha_4544,0098,ok,o,8,2
+deafvideo_3/geoalpha_4545,0098,bmom,bmm,24,4
+deafvideo_3/geoalpha_4546,0098,wow,wow,17,3
+deafvideo_3/geoalpha_4547,0098,wow,wowp,21,3
+deafvideo_3/geoalpha_4548,0098,benn,ben,22,5
+deafvideo_3/geoalpha_4549,0098,respect,csalet,33,7
+deafvideo_3/geoalpha_4550,0098,past,pasat,22,4
+deafvideo_3/geoalpha_4551,0098,do,o,10,2
+deafvideo_3/geoalpha_4552,0098,disown,disown,37,6
+deafvideo_3/geoalpha_4553,0098,or,or,10,2
+deafvideo_3/geoalpha_4554,0098,it,it,15,2
+deafvideo_3/geoalpha_4555,0098,respect,ucalnt,38,7
+deafvideo_3/geoalpha_4556,0098,utmost,utmmost,43,6
+deafvideo_3/geoalpha_4557,0098,past,pasl,20,4
+deafvideo_3/geoalpha_4558,0098,nobel prip nopp no bel price,noblvipporornobelrice,174,29
+deafvideo_3/geoalpha_4559,0098,nobel price,nobelrice,49,11
+deafvideo_3/geoalpha_4560,0098,or,or,10,2
+deafvideo_3/geoalpha_4561,0098,r,r,8,1
+deafvideo_3/geoalpha_4562,0098,carof,carf,19,5
+deafvideo_3/geoalpha_4563,0098,at all,atl,18,7
+deafvideo_3/geoalpha_4564,0098,rots,rotes,21,4
+deafvideo_3/geoalpha_4565,0098,he,he,13,2
+deafvideo_3/geoalpha_4566,0098,orphanage,orphannage,56,9
+deafvideo_3/geoalpha_4567,0098,he,hen,11,2
+deafvideo_3/geoalpha_4568,0098,of,of,12,2
+deafvideo_3/geoalpha_4569,0098,ussr,ussr,23,5
+deafvideo_3/geoalpha_4570,0098,arphangelsk,arkhankgelsk,93,11
+deafvideo_3/geoalpha_4571,0098,gulag,gvulag,31,5
+deafvideo_3/geoalpha_4572,0098,grandchildr grandchildren,gortchilgandchilren,120,25
+deafvideo_3/geoalpha_4573,0098,away,wa,16,4
+deafvideo_3/otismhill82_4590,0099,nfl zone,nflos,34,8
+deafvideo_3/otismhill82_4591,0099,tv,t,6,2
+deafvideo_3/otismhill82_4592,0099,n zone nfl,ntnel,23,10
+deafvideo_3/otismhill82_4593,0099,tvtv,tr,9,4
+deafvideo_3/otismhill82_4594,0099,nfl,nf,13,3
+deafvideo_3/otismhill82_4595,0099,nfl,nfil,12,3
+deafvideo_3/otismhill82_4596,0099,com,com,15,3
+deafvideo_3/otismhill82_4597,0099,then,tho,23,4
+deafvideo_3/otismhill82_4598,0099,deaf nfl vloggers,eafnflvloges,79,18
+deafvideo_3/otismhill82_4599,0099,nfl zone,nfltoe,21,8
+deafvideo_3/otismhill82_4600,0099,big ben,bbe,26,7
+deafvideo_3/otismhill82_4601,0099,if,if,4,2
+deafvideo_3/otismhill82_4602,0099,jim,im,17,3
+deafvideo_3/otismhill82_4603,0099,biesel,biesel,24,6
+deafvideo_3/otismhill82_4604,0099,up to,ra,15,5
+deafvideo_3/otismhill82_4605,0099,if,,3,2
+deafvideo_3/otismhill82_4606,0099,if,bf,18,2
+deafvideo_3/otismhill82_4607,0099,afc nfc,acnf,30,7
+deafvideo_3/otismhill82_4608,0099,afc nfc,afcnfc,31,7
+deafvideo_3/otismhill82_4609,0099,sb,sb,11,2
+deafvideo_3/otismhill82_4610,0099,ok,p,4,2
+deafvideo_3/otismhill82_4611,0099,big ben,bbeo,16,7
+deafvideo_3/otismhill82_4612,0099,if,if,4,2
+deafvideo_3/otismhill82_4613,0099,taylor,tacr,17,6
+deafvideo_3/otismhill82_4614,0099,otis,otis,27,4
+deafvideo_3/otismhill82_4615,0099,hill,hil,24,5
+deafvideo_3/otismhill82_4616,0099,facbk,fabm,17,5
+deafvideo_3/otismhill82_4617,0099,dnv deaf nfl vlogs,dordfnlewlos,56,18
+deafvideo_3/otismhill82_4618,0099,admins,admn,18,6
+deafvideo_3/otismhill82_4619,0099,dvtv,dt,12,4
+deafvideo_3/otismhill82_4620,0099,f,c,4,1
+deafvideo_3/otismhill82_4621,0099,sb,,6,2
+deafvideo_3/otismhill82_4622,0099,act,irt,12,3
+deafvideo_3/otismhill82_4623,0099,oly,o,7,3
+deafvideo_3/titans_4689,0100,taylerade,ttrot,55,9
+deafvideo_3/titans_4690,0100,f,o,4,1
+deafvideo_3/titans_4691,0100,debg,ocgo,43,4
+deafvideo_3/titans_4692,0100,or,or,7,2
+deafvideo_3/titans_4693,0100,asl,atl,16,3
+deafvideo_3/titans_4694,0100,ok,n,12,2
+deafvideo_3/titans_4695,0100,asl,atl,11,3
+deafvideo_3/titans_4696,0100,ak ok,spo,12,5
+deafvideo_3/titans_4697,0100,or,ok,7,2
+deafvideo_3/titans_4698,0100,asl,tl,12,3
+deafvideo_3/titans_4699,0100,asl,al,15,3
+deafvideo_3/titans_4700,0100,ok asl,tp,22,6
+deafvideo_3/titans_4701,0100,so,o,11,2
+deafvideo_3/titans_4702,0100,debg,sbg,41,4
+deafvideo_3/titans_4703,0100,aked,spe,11,4
+deafvideo_3/titans_4704,0100,kasl,pasl,15,4
+deafvideo_3/yellowbirdie84_4663,0101,ok,op,9,2
+deafvideo_3/yellowbirdie84_4664,0101,zack,tstack,45,4
+deafvideo_3/yellowbirdie84_4665,0101,kathyjo,atryo,38,7
+deafvideo_3/yellowbirdie84_4666,0101,mat seatle,natseatle,44,10
+deafvideo_3/yellowbirdie84_4667,0101,kathyo kathyjo,kathyaukaio,93,14
+deafvideo_3/yellowbirdie84_4668,0101,ut,ut,8,2
+deafvideo_3/yellowbirdie84_4669,0101,katy,nkdi,19,4
+deafvideo_3/yellowbirdie84_4670,0101,tylor,til,13,5
+deafvideo_3/yellowbirdie84_4671,0101,taylor,ataler,30,6
+deafvideo_3/yellowbirdie84_4672,0101,kax,papg,15,3
+deafvideo_3/yellowbirdie84_4673,0101,matseale,veatesal,36,8
+deafvideo_3/yellowbirdie84_4674,0101,matseat,mateeat,34,7
+deafvideo_3/yellowbirdie84_4675,0101,matseale,nateseal,35,8
+deafvideo_3/yellowbirdie84_4676,0101,by,bi,7,2
+deafvideo_3/yellowbirdie84_4677,0101,ok,ok,15,2
+deafvideo_3/yellowbirdie84_4678,0101,matseale,nateale,39,8
+deafvideo_3/yellowbirdie84_4679,0101,matseal,moatel,26,7
+deafvideo_3/yellowbirdie84_4680,0101,matsl,natsl,28,5
+deafvideo_3/yellowbirdie84_4681,0101,ok,k,8,2
+deafvideo_3/yellowbirdie84_4682,0101,zak,alstak,17,3
+deafvideo_3/yellowbirdie84_4683,0101,kathy jo,katiio,32,8
+deafvideo_3/yellowbirdie84_4684,0101,katy,kai,21,4
+deafvideo_3/yellowbirdie84_4685,0101,matsl,nat,26,5
+deafvideo_3/yellowbirdie84_4686,0101,matseatle,nateatl,50,9
+deafvideo_3/yellowbirdie84_4687,0101,matseatle,rnatseal,38,9
+deafvideo_3/yellowbirdie84_4688,0101,ok,ok,7,2
+deafvideo_3/yesyes_3101,0102,dslr,dolu,39,4
+deafvideo_3/yesyes_3102,0102,filter lens,filerlenns,82,11
+deafvideo_3/yesyes_3103,0102,uv,u,26,2
+deafvideo_3/yesyes_3104,0102,cpl,cpl,48,3
+deafvideo_3/yesyes_3105,0102,fld,fld,48,3
+deafvideo_3/yesyes_3106,0102,sun,sun,24,3
+deafvideo_3/yesyes_3107,0102,sn,un,14,2
+deafvideo_3/yesyes_3108,0102,sn,sn,10,2
+deafvideo_3/yesyes_3109,0102,to,to,13,2
+deafvideo_3/yesyes_3110,0102,ski,eski,18,3
+deafvideo_3/yesyes_3111,0102,xmic,opmic,48,4
+deafvideo_3/yesyes_3112,0102,miclbergsma,micbergasma,120,11
+deafvideo_3/yesyes_3113,0102,dvtv,dvtv,21,4
+deafvideo_3/yesyes_3114,0102,filter f lens,filterlens,82,13
+deafvideo_3/yesyes_3115,0102,dvtv,dvtvd,25,4
+deafvideo_3/yesyes_3116,0102,filter lens x,fierlens,49,13
+deafvideo_3/yesyes_3117,0102,file les,fies,31,8
+deafvideo_3/yesyes_3118,0102,clear,cler,44,5
+deafvideo_3/yesyes_3119,0102,it,it,11,2
+deafvideo_3/yesyes_4471,0102,dslr,dolrr,30,4
+deafvideo_3/yesyes_4472,0102,hows,owrs,17,4
+deafvideo_3/yesyes_4473,0102,fish eye lens,fisheyslens,105,13
+deafvideo_3/yesyes_4474,0102,nikons,nikenna,54,6
+deafvideo_3/yesyes_4475,0102,canon,canon,36,5
+deafvideo_3/yesyes_4476,0102,pentax,ponta,56,6
+deafvideo_3/yesyes_4477,0102,sony,soni,51,4
+deafvideo_3/yesyes_4478,0102,sony e,snie,39,6
+deafvideo_3/yesyes_4479,0102,om,o,17,2
+deafvideo_3/yesyes_4480,0102,flash manual on,flashmann,98,15
+deafvideo_4/tax_tips_by_irs_4952,0103,pati,tdi,13,4
+deafvideo_4/tax_tips_by_irs_4953,0103,irs,ius,16,3
+deafvideo_4/tax_tips_by_irs_4954,0103,arrangement,aravngennt,47,12
+deafvideo_4/tax_tips_by_irs_4955,0103,ira or,ailar,37,6
+deafvideo_4/tax_tips_by_irs_4956,0103,rollover,usoleuer,31,9
+deafvideo_4/tax_tips_by_irs_4957,0103,ira or,iuasr,31,6
+deafvideo_4/tax_tips_by_irs_4958,0103,ark,ud,12,3
+deafvideo_4/tax_tips_by_irs_4959,0103,details,dotils,25,7
+deafvideo_4/tax_tips_by_irs_4960,0103,irs,ius,18,3
+deafvideo_4/tax_tips_by_irs_4961,0103,gov,por,17,3
+deafvideo_4/tax_tips_by_irs_4962,0103,rollovers,olovers,53,10
+deafvideo_4/tax_tips_by_irs_4963,0103,faq,fa,23,3
+deafvideo_4/tax_tips_by_irs_4964,0103,rollover,unloner,30,9
+deafvideo_4/titans_4705,0100,kasl,a,16,4
+deafvideo_5/deafpoweronethumbtwo_7291,0090,land,lan,24,4
+deafvideo_5/deafpoweronethumbtwo_7292,0090,land,land,21,4
+deafvideo_5/deafpoweronethumbtwo_7293,0090,s dive,sdive,39,6
+deafvideo_5/deafpoweronethumbtwo_7294,0090,ok or,skr,45,5
+deafvideo_5/deafpoweronethumbtwo_7295,0090,or,or,16,2
+deafvideo_5/deafpoweronethumbtwo_7296,0090,wow,wow,19,3
+deafvideo_5/morningstar_6244,0104,dvtv,dvtv,39,4
+deafvideo_5/morningstar_6245,0104,dvtv,ldvtv,28,4
+deafvideo_5/morningstar_6246,0104,at a ok,ataka,33,7
+deafvideo_5/morningstar_6247,0104,whine,witscr,30,5
+deafvideo_5/morningstar_6248,0104,deal,ldeal,22,4
+deafvideo_5/morningstar_6249,0104,del,e,9,3
+deafvideo_5/morningstar_6250,0104,ok it,owkytt,46,5
+deafvideo_5/morningstar_6251,0104,fuck you,fukyu,48,8
+deafvideo_5/morningstar_6252,0104,ok,sra,13,2
+deafvideo_5/morningstar_6253,0104,dvtv,dvt,14,4
+deafvideo_5/morningstar_6254,0104,whiners,rhincra,32,7
+deafvideo_5/morningstar_6255,0104,dvt,dvt,18,3
+deafvideo_5/morningstar_6256,0104,sex,sd,23,3
+deafvideo_5/morningstar_6257,0104,haf,habyt,19,3
+deafvideo_5/morningstar_6258,0104,us,us,13,2
+deafvideo_5/morningstar_6259,0104,out,ort,11,3
+deafvideo_5/morningstar_6260,0104,dvt,d,11,3
+deafvideo_5/morningstar_6261,0104,it,i,7,2
+deafvideo_5/morningstar_6262,0104,trash,trah,26,5
+deafvideo_5/morningstar_6263,0104,atak,asta,21,4
+deafvideo_5/morningstar_6264,0104,whines,rhincs,30,6
+deafvideo_5/morningstar_6265,0104,chard,hard,21,5
+deafvideo_5/morningstar_6266,0104,naive,naive,49,5
+deafvideo_5/scottnorby_6447,0105,st patrick,stpatraicek,37,10
+deafvideo_5/scottnorby_6448,0105,past patrick,pastatri,39,12
+deafvideo_5/scottnorby_6449,0105,all,tl,11,4
+deafvideo_5/scottnorby_6450,0105,oh,oh,14,2
+deafvideo_5/scottnorby_6451,0105,it,it,7,2
+deafvideo_5/scottnorby_6452,0105,so,o,6,2
+deafvideo_5/scottnorby_6453,0105,st patrick,stpatrcok,56,10
+deafvideo_5/scottnorby_6454,0105,patrick,patrcek,34,7
+deafvideo_5/scottnorby_6455,0105,heras,erts,17,5
+deafvideo_5/scottnorby_6456,0105,pirates,pairates,34,7
+deafvideo_5/scottnorby_6457,0105,patrick,patrcok,27,7
+deafvideo_5/scottnorby_6458,0105,sock,aot,14,4
+deafvideo_5/scottnorby_6459,0105,return,return,26,6
+deafvideo_5/scottnorby_6460,0105,he did,hedil,20,6
+deafvideo_5/scottnorby_6461,0105,march,mauch,30,5
+deafvideo_5/scottnorby_6462,0105,ad,ad,18,2
+deafvideo_5/scottnorby_6463,0105,he,he,10,2
+deafvideo_5/scottnorby_6464,0105,st patrick,statrek,30,10
+deafvideo_5/scottnorby_6465,0105,all,l,8,4
+deafvideo_5/silentoneye_7315,0106,ok,ok,27,2
+deafvideo_5/silentoneye_7316,0106,syran,syrarn,38,5
+deafvideo_5/silentoneye_7317,0106,asad,asd,22,4
+deafvideo_5/silentoneye_7318,0106,libyran,laian,95,7
+deafvideo_5/silentoneye_7319,0106,gaddafi,galafi,83,8
+deafvideo_5/silentoneye_7320,0106,gadi,gaadi,27,4
+deafvideo_5/silentoneye_7321,0106,dicator,dicsater,50,7
+deafvideo_5/silentoneye_7322,0106,asd,asd,26,3
+deafvideo_5/silentoneye_7323,0106,assd cown,sdcn,76,10
+deafvideo_5/silentoneye_7324,0106,ovn,okn,11,3
+deafvideo_5/silentoneye_7325,0106,libyan,lican,37,6
+deafvideo_5/silentoneye_7326,0106,gadfi,gadefi,98,5
+deafvideo_5/silentoneye_7327,0106,him,hiwm,64,3
+deafvideo_5/silentoneye_7328,0106,gadi,gadei,28,4
+deafvideo_5/silentoneye_7329,0106,gadi,gat,22,4
+deafvideo_5/silentoneye_7330,0106,nlr,nlr,18,3
+deafvideo_5/silentoneye_7331,0106,usa,roa,16,3
+youtube_1/catherine_mackinnon_2777,0107,ryerson,ricin,40,7
+youtube_1/catherine_mackinnon_2778,0107,acdeic,abic,25,6
+youtube_1/catherine_mackinnon_2779,0107,fr,r,4,2
+youtube_1/catherine_mackinnon_2780,0107,mm,mo,8,3
+youtube_1/catherine_mackinnon_2781,0107,arifex sr,orifscr,41,9
+youtube_1/catherine_mackinnon_2782,0107,her,pr,15,3
+youtube_1/catherine_mackinnon_2783,0107,grants,ratt,14,6
+youtube_1/catherine_mackinnon_2784,0107,hoth,h,15,4
+youtube_1/catherine_mackinnon_2785,0107,log,lil,12,3
+youtube_1/catherine_mackinnon_2786,0107,or tag,rtg,14,6
+youtube_1/catherine_mackinnon_2787,0107,nfb,nfb,19,3
+youtube_1/catherine_mackinnon_2788,0107,excted,eiofe,25,6
+youtube_1/catherine_mackinnon_2789,0107,nfb,nfb,13,3
+youtube_1/catherine_mackinnon_2790,0107,agretishp,aretiep,31,9
+youtube_1/catherine_mackinnon_2791,0107,ssg,oalg,12,4
+youtube_1/catherine_mackinnon_2792,0107,or,or,5,2
+youtube_1/catherine_mackinnon_2793,0107,dga,lg,13,3
+youtube_1/catherine_mackinnon_2794,0107,or,r,4,2
+youtube_1/catherine_mackinnon_2795,0107,or,b,10,2
+youtube_1/catherine_mackinnon_2796,0107,mixer,mixr,28,5
+youtube_1/catherine_mackinnon_2797,0107,stes,stos,27,4
+youtube_1/catherine_mackinnon_2798,0107,or,or,9,2
+youtube_1/catherine_mackinnon_2799,0107,kc,c,7,2
+youtube_1/catherine_mackinnon_2800,0107,craty,rti,11,5
+youtube_1/catherine_mackinnon_2801,0107,cast frw,ctrw,21,8
+youtube_1/catherine_mackinnon_2802,0107,fd,ed,6,2
+youtube_1/catherine_mackinnon_2803,0107,ok,p,11,2
+youtube_1/catherine_mackinnon_2804,0107,glee,lc,22,5
+youtube_1/catherine_mackinnon_2805,0107,jles dameron,lesdmfn,33,12
+youtube_1/catherine_mackinnon_2806,0107,glee,l,9,5
+youtube_1/catherine_mackinnon_2807,0107,wow,mw,18,3
+youtube_1/catherine_mackinnon_2808,0107,at,at,11,2
+youtube_1/catherine_mackinnon_2809,0107,hungry,hori,15,6
+youtube_1/catherine_mackinnon_2810,0107,crw,mw,15,3
+youtube_1/catherine_mackinnon_2811,0107,asl,sl,11,3
+youtube_1/catherine_mackinnon_2812,0107,lt,,3,2
+youtube_1/catherine_mackinnon_2813,0107,hamll,haml,20,6
+youtube_1/catherine_mackinnon_2814,0107,bio pic,biboc,23,7
+youtube_1/catherine_mackinnon_2815,0107,mat hamll,thol,29,10
+youtube_1/catherine_mackinnon_2816,0107,ufc utc,ufcratce,34,7
+youtube_1/catherine_mackinnon_2817,0107,tv,t,3,2
+youtube_1/catherine_mackinnon_2818,0107,reaity,ti,9,6
+youtube_1/catherine_mackinnon_2819,0107,co,bo,8,2
+youtube_1/catherine_mackinnon_2820,0107,fre,fric,12,3
+youtube_1/catherine_mackinnon_2821,0107,matt,tt,13,5
+youtube_1/catherine_mackinnon_2822,0107,ufc,fc,9,3
+youtube_1/catherine_mackinnon_2823,0107,rt,t,23,2
+youtube_1/catherine_mackinnon_2824,0107,cot,s,9,3
+youtube_1/catherine_mackinnon_2825,0107,fb,frb,15,2
+youtube_1/catherine_mackinnon_2826,0107,hamll the,hemleto,34,10
+youtube_1/catherine_mackinnon_2827,0107,demend it,omentia,35,9
+youtube_1/catherine_mackinnon_2828,0107,disribon,isrisonm,33,8
+youtube_1/catherine_mackinnon_2829,0107,hmll,hnll,16,5
+youtube_1/catherine_mackinnon_2830,0107,shoshoshna stern,ahehoshonastrn,80,16
+youtube_1/catherine_mackinnon_2831,0107,hml,ndo,10,3
+youtube_1/catherine_mackinnon_2832,0107,lexi merin,rloxymrn,40,10
+youtube_1/catherine_mackinnon_2833,0107,of,f,7,2
+youtube_1/catherine_mackinnon_2834,0107,jay,ia,13,3
+youtube_1/catherine_mackinnon_2835,0107,nyke prince,milchpor,31,11
+youtube_1/catherine_mackinnon_2836,0107,stcy larence,tlycin,45,12
+youtube_1/catherine_mackinnon_2837,0107,crty,rti,15,4
+youtube_1/catherine_mackinnon_2838,0107,sty lafnce,tie,24,10
+youtube_1/catherine_mackinnon_2839,0107,extra,rs,15,5
+youtube_1/catherine_mackinnon_2840,0107,mentor,menmor,27,6
+youtube_1/catherine_mackinnon_2841,0107,or,r,6,2
+youtube_1/catherine_mackinnon_2842,0107,ok,ok,10,2
+youtube_1/catherine_mackinnon_2843,0107,asl,l,12,3
+youtube_1/catherine_mackinnon_2844,0107,colabrion,ciolobiicon,31,9
+youtube_1/catherine_mackinnon_2845,0107,or,,6,2
+youtube_1/catherine_mackinnon_2846,0107,ft,ft,8,2
+youtube_1/don_grushkin_2301,0122,hammer,hamr,81,7
+youtube_1/don_grushkin_2302,0122,saw,oa,52,3
+youtube_1/don_grushkin_2303,0122,tols,tols,56,4
+youtube_1/don_grushkin_2304,0122,hammer,haer,27,7
+youtube_1/don_grushkin_2305,0122,nail,nai,25,4
+youtube_1/don_grushkin_2306,0122,saw,sam,27,3
+youtube_1/don_grushkin_2307,0122,screw,sscow,26,5
+youtube_1/don_grushkin_2308,0122,tool,tol,28,5
+youtube_1/don_grushkin_2309,0122,or,or,11,2
+youtube_1/don_grushkin_2310,0122,tools,tols,35,6
+youtube_1/don_grushkin_2311,0122,tool,tol,22,5
+youtube_1/don_grushkin_2312,0122,car tool,cartol,60,9
+youtube_1/don_grushkin_2313,0122,tool,tol,23,5
+youtube_1/don_grushkin_2314,0122,toll,tol,22,5
+youtube_1/don_grushkin_2315,0122,ta,ta,10,2
+youtube_1/don_grushkin_2316,0122,tool,tol,18,5
+youtube_1/don_grushkin_2317,0122,tool,tol,41,5
+youtube_1/don_grushkin_2318,0122,tool,tol,15,5
+youtube_1/don_grushkin_2319,0122,tool,tol,23,5
+youtube_1/don_grushkin_2320,0122,tool,tol,21,5
+youtube_1/don_grushkin_2321,0122,use,voe,33,3
+youtube_1/don_grushkin_2322,0122,use,uso,31,3
+youtube_1/don_grushkin_2323,0122,asl,asl,33,3
+youtube_1/don_grushkin_2324,0122,tool,tocl,38,5
+youtube_1/don_grushkin_2325,0122,use,roe,22,3
+youtube_1/don_grushkin_2326,0122,tool,tol,28,5
+youtube_1/don_grushkin_2327,0122,tool,tol,24,5
+youtube_1/don_grushkin_2328,0122,tool,tocl,31,5
+youtube_1/don_grushkin_2329,0122,asl,asl,22,3
+youtube_1/don_grushkin_2330,0122,toll,tll,12,5
+youtube_1/don_grushkin_2331,0122,speak asl,spekasl,92,9
+youtube_1/don_grushkin_2332,0122,speak spak,sgpekspok,65,10
+youtube_1/don_grushkin_2333,0122,speak spak,spekspok,81,10
+youtube_1/don_grushkin_2334,0122,asl,ar,17,3
+youtube_1/don_grushkin_2335,0122,use,roe,26,3
+youtube_1/don_grushkin_2758,0122,iphne,ioke,37,5
+youtube_1/don_grushkin_2759,0122,feature applilion,featreapilin,117,18
+youtube_1/don_grushkin_2760,0122,siri,siri,50,4
+youtube_1/don_grushkin_2761,0122,email,eil,32,5
+youtube_1/don_grushkin_2762,0122,siri,sibi,21,4
+youtube_1/don_grushkin_2763,0122,but,ut,12,3
+youtube_1/don_grushkin_2764,0122,onts,nte,18,4
+youtube_1/don_grushkin_2765,0122,but,brts,41,3
+youtube_1/don_grushkin_2766,0122,ton,sn,32,3
+youtube_1/don_grushkin_2767,0122,cash regsters,caohrgostrst,68,13
+youtube_1/don_grushkin_2768,0122,thn,tho,41,3
+youtube_1/don_grushkin_2769,0122,text,texs,37,4
+youtube_1/don_grushkin_2770,0122,text,tet,35,4
+youtube_1/don_grushkin_2771,0122,tbn,,15,3
+youtube_1/don_grushkin_2772,0122,thn,o,15,3
+youtube_1/don_grushkin_2773,0122,siri,siri,46,4
+youtube_1/don_grushkin_2774,0122,science fiction,scyonofictirn,98,15
+youtube_1/don_grushkin_2775,0122,free,fco,24,5
+youtube_1/don_grushkin_2776,0122,siri,siri,47,4
+youtube_1/melvin_patterson_2336,0108,feb,feb,15,3
+youtube_1/melvin_patterson_2337,0108,dr pady ladd,dradilad,62,13
+youtube_1/melvin_patterson_2338,0108,dfhd foundation,defhed ferkndation,86,15
+youtube_1/melvin_patterson_2339,0108,dhf,dhf,23,3
+youtube_1/melvin_patterson_2340,0108,deanne bray,deanebty,64,12
+youtube_1/melvin_patterson_2341,0108,raja rajeshwari,uaiarayeshwovi,88,15
+youtube_1/melvin_patterson_2342,0108,dfhd dfhd,dafheodesfhd,84,9
+youtube_1/melvin_patterson_2343,0108,deanne bray,deanera,42,12
+youtube_1/melvin_patterson_2344,0108,dhf,dhf,21,3
+youtube_1/melvin_patterson_2345,0108,defhd,deifhes,30,5
+youtube_1/melvin_patterson_2346,0108,defhd,dafheed,30,5
+youtube_1/melvin_patterson_2347,0108,feb,fb,9,3
+youtube_1/melvin_patterson_2349,0108,melvin paterson,meluvinateron,99,15
+youtube_1/melvin_patterson_2350,0108,deane bray,deanebkty,60,10
+youtube_1/melvin_patterson_2351,0108,deafhood foundation,desfhedferndaion,83,20
+youtube_1/melvin_patterson_2352,0108,pasion,pasion,32,6
+youtube_1/melvin_patterson_2353,0108,dhf,dhf,27,3
+youtube_1/melvin_patterson_2356,0108,defhood,desfhed,35,8
+youtube_1/melvin_patterson_2357,0108,dr pady ladd,drpailad,74,13
+youtube_1/melvin_patterson_2358,0108,defhood,defed,30,8
+youtube_1/melvin_patterson_2359,0108,dean bray,daobny,32,9
+youtube_1/melvin_patterson_2363,0108,pc,o,12,2
+youtube_1/melvin_patterson_2364,0108,mac,m,14,3
+youtube_1/melvin_patterson_2365,0108,dean bay,deanbs,34,8
+youtube_1/melvin_patterson_2367,0108,deafhooyd yoga,deifhidiopa,63,15
+youtube_1/melvin_patterson_2369,0108,defhood yoga,efhedia,47,13
+youtube_1/shoshannah_stern_2370,0109,map,ma,16,3
+youtube_1/shoshannah_stern_2371,0109,door,or,13,5
+youtube_1/shoshannah_stern_2372,0109,so,so,16,2
+youtube_1/shoshannah_stern_2373,0109,tony,toy,16,4
+youtube_1/shoshannah_stern_2374,0109,m m,mw,14,3
+youtube_1/shoshannah_stern_2375,0109,m m,m,6,3
+youtube_1/shoshannah_stern_2376,0109,oscar,obnh,16,5
+youtube_1/shoshannah_stern_2377,0109,to,,6,2
+youtube_1/shoshannah_stern_2378,0109,are all,trsl,20,8
+youtube_1/shoshannah_stern_2379,0109,to,st,8,2
+youtube_1/shoshannah_stern_2380,0109,out,ort,15,3
+youtube_1/shoshannah_stern_2381,0109,modern,mdern,27,6
+youtube_1/shoshannah_stern_2382,0109,lens,lens,16,4
+youtube_1/shoshannah_stern_2383,0109,ada,ada,16,3
+youtube_1/shoshannah_stern_2384,0109,of asl,ofasl,32,6
+youtube_1/shoshannah_stern_2385,0109,of,,4,2
+youtube_1/shoshannah_stern_2386,0109,asl,asl,14,3
+youtube_1/shoshannah_stern_2387,0109,mainsteam,mainsto,32,9
+youtube_1/shoshannah_stern_2388,0109,it,it,8,2
+youtube_1/shoshannah_stern_2389,0109,so,a,5,2
+youtube_1/shoshannah_stern_2390,0109,asl,al,9,3
+youtube_1/shoshannah_stern_2391,0109,so,so,15,2
+youtube_1/shoshannah_stern_2392,0109,mark medoff,markmelifm,32,12
+youtube_1/shoshannah_stern_2393,0109,way,ray,12,3
+youtube_1/shoshannah_stern_2394,0109,extrmes,os,23,7
+youtube_1/shoshannah_stern_2395,0109,so,s,6,2
+youtube_1/shoshannah_stern_2396,0109,hurt,t,25,4
+youtube_1/shoshannah_stern_2397,0109,to,,6,2
+youtube_1/shoshannah_stern_2398,0109,to,tos,10,2
+youtube_3/ben_bahan_4523,0110,cop,ok,15,3
+youtube_3/ben_bahan_4524,0110,mayor,mar,29,5
+youtube_3/ben_bahan_4525,0110,do,,5,2
+youtube_3/ben_bahan_4526,0110,whisperer,mhispeur,56,9
+youtube_3/ben_bahan_4527,0110,care,caue,20,4
+youtube_3/ben_bahan_4528,0110,do,,11,2
+youtube_3/ben_bahan_4529,0110,fun,fn,18,3
+youtube_3/ben_bahan_4530,0110,bus,bres,22,3
+youtube_3/ben_bahan_4531,0110,mayo,oy,11,4
+youtube_3/ben_bahan_4532,0110,ok,ek,26,2
+youtube_3/ben_bahan_4533,0110,ok,ok,17,2
+youtube_3/ben_bahan_4534,0110,tck,trk,24,3
+youtube_3/ben_bahan_4535,0110,baa,ba,56,4
+youtube_3/ben_bahan_4536,0110,baa,ba,14,4
+youtube_3/ben_bahan_4537,0110,baa,a,78,4
+youtube_4/howard_rosenblum_5559,0111,aha,pa,27,3
+youtube_4/howard_rosenblum_5560,0111,immigrants,imgonts,30,11
+youtube_4/howard_rosenblum_5561,0111,us,o,13,2
+youtube_4/howard_rosenblum_5562,0111,fr,ofr,10,2
+youtube_4/howard_rosenblum_5563,0111,ice,ico,24,3
+youtube_4/howard_rosenblum_5564,0111,ice,ice,19,3
+youtube_4/howard_rosenblum_5565,0111,customa enforcement,custesencet,54,19
+youtube_4/howard_rosenblum_5566,0111,ice,ce,10,3
+youtube_4/howard_rosenblum_5567,0111,vido,veidn,16,4
+youtube_4/howard_rosenblum_5568,0111,cuonil de manos,coilemsnrces,62,15
+youtube_4/howard_rosenblum_5569,0111,aclu,aelu,41,4
+youtube_4/howard_rosenblum_5570,0111,cill,ill,17,5
+youtube_4/howard_rosenblum_5571,0111,unin,uin,18,4
+youtube_4/howard_rosenblum_5572,0111,aclu,scelu,16,4
+youtube_4/howard_rosenblum_5573,0111,us,o,16,2
+youtube_4/howard_rosenblum_5574,0111,do,do,14,2
+youtube_4/howard_rosenblum_5575,0111,nad,ad,18,3
+youtube_4/howard_rosenblum_5576,0111,ice,ice,20,3
+youtube_4/howard_rosenblum_5577,0111,cdi,cdi,21,3
+youtube_4/howard_rosenblum_5578,0111,if,if,6,2
+youtube_4/lizzie_sorkin_(nad)_5245,0112,grassrots,aesrst,23,10
+youtube_4/lizzie_sorkin_(nad)_5246,0112,dgm,ogm,21,3
+youtube_4/lizzie_sorkin_(nad)_5247,0112,flint,flvt,21,5
+youtube_4/lizzie_sorkin_(nad)_5248,0112,standing rock,standigrck,63,13
+youtube_4/lizzie_sorkin_(nad)_5249,0112,dapl,daap,44,4
+youtube_4/lizzie_sorkin_(nad)_5250,0112,muslim,meuslim,27,6
+youtube_4/lizzie_sorkin_(nad)_5251,0112,dmag,mg,24,4
+youtube_4/lizzie_sorkin_(nad)_5252,0112,civic resistnace,civicesitoce,86,16
+youtube_4/lizzie_sorkin_(nad)_5253,0112,nad,n,12,3
+youtube_4/lizzie_sorkin_(nad)_5254,0112,resistnce,esistece,36,9
+youtube_4/sean_berdy_5728,0113,well,vel,24,5
+youtube_4/sean_berdy_5729,0113,not,rst,11,3
+youtube_4/sean_berdy_5730,0113,flow,flew,16,4
+youtube_4/sean_berdy_5731,0113,songs,ega,17,5
+youtube_4/sean_berdy_5732,0113,profoundly,hreferndy,34,10
+youtube_4/sean_berdy_5733,0113,deaf,deaf,15,4
+youtube_4/sean_berdy_5734,0113,poem,hes,19,4
+youtube_4/sean_berdy_5735,0113,so,ae,8,2
+youtube_4/sean_berdy_5736,0113,script,oa,18,6
+youtube_4/sean_berdy_5737,0113,video,vis,15,5
+youtube_4/sean_berdy_5738,0113,producing,rodeig,22,9
+youtube_4/sean_berdy_5741,0113,own,en,10,3
+youtube_4/sean_berdy_5742,0113,co,s,5,2
+youtube_4/sean_berdy_5743,0113,co,o,7,2
+youtube_4/sean_berdy_5744,0113,sean berdy entertainment,seasmberdynteratainent,96,24
+youtube_4/sean_berdy_5747,0113,abc,asb,12,3
+youtube_4/sean_berdy_5748,0113,cast,st,17,4
+youtube_4/sean_berdy_5749,0113,lizzie,eny,11,7
+youtube_4/sean_berdy_5750,0113,asl,asd,16,3
+youtube_4/sean_berdy_5751,0113,consultant,enuletnm,41,10
+youtube_4/sean_berdy_5752,0113,episodes,ohl,15,8
+youtube_4/sean_berdy_5753,0113,whirlwind,din,18,9
+youtube_4/sean_berdy_5754,0113,things,n,8,6
+youtube_4/sean_berdy_5755,0113,love,heh,9,4
+youtube_4/sean_berdy_5756,0113,emmett,o,7,8
+youtube_4/sean_berdy_5757,0113,crew did,wld,16,8
+youtube_4/sean_berdy_5758,0113,it,t,6,2
+youtube_4/tim_albert_5263,0114,tim albebt,timalt,44,10
+youtube_4/tim_albert_5264,0114,nbda,nbda,23,4
+youtube_4/tim_albert_5265,0114,nbda,nbda,21,4
+youtube_4/tim_albert_5266,0114,advocates nbda,adrmcatesonba,76,14
+youtube_4/tim_albert_5267,0114,ntid,ttixe,37,4
+youtube_4/tim_albert_5268,0114,ntid,ntd,22,4
+youtube_4/tim_albert_5269,0114,st paul minn,starlin,64,13
+youtube_4/tim_albert_5270,0114,minn,rinnn,29,5
+youtube_4/tim_albert_5271,0114,ntid,ttiz,26,4
+youtube_4/tim_albert_5272,0114,minn,rim,13,5
+youtube_4/tim_albert_5273,0114,fla,ofla,14,3
+youtube_4/tim_albert_5274,0114,mic,oi,10,3
+youtube_4/tim_albert_5275,0114,so,so,17,2
+youtube_4/tim_albert_5276,0114,ylt,ylt,23,3
+youtube_4/tim_albert_5277,0114,tim,tim,14,3
+youtube_4/tim_albert_5278,0114,tim,o,6,3
+youtube_4/tim_albert_5279,0114,tim,ti,6,3
+youtube_4/tim_albert_5280,0114,ylt,yt,14,3
+youtube_4/tim_albert_5281,0114,so,asc,21,2
+youtube_4/tim_albert_5282,0114,ylt,yls,29,3
+youtube_4/tim_albert_5283,0114,ntid,d,30,4
+youtube_4/tim_albert_5284,0114,ntid,ni,10,4
+youtube_5/caroline_jackson_5848,0115,nad,nd,12,3
+youtube_5/caroline_jackson_5849,0115,mountain states health allice,morntinstatesheoslthalyc,152,30
+youtube_5/caroline_jackson_5850,0115,jhnson cty h,jhnsencstyh,63,12
+youtube_5/caroline_jackson_5851,0115,johnson cty tenn,jehnsenctyten,102,17
+youtube_5/caroline_jackson_5852,0115,tenn,ten,17,5
+youtube_5/caroline_jackson_5853,0115,vri,ui,16,3
+youtube_5/caroline_jackson_5854,0115,sydney catell,saydnicazel,68,14
+youtube_5/caroline_jackson_5855,0115,chris catell,chiscael,50,13
+youtube_5/caroline_jackson_5856,0115,dona carell,denacsrel,50,12
+youtube_5/caroline_jackson_5857,0115,cancer,cancr,41,6
+youtube_5/caroline_jackson_5858,0115,dec,d,11,3
+youtube_5/caroline_jackson_5859,0115,days,da,38,4
+youtube_5/caroline_jackson_5860,0115,vri,i,15,3
+youtube_5/caroline_jackson_5861,0115,hystecl,histol,43,7
+youtube_5/caroline_jackson_5862,0115,nad,nd,13,3
+youtube_5/caroline_jackson_5863,0115,disabity,disbity,51,8
+youtube_5/caroline_jackson_5864,0115,tenn,tnon,29,5
+youtube_5/caroline_jackson_5865,0115,johnso city,jsectt,50,11
+youtube_5/caroline_jackson_5866,0115,allice,alie,25,7
+youtube_5/caroline_jackson_5867,0115,ada,ada,23,3
+youtube_5/daniel_durant_5875,0116,daniel durant,danielvsnt,70,13
+youtube_5/daniel_durant_5876,0116,live,li,12,4
+youtube_5/daniel_durant_5877,0116,tv,av,7,2
+youtube_5/daniel_durant_5878,0116,dtv,tv,8,3
+youtube_5/daniel_durant_5879,0116,at,t,7,2
+youtube_5/daniel_durant_5880,0116,switched at,swyepat,28,11
+youtube_5/daniel_durant_5881,0116,all crew cast,sllurrwas,43,14
+youtube_5/daniel_durant_5882,0116,set,sc,22,3
+youtube_5/daniel_durant_5883,0116,rolling,uolng,24,8
+youtube_5/daniel_durant_5884,0116,all,sli,8,4
+youtube_5/daniel_durant_5885,0116,crew,crew,17,4
+youtube_5/daniel_durant_5886,0116,all,l,6,4
+youtube_5/daniel_durant_5887,0116,asl,al,8,3
+youtube_5/daniel_durant_5888,0116,well,ul,9,5
+youtube_5/daniel_durant_5889,0116,moritz,oulyats,39,6
+youtube_5/daniel_durant_5890,0116,rich,uych,14,4
+youtube_5/daniel_durant_5891,0116,fans,fan,13,4
+youtube_5/daniel_durant_5892,0116,out,ut,7,3
+youtube_5/daniel_durant_5893,0116,or cd or cast,rcercas,41,13
+youtube_5/daniel_durant_5894,0116,switched bi at,swiedbitap,37,14
+youtube_5/daniel_durant_5895,0116,fans,aus,13,4
+youtube_5/daniel_durant_5896,0116,do it,is,10,5
+youtube_5/debra_patkin_5786,0117,debra patkin,debrapatkin,82,12
+youtube_5/debra_patkin_5787,0117,of,f,3,2
+youtube_5/debra_patkin_5788,0117,nad,nar,24,3
+youtube_5/debra_patkin_5789,0117,rit,rit,23,3
+youtube_5/debra_patkin_5790,0117,bs,bs,13,2
+youtube_5/debra_patkin_5791,0117,ma,a,9,2
+youtube_5/debra_patkin_5792,0117,ucla,rrla,30,4
+youtube_5/debra_patkin_5793,0117,jd,id,13,2
+youtube_5/debra_patkin_5794,0117,da,da,9,2
+youtube_5/debra_patkin_5795,0117,nad,nad,20,3
+youtube_5/jeffrey_spinale_6039,0118,lesbians gays bisxual,lesynsygysbisl,63,21
+youtube_5/jeffrey_spinale_6040,0118,lgbt,lt,15,4
+youtube_5/jeffrey_spinale_6041,0118,details,oayls,15,7
+youtube_5/jeffrey_spinale_6042,0118,fundig,fndig,17,6
+youtube_5/jeffrey_spinale_6043,0118,all,,3,4
+youtube_5/jeffrey_spinale_6044,0118,outeach,outch,21,7
+youtube_5/jeffrey_spinale_6045,0118,welless,rlue,16,9
+youtube_5/jeffrey_spinale_6046,0118,dirctory,dicri,19,8
+youtube_5/jeffrey_spinale_6047,0118,ylc,il,10,3
+youtube_5/jeffrey_spinale_6048,0118,ok,or,8,2
+youtube_5/jeffrey_spinale_6049,0118,n,,9,1
+youtube_5/jeffrey_spinale_6050,0118,fest,est,12,4
+youtube_5/jeffrey_spinale_6051,0118,lgbt,lclt,20,4
+youtube_5/jeffrey_spinale_6052,0118,apil,d,7,4
+youtube_5/jeffrey_spinale_6053,0118,tips,ipo,12,4
+youtube_5/jeffrey_spinale_6054,0118,rainbow sity,uainwowsit,47,12
+youtube_5/jeffrey_spinale_6055,0118,lgbt cub,ltc,21,8
+youtube_5/jeffrey_spinale_6056,0118,nad,nad,16,3
+youtube_5/jeffrey_spinale_6057,0118,ylc,yl,10,3
+youtube_5/jeffrey_spinale_6058,0118,sbg,sbg,16,3
+youtube_5/jeffrey_spinale_6059,0118,body,ody,8,4
+youtube_5/jeffrey_spinale_6060,0118,fest,fst,13,4
+youtube_5/jeffrey_spinale_6061,0118,ylc,ilo,10,3
+youtube_5/melissa_draganac-hawk_5833,0119,md,md,23,2
+youtube_5/melissa_draganac-hawk_5834,0119,council of,coronilof,47,10
+youtube_5/melissa_draganac-hawk_5835,0119,raitionle,ritondig,31,9
+youtube_5/melissa_draganac-hawk_5836,0119,asl,asl,13,3
+youtube_5/melissa_draganac-hawk_5837,0119,weite,oit,13,5
+youtube_5/melissa_draganac-hawk_5838,0119,nad,nad,24,3
+youtube_5/melissa_draganac-hawk_5839,0119,all,il,17,4
+youtube_5/melissa_draganac-hawk_5840,0119,hartfrd conn,narterdeon,58,13
+youtube_5/melissa_draganac-hawk_5841,0119,asd,asd,20,3
+youtube_5/melissa_draganac-hawk_5842,0119,nad,nkl,14,3
+youtube_5/melissa_draganac-hawk_5843,0119,nbda,ncda,22,4
+youtube_5/melissa_draganac-hawk_5844,0119,tim alert,tioart,38,9
+youtube_5/melissa_draganac-hawk_5845,0119,emt,omt,14,3
+youtube_5/melissa_draganac-hawk_5846,0119,or,re,13,2
+youtube_5/melissa_draganac-hawk_5847,0119,met,met,17,3
+youtube_5/roberta_cordano_6124,0123,ck,k,14,2
+youtube_5/roberta_cordano_6125,0123,kate,pate,15,4
+youtube_5/roberta_cordano_6126,0123,vp,up,24,2
+youtube_5/roberta_cordano_6127,0123,asociate povost,asocyatreporoet,61,15
+youtube_5/roberta_cordano_6128,0123,vpapedi,rpapedi,46,7
+youtube_5/roberta_cordano_6129,0123,cdo,cdo,25,3
+youtube_5/roberta_cordano_6130,0123,vpapedi,vpape,33,7
+youtube_5/roberta_cordano_6131,0123,cdo,cdo,14,3
+youtube_5/roberta_cordano_6132,0123,co,c,6,2
+youtube_5/roberta_cordano_6133,0123,kafi lemons,kailenst,45,11
+youtube_5/roberta_cordano_6134,0123,adm,adm,13,3
+youtube_5/roberta_cordano_6135,0123,mary ann sereth,mtrisrnsereth,80,16
+youtube_5/roberta_cordano_6136,0123,at,t,8,2
+youtube_5/roberta_cordano_6137,0123,model,moel,20,5
+youtube_5/roberta_cordano_6138,0123,mssd,ossrd,26,5
+youtube_5/roberta_cordano_6139,0123,if,of,12,2
+youtube_5/roberta_cordano_6140,0123,all,ap,15,4
+youtube_5/roberta_cordano_6141,0123,stakeholders,atakehdert,36,12
+youtube_5/roberta_cordano_6142,0123,all,l,21,4
+youtube_5/roberta_cordano_6143,0123,upates,kae,15,6
+youtube_5/roberta_cordano_6144,0123,co,co,9,2
+youtube_5/roberta_cordano_6145,0123,by,bi,22,2
+youtube_5/roberta_cordano_6146,0123,all,al,12,4
+youtube_5/roberta_cordano_6147,0123,vpapedi,rpokodi,37,7
+youtube_5/roberta_cordano_6148,0123,cdo,cdo,27,3
+youtube_5/roberta_cordano_6149,0123,do,o,6,2
+youtube_5/roberta_cordano_6150,0123,dr maftin luther,prmblidnbrter,47,16
+youtube_5/roberta_cordano_6151,0123,ir,ir,25,2
+youtube_5/roberta_cordano_6152,0123,ek,k,15,2
+youtube_5/roberta_cordano_6153,0123,sfe,tfe,10,3
+youtube_5/roberta_cordano_6154,0123,ck,crk,8,2
+youtube_5/sean_berdy_6078,0113,it,it,12,2
+youtube_5/sean_berdy_6079,0113,emmett,emet,19,8
+youtube_5/sean_berdy_6080,0113,of,of,14,2
+youtube_5/sean_berdy_6081,0113,he cope,hche,20,7
+youtube_5/sean_berdy_6082,0113,season,ssn,14,6
+youtube_5/sean_berdy_6083,0113,well,og,21,5
+youtube_5/sean_berdy_6084,0113,at,at,8,2
+youtube_5/sean_berdy_6085,0113,there,h,5,5
+youtube_5/sean_berdy_6086,0113,violence,uiooe,30,8
+youtube_5/sean_berdy_6087,0113,of,of,8,2
+youtube_5/sean_berdy_6088,0113,fit,oft,11,3
+youtube_5/sean_berdy_6089,0113,well,w,26,5
+youtube_5/sean_berdy_6090,0113,emmett do,etlo,19,11
+youtube_5/sean_berdy_6091,0113,friendship,relsh,27,10
+youtube_5/sean_berdy_6092,0113,bay,a,17,3
+youtube_5/sean_berdy_6093,0113,well,w,9,5
+youtube_5/sean_berdy_6094,0113,ett,a,10,4
+youtube_5/sean_berdy_6095,0113,of,,4,2
+youtube_5/sean_berdy_6096,0113,her,n,5,3
+youtube_5/sean_berdy_6097,0113,ipf,p,12,3
+youtube_5/sean_berdy_6098,0113,cope,h,11,4
+youtube_5/sean_berdy_6099,0113,fit,ft,8,3
+youtube_5/sean_berdy_6100,0113,of,if,5,2
+youtube_5/sean_berdy_6101,0113,well,wl,8,5
+youtube_5/sean_berdy_6102,0113,emmett he,metahe,46,11
+youtube_5/sean_berdy_6103,0113,season,eson,21,6
+youtube_5/sean_berdy_6104,0113,all,al,4,4
+youtube_5/sean_berdy_6105,0113,him,hi,15,3
+youtube_5/sean_berdy_6106,0113,well,o,6,5
+youtube_5/sean_berdy_6107,0113,too,to,9,4
+youtube_5/sean_berdy_6108,0113,wel,wl,8,3
+youtube_5/sean_berdy_6109,0113,drumming,umyng,27,9
+youtube_5/sean_berdy_6110,0113,ett,et,7,4
+youtube_5/sean_berdy_6111,0113,drum,ro,10,4
+youtube_5/sean_berdy_6112,0113,emtt,et,11,5
+youtube_5/sean_berdy_6113,0113,scan,ssm,16,4
+youtube_5/sean_berdy_6114,0113,in,it,7,2
+youtube_5/sean_berdy_6115,0113,concert alike,coraaliue,37,13
+youtube_5/sean_berdy_6116,0113,um,m,16,2
+youtube_5/sean_berdy_6117,0113,are,ue,9,3
+youtube_5/sean_berdy_6118,0113,but,bt,15,3
+youtube_5/sean_berdy_6119,0113,do,do,6,2
+youtube_5/sean_berdy_6120,0113,of it,it,12,5
+youtube_5/sean_berdy_6121,0113,season,esn,15,6
+youtube_5/sean_berdy_6122,0113,fans,fn,8,4
+youtube_5/sean_berdy_6123,0113,of it,it,10,5
+youtube_5/tanea_brown_6028,0120,tanea brown,taneabown,53,11
+youtube_5/tanea_brown_6029,0120,yap,iap,17,3
+youtube_5/tanea_brown_6030,0120,ambassdor,ambasderr,47,10
+youtube_5/tanea_brown_6031,0120,nad,nad,12,3
+youtube_5/tanea_brown_6032,0120,poc,pc,12,3
+youtube_5/tanea_brown_6033,0120,of,of,5,2
+youtube_5/tanea_brown_6034,0120,us,s,4,2
+youtube_5/tanea_brown_6035,0120,website,rebesite,30,7
+youtube_5/tanea_brown_6036,0120,up,p,9,2
+youtube_5/tanea_brown_6037,0120,poc,c,10,3
+youtube_5/tanea_brown_6038,0120,utah,uth,16,4
+youtube_6/myles_de_bastion_6517,0121,myles,oiless,34,5
+youtube_6/myles_de_bastion_6518,0121,camaspace,camapce,71,9
+youtube_6/myles_de_bastion_6519,0121,great,reat,45,5
+youtube_6/myles_de_bastion_6520,0121,cymaspace,imsse,70,9
+youtube_6/myles_de_bastion_6521,0121,asl,al,19,3
+youtube_6/myles_de_bastion_6522,0121,all,,16,4
+youtube_6/myles_de_bastion_6523,0121,all senses,aidnsns,56,11
+youtube_6/myles_de_bastion_6524,0121,all senses,alossensns,49,11
+youtube_6/myles_de_bastion_6525,0121,fetre,idnuere,38,5
+youtube_6/myles_de_bastion_6526,0121,electronics,elebtrresrics,82,11
+youtube_6/myles_de_bastion_6527,0121,open source,sensre,79,11
+youtube_6/myles_de_bastion_6528,0121,frequency,erennecy,86,9
+youtube_6/myles_de_bastion_6529,0121,brain,busaivn,48,5
+youtube_6/myles_de_bastion_6530,0121,all,l,15,4
+youtube_6/myles_de_bastion_6531,0121,senses,stsnns,30,6
+youtube_6/myles_de_bastion_6532,0121,senses,asnsnn,41,6
+youtube_6/roberta_cordano_6466,0123,bobbi cordano,bbicobano,41,14
+youtube_6/roberta_cordano_6467,0123,provost cabol erting,prowostcabolebimng,73,20
+youtube_6/roberta_cordano_6468,0123,vp ron stern,vpcbonsern,52,12
+youtube_6/roberta_cordano_6469,0123,task fce,task fbce,42,8
+youtube_6/roberta_cordano_6470,0123,frame wouk,fbobewbk,33,10
+youtube_6/roberta_cordano_6471,0123,co chairs,botirs,32,9
+youtube_6/roberta_cordano_6472,0123,dr jefrey lewis,drieileris,67,15
+youtube_6/roberta_cordano_6473,0123,dept,ept,14,4
+youtube_6/roberta_cordano_6474,0123,dr kristin mulrooney,prkbystirnmrlconey,111,21
+youtube_6/roberta_cordano_6475,0123,dept,dept,16,4
+youtube_6/roberta_cordano_6476,0123,feb,feb,12,3
+youtube_6/roberta_cordano_6477,0123,by,y,8,2
+youtube_6/roberta_cordano_6478,0123,feb,feb,12,3
+youtube_6/roberta_cordano_6479,0123,ok,ok,8,2
+youtube_6/roberta_cordano_6480,0123,by,by,7,2

@@ -1,0 +1,227 @@
+{
+  "configuration_changes": {
+    "pilot_seconds_budget": {
+      "before": 600,
+      "after": 900.0
+    },
+    "max_epochs": {
+      "before": 15,
+      "after": 60
+    }
+  },
+  "epochs": [
+    {
+      "epoch": 0,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0
+      }
+    },
+    {
+      "epoch": 1,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 2,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 3,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 4,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 5,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 6,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 7,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 8,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 9,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 10,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 11,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 12,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 13,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 14,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    },
+    {
+      "epoch": 15,
+      "exact_equal": true,
+      "within_tolerance": true,
+      "deltas": {
+        "cer": 0.0,
+        "character_edits": 0.0,
+        "exact": 0.0,
+        "empty": 0.0,
+        "ctc_loss": 0.0,
+        "training_loss": 0.0
+      }
+    }
+  ],
+  "all_exact": true,
+  "all_within_tolerance": true,
+  "tolerance": {
+    "rtol": 1e-06,
+    "atol": 1e-07
+  }
+}

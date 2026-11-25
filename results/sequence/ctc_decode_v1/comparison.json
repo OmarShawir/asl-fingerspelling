@@ -1,0 +1,44 @@
+{
+  "metrics": {
+    "greedy": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2121,
+      "cer": 0.4270183209180592,
+      "exact": 170,
+      "exact_accuracy": 0.1738241308793456,
+      "empty": 17,
+      "empty_rate": 0.017382413087934562,
+      "mean_decoding_ms": 0.2267989912070334,
+      "p95_decoding_ms": 0.5086559278424829
+    },
+    "prefix_beam": {
+      "sequences": 978,
+      "reference_characters": 4967,
+      "character_edits": 2056,
+      "cer": 0.41393195087578016,
+      "exact": 177,
+      "exact_accuracy": 0.18098159509202455,
+      "empty": 13,
+      "empty_rate": 0.013292433537832311,
+      "mean_decoding_ms": 3.540985216719912,
+      "p95_decoding_ms": 9.786106320098042
+    }
+  },
+  "selected": "prefix_beam",
+  "elapsed_seconds": 13.667190929001663,
+  "budget_seconds": 900,
+  "threads_note": "single-thread Python decoder; timings include log-softmax and incremental decoding, exclude loading and model inference",
+  "tie_rule": "greedy on equal validation CER; beam prefix score ties lexicographic token IDs",
+  "provenance": {
+    "models/sequence/gru_ctc_long_v1.pt": "762d11636d38f35ae8590fbef6bfb9edd2687b5f0acdd5c027dba063146973fc",
+    "results/sequence/gru_ctc_long_v1/report.json": "779bdfb3d23edf5d7aee4b1275b3fb07bb4600b107a689e254e7cd2450aac418",
+    "results/sequence/gru_ctc_long_v1/vocabulary.json": "c9448608be9a6cc56f2683fcc4ce8d27ff7077e821ac04c46935d3cf20a5ae4a",
+    "results/sequence/gru_ctc_long_v1/validation_predictions.csv": "66cf42714ead510c41d82b1a8d5a231474401b8d894d3faf6fcc5d9c74c2837b",
+    "results/sequence/gru_ctc_long_v1/validation_predictions.json": "2aee50b2e46ffee690165d5ef10937394eec418db10f336c24ad59129a54e090",
+    "results/sequence/gru_ctc_long_v1/validation_predictions_logits.npz": "899d44107d59efb5741ec8b4a1ff18100782666d2846009fa53d8a0ca9f788e4",
+    "asl_sequence_audit/results/pilot_validation_ids.txt": "94fc3c312820837e93133775dfcf586e4d4ab6c5d48be93a33286887980ffdea"
+  },
+  "no_training": true,
+  "test_inference": false
+}

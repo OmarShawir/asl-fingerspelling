@@ -1,0 +1,1023 @@
+{
+  "checkpoint_sha256": "f26200e9da636868ed8ae31ab958fcbe76f3edfe64b288b59c2792084efd06d6",
+  "labels": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+  ],
+  "person": "p01",
+  "session": "s02",
+  "correct": 27,
+  "total": 41,
+  "frames": 1726,
+  "valid_frames": 1722,
+  "clips": [
+    {
+      "clip_id": "03d7d12bcc8a441daa464dce56a360b9",
+      "target": "N",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.9948078393936157,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.9948078393936157
+        },
+        {
+          "letter": "Q",
+          "score": 0.001862119883298874
+        },
+        {
+          "letter": "M",
+          "score": 0.001308664446696639
+        }
+      ],
+      "frames": 111,
+      "valid_frames": 111,
+      "correct": true
+    },
+    {
+      "clip_id": "0e3e3195845344d1ab94cee382c41870",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9993513822555542,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9993513822555542
+        },
+        {
+          "letter": "T",
+          "score": 0.0004920069477520883
+        },
+        {
+          "letter": "Y",
+          "score": 7.864777580834925e-05
+        }
+      ],
+      "frames": 39,
+      "valid_frames": 39,
+      "correct": true
+    },
+    {
+      "clip_id": "1976eeb28c1d4fa88bb13612c3bef743",
+      "target": "N",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.9797408580780029,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.9797408580780029
+        },
+        {
+          "letter": "M",
+          "score": 0.016739817336201668
+        },
+        {
+          "letter": "I",
+          "score": 0.002292918274179101
+        }
+      ],
+      "frames": 48,
+      "valid_frames": 48,
+      "correct": true
+    },
+    {
+      "clip_id": "27d3d169f2c940c38f0e1cee801eea37",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9997000694274902,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9997000694274902
+        },
+        {
+          "letter": "S",
+          "score": 0.00016597870853729546
+        },
+        {
+          "letter": "T",
+          "score": 0.00010445509542478248
+        }
+      ],
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "27ea5a5bbb0d4b93886c59ef2e947b94",
+      "target": "N",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.9982718229293823,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.9982718229293823
+        },
+        {
+          "letter": "Q",
+          "score": 0.0006071766838431358
+        },
+        {
+          "letter": "C",
+          "score": 0.00047977393842302263
+        }
+      ],
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "2e15da82170949eb9bacac8bb82bc5f0",
+      "target": "S",
+      "hand": "left",
+      "prediction": "I",
+      "confidence": 0.8831934928894043,
+      "top3": [
+        {
+          "letter": "I",
+          "score": 0.8831934928894043
+        },
+        {
+          "letter": "E",
+          "score": 0.09002741426229477
+        },
+        {
+          "letter": "S",
+          "score": 0.026682835072278976
+        }
+      ],
+      "frames": 38,
+      "valid_frames": 38,
+      "correct": false
+    },
+    {
+      "clip_id": "33c96a42b4894d55affac8523a2b1e00",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9971938729286194,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9971938729286194
+        },
+        {
+          "letter": "Y",
+          "score": 0.0014988756738603115
+        },
+        {
+          "letter": "T",
+          "score": 0.0009400141425430775
+        }
+      ],
+      "frames": 41,
+      "valid_frames": 41,
+      "correct": true
+    },
+    {
+      "clip_id": "3646a50606034d25bb4bc487e8d1fec4",
+      "target": "S",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9499986171722412,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.9499986171722412
+        },
+        {
+          "letter": "I",
+          "score": 0.031562551856040955
+        },
+        {
+          "letter": "S",
+          "score": 0.018412135541439056
+        }
+      ],
+      "frames": 52,
+      "valid_frames": 52,
+      "correct": false
+    },
+    {
+      "clip_id": "3804a4e014b1403e868b9a888d2c5934",
+      "target": "M",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.7401450872421265,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.7401450872421265
+        },
+        {
+          "letter": "M",
+          "score": 0.11947344988584518
+        },
+        {
+          "letter": "I",
+          "score": 0.09734392166137695
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": false
+    },
+    {
+      "clip_id": "39659817cc1b4143baf520c637694c32",
+      "target": "N",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.9986975789070129,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.9986975789070129
+        },
+        {
+          "letter": "Q",
+          "score": 0.0010176204377785325
+        },
+        {
+          "letter": "P",
+          "score": 0.00014982062566559762
+        }
+      ],
+      "frames": 31,
+      "valid_frames": 31,
+      "correct": true
+    },
+    {
+      "clip_id": "419e662a433b487086ec08baefad47bc",
+      "target": "S",
+      "hand": "left",
+      "prediction": "S",
+      "confidence": 0.5895513296127319,
+      "top3": [
+        {
+          "letter": "S",
+          "score": 0.5895513296127319
+        },
+        {
+          "letter": "E",
+          "score": 0.24620261788368225
+        },
+        {
+          "letter": "I",
+          "score": 0.16419591009616852
+        }
+      ],
+      "frames": 43,
+      "valid_frames": 43,
+      "correct": true
+    },
+    {
+      "clip_id": "48f370a3135d4b928470b0f0aaa543e8",
+      "target": "M",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.7198649644851685,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.7198649644851685
+        },
+        {
+          "letter": "M",
+          "score": 0.12736985087394714
+        },
+        {
+          "letter": "I",
+          "score": 0.09926939010620117
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": false
+    },
+    {
+      "clip_id": "4e960c8ec5ef449aabf2f6d61950080f",
+      "target": "T",
+      "hand": "left",
+      "prediction": "T",
+      "confidence": 0.9847344756126404,
+      "top3": [
+        {
+          "letter": "T",
+          "score": 0.9847344756126404
+        },
+        {
+          "letter": "M",
+          "score": 0.011050569824874401
+        },
+        {
+          "letter": "L",
+          "score": 0.00412204721942544
+        }
+      ],
+      "frames": 42,
+      "valid_frames": 42,
+      "correct": true
+    },
+    {
+      "clip_id": "51cabbf15816441782619908dd11619b",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9990561008453369,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9990561008453369
+        },
+        {
+          "letter": "T",
+          "score": 0.0005844765109941363
+        },
+        {
+          "letter": "S",
+          "score": 0.00028458141605369747
+        }
+      ],
+      "frames": 36,
+      "valid_frames": 36,
+      "correct": true
+    },
+    {
+      "clip_id": "545eeab2fd0d415992c01e6c69d3ab92",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9967604279518127,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9967604279518127
+        },
+        {
+          "letter": "Y",
+          "score": 0.0022755065001547337
+        },
+        {
+          "letter": "T",
+          "score": 0.0008190358057618141
+        }
+      ],
+      "frames": 47,
+      "valid_frames": 47,
+      "correct": true
+    },
+    {
+      "clip_id": "5517a8e7ab5546cfa48ef653326e118f",
+      "target": "S",
+      "hand": "left",
+      "prediction": "S",
+      "confidence": 0.9937528371810913,
+      "top3": [
+        {
+          "letter": "S",
+          "score": 0.9937528371810913
+        },
+        {
+          "letter": "E",
+          "score": 0.005996405147016048
+        },
+        {
+          "letter": "I",
+          "score": 0.00021628729882650077
+        }
+      ],
+      "frames": 40,
+      "valid_frames": 40,
+      "correct": true
+    },
+    {
+      "clip_id": "580a694c49044dba844835fef3234816",
+      "target": "M",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.5638188719749451,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.5638188719749451
+        },
+        {
+          "letter": "M",
+          "score": 0.31315094232559204
+        },
+        {
+          "letter": "I",
+          "score": 0.07583567500114441
+        }
+      ],
+      "frames": 18,
+      "valid_frames": 18,
+      "correct": false
+    },
+    {
+      "clip_id": "63e9015869b442abbd214ec310470ce9",
+      "target": "E",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9960299730300903,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.9960299730300903
+        },
+        {
+          "letter": "I",
+          "score": 0.003857887350022793
+        },
+        {
+          "letter": "O",
+          "score": 9.721524111228064e-05
+        }
+      ],
+      "frames": 51,
+      "valid_frames": 51,
+      "correct": true
+    },
+    {
+      "clip_id": "69012418323d48ad88e1d69d5e3286ab",
+      "target": "M",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.5867326259613037,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.5867326259613037
+        },
+        {
+          "letter": "M",
+          "score": 0.3998086452484131
+        },
+        {
+          "letter": "I",
+          "score": 0.01003749668598175
+        }
+      ],
+      "frames": 72,
+      "valid_frames": 68,
+      "correct": false
+    },
+    {
+      "clip_id": "6a332856f4e84c868396be84aae3a0ab",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9976575970649719,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9976575970649719
+        },
+        {
+          "letter": "T",
+          "score": 0.0014357526088133454
+        },
+        {
+          "letter": "S",
+          "score": 0.0007903525838628411
+        }
+      ],
+      "frames": 59,
+      "valid_frames": 59,
+      "correct": true
+    },
+    {
+      "clip_id": "7143cbaa71bf42c89cea167930699cfb",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9989801645278931,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9989801645278931
+        },
+        {
+          "letter": "T",
+          "score": 0.0005128493648953736
+        },
+        {
+          "letter": "Y",
+          "score": 0.000323665066389367
+        }
+      ],
+      "frames": 37,
+      "valid_frames": 37,
+      "correct": true
+    },
+    {
+      "clip_id": "79e45e9e832042218d2a9bf4164c59a3",
+      "target": "M",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.6687720417976379,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.6687720417976379
+        },
+        {
+          "letter": "I",
+          "score": 0.1685905158519745
+        },
+        {
+          "letter": "M",
+          "score": 0.08586220443248749
+        }
+      ],
+      "frames": 33,
+      "valid_frames": 33,
+      "correct": false
+    },
+    {
+      "clip_id": "8ba4dbde5498448595fb730fc1f0e001",
+      "target": "H",
+      "hand": "left",
+      "prediction": "H",
+      "confidence": 0.8735061287879944,
+      "top3": [
+        {
+          "letter": "H",
+          "score": 0.8735061287879944
+        },
+        {
+          "letter": "G",
+          "score": 0.07079742103815079
+        },
+        {
+          "letter": "P",
+          "score": 0.03548514470458031
+        }
+      ],
+      "frames": 47,
+      "valid_frames": 47,
+      "correct": true
+    },
+    {
+      "clip_id": "8f74890260d64cb8bb5370c96d895fc3",
+      "target": "T",
+      "hand": "left",
+      "prediction": "T",
+      "confidence": 0.8212648034095764,
+      "top3": [
+        {
+          "letter": "T",
+          "score": 0.8212648034095764
+        },
+        {
+          "letter": "L",
+          "score": 0.17843306064605713
+        },
+        {
+          "letter": "M",
+          "score": 0.00025172700406983495
+        }
+      ],
+      "frames": 55,
+      "valid_frames": 55,
+      "correct": true
+    },
+    {
+      "clip_id": "940ce272b13340a7ae23cd03ed51a61b",
+      "target": "S",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9358486533164978,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.9358486533164978
+        },
+        {
+          "letter": "S",
+          "score": 0.041651248931884766
+        },
+        {
+          "letter": "I",
+          "score": 0.022480277344584465
+        }
+      ],
+      "frames": 43,
+      "valid_frames": 43,
+      "correct": false
+    },
+    {
+      "clip_id": "98c945e6a74843618990eab64471f68d",
+      "target": "T",
+      "hand": "left",
+      "prediction": "T",
+      "confidence": 0.9979912042617798,
+      "top3": [
+        {
+          "letter": "T",
+          "score": 0.9979912042617798
+        },
+        {
+          "letter": "L",
+          "score": 0.0017838486237451434
+        },
+        {
+          "letter": "M",
+          "score": 0.00019383066683076322
+        }
+      ],
+      "frames": 44,
+      "valid_frames": 44,
+      "correct": true
+    },
+    {
+      "clip_id": "9ed9c412a541401eb52922f2daf3c32f",
+      "target": "S",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9312705397605896,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.9312705397605896
+        },
+        {
+          "letter": "S",
+          "score": 0.05817710608243942
+        },
+        {
+          "letter": "I",
+          "score": 0.010526567697525024
+        }
+      ],
+      "frames": 52,
+      "valid_frames": 52,
+      "correct": false
+    },
+    {
+      "clip_id": "b1e142f59dcf412488c4c79a433d4426",
+      "target": "T",
+      "hand": "left",
+      "prediction": "T",
+      "confidence": 0.9883089661598206,
+      "top3": [
+        {
+          "letter": "T",
+          "score": 0.9883089661598206
+        },
+        {
+          "letter": "L",
+          "score": 0.01036753412336111
+        },
+        {
+          "letter": "M",
+          "score": 0.0012810917105525732
+        }
+      ],
+      "frames": 42,
+      "valid_frames": 42,
+      "correct": true
+    },
+    {
+      "clip_id": "be66071c7f6647f09732a5bfad762a82",
+      "target": "N",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.9986193776130676,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.9986193776130676
+        },
+        {
+          "letter": "Q",
+          "score": 0.001087083830498159
+        },
+        {
+          "letter": "P",
+          "score": 0.00012889284698758274
+        }
+      ],
+      "frames": 48,
+      "valid_frames": 48,
+      "correct": true
+    },
+    {
+      "clip_id": "c47620802e6d425fa65e059da4c29521",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9933151006698608,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9933151006698608
+        },
+        {
+          "letter": "Y",
+          "score": 0.004599195905029774
+        },
+        {
+          "letter": "T",
+          "score": 0.0010579314548522234
+        }
+      ],
+      "frames": 42,
+      "valid_frames": 42,
+      "correct": true
+    },
+    {
+      "clip_id": "d3a29cefd1814b8e95cfae3e6bb466a8",
+      "target": "E",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.9989469647407532,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.9989469647407532
+        },
+        {
+          "letter": "I",
+          "score": 0.000985805643722415
+        },
+        {
+          "letter": "X",
+          "score": 4.569703378365375e-05
+        }
+      ],
+      "frames": 45,
+      "valid_frames": 45,
+      "correct": true
+    },
+    {
+      "clip_id": "d94ee0a7992942018afeca9acf1c0cbc",
+      "target": "M",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.6283702254295349,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.6283702254295349
+        },
+        {
+          "letter": "I",
+          "score": 0.15775461494922638
+        },
+        {
+          "letter": "P",
+          "score": 0.12786363065242767
+        }
+      ],
+      "frames": 23,
+      "valid_frames": 23,
+      "correct": false
+    },
+    {
+      "clip_id": "dcc8599cf9a44267bfa61dc875e02900",
+      "target": "N",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.9889926314353943,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.9889926314353943
+        },
+        {
+          "letter": "Q",
+          "score": 0.009024998173117638
+        },
+        {
+          "letter": "C",
+          "score": 0.0011565329041332006
+        }
+      ],
+      "frames": 32,
+      "valid_frames": 32,
+      "correct": true
+    },
+    {
+      "clip_id": "e0876509b7de40f790bbb846035f9a79",
+      "target": "T",
+      "hand": "left",
+      "prediction": "L",
+      "confidence": 0.697182834148407,
+      "top3": [
+        {
+          "letter": "L",
+          "score": 0.697182834148407
+        },
+        {
+          "letter": "T",
+          "score": 0.2962743937969208
+        },
+        {
+          "letter": "M",
+          "score": 0.00392392510548234
+        }
+      ],
+      "frames": 44,
+      "valid_frames": 44,
+      "correct": false
+    },
+    {
+      "clip_id": "e5954f0ed9c444a3aed6cd78c4dc3108",
+      "target": "M",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.6273210048675537,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.6273210048675537
+        },
+        {
+          "letter": "I",
+          "score": 0.17435771226882935
+        },
+        {
+          "letter": "M",
+          "score": 0.10800763964653015
+        }
+      ],
+      "frames": 18,
+      "valid_frames": 18,
+      "correct": false
+    },
+    {
+      "clip_id": "e792fa2614d64fdeaf3ba4ae925e908d",
+      "target": "A",
+      "hand": "left",
+      "prediction": "A",
+      "confidence": 0.9992108345031738,
+      "top3": [
+        {
+          "letter": "A",
+          "score": 0.9992108345031738
+        },
+        {
+          "letter": "S",
+          "score": 0.0006696957279928029
+        },
+        {
+          "letter": "T",
+          "score": 9.059773583430797e-05
+        }
+      ],
+      "frames": 33,
+      "valid_frames": 33,
+      "correct": true
+    },
+    {
+      "clip_id": "e9bd3f8686624152a7fd85ead9e572fa",
+      "target": "N",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.997727632522583,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.997727632522583
+        },
+        {
+          "letter": "Q",
+          "score": 0.0016634267522022128
+        },
+        {
+          "letter": "C",
+          "score": 0.00015532353427261114
+        }
+      ],
+      "frames": 29,
+      "valid_frames": 29,
+      "correct": true
+    },
+    {
+      "clip_id": "f336c20afbe8429ea71d48dc35e2527b",
+      "target": "S",
+      "hand": "left",
+      "prediction": "E",
+      "confidence": 0.956642746925354,
+      "top3": [
+        {
+          "letter": "E",
+          "score": 0.956642746925354
+        },
+        {
+          "letter": "S",
+          "score": 0.03440041467547417
+        },
+        {
+          "letter": "I",
+          "score": 0.008847366087138653
+        }
+      ],
+      "frames": 39,
+      "valid_frames": 39,
+      "correct": false
+    },
+    {
+      "clip_id": "f560ff732a434b24b87e428a9e2d161a",
+      "target": "T",
+      "hand": "left",
+      "prediction": "T",
+      "confidence": 0.9987001419067383,
+      "top3": [
+        {
+          "letter": "T",
+          "score": 0.9987001419067383
+        },
+        {
+          "letter": "M",
+          "score": 0.0009885425679385662
+        },
+        {
+          "letter": "L",
+          "score": 0.00030874015646986663
+        }
+      ],
+      "frames": 44,
+      "valid_frames": 44,
+      "correct": true
+    },
+    {
+      "clip_id": "fbc5abb541b34863a2b1d0c738afbd1c",
+      "target": "M",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.5970344543457031,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.5970344543457031
+        },
+        {
+          "letter": "M",
+          "score": 0.28318020701408386
+        },
+        {
+          "letter": "I",
+          "score": 0.07662772387266159
+        }
+      ],
+      "frames": 34,
+      "valid_frames": 34,
+      "correct": false
+    },
+    {
+      "clip_id": "ffd83ad653c243c7ba2fb9c4b32ca347",
+      "target": "N",
+      "hand": "left",
+      "prediction": "N",
+      "confidence": 0.997980535030365,
+      "top3": [
+        {
+          "letter": "N",
+          "score": 0.997980535030365
+        },
+        {
+          "letter": "Q",
+          "score": 0.000803101749625057
+        },
+        {
+          "letter": "C",
+          "score": 0.0005002026446163654
+        }
+      ],
+      "frames": 54,
+      "valid_frames": 54,
+      "correct": true
+    }
+  ],
+  "aggregation": "mean softmax probabilities over valid frames; one argmax per clip",
+  "training_use": "none; no model or hyperparameter selection on these clips"
+}
